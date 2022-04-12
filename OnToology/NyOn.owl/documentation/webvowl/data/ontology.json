@@ -362,8 +362,8 @@
     "baseIri" : "https://w3id.org/def/NyOn",
     "instances" : 0,
     "label" : {
-      "hi" : "निवेदन",
       "de" : "Appellieren",
+      "hi" : "निवेदन",
       "IRI-based" : "Appeal",
       "en" : "Appeal",
       "fr" : "Faire appel",
@@ -380,8 +380,8 @@
     "baseIri" : "https://w3id.org/def/NyOn",
     "instances" : 0,
     "label" : {
-      "de" : "Beschuldigt",
       "hi" : "अभियुक्त",
+      "de" : "Beschuldigt",
       "IRI-based" : "Accussed",
       "en" : "Accused",
       "fr" : "Accusé",
@@ -400,8 +400,8 @@
     "baseIri" : "https://w3id.org/def/NyOn",
     "instances" : 0,
     "label" : {
-      "de" : "Ort",
       "hi" : "स्थान",
+      "de" : "Ort",
       "IRI-based" : "Place",
       "en" : "Place",
       "fr" : "Lieu",
@@ -418,8 +418,8 @@
     "baseIri" : "https://w3id.org/def/NyOn",
     "instances" : 0,
     "label" : {
-      "de" : "Gerichtsurteil",
       "hi" : "न्यायालय निर्णय",
+      "de" : "Gerichtsurteil",
       "IRI-based" : "Court_Judgements",
       "en" : "Court Judgement",
       "fr" : "Jugement de la cour",
@@ -454,8 +454,8 @@
     "baseIri" : "https://w3id.org/def/NyOn",
     "instances" : 0,
     "label" : {
-      "hi" : "न्यायाधीश",
       "de" : "Richter",
+      "hi" : "न्यायाधीश",
       "IRI-based" : "Judge",
       "en" : "Judge",
       "fr" : "Juge",
@@ -490,8 +490,8 @@
     "baseIri" : "https://w3id.org/def/NyOn",
     "instances" : 0,
     "label" : {
-      "hi" : "अदालत का निर्णय",
       "de" : "Gerichtsurteil",
+      "hi" : "अदालत का निर्णय",
       "IRI-based" : "Court_Decision",
       "en" : "Court Decision",
       "fr" : "Décision du tribunal",
@@ -508,8 +508,8 @@
     "baseIri" : "https://w3id.org/def/NyOn",
     "instances" : 0,
     "label" : {
-      "hi" : "विशेष बेंच",
       "de" : "Spezielle Bank",
+      "hi" : "विशेष बेंच",
       "IRI-based" : "Special_Bench",
       "en" : "Special Bench",
       "fr" : "Banc spécial",
@@ -526,8 +526,8 @@
     "baseIri" : "https://w3id.org/def/NyOn",
     "instances" : 0,
     "label" : {
-      "hi" : "सरकार",
       "de" : "Regierung",
+      "hi" : "सरकार",
       "IRI-based" : "Government",
       "en" : "Government",
       "fr" : "Gouvernement",
@@ -544,8 +544,8 @@
     "baseIri" : "https://w3id.org/def/NyOn",
     "instances" : 0,
     "label" : {
-      "de" : "Petition",
       "hi" : "याचिका",
+      "de" : "Petition",
       "IRI-based" : "Petition",
       "en" : "Petition",
       "fr" : "Pétition",
@@ -562,8 +562,8 @@
     "baseIri" : "https://w3id.org/def/NyOn",
     "instances" : 0,
     "label" : {
-      "de" : "Größere Bank",
       "hi" : "बड़ी बेंच",
+      "de" : "Größere Bank",
       "IRI-based" : "Larger_Bench",
       "en" : "Larger Bench",
       "fr" : "Banc plus grand",
@@ -620,8 +620,8 @@
     "baseIri" : "https://w3id.org/def/NyOn",
     "instances" : 0,
     "label" : {
-      "hi" : "मूल न्यायाधिकार",
       "de" : "Erstinstanzliche Zuständigkeit",
+      "hi" : "मूल न्यायाधिकार",
       "IRI-based" : "Original_Jurisdiction",
       "en" : "Original Jurisdiction",
       "fr" : "Juridiction originale",
@@ -638,8 +638,8 @@
     "baseIri" : "https://w3id.org/def/NyOn",
     "instances" : 0,
     "label" : {
-      "de" : "Handlung",
       "hi" : "अधिनियम",
+      "de" : "Handlung",
       "IRI-based" : "Acts",
       "en" : "Acts",
       "fr" : "Actes",
@@ -655,8 +655,8 @@
     "baseIri" : "https://w3id.org/def/NyOn",
     "instances" : 0,
     "label" : {
-      "de" : "Überprüfung Gerichtsstand.",
       "hi" : "समीक्षा क्षेत्राधिकार",
+      "de" : "Überprüfung Gerichtsstand.",
       "IRI-based" : "Review_Jurisdiction",
       "en" : "Review Jurisdiction",
       "fr" : "Examiner la juridiction",
@@ -673,8 +673,8 @@
     "baseIri" : "https://w3id.org/def/NyOn",
     "instances" : 0,
     "label" : {
-      "de" : "TANNE",
       "hi" : "प्राथमिकी",
+      "de" : "TANNE",
       "IRI-based" : "FIR",
       "en" : "FIR",
       "fr" : "SAPIN",
@@ -727,8 +727,8 @@
     "baseIri" : "https://w3id.org/def/NyOn",
     "instances" : 0,
     "label" : {
-      "de" : "Bürgerlich",
       "hi" : "नागरिक",
+      "de" : "Bürgerlich",
       "IRI-based" : "Civil",
       "en" : "Civil",
       "fr" : "Civil"
@@ -744,8 +744,8 @@
     "baseIri" : "https://w3id.org/def/NyOn",
     "instances" : 0,
     "label" : {
-      "de" : "Taluka",
       "hi" : "तालुका",
+      "de" : "Taluka",
       "IRI-based" : "Taluka",
       "en" : "Taluka",
       "fr" : "Talon",
@@ -798,8 +798,8 @@
     "baseIri" : "https://w3id.org/def/NyOn",
     "instances" : 0,
     "label" : {
-      "hi" : "देश",
       "de" : "Land",
+      "hi" : "देश",
       "IRI-based" : "Country",
       "en" : "Country",
       "fr" : "De campagne",
@@ -853,8 +853,8 @@
     "baseIri" : "https://w3id.org/def/NyOn",
     "instances" : 0,
     "label" : {
-      "de" : "Befehl",
       "hi" : "आदेश",
+      "de" : "Befehl",
       "IRI-based" : "Order",
       "en" : "Order",
       "fr" : "Commande",
@@ -889,8 +889,8 @@
     "baseIri" : "https://w3id.org/def/NyOn",
     "instances" : 0,
     "label" : {
-      "hi" : "निर्णय",
       "de" : "Beurteilung",
+      "hi" : "निर्णय",
       "IRI-based" : "Judgement",
       "en" : "Judgement",
       "fr" : "Jugement",
@@ -907,8 +907,8 @@
     "baseIri" : "https://w3id.org/def/NyOn",
     "instances" : 0,
     "label" : {
-      "hi" : "न्यायालय अधिकारि",
       "de" : "Gerichtsbeamter",
+      "hi" : "न्यायालय अधिकारि",
       "IRI-based" : "Court_Officials",
       "en" : "Court Official",
       "fr" : "Officiel de la cour",
@@ -943,8 +943,8 @@
     "baseIri" : "https://w3id.org/def/NyOn",
     "instances" : 0,
     "label" : {
-      "hi" : "दलों",
       "de" : "Partys",
+      "hi" : "दलों",
       "IRI-based" : "Parties",
       "en" : "Parties",
       "fr" : "Des soirées",
@@ -997,8 +997,8 @@
     "baseIri" : "https://w3id.org/def/NyOn",
     "instances" : 0,
     "label" : {
-      "hi" : "रिट क्षेत्राधिकार",
       "de" : "Geschriebene Gerichtsbarkeit.",
+      "hi" : "रिट क्षेत्राधिकार",
       "IRI-based" : "Writ_Jurisdiction",
       "en" : "Writ Jurisdiction",
       "fr" : "Juridiction écrite",
@@ -1090,8 +1090,8 @@
     "baseIri" : "https://w3id.org/def/NyOn",
     "instances" : 0,
     "label" : {
-      "de" : "Gericht",
       "hi" : "न्यायाधिकरण",
+      "de" : "Gericht",
       "IRI-based" : "Tribunals",
       "en" : "Tribunal",
       "fr" : "Tribunal",
@@ -1108,8 +1108,8 @@
     "baseIri" : "https://w3id.org/def/NyOn",
     "instances" : 0,
     "label" : {
-      "hi" : "अन्वेषक",
       "de" : "Ermittler",
+      "hi" : "अन्वेषक",
       "IRI-based" : "Investigator",
       "en" : "Investigator",
       "fr" : "Enquêteur",
@@ -1200,8 +1200,8 @@
     "baseIri" : "https://w3id.org/def/NyOn",
     "instances" : 0,
     "label" : {
-      "hi" : "अपील करनेवाला",
       "de" : "Rechtsmittelführerin",
+      "hi" : "अपील करनेवाला",
       "IRI-based" : "Appellant",
       "en" : "Appellant",
       "fr" : "Appelant",
@@ -1218,8 +1218,8 @@
     "baseIri" : "https://w3id.org/def/NyOn",
     "instances" : 0,
     "label" : {
-      "de" : "Bundesland",
       "hi" : "राज्य",
+      "de" : "Bundesland",
       "IRI-based" : "State",
       "en" : "State",
       "fr" : "État",
@@ -1236,8 +1236,8 @@
     "baseIri" : "https://w3id.org/def/NyOn",
     "instances" : 0,
     "label" : {
-      "hi" : "न्यायिक मजिस्ट्रेट कोर्ट (द्वितीय श्रेणी)",
       "de" : "Gerichtsrichtergericht (zweite Klasse)",
+      "hi" : "न्यायिक मजिस्ट्रेट कोर्ट (द्वितीय श्रेणी)",
       "IRI-based" : "Judicial_Magistrate_Court(Second_Class)",
       "en" : "Judicial Magistrate Court (Second Class)",
       "fr" : "Cour magistrat judiciaire (deuxième classe)",
@@ -1254,8 +1254,8 @@
     "baseIri" : "https://w3id.org/def/NyOn",
     "instances" : 0,
     "label" : {
-      "de" : "Befragte",
       "hi" : "प्रतिवादी",
+      "de" : "Befragte",
       "IRI-based" : "Respondent",
       "en" : "Respondent",
       "fr" : "Intimé",
@@ -1272,8 +1272,8 @@
     "baseIri" : "https://w3id.org/def/NyOn",
     "instances" : 0,
     "label" : {
-      "de" : "Fallart",
       "hi" : "मामले का प्रकार",
+      "de" : "Fallart",
       "IRI-based" : "Case_Type",
       "en" : "Case Type",
       "fr" : "Type de cas",
@@ -1290,8 +1290,8 @@
     "baseIri" : "https://w3id.org/def/NyOn",
     "instances" : 0,
     "label" : {
-      "hi" : "मेट्रोपॉलिटन कोर्ट",
       "de" : "Metropolitaner Gericht",
+      "hi" : "मेट्रोपॉलिटन कोर्ट",
       "IRI-based" : "Metropolitian_Courts",
       "en" : "Metropolitan Court",
       "fr" : "Tribunal métropolitain",
@@ -1308,8 +1308,8 @@
     "baseIri" : "https://w3id.org/def/NyOn",
     "instances" : 0,
     "label" : {
-      "hi" : "संगठन",
       "de" : "Organisation",
+      "hi" : "संगठन",
       "IRI-based" : "Organization",
       "en" : "Organization",
       "fr" : "Organisation",
@@ -1326,8 +1326,8 @@
     "baseIri" : "https://w3id.org/def/NyOn",
     "instances" : 0,
     "label" : {
-      "de" : "Rechtsmittelgerichtsbarkeit.",
       "hi" : "अपीलकारी क्षेत्राधिकार",
+      "de" : "Rechtsmittelgerichtsbarkeit.",
       "IRI-based" : "Appellant_Jurisdiction",
       "en" : "Appellant Jurisdiction",
       "fr" : "Juridiction de l'appelant",
@@ -1398,8 +1398,8 @@
     "baseIri" : "https://w3id.org/def/NyOn",
     "instances" : 0,
     "label" : {
-      "de" : "Zivilgericht",
       "hi" : "नागरिक न्यायालय",
+      "de" : "Zivilgericht",
       "IRI-based" : "Courts_for_Civil",
       "en" : "Civil Court",
       "fr" : "Cour civile",
@@ -1417,8 +1417,8 @@
     "baseIri" : "https://w3id.org/def/NyOn",
     "instances" : 0,
     "label" : {
-      "hi" : "सबूत",
       "de" : "Beweis",
+      "hi" : "सबूत",
       "IRI-based" : "Evidence",
       "en" : "Evidence",
       "fr" : "Preuve",
@@ -1434,8 +1434,8 @@
     "baseIri" : "https://w3id.org/def/NyOn",
     "instances" : 0,
     "label" : {
-      "de" : "Zuständigkeit",
       "hi" : "क्षेत्राधिकार",
+      "de" : "Zuständigkeit",
       "IRI-based" : "Jurisdiction",
       "en" : "Jurisdiction",
       "fr" : "Juridiction",
@@ -1452,8 +1452,8 @@
     "baseIri" : "https://w3id.org/def/NyOn",
     "instances" : 0,
     "label" : {
-      "de" : "High Court",
       "hi" : "हाईकोर्ट",
+      "de" : "High Court",
       "IRI-based" : "High_Court",
       "en" : "High Court",
       "fr" : "Cour suprême",
@@ -1488,8 +1488,8 @@
     "baseIri" : "https://w3id.org/def/NyOn",
     "instances" : 0,
     "label" : {
-      "hi" : "अदालत",
       "de" : "Gericht",
+      "hi" : "अदालत",
       "IRI-based" : "Courts",
       "en" : "Court",
       "fr" : "Rechercher",
@@ -1506,8 +1506,8 @@
     "baseIri" : "https://w3id.org/def/NyOn",
     "instances" : 0,
     "label" : {
-      "hi" : "वकील",
       "de" : "Rechtsanwalt",
+      "hi" : "वकील",
       "IRI-based" : "Solicitor",
       "en" : "Solicitor",
       "fr" : "Solliciteur",
@@ -1559,8 +1559,8 @@
     "baseIri" : "https://w3id.org/def/NyOn",
     "instances" : 0,
     "label" : {
-      "hi" : "व्यक्ति",
       "de" : "Individuell",
+      "hi" : "व्यक्ति",
       "IRI-based" : "Individual",
       "en" : "Individual",
       "fr" : "Individuel",
@@ -1595,8 +1595,8 @@
     "baseIri" : "https://w3id.org/def/NyOn",
     "instances" : 0,
     "label" : {
-      "hi" : "जिला",
       "de" : "Bezirk",
+      "hi" : "जिला",
       "IRI-based" : "District",
       "en" : "District",
       "fr" : "Quartier",
@@ -1648,8 +1648,8 @@
     "baseIri" : "https://w3id.org/def/NyOn",
     "instances" : 0,
     "label" : {
-      "de" : "Subgericht",
       "hi" : "उप न्यायालय",
+      "de" : "Subgericht",
       "IRI-based" : "Sub_Court",
       "en" : "Sub Court",
       "fr" : "Tribunal",
@@ -1684,8 +1684,8 @@
     "baseIri" : "https://w3id.org/def/NyOn",
     "instances" : 0,
     "label" : {
-      "hi" : "अन्य",
       "de" : "Andere",
+      "hi" : "अन्य",
       "IRI-based" : "Others",
       "en" : "Others",
       "fr" : "Les autres",
@@ -2548,77 +2548,77 @@
   "propertyAttribute" : [ {
     "range" : "2",
     "domain" : "1",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "0"
   }, {
     "range" : "2",
     "domain" : "4",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "3"
   }, {
     "range" : "6",
     "domain" : "1",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "5"
   }, {
     "range" : "2",
     "domain" : "8",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "7"
   }, {
     "range" : "11",
     "domain" : "10",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "9"
   }, {
     "range" : "14",
     "domain" : "13",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "12"
   }, {
     "range" : "2",
     "domain" : "10",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "15"
   }, {
     "range" : "14",
     "domain" : "17",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "16"
   }, {
     "range" : "6",
     "domain" : "10",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "18"
   }, {
     "range" : "14",
     "domain" : "20",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "19"
   }, {
     "range" : "2",
     "domain" : "11",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "21"
   }, {
     "range" : "14",
     "domain" : "23",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "22"
   }, {
     "range" : "6",
     "domain" : "11",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "24"
   }, {
     "range" : "14",
     "domain" : "26",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "25"
   }, {
     "range" : "6",
     "domain" : "2",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "27"
   }, {
     "iri" : "http://www.w3.org/2002/07/owl#topObjectProperty",
@@ -2634,17 +2634,17 @@
   }, {
     "range" : "2",
     "domain" : "50",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "49"
   }, {
     "range" : "10",
     "domain" : "1",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "51"
   }, {
     "range" : "2",
     "domain" : "53",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "52"
   }, {
     "iri" : "https://w3id.org/def/NyOn#hasAppellantJurisdiction",
@@ -2664,82 +2664,82 @@
   }, {
     "range" : "11",
     "domain" : "1",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "56"
   }, {
     "range" : "2",
     "domain" : "58",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "57"
   }, {
     "range" : "10",
     "domain" : "46",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "59"
   }, {
     "range" : "11",
     "domain" : "61",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "60"
   }, {
     "range" : "11",
     "domain" : "46",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "63"
   }, {
     "range" : "11",
     "domain" : "47",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "64"
   }, {
     "range" : "2",
     "domain" : "46",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "65"
   }, {
     "range" : "11",
     "domain" : "67",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "66"
   }, {
     "range" : "6",
     "domain" : "46",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "69"
   }, {
     "range" : "11",
     "domain" : "71",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "70"
   }, {
     "range" : "1",
     "domain" : "73",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "72"
   }, {
     "range" : "76",
     "domain" : "75",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "74"
   }, {
     "range" : "10",
     "domain" : "73",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "77"
   }, {
     "range" : "76",
     "domain" : "79",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "78"
   }, {
     "range" : "11",
     "domain" : "73",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "80"
   }, {
     "range" : "76",
     "domain" : "14",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "81"
   }, {
     "iri" : "https://w3id.org/def/NyOn#hasLegalParticipants",
@@ -2759,17 +2759,17 @@
   }, {
     "range" : "2",
     "domain" : "73",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "84"
   }, {
     "range" : "76",
     "domain" : "86",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "85"
   }, {
     "range" : "6",
     "domain" : "73",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "87"
   }, {
     "iri" : "https://w3id.org/def/NyOn#hasIndividual",
@@ -2817,7 +2817,7 @@
   }, {
     "range" : "6",
     "domain" : "94",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "93"
   }, {
     "iri" : "https://w3id.org/def/NyOn#hasAdvisoryJurisdiction",
@@ -2837,52 +2837,52 @@
   }, {
     "range" : "2",
     "domain" : "94",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "96"
   }, {
     "range" : "99",
     "domain" : "98",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "97"
   }, {
     "range" : "73",
     "domain" : "46",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "100"
   }, {
     "range" : "1",
     "domain" : "46",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "101"
   }, {
     "range" : "11",
     "domain" : "48",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "102"
   }, {
     "range" : "86",
     "domain" : "104",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "103"
   }, {
     "range" : "86",
     "domain" : "106",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "105"
   }, {
     "range" : "83",
     "domain" : "107",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "108"
   }, {
     "range" : "83",
     "domain" : "110",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "109"
   }, {
     "range" : "83",
     "domain" : "112",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "111"
   }, {
     "iri" : "https://w3id.org/def/NyOn#hasOriginalJurisdiction",
@@ -2902,22 +2902,22 @@
   }, {
     "range" : "99",
     "domain" : "116",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "115"
   }, {
     "range" : "99",
     "domain" : "118",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "117"
   }, {
     "range" : "99",
     "domain" : "123",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "122"
   }, {
     "range" : "99",
     "domain" : "125",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "124"
   }, {
     "iri" : "https://w3id.org/def/NyOn#hasNonLegalParticipants",
@@ -2951,42 +2951,42 @@
   }, {
     "range" : "86",
     "domain" : "91",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "129"
   }, {
     "range" : "119",
     "domain" : "120",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "131"
   }, {
     "range" : "119",
     "domain" : "121",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "132"
   }, {
     "range" : "46",
     "domain" : "126",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "133"
   }, {
     "range" : "46",
     "domain" : "135",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "134"
   }, {
     "range" : "46",
     "domain" : "68",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "136"
   }, {
     "range" : "46",
     "domain" : "138",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "137"
   }, {
     "range" : "46",
     "domain" : "45",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "139"
   }, {
     "iri" : "https://w3id.org/def/NyOn#hasJudgement",
@@ -3005,12 +3005,12 @@
   }, {
     "range" : "86",
     "domain" : "143",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "142"
   }, {
     "range" : "86",
     "domain" : "145",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "144"
   }, {
     "iri" : "https://w3id.org/def/NyOn#hasEvidences",
@@ -3069,22 +3069,22 @@
   }, {
     "range" : "23",
     "domain" : "26",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "151"
   }, {
     "range" : "153",
     "domain" : "26",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "152"
   }, {
     "range" : "23",
     "domain" : "17",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "154"
   }, {
     "range" : "153",
     "domain" : "17",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "155"
   }, {
     "iri" : "https://w3id.org/def/NyOn#hasCourtDecision",
@@ -3104,117 +3104,117 @@
   }, {
     "range" : "153",
     "domain" : "20",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "157"
   }, {
     "range" : "26",
     "domain" : "13",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "158"
   }, {
     "range" : "17",
     "domain" : "13",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "159"
   }, {
     "range" : "23",
     "domain" : "13",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "160"
   }, {
     "range" : "153",
     "domain" : "13",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "161"
   }, {
     "range" : "17",
     "domain" : "26",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "162"
   }, {
     "range" : "145",
     "domain" : "104",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "163"
   }, {
     "range" : "13",
     "domain" : "20",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "165"
   }, {
     "range" : "26",
     "domain" : "20",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "166"
   }, {
     "range" : "17",
     "domain" : "20",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "167"
   }, {
     "range" : "23",
     "domain" : "20",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "168"
   }, {
     "range" : "106",
     "domain" : "143",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "169"
   }, {
     "range" : "104",
     "domain" : "143",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "170"
   }, {
     "range" : "145",
     "domain" : "143",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "171"
   }, {
     "range" : "104",
     "domain" : "106",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "172"
   }, {
     "range" : "145",
     "domain" : "106",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "173"
   }, {
     "range" : "126",
     "domain" : "135",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "174"
   }, {
     "range" : "10",
     "domain" : "8",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "175"
   }, {
     "range" : "126",
     "domain" : "138",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "176"
   }, {
     "range" : "143",
     "domain" : "91",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "177"
   }, {
     "range" : "106",
     "domain" : "91",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "178"
   }, {
     "range" : "104",
     "domain" : "91",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "179"
   }, {
     "range" : "145",
     "domain" : "91",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "180"
   }, {
     "iri" : "https://w3id.org/def/NyOn#hasAuthor",
@@ -3248,17 +3248,17 @@
   }, {
     "range" : "94",
     "domain" : "184",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "183"
   }, {
     "range" : "135",
     "domain" : "68",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "185"
   }, {
     "range" : "10",
     "domain" : "187",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "186"
   }, {
     "iri" : "https://w3id.org/def/NyOn#GovernmentName",
@@ -3277,97 +3277,97 @@
   }, {
     "range" : "138",
     "domain" : "68",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "190"
   }, {
     "range" : "10",
     "domain" : "62",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "191"
   }, {
     "range" : "126",
     "domain" : "68",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "192"
   }, {
     "range" : "10",
     "domain" : "164",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "193"
   }, {
     "range" : "138",
     "domain" : "135",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "194"
   }, {
     "range" : "10",
     "domain" : "182",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "195"
   }, {
     "range" : "114",
     "domain" : "55",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "196"
   }, {
     "range" : "1",
     "domain" : "114",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "197"
   }, {
     "range" : "90",
     "domain" : "55",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "198"
   }, {
     "range" : "1",
     "domain" : "95",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "199"
   }, {
     "range" : "90",
     "domain" : "114",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "200"
   }, {
     "range" : "94",
     "domain" : "156",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "201"
   }, {
     "range" : "68",
     "domain" : "45",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "202"
   }, {
     "range" : "94",
     "domain" : "204",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "203"
   }, {
     "range" : "135",
     "domain" : "45",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "205"
   }, {
     "range" : "94",
     "domain" : "130",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "206"
   }, {
     "range" : "138",
     "domain" : "45",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "207"
   }, {
     "range" : "94",
     "domain" : "89",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "208"
   }, {
     "range" : "126",
     "domain" : "45",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "209"
   }, {
     "iri" : "https://w3id.org/def/NyOn#locatedAt",
@@ -3386,92 +3386,92 @@
   }, {
     "range" : "14",
     "domain" : "153",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "212"
   }, {
     "range" : "55",
     "domain" : "95",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "213"
   }, {
     "range" : "1",
     "domain" : "215",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "214"
   }, {
     "range" : "114",
     "domain" : "95",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "216"
   }, {
     "range" : "1",
     "domain" : "90",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "217"
   }, {
     "range" : "90",
     "domain" : "95",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "218"
   }, {
     "range" : "1",
     "domain" : "55",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "219"
   }, {
     "range" : "82",
     "domain" : "128",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "220"
   }, {
     "range" : "99",
     "domain" : "128",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "221"
   }, {
     "range" : "6",
     "domain" : "150",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "222"
   }, {
     "range" : "10",
     "domain" : "150",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "225"
   }, {
     "range" : "1",
     "domain" : "150",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "226"
   }, {
     "range" : "2",
     "domain" : "150",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "228"
   }, {
     "range" : "11",
     "domain" : "150",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "230"
   }, {
     "range" : "94",
     "domain" : "150",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "232"
   }, {
     "range" : "83",
     "domain" : "150",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "233"
   }, {
     "range" : "73",
     "domain" : "150",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "234"
   }, {
     "range" : "46",
     "domain" : "150",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "236"
   }, {
     "iri" : "https://w3id.org/def/NyOn#hasCourts",
@@ -3501,107 +3501,107 @@
   }, {
     "range" : "76",
     "domain" : "150",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "239"
   }, {
     "range" : "82",
     "domain" : "150",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "240"
   }, {
     "range" : "119",
     "domain" : "150",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "241"
   }, {
     "range" : "8",
     "domain" : "53",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "242"
   }, {
     "range" : "238",
     "domain" : "48",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "243"
   }, {
     "range" : "8",
     "domain" : "58",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "244"
   }, {
     "range" : "238",
     "domain" : "71",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "245"
   }, {
     "range" : "107",
     "domain" : "112",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "246"
   }, {
     "range" : "99",
     "domain" : "150",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "247"
   }, {
     "range" : "110",
     "domain" : "112",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "248"
   }, {
     "range" : "128",
     "domain" : "150",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "249"
   }, {
     "range" : "110",
     "domain" : "107",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "250"
   }, {
     "range" : "48",
     "domain" : "61",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "251"
   }, {
     "range" : "120",
     "domain" : "121",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "252"
   }, {
     "range" : "48",
     "domain" : "71",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "253"
   }, {
     "range" : "238",
     "domain" : "61",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "255"
   }, {
     "range" : "10",
     "domain" : "99",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "256"
   }, {
     "range" : "8",
     "domain" : "4",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "257"
   }, {
     "range" : "58",
     "domain" : "53",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "258"
   }, {
     "range" : "2",
     "domain" : "99",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "259"
   }, {
     "range" : "11",
     "domain" : "99",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "260"
   }, {
     "iri" : "https://w3id.org/def/NyOn#witnessName",
@@ -3616,107 +3616,107 @@
   }, {
     "range" : "46",
     "domain" : "99",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "262"
   }, {
     "range" : "164",
     "domain" : "62",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "263"
   }, {
     "range" : "94",
     "domain" : "99",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "264"
   }, {
     "range" : "164",
     "domain" : "8",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "265"
   }, {
     "range" : "1",
     "domain" : "99",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "266"
   }, {
     "range" : "4",
     "domain" : "50",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "267"
   }, {
     "range" : "73",
     "domain" : "99",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "268"
   }, {
     "range" : "53",
     "domain" : "50",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "269"
   }, {
     "range" : "76",
     "domain" : "99",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "270"
   }, {
     "range" : "58",
     "domain" : "50",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "271"
   }, {
     "range" : "82",
     "domain" : "99",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "272"
   }, {
     "range" : "8",
     "domain" : "50",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "273"
   }, {
     "range" : "83",
     "domain" : "99",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "274"
   }, {
     "range" : "53",
     "domain" : "4",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "275"
   }, {
     "range" : "119",
     "domain" : "99",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "276"
   }, {
     "range" : "58",
     "domain" : "4",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "277"
   }, {
     "range" : "8",
     "domain" : "187",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "278"
   }, {
     "range" : "164",
     "domain" : "187",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "279"
   }, {
     "range" : "6",
     "domain" : "128",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "280"
   }, {
     "range" : "8",
     "domain" : "62",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "281"
   }, {
     "range" : "2",
     "domain" : "128",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "282"
   }, {
     "iri" : "https://w3id.org/def/NyOn#stateName",
@@ -3735,7 +3735,7 @@
   }, {
     "range" : "11",
     "domain" : "128",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "284"
   }, {
     "iri" : "https://w3id.org/def/NyOn#organizationName",
@@ -3754,17 +3754,17 @@
   }, {
     "range" : "73",
     "domain" : "128",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "286"
   }, {
     "range" : "46",
     "domain" : "128",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "287"
   }, {
     "range" : "153",
     "domain" : "23",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "288"
   }, {
     "iri" : "https://w3id.org/def/NyOn#hasOrder",
@@ -3783,42 +3783,42 @@
   }, {
     "range" : "10",
     "domain" : "128",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "290"
   }, {
     "range" : "75",
     "domain" : "79",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "291"
   }, {
     "range" : "1",
     "domain" : "128",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "292"
   }, {
     "range" : "187",
     "domain" : "182",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "293"
   }, {
     "range" : "119",
     "domain" : "128",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "294"
   }, {
     "range" : "62",
     "domain" : "182",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "295"
   }, {
     "range" : "76",
     "domain" : "128",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "296"
   }, {
     "range" : "8",
     "domain" : "182",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "297"
   }, {
     "iri" : "https://w3id.org/def/NyOn#hasPrecedentCase",
@@ -3838,57 +3838,57 @@
   }, {
     "range" : "94",
     "domain" : "128",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "298"
   }, {
     "range" : "164",
     "domain" : "182",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "299"
   }, {
     "range" : "83",
     "domain" : "128",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "300"
   }, {
     "range" : "62",
     "domain" : "187",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "301"
   }, {
     "range" : "11",
     "domain" : "76",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "302"
   }, {
     "range" : "10",
     "domain" : "76",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "303"
   }, {
     "range" : "6",
     "domain" : "76",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "304"
   }, {
     "range" : "2",
     "domain" : "76",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "305"
   }, {
     "range" : "1",
     "domain" : "76",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "306"
   }, {
     "range" : "73",
     "domain" : "76",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "307"
   }, {
     "range" : "46",
     "domain" : "76",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "308"
   }, {
     "iri" : "https://w3id.org/def/NyOn#caseBelongsToType",
@@ -3908,17 +3908,17 @@
   }, {
     "range" : "119",
     "domain" : "76",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "309"
   }, {
     "range" : "6",
     "domain" : "82",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "310"
   }, {
     "range" : "94",
     "domain" : "76",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "311"
   }, {
     "iri" : "https://w3id.org/def/NyOn#hasBench",
@@ -3938,27 +3938,27 @@
   }, {
     "range" : "83",
     "domain" : "76",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "312"
   }, {
     "range" : "10",
     "domain" : "82",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "313"
   }, {
     "range" : "1",
     "domain" : "82",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "314"
   }, {
     "range" : "2",
     "domain" : "82",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "315"
   }, {
     "range" : "11",
     "domain" : "82",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "316"
   }, {
     "iri" : "https://w3id.org/def/NyOn#isACase",
@@ -4020,37 +4020,37 @@
   }, {
     "range" : "46",
     "domain" : "82",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "320"
   }, {
     "range" : "94",
     "domain" : "82",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "321"
   }, {
     "range" : "73",
     "domain" : "82",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "322"
   }, {
     "range" : "76",
     "domain" : "82",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "323"
   }, {
     "range" : "6",
     "domain" : "99",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "324"
   }, {
     "range" : "83",
     "domain" : "82",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "325"
   }, {
     "range" : "119",
     "domain" : "82",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "326"
   }, {
     "iri" : "https://w3id.org/def/NyOn#hasCaseNumber",
@@ -4069,77 +4069,77 @@
   }, {
     "range" : "1",
     "domain" : "94",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "328"
   }, {
     "range" : "73",
     "domain" : "94",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "329"
   }, {
     "range" : "11",
     "domain" : "94",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "330"
   }, {
     "range" : "10",
     "domain" : "94",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "331"
   }, {
     "range" : "2",
     "domain" : "83",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "332"
   }, {
     "range" : "46",
     "domain" : "94",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "333"
   }, {
     "range" : "6",
     "domain" : "83",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "334"
   }, {
     "range" : "71",
     "domain" : "47",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "335"
   }, {
     "range" : "48",
     "domain" : "47",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "336"
   }, {
     "range" : "238",
     "domain" : "47",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "337"
   }, {
     "range" : "61",
     "domain" : "67",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "338"
   }, {
     "range" : "71",
     "domain" : "67",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "339"
   }, {
     "range" : "48",
     "domain" : "67",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "340"
   }, {
     "range" : "238",
     "domain" : "67",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "341"
   }, {
     "range" : "71",
     "domain" : "61",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "342"
   }, {
     "iri" : "https://w3id.org/def/NyOn#individualName",
@@ -4158,87 +4158,87 @@
   }, {
     "range" : "67",
     "domain" : "47",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "344"
   }, {
     "range" : "61",
     "domain" : "47",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "345"
   }, {
     "range" : "1",
     "domain" : "83",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "346"
   }, {
     "range" : "73",
     "domain" : "83",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "347"
   }, {
     "range" : "11",
     "domain" : "83",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "348"
   }, {
     "range" : "10",
     "domain" : "83",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "349"
   }, {
     "range" : "6",
     "domain" : "119",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "350"
   }, {
     "range" : "2",
     "domain" : "119",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "351"
   }, {
     "range" : "46",
     "domain" : "83",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "352"
   }, {
     "range" : "94",
     "domain" : "83",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "353"
   }, {
     "range" : "11",
     "domain" : "119",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "354"
   }, {
     "range" : "10",
     "domain" : "119",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "355"
   }, {
     "range" : "1",
     "domain" : "119",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "356"
   }, {
     "range" : "94",
     "domain" : "119",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "357"
   }, {
     "range" : "83",
     "domain" : "119",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "358"
   }, {
     "range" : "73",
     "domain" : "119",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "359"
   }, {
     "range" : "46",
     "domain" : "119",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "360"
   } ]
 }
