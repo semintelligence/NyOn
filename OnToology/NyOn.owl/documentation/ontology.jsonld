@@ -3,7 +3,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#Respondent"
+      "@id" : "https://w3id.org/def/NyOn#Respondent"
     }, {
       "@id" : "_:genid3"
     } ]
@@ -13,35 +13,35 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#Acts"
+      "@id" : "https://w3id.org/def/NyOn#Acts"
     }, {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#Author"
+      "@id" : "https://w3id.org/def/NyOn#Author"
     }, {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#Bench"
+      "@id" : "https://w3id.org/def/NyOn#Bench"
     }, {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#Case"
+      "@id" : "https://w3id.org/def/NyOn#Case"
     }, {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#Case_Type"
+      "@id" : "https://w3id.org/def/NyOn#Case_Type"
     }, {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#Court_Decision"
+      "@id" : "https://w3id.org/def/NyOn#Court_Decision"
     }, {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#Court_Officials"
+      "@id" : "https://w3id.org/def/NyOn#Court_Officials"
     }, {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#Courts"
+      "@id" : "https://w3id.org/def/NyOn#Courts"
     }, {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#Documents"
+      "@id" : "https://w3id.org/def/NyOn#Documents"
     }, {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#Evidence"
+      "@id" : "https://w3id.org/def/NyOn#Evidence"
     }, {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#Jurisdiction"
+      "@id" : "https://w3id.org/def/NyOn#Jurisdiction"
     }, {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#Location"
+      "@id" : "https://w3id.org/def/NyOn#Location"
     }, {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#Parties"
+      "@id" : "https://w3id.org/def/NyOn#Parties"
     }, {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#Party_Type"
+      "@id" : "https://w3id.org/def/NyOn#Party_Type"
     }, {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#Precedent_Case"
+      "@id" : "https://w3id.org/def/NyOn#Precedent_Case"
     } ]
   } ]
 }, {
@@ -49,38 +49,38 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#Advisory_Jurisdiction"
+      "@id" : "https://w3id.org/def/NyOn#Advisory_Jurisdiction"
     }, {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#Appellant_Jurisdiction"
+      "@id" : "https://w3id.org/def/NyOn#Appellant_Jurisdiction"
     }, {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#Original_Jurisdiction"
+      "@id" : "https://w3id.org/def/NyOn#Original_Jurisdiction"
     }, {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#Review_Jurisdiction"
+      "@id" : "https://w3id.org/def/NyOn#Review_Jurisdiction"
     } ]
   } ]
 }, {
   "@id" : "_:genid3",
   "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#caseBelongsToType"
+    "@id" : "https://w3id.org/def/NyOn#caseBelongsToType"
   } ],
   "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Criminal"
+    "@id" : "https://w3id.org/def/NyOn#Criminal"
   } ]
 }, {
   "@id" : "_:genid33",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#Appeal"
+      "@id" : "https://w3id.org/def/NyOn#Appeal"
     }, {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#Court_Judgements"
+      "@id" : "https://w3id.org/def/NyOn#Court_Judgements"
     }, {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#FIR"
+      "@id" : "https://w3id.org/def/NyOn#FIR"
     }, {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#Others"
+      "@id" : "https://w3id.org/def/NyOn#Others"
     }, {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#Petition"
+      "@id" : "https://w3id.org/def/NyOn#Petition"
     } ]
   } ]
 }, {
@@ -88,15 +88,15 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#Chief_Meterpolitan_Court"
+      "@id" : "https://w3id.org/def/NyOn#Chief_Meterpolitan_Court"
     }, {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#Metropolitan_Magistrate_Courts"
+      "@id" : "https://w3id.org/def/NyOn#Metropolitan_Magistrate_Courts"
     }, {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#Session_Court"
+      "@id" : "https://w3id.org/def/NyOn#Session_Court"
     }, {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#Judicial_Magistrate_Court(First_Class)"
+      "@id" : "https://w3id.org/def/NyOn#Judicial_Magistrate_Court(First_Class)"
     }, {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#Judicial_Magistrate_Court(Second_Class)"
+      "@id" : "https://w3id.org/def/NyOn#Judicial_Magistrate_Court(Second_Class)"
     } ]
   } ]
 }, {
@@ -104,17 +104,17 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#City_Civil_Courts"
+      "@id" : "https://w3id.org/def/NyOn#City_Civil_Courts"
     }, {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#Courts_of_Smaller_Causes"
+      "@id" : "https://w3id.org/def/NyOn#Courts_of_Smaller_Causes"
     }, {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#District_Court"
+      "@id" : "https://w3id.org/def/NyOn#District_Court"
     }, {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#Munsif_Court"
+      "@id" : "https://w3id.org/def/NyOn#Munsif_Court"
     }, {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#Principal_Junior_Civil_Court"
+      "@id" : "https://w3id.org/def/NyOn#Principal_Junior_Civil_Court"
     }, {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#Sub_Court"
+      "@id" : "https://w3id.org/def/NyOn#Sub_Court"
     } ]
   } ]
 }, {
@@ -122,17 +122,17 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#Accussed"
+      "@id" : "https://w3id.org/def/NyOn#Accussed"
     }, {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#Appellant"
+      "@id" : "https://w3id.org/def/NyOn#Appellant"
     }, {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#Petitioner"
+      "@id" : "https://w3id.org/def/NyOn#Petitioner"
     }, {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#Plaintiff"
+      "@id" : "https://w3id.org/def/NyOn#Plaintiff"
     }, {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#Respondent"
+      "@id" : "https://w3id.org/def/NyOn#Respondent"
     }, {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#Witness"
+      "@id" : "https://w3id.org/def/NyOn#Witness"
     } ]
   } ]
 }, {
@@ -140,15 +140,15 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#Country"
+      "@id" : "https://w3id.org/def/NyOn#Country"
     }, {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#District"
+      "@id" : "https://w3id.org/def/NyOn#District"
     }, {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#Place"
+      "@id" : "https://w3id.org/def/NyOn#Place"
     }, {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#State"
+      "@id" : "https://w3id.org/def/NyOn#State"
     }, {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#Taluka"
+      "@id" : "https://w3id.org/def/NyOn#Taluka"
     } ]
   } ]
 }, {
@@ -156,15 +156,15 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#Government"
+      "@id" : "https://w3id.org/def/NyOn#Government"
     }, {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#Group"
+      "@id" : "https://w3id.org/def/NyOn#Group"
     }, {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#Individual"
+      "@id" : "https://w3id.org/def/NyOn#Individual"
     }, {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#Organization"
+      "@id" : "https://w3id.org/def/NyOn#Organization"
     }, {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#State"
+      "@id" : "https://w3id.org/def/NyOn#State"
     } ]
   } ]
 }, {
@@ -172,11 +172,11 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#Investigator"
+      "@id" : "https://w3id.org/def/NyOn#Investigator"
     }, {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#Judge"
+      "@id" : "https://w3id.org/def/NyOn#Judge"
     }, {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#Solicitor"
+      "@id" : "https://w3id.org/def/NyOn#Solicitor"
     } ]
   } ]
 }, {
@@ -184,45 +184,45 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointProperties" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#caseBelongsToType"
+      "@id" : "https://w3id.org/def/NyOn#caseBelongsToType"
     }, {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#documentType"
+      "@id" : "https://w3id.org/def/NyOn#documentType"
     }, {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#hasActs"
+      "@id" : "https://w3id.org/def/NyOn#hasActs"
     }, {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#hasAdvisoryJurisdiction"
+      "@id" : "https://w3id.org/def/NyOn#hasAdvisoryJurisdiction"
     }, {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#hasAppellantJurisdiction"
+      "@id" : "https://w3id.org/def/NyOn#hasAppellantJurisdiction"
     }, {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#hasAuthor"
+      "@id" : "https://w3id.org/def/NyOn#hasAuthor"
     }, {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#hasBench"
+      "@id" : "https://w3id.org/def/NyOn#hasBench"
     }, {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#hasCourtDecision"
+      "@id" : "https://w3id.org/def/NyOn#hasCourtDecision"
     }, {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#hasCourts"
+      "@id" : "https://w3id.org/def/NyOn#hasCourts"
     }, {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#hasEvidenceLocation"
+      "@id" : "https://w3id.org/def/NyOn#hasEvidenceLocation"
     }, {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#hasEvidences"
+      "@id" : "https://w3id.org/def/NyOn#hasEvidences"
     }, {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#hasIndividual"
+      "@id" : "https://w3id.org/def/NyOn#hasIndividual"
     }, {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#hasLegalParticipants"
+      "@id" : "https://w3id.org/def/NyOn#hasLegalParticipants"
     }, {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#hasLocation"
+      "@id" : "https://w3id.org/def/NyOn#hasLocation"
     }, {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#hasNonLegalParticipants"
+      "@id" : "https://w3id.org/def/NyOn#hasNonLegalParticipants"
     }, {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#hasOriginalJurisdiction"
+      "@id" : "https://w3id.org/def/NyOn#hasOriginalJurisdiction"
     }, {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#hasParticipantType"
+      "@id" : "https://w3id.org/def/NyOn#hasParticipantType"
     }, {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#hasPrecedentCase"
+      "@id" : "https://w3id.org/def/NyOn#hasPrecedentCase"
     }, {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#hasReviewJurisdiction"
+      "@id" : "https://w3id.org/def/NyOn#hasReviewJurisdiction"
     }, {
-      "@id" : "https://w3id.org/def/NyOnLegalOntology#isACase"
+      "@id" : "https://w3id.org/def/NyOn#isACase"
     } ]
   } ]
 }, {
@@ -253,7 +253,7 @@
   "@id" : "http://purl.org/vocab/vann/preferredNamespaceUri",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#",
+  "@id" : "https://w3id.org/def/NyOn#",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
   "http://purl.org/dc/elements/1.1/publisher" : [ {
     "@id" : "https://www.semintelligence.org/projects"
@@ -304,14 +304,14 @@
     "@value" : "nyon"
   } ],
   "http://purl.org/vocab/vann/preferredNamespaceUri" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#"
+    "@id" : "https://w3id.org/def/NyOn#"
   } ],
   "http://www.w3.org/2002/07/owl#versionInfo" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
     "@value" : "1.0"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#Accussed",
+  "@id" : "https://w3id.org/def/NyOn#Accussed",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -337,13 +337,13 @@
     "@value" : "अभियुक्त"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Parties"
+    "@id" : "https://w3id.org/def/NyOn#Parties"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid1"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#Acts",
+  "@id" : "https://w3id.org/def/NyOn#Acts",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -369,7 +369,7 @@
     "@value" : "अधिनियम"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#Advisory_Jurisdiction",
+  "@id" : "https://w3id.org/def/NyOn#Advisory_Jurisdiction",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -395,10 +395,10 @@
     "@value" : "सलाहकार क्षेत्राधिकार"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Jurisdiction"
+    "@id" : "https://w3id.org/def/NyOn#Jurisdiction"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#Apex_Court",
+  "@id" : "https://w3id.org/def/NyOn#Apex_Court",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -424,10 +424,10 @@
     "@value" : "सर्वोच्च न्यायालय"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Courts"
+    "@id" : "https://w3id.org/def/NyOn#Courts"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#Appeal",
+  "@id" : "https://w3id.org/def/NyOn#Appeal",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -453,10 +453,10 @@
     "@value" : "निवेदन"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Documents"
+    "@id" : "https://w3id.org/def/NyOn#Documents"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#Appellant",
+  "@id" : "https://w3id.org/def/NyOn#Appellant",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -482,10 +482,10 @@
     "@value" : "अपील करनेवाला"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Parties"
+    "@id" : "https://w3id.org/def/NyOn#Parties"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#Appellant_Jurisdiction",
+  "@id" : "https://w3id.org/def/NyOn#Appellant_Jurisdiction",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -511,16 +511,10 @@
     "@value" : "अपीलकारी क्षेत्राधिकार"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Jurisdiction"
+    "@id" : "https://w3id.org/def/NyOn#Jurisdiction"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#Attempt_to_Commit_Murder",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
-}, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#Attempt_to_commit_Culpable_Homicide",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
-}, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#Author",
+  "@id" : "https://w3id.org/def/NyOn#Author",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -546,7 +540,7 @@
     "@value" : "लेखक"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#Bench",
+  "@id" : "https://w3id.org/def/NyOn#Bench",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -572,7 +566,7 @@
     "@value" : "बेंच"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#Case",
+  "@id" : "https://w3id.org/def/NyOn#Case",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -598,7 +592,7 @@
     "@value" : "मामला"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#Case_Type",
+  "@id" : "https://w3id.org/def/NyOn#Case_Type",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -624,13 +618,7 @@
     "@value" : "मामले का प्रकार"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#Causing_death_by_negligence",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
-}, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#Causing_injuries_due_to_rash_driving/rode_rage",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
-}, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#Chief_Meterpolitan_Court",
+  "@id" : "https://w3id.org/def/NyOn#Chief_Meterpolitan_Court",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -656,10 +644,10 @@
     "@value" : "मुख्य मेटेरपोलिटन कोर्ट"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Courts_for_Criminal"
+    "@id" : "https://w3id.org/def/NyOn#Courts_for_Criminal"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#City_Civil_Courts",
+  "@id" : "https://w3id.org/def/NyOn#City_Civil_Courts",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -685,10 +673,10 @@
     "@value" : "सिटी सिविल कोर्ट"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Courts_for_Civil"
+    "@id" : "https://w3id.org/def/NyOn#Courts_for_Civil"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#Civil",
+  "@id" : "https://w3id.org/def/NyOn#Civil",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -711,13 +699,13 @@
     "@value" : "नागरिक"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Case_Type"
+    "@id" : "https://w3id.org/def/NyOn#Case_Type"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Criminal"
+    "@id" : "https://w3id.org/def/NyOn#Criminal"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#Country",
+  "@id" : "https://w3id.org/def/NyOn#Country",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -743,10 +731,10 @@
     "@value" : "देश"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Location"
+    "@id" : "https://w3id.org/def/NyOn#Location"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#Court_Decision",
+  "@id" : "https://w3id.org/def/NyOn#Court_Decision",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -772,7 +760,7 @@
     "@value" : "अदालत का निर्णय"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#Court_Judgements",
+  "@id" : "https://w3id.org/def/NyOn#Court_Judgements",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -798,10 +786,10 @@
     "@value" : "न्यायालय निर्णय"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Documents"
+    "@id" : "https://w3id.org/def/NyOn#Documents"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#Court_Officials",
+  "@id" : "https://w3id.org/def/NyOn#Court_Officials",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -827,7 +815,7 @@
     "@value" : "न्यायालय अधिकारि"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#Courts",
+  "@id" : "https://w3id.org/def/NyOn#Courts",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -853,7 +841,7 @@
     "@value" : "अदालत"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#Courts_for_Civil",
+  "@id" : "https://w3id.org/def/NyOn#Courts_for_Civil",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -879,10 +867,10 @@
     "@value" : "नागरिक न्यायालय"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Case_Type"
+    "@id" : "https://w3id.org/def/NyOn#Case_Type"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#Courts_for_Criminal",
+  "@id" : "https://w3id.org/def/NyOn#Courts_for_Criminal",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -908,10 +896,10 @@
     "@value" : "आपराधिक न्यायालय"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Case_Type"
+    "@id" : "https://w3id.org/def/NyOn#Case_Type"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#Courts_of_Smaller_Causes",
+  "@id" : "https://w3id.org/def/NyOn#Courts_of_Smaller_Causes",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -937,10 +925,10 @@
     "@value" : "छोटे कारण के न्यायालय"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Courts_for_Civil"
+    "@id" : "https://w3id.org/def/NyOn#Courts_for_Civil"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#Criminal",
+  "@id" : "https://w3id.org/def/NyOn#Criminal",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -966,13 +954,10 @@
     "@value" : "आपराधिक"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Case_Type"
+    "@id" : "https://w3id.org/def/NyOn#Case_Type"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#Culpable_homicide_not_amounting_to_murder",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
-}, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#District",
+  "@id" : "https://w3id.org/def/NyOn#District",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -998,10 +983,10 @@
     "@value" : "जिला"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Location"
+    "@id" : "https://w3id.org/def/NyOn#Location"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#District_Court",
+  "@id" : "https://w3id.org/def/NyOn#District_Court",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1027,10 +1012,10 @@
     "@value" : "जिला अदालत"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Courts_for_Civil"
+    "@id" : "https://w3id.org/def/NyOn#Courts_for_Civil"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#District_Courts",
+  "@id" : "https://w3id.org/def/NyOn#District_Courts",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1056,10 +1041,10 @@
     "@value" : "जिला न्यायालय"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Courts"
+    "@id" : "https://w3id.org/def/NyOn#Courts"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#Division_Bench",
+  "@id" : "https://w3id.org/def/NyOn#Division_Bench",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1085,10 +1070,10 @@
     "@value" : "डिवीजन बेंच"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Bench"
+    "@id" : "https://w3id.org/def/NyOn#Bench"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#Documents",
+  "@id" : "https://w3id.org/def/NyOn#Documents",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1114,7 +1099,7 @@
     "@value" : "दस्तावेज़"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#Evidence",
+  "@id" : "https://w3id.org/def/NyOn#Evidence",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1140,7 +1125,7 @@
     "@value" : "सबूत"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#FIR",
+  "@id" : "https://w3id.org/def/NyOn#FIR",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1166,10 +1151,10 @@
     "@value" : "प्राथमिकी"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Documents"
+    "@id" : "https://w3id.org/def/NyOn#Documents"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#Government",
+  "@id" : "https://w3id.org/def/NyOn#Government",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1195,17 +1180,17 @@
     "@value" : "सरकार"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Party_Type"
+    "@id" : "https://w3id.org/def/NyOn#Party_Type"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#GovernmentName",
+  "@id" : "https://w3id.org/def/NyOn#GovernmentName",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Name of the Government"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Government"
+    "@id" : "https://w3id.org/def/NyOn#Government"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -1218,10 +1203,7 @@
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#Grievous_hurt",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
-}, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#Group",
+  "@id" : "https://w3id.org/def/NyOn#Group",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1247,10 +1229,10 @@
     "@value" : "समूह"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Party_Type"
+    "@id" : "https://w3id.org/def/NyOn#Party_Type"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#High_Court",
+  "@id" : "https://w3id.org/def/NyOn#High_Court",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1276,13 +1258,10 @@
     "@value" : "हाईकोर्ट"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Courts"
+    "@id" : "https://w3id.org/def/NyOn#Courts"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#Human_trafficking",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
-}, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#Individual",
+  "@id" : "https://w3id.org/def/NyOn#Individual",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1308,10 +1287,10 @@
     "@value" : "व्यक्ति"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Party_Type"
+    "@id" : "https://w3id.org/def/NyOn#Party_Type"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#Investigator",
+  "@id" : "https://w3id.org/def/NyOn#Investigator",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1337,10 +1316,10 @@
     "@value" : "अन्वेषक"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Court_Officials"
+    "@id" : "https://w3id.org/def/NyOn#Court_Officials"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#Judge",
+  "@id" : "https://w3id.org/def/NyOn#Judge",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1366,10 +1345,10 @@
     "@value" : "न्यायाधीश"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Court_Officials"
+    "@id" : "https://w3id.org/def/NyOn#Court_Officials"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#Judgement",
+  "@id" : "https://w3id.org/def/NyOn#Judgement",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1395,13 +1374,13 @@
     "@value" : "निर्णय"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Court_Decision"
+    "@id" : "https://w3id.org/def/NyOn#Court_Decision"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Order"
+    "@id" : "https://w3id.org/def/NyOn#Order"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#Judicial_Magistrate_Court(First_Class)",
+  "@id" : "https://w3id.org/def/NyOn#Judicial_Magistrate_Court(First_Class)",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1427,10 +1406,10 @@
     "@value" : "न्यायिक मजिस्ट्रेट कोर्ट (प्रथम श्रेणी)"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Courts_for_Criminal"
+    "@id" : "https://w3id.org/def/NyOn#Courts_for_Criminal"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#Judicial_Magistrate_Court(Second_Class)",
+  "@id" : "https://w3id.org/def/NyOn#Judicial_Magistrate_Court(Second_Class)",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1456,10 +1435,10 @@
     "@value" : "न्यायिक मजिस्ट्रेट कोर्ट (द्वितीय श्रेणी)"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Courts_for_Criminal"
+    "@id" : "https://w3id.org/def/NyOn#Courts_for_Criminal"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#Jurisdiction",
+  "@id" : "https://w3id.org/def/NyOn#Jurisdiction",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1485,10 +1464,7 @@
     "@value" : "क्षेत्राधिकार"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#Kidnapping_&_Abduction",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
-}, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#Larger_Bench",
+  "@id" : "https://w3id.org/def/NyOn#Larger_Bench",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1514,10 +1490,10 @@
     "@value" : "बड़ी बेंच"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Bench"
+    "@id" : "https://w3id.org/def/NyOn#Bench"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#Location",
+  "@id" : "https://w3id.org/def/NyOn#Location",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1543,7 +1519,7 @@
     "@value" : "स्थान"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#Metropolitan_Magistrate_Courts",
+  "@id" : "https://w3id.org/def/NyOn#Metropolitan_Magistrate_Courts",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1569,10 +1545,10 @@
     "@value" : "मेट्रोपॉलिटन मजिस्ट्रेट कोर्ट"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Courts_for_Criminal"
+    "@id" : "https://w3id.org/def/NyOn#Courts_for_Criminal"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#Metropolitian_Courts",
+  "@id" : "https://w3id.org/def/NyOn#Metropolitian_Courts",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "hi",
@@ -1598,10 +1574,10 @@
     "@value" : "मेट्रोपॉलिटन कोर्ट"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Courts"
+    "@id" : "https://w3id.org/def/NyOn#Courts"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#Munsif_Court",
+  "@id" : "https://w3id.org/def/NyOn#Munsif_Court",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1627,13 +1603,10 @@
     "@value" : "मुन्सिफ कोर्ट"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Courts_for_Civil"
+    "@id" : "https://w3id.org/def/NyOn#Courts_for_Civil"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#Murder",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
-}, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#Order",
+  "@id" : "https://w3id.org/def/NyOn#Order",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1659,10 +1632,10 @@
     "@value" : "आदेश"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Court_Decision"
+    "@id" : "https://w3id.org/def/NyOn#Court_Decision"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#Organization",
+  "@id" : "https://w3id.org/def/NyOn#Organization",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1688,10 +1661,10 @@
     "@value" : "संगठन"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Party_Type"
+    "@id" : "https://w3id.org/def/NyOn#Party_Type"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#Original_Jurisdiction",
+  "@id" : "https://w3id.org/def/NyOn#Original_Jurisdiction",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1717,10 +1690,10 @@
     "@value" : "मूल न्यायाधिकार"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Jurisdiction"
+    "@id" : "https://w3id.org/def/NyOn#Jurisdiction"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#Others",
+  "@id" : "https://w3id.org/def/NyOn#Others",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1746,10 +1719,10 @@
     "@value" : "अन्य"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Documents"
+    "@id" : "https://w3id.org/def/NyOn#Documents"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#Parties",
+  "@id" : "https://w3id.org/def/NyOn#Parties",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1775,7 +1748,7 @@
     "@value" : "दलों"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#Party_Type",
+  "@id" : "https://w3id.org/def/NyOn#Party_Type",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1801,7 +1774,7 @@
     "@value" : "पार्टी प्रकार"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#Petition",
+  "@id" : "https://w3id.org/def/NyOn#Petition",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1827,10 +1800,10 @@
     "@value" : "याचिका"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Documents"
+    "@id" : "https://w3id.org/def/NyOn#Documents"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#Petitioner",
+  "@id" : "https://w3id.org/def/NyOn#Petitioner",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1856,10 +1829,10 @@
     "@value" : "याचिकाकर्ता"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Parties"
+    "@id" : "https://w3id.org/def/NyOn#Parties"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#Place",
+  "@id" : "https://w3id.org/def/NyOn#Place",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1885,10 +1858,10 @@
     "@value" : "स्थान"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Location"
+    "@id" : "https://w3id.org/def/NyOn#Location"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#Plaintiff",
+  "@id" : "https://w3id.org/def/NyOn#Plaintiff",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1914,10 +1887,10 @@
     "@value" : "वादी"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Parties"
+    "@id" : "https://w3id.org/def/NyOn#Parties"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#Precedent_Case",
+  "@id" : "https://w3id.org/def/NyOn#Precedent_Case",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1943,7 +1916,7 @@
     "@value" : "पूर्ववर्ती मामला"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#Principal_Junior_Civil_Court",
+  "@id" : "https://w3id.org/def/NyOn#Principal_Junior_Civil_Court",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1969,10 +1942,10 @@
     "@value" : "प्रिंसिपल जूनियर सिविल कोर्ट"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Courts_for_Civil"
+    "@id" : "https://w3id.org/def/NyOn#Courts_for_Civil"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#Respondent",
+  "@id" : "https://w3id.org/def/NyOn#Respondent",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -1998,10 +1971,10 @@
     "@value" : "प्रतिवादी"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Parties"
+    "@id" : "https://w3id.org/def/NyOn#Parties"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#Review_Jurisdiction",
+  "@id" : "https://w3id.org/def/NyOn#Review_Jurisdiction",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -2027,10 +2000,10 @@
     "@value" : "समीक्षा क्षेत्राधिकार"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Jurisdiction"
+    "@id" : "https://w3id.org/def/NyOn#Jurisdiction"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#Session_Court",
+  "@id" : "https://w3id.org/def/NyOn#Session_Court",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -2056,10 +2029,10 @@
     "@value" : "सत्र न्यायालय"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Courts_for_Criminal"
+    "@id" : "https://w3id.org/def/NyOn#Courts_for_Criminal"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#Single_Judge",
+  "@id" : "https://w3id.org/def/NyOn#Single_Judge",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -2085,10 +2058,10 @@
     "@value" : "एकल न्यायाधीश"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Bench"
+    "@id" : "https://w3id.org/def/NyOn#Bench"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#Solicitor",
+  "@id" : "https://w3id.org/def/NyOn#Solicitor",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -2114,10 +2087,10 @@
     "@value" : "वकील"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Court_Officials"
+    "@id" : "https://w3id.org/def/NyOn#Court_Officials"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#Special_Bench",
+  "@id" : "https://w3id.org/def/NyOn#Special_Bench",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -2143,10 +2116,10 @@
     "@value" : "विशेष बेंच"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Bench"
+    "@id" : "https://w3id.org/def/NyOn#Bench"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#State",
+  "@id" : "https://w3id.org/def/NyOn#State",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -2172,12 +2145,12 @@
     "@value" : "राज्य"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Location"
+    "@id" : "https://w3id.org/def/NyOn#Location"
   }, {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Party_Type"
+    "@id" : "https://w3id.org/def/NyOn#Party_Type"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#Sub_Court",
+  "@id" : "https://w3id.org/def/NyOn#Sub_Court",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -2203,10 +2176,10 @@
     "@value" : "उप न्यायालय"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Courts_for_Civil"
+    "@id" : "https://w3id.org/def/NyOn#Courts_for_Civil"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#Taluka",
+  "@id" : "https://w3id.org/def/NyOn#Taluka",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -2232,10 +2205,10 @@
     "@value" : "तालुका"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Location"
+    "@id" : "https://w3id.org/def/NyOn#Location"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#Tribunal_Bench",
+  "@id" : "https://w3id.org/def/NyOn#Tribunal_Bench",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -2261,10 +2234,10 @@
     "@value" : "ट्रिब्यूनल बेंच"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Bench"
+    "@id" : "https://w3id.org/def/NyOn#Bench"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#Tribunals",
+  "@id" : "https://w3id.org/def/NyOn#Tribunals",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -2290,10 +2263,10 @@
     "@value" : "न्यायाधिकरण"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Courts"
+    "@id" : "https://w3id.org/def/NyOn#Courts"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#Witness",
+  "@id" : "https://w3id.org/def/NyOn#Witness",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -2319,7 +2292,7 @@
     "@value" : "साक्षी"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#Writ_Jurisdiction",
+  "@id" : "https://w3id.org/def/NyOn#Writ_Jurisdiction",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -2345,157 +2318,159 @@
     "@value" : "रिट क्षेत्राधिकार"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Jurisdiction"
+    "@id" : "https://w3id.org/def/NyOn#Jurisdiction"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#caseBelongsToType",
+  "@id" : "https://w3id.org/def/NyOn#caseBelongsToType",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "property justifies the relationship of the case with the particular domain to which it belongs"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Case"
+    "@id" : "https://w3id.org/def/NyOn#Case"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "caseBelongsToType"
-  }, {
-    "@language" : "en",
-    "@value" : "property justifies the relationship of the case with the particular domain to which it belongs"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Case_Type"
+    "@id" : "https://w3id.org/def/NyOn#Case_Type"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#documentType",
+  "@id" : "https://w3id.org/def/NyOn#documentType",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "property defines the type of document involved in the case"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Case"
+    "@id" : "https://w3id.org/def/NyOn#Case"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "documentType"
-  }, {
-    "@language" : "en",
-    "@value" : "property defines the type of document involved in the case"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Court_Judgements"
+    "@id" : "https://w3id.org/def/NyOn#Court_Judgements"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#hasActs",
+  "@id" : "https://w3id.org/def/NyOn#hasActs",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "acts involved in the case"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Case"
+    "@id" : "https://w3id.org/def/NyOn#Case"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "hasActs"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Acts"
+    "@id" : "https://w3id.org/def/NyOn#Acts"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#hasAdvisoryJurisdiction",
+  "@id" : "https://w3id.org/def/NyOn#hasAdvisoryJurisdiction",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "property justifies that the jurisdiction of the court is the advisory jurisdiction"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Apex_Court"
+    "@id" : "https://w3id.org/def/NyOn#Apex_Court"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "hasAdvisoryJurisdiction"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Advisory_Jurisdiction"
+    "@id" : "https://w3id.org/def/NyOn#Advisory_Jurisdiction"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#hasAppellantJurisdiction",
+  "@id" : "https://w3id.org/def/NyOn#hasAppellantJurisdiction",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "property justifies that the jurisdiction of the court is the appellant jurisdiction"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Apex_Court"
+    "@id" : "https://w3id.org/def/NyOn#Apex_Court"
   }, {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#High_Court"
+    "@id" : "https://w3id.org/def/NyOn#High_Court"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "hasAppellantJurisdiction"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Appellant_Jurisdiction"
+    "@id" : "https://w3id.org/def/NyOn#Appellant_Jurisdiction"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#hasAuthor",
+  "@id" : "https://w3id.org/def/NyOn#hasAuthor",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "case has a author who is one of the judge of the case"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Case"
+    "@id" : "https://w3id.org/def/NyOn#Case"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "hasAuthor"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Author"
+    "@id" : "https://w3id.org/def/NyOn#Author"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#hasBench",
+  "@id" : "https://w3id.org/def/NyOn#hasBench",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "case has a bench of judges"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Case"
+    "@id" : "https://w3id.org/def/NyOn#Case"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "hasBench"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Bench"
+    "@id" : "https://w3id.org/def/NyOn#Bench"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#hasCaseName",
+  "@id" : "https://w3id.org/def/NyOn#hasCaseName",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "name of the case"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Case"
+    "@id" : "https://w3id.org/def/NyOn#Case"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2508,14 +2483,14 @@
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#hasCaseNumber",
+  "@id" : "https://w3id.org/def/NyOn#hasCaseNumber",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "case number"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Case"
+    "@id" : "https://w3id.org/def/NyOn#Case"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2525,34 +2500,34 @@
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#hasCourtDecision",
+  "@id" : "https://w3id.org/def/NyOn#hasCourtDecision",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "property justifies the type of courts decision given by the judge in the case"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Case"
+    "@id" : "https://w3id.org/def/NyOn#Case"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "hasCourtDecision"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Court_Decision"
+    "@id" : "https://w3id.org/def/NyOn#Court_Decision"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#hasCourtDecisionDate",
+  "@id" : "https://w3id.org/def/NyOn#hasCourtDecisionDate",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "date on which the court decision is given"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Court_Decision"
+    "@id" : "https://w3id.org/def/NyOn#Court_Decision"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2565,88 +2540,88 @@
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#hasCourts",
+  "@id" : "https://w3id.org/def/NyOn#hasCourts",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "property defines the different courts involved in the case"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Case"
+    "@id" : "https://w3id.org/def/NyOn#Case"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "hasCourts"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Courts"
+    "@id" : "https://w3id.org/def/NyOn#Courts"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#hasEvidenceLocation",
+  "@id" : "https://w3id.org/def/NyOn#hasEvidenceLocation",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "property represents the location of the evidence"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Evidence"
+    "@id" : "https://w3id.org/def/NyOn#Evidence"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "hasEvidenceLocation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Place"
+    "@id" : "https://w3id.org/def/NyOn#Place"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#hasEvidences",
+  "@id" : "https://w3id.org/def/NyOn#hasEvidences",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "proprty represnts the evidences of the case"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Case"
+    "@id" : "https://w3id.org/def/NyOn#Case"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "hasEvidences"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Evidence"
+    "@id" : "https://w3id.org/def/NyOn#Evidence"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#hasIndividual",
+  "@id" : "https://w3id.org/def/NyOn#hasIndividual",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "represents that the group party of the case includes the individuals"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Group"
+    "@id" : "https://w3id.org/def/NyOn#Group"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "hasIndividuals"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Individual"
+    "@id" : "https://w3id.org/def/NyOn#Individual"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#hasJudgement",
+  "@id" : "https://w3id.org/def/NyOn#hasJudgement",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "judgement given on the case"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Judgement"
+    "@id" : "https://w3id.org/def/NyOn#Judgement"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2659,71 +2634,71 @@
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#hasLegalParticipants",
+  "@id" : "https://w3id.org/def/NyOn#hasLegalParticipants",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "property signifies the legal participants of the case"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Case"
+    "@id" : "https://w3id.org/def/NyOn#Case"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "hasLegalParticipants"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Court_Officials"
+    "@id" : "https://w3id.org/def/NyOn#Court_Officials"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#hasLocation",
+  "@id" : "https://w3id.org/def/NyOn#hasLocation",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "property signifies the location of the court involved in the case"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Courts"
+    "@id" : "https://w3id.org/def/NyOn#Courts"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "hasLocation"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Location"
+    "@id" : "https://w3id.org/def/NyOn#Location"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#hasNonLegalParticipants",
+  "@id" : "https://w3id.org/def/NyOn#hasNonLegalParticipants",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "property signifies the non-legal participants of the case"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Case"
+    "@id" : "https://w3id.org/def/NyOn#Case"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "hasNonLegalParticipants"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Parties"
+    "@id" : "https://w3id.org/def/NyOn#Parties"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#hasOrder",
+  "@id" : "https://w3id.org/def/NyOn#hasOrder",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "order given in the case as the court decision"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Order"
+    "@id" : "https://w3id.org/def/NyOn#Order"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2736,95 +2711,95 @@
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#hasOriginalJurisdiction",
+  "@id" : "https://w3id.org/def/NyOn#hasOriginalJurisdiction",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "property justifies that the jurisdiction of the court is the original jurisdiction"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Apex_Court"
+    "@id" : "https://w3id.org/def/NyOn#Apex_Court"
   }, {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#High_Court"
+    "@id" : "https://w3id.org/def/NyOn#High_Court"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "hasOriginalJurisdiction"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Original_Jurisdiction"
+    "@id" : "https://w3id.org/def/NyOn#Original_Jurisdiction"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#hasParticipantType",
+  "@id" : "https://w3id.org/def/NyOn#hasParticipantType",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "property signifies the type of participants or parties of the case"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Parties"
+    "@id" : "https://w3id.org/def/NyOn#Parties"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "hasParticipantType"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Party_Type"
+    "@id" : "https://w3id.org/def/NyOn#Party_Type"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#hasPrecedentCase",
+  "@id" : "https://w3id.org/def/NyOn#hasPrecedentCase",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "case has a relationship with the precedent cases"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Case"
+    "@id" : "https://w3id.org/def/NyOn#Case"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "hasPrecedentCase"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Precedent_Case"
+    "@id" : "https://w3id.org/def/NyOn#Precedent_Case"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#hasReviewJurisdiction",
+  "@id" : "https://w3id.org/def/NyOn#hasReviewJurisdiction",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "property justifies that the jurisdiction of the court is the review jurisdiction"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Apex_Court"
+    "@id" : "https://w3id.org/def/NyOn#Apex_Court"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "hasReviewJurisdiction"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Review_Jurisdiction"
+    "@id" : "https://w3id.org/def/NyOn#Review_Jurisdiction"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#hasWitness",
+  "@id" : "https://w3id.org/def/NyOn#hasWitness",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Case"
+    "@id" : "https://w3id.org/def/NyOn#Case"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Witness"
+    "@id" : "https://w3id.org/def/NyOn#Witness"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#hasWritJurisdiction",
+  "@id" : "https://w3id.org/def/NyOn#hasWritJurisdiction",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -2835,14 +2810,14 @@
     "@value" : "hasWritJurisdiction"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#individualName",
+  "@id" : "https://w3id.org/def/NyOn#individualName",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "name of the individual or the party"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Individual"
+    "@id" : "https://w3id.org/def/NyOn#Individual"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2855,31 +2830,31 @@
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#isACase",
+  "@id" : "https://w3id.org/def/NyOn#isACase",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "precedent case isA case"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Precedent_Case"
+    "@id" : "https://w3id.org/def/NyOn#Precedent_Case"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "isACase"
+    "@value" : "refers"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Case"
+    "@id" : "https://w3id.org/def/NyOn#Case"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#locatedAt",
+  "@id" : "https://w3id.org/def/NyOn#locatedAt",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "location of the courts"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Courts"
+    "@id" : "https://w3id.org/def/NyOn#Courts"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2892,14 +2867,14 @@
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#organizationName",
+  "@id" : "https://w3id.org/def/NyOn#organizationName",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "name of the organization"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Organization"
+    "@id" : "https://w3id.org/def/NyOn#Organization"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2912,14 +2887,14 @@
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#stateName",
+  "@id" : "https://w3id.org/def/NyOn#stateName",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "name of the State"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#State"
+    "@id" : "https://w3id.org/def/NyOn#State"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2929,10 +2904,10 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/NyOnLegalOntology#witnessName",
+  "@id" : "https://w3id.org/def/NyOn#witnessName",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/NyOnLegalOntology#Witness"
+    "@id" : "https://w3id.org/def/NyOn#Witness"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
