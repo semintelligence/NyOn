@@ -15,6 +15,9 @@
     "Order" : {
       "@id" : "https://w3id.org/def/NyOn#Order"
     },
+    "Court_Official" : {
+      "@id" : "https://w3id.org/def/NyOn#Court_Official"
+    },
     "Taluka" : {
       "@id" : "https://w3id.org/def/NyOn#Taluka"
     },
@@ -52,7 +55,7 @@
       "@id" : "https://w3id.org/def/NyOn#Tribunals"
     },
     "Organization" : {
-      "@id" : "https://w3id.org/def/NyOn#Organization"
+      "@id" : "https://schema.org/Organization"
     },
     "topDataProperty" : {
       "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
@@ -70,18 +73,15 @@
     "Munsif_Court" : {
       "@id" : "https://w3id.org/def/NyOn#Munsif_Court"
     },
-    "Court_Officials" : {
-      "@id" : "https://w3id.org/def/NyOn#Court_Officials"
+    "hasName" : {
+      "@id" : "https://w3id.org/def/NyOn#hasName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
     },
     "Metropolitian_Courts" : {
       "@id" : "https://w3id.org/def/NyOn#Metropolitian_Courts"
     },
     "District" : {
       "@id" : "https://w3id.org/def/NyOn#District"
-    },
-    "hasNonLegalParticipants" : {
-      "@id" : "https://w3id.org/def/NyOn#hasNonLegalParticipants",
-      "@type" : "@id"
     },
     "hasCaseName" : {
       "@id" : "https://w3id.org/def/NyOn#hasCaseName",
@@ -102,10 +102,6 @@
     "Precedent_Case" : {
       "@id" : "https://w3id.org/def/NyOn#Precedent_Case"
     },
-    "hasOriginalJurisdiction" : {
-      "@id" : "https://w3id.org/def/NyOn#hasOriginalJurisdiction",
-      "@type" : "@id"
-    },
     "District_Courts" : {
       "@id" : "https://w3id.org/def/NyOn#District_Courts"
     },
@@ -119,15 +115,12 @@
       "@id" : "https://w3id.org/def/NyOn#hasBench",
       "@type" : "@id"
     },
-    "hasAppellantJurisdiction" : {
-      "@id" : "https://w3id.org/def/NyOn#hasAppellantJurisdiction",
-      "@type" : "@id"
-    },
     "Evidence" : {
       "@id" : "https://w3id.org/def/NyOn#Evidence"
     },
     "hasCaseNumber" : {
-      "@id" : "https://w3id.org/def/NyOn#hasCaseNumber"
+      "@id" : "https://w3id.org/def/NyOn#hasCaseNumber",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
     },
     "Courts" : {
       "@id" : "https://w3id.org/def/NyOn#Courts"
@@ -140,6 +133,9 @@
     },
     "Bench" : {
       "@id" : "https://w3id.org/def/NyOn#Bench"
+    },
+    "Person" : {
+      "@id" : "http://xmlns.com/foaf/0.1/Person"
     },
     "Division_Bench" : {
       "@id" : "https://w3id.org/def/NyOn#Division_Bench"
@@ -156,10 +152,6 @@
     },
     "Courts_of_Smaller_Causes" : {
       "@id" : "https://w3id.org/def/NyOn#Courts_of_Smaller_Causes"
-    },
-    "individualName" : {
-      "@id" : "https://w3id.org/def/NyOn#individualName",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
     },
     "Investigator" : {
       "@id" : "https://w3id.org/def/NyOn#Investigator"
@@ -194,14 +186,6 @@
     "Review_Jurisdiction" : {
       "@id" : "https://w3id.org/def/NyOn#Review_Jurisdiction"
     },
-    "hasReviewJurisdiction" : {
-      "@id" : "https://w3id.org/def/NyOn#hasReviewJurisdiction",
-      "@type" : "@id"
-    },
-    "hasParticipantType" : {
-      "@id" : "https://w3id.org/def/NyOn#hasParticipantType",
-      "@type" : "@id"
-    },
     "locatedAt" : {
       "@id" : "https://w3id.org/def/NyOn#locatedAt",
       "@type" : "http://www.w3.org/2001/XMLSchema#string"
@@ -217,12 +201,9 @@
     "Courts_for_Criminal" : {
       "@id" : "https://w3id.org/def/NyOn#Courts_for_Criminal"
     },
-    "hasLegalParticipants" : {
-      "@id" : "https://w3id.org/def/NyOn#hasLegalParticipants",
+    "hasCourtOfficial" : {
+      "@id" : "https://w3id.org/def/NyOn#hasCourtOfficial",
       "@type" : "@id"
-    },
-    "Parties" : {
-      "@id" : "https://w3id.org/def/NyOn#Parties"
     },
     "preferredNamespacePrefix" : {
       "@id" : "http://purl.org/vocab/vann/preferredNamespacePrefix"
@@ -237,10 +218,6 @@
     "Place" : {
       "@id" : "https://w3id.org/def/NyOn#Place"
     },
-    "hasWritJurisdiction" : {
-      "@id" : "https://w3id.org/def/NyOn#hasWritJurisdiction",
-      "@type" : "@id"
-    },
     "Solicitor" : {
       "@id" : "https://w3id.org/def/NyOn#Solicitor"
     },
@@ -253,10 +230,6 @@
     },
     "Jurisdiction" : {
       "@id" : "https://w3id.org/def/NyOn#Jurisdiction"
-    },
-    "hasAdvisoryJurisdiction" : {
-      "@id" : "https://w3id.org/def/NyOn#hasAdvisoryJurisdiction",
-      "@type" : "@id"
     },
     "title" : {
       "@id" : "http://purl.org/dc/terms/title"
@@ -275,6 +248,10 @@
     },
     "Chief_Meterpolitan_Court" : {
       "@id" : "https://w3id.org/def/NyOn#Chief_Meterpolitan_Court"
+    },
+    "hasJurisdiction" : {
+      "@id" : "https://w3id.org/def/NyOn#hasJurisdiction",
+      "@type" : "@id"
     },
     "isACase" : {
       "@id" : "https://w3id.org/def/NyOn#isACase",
@@ -304,7 +281,7 @@
       "@type" : "@id"
     },
     "State" : {
-      "@id" : "https://w3id.org/def/NyOn#State"
+      "@id" : "https://schema.org/State"
     },
     "Tribunal_Bench" : {
       "@id" : "https://w3id.org/def/NyOn#Tribunal_Bench"
@@ -316,15 +293,14 @@
     "City_Civil_Courts" : {
       "@id" : "https://w3id.org/def/NyOn#City_Civil_Courts"
     },
+    "Party" : {
+      "@id" : "https://w3id.org/def/NyOn#Party"
+    },
     "comment" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
     },
     "Others" : {
       "@id" : "https://w3id.org/def/NyOn#Others"
-    },
-    "hasIndividual" : {
-      "@id" : "https://w3id.org/def/NyOn#hasIndividual",
-      "@type" : "@id"
     },
     "Group" : {
       "@id" : "https://w3id.org/def/NyOn#Group"
@@ -356,6 +332,14 @@
     },
     "District_Court" : {
       "@id" : "https://w3id.org/def/NyOn#District_Court"
+    },
+    "hasPartyType" : {
+      "@id" : "https://w3id.org/def/NyOn#hasPartyType",
+      "@type" : "@id"
+    },
+    "hasParty" : {
+      "@id" : "https://w3id.org/def/NyOn#hasParty",
+      "@type" : "@id"
     },
     "documentType" : {
       "@id" : "https://w3id.org/def/NyOn#documentType",

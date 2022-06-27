@@ -4,6 +4,11 @@ This section provides details for each class and property defined by NyOn: A Mul
    <h3 id="classes-headline" class="list">Classes</h3>
    <ul class="hlist">
       <li>
+         <a href="#http://xmlns.com/foaf/0.1/Person" title="http://xmlns.com/foaf/0.1/Person">
+            <span>person</span>
+         </a>
+      </li>
+      <li>
          <a href="#https://w3id.org/def/NyOn#Courts" title="https://w3id.org/def/NyOn#Courts">अदालत</a>
       </li>
       <li>
@@ -68,7 +73,7 @@ This section provides details for each class and property defined by NyOn: A Mul
          <a href="#https://w3id.org/def/NyOn#Taluka" title="https://w3id.org/def/NyOn#Taluka">तालुका</a>
       </li>
       <li>
-         <a href="#https://w3id.org/def/NyOn#Parties" title="https://w3id.org/def/NyOn#Parties">दलों</a>
+         <a href="#https://w3id.org/def/NyOn#Party" title="https://w3id.org/def/NyOn#Party">दलों</a>
       </li>
       <li>
          <a href="#https://w3id.org/def/NyOn#Documents" title="https://w3id.org/def/NyOn#Documents">दस्तावेज़</a>
@@ -95,7 +100,7 @@ This section provides details for each class and property defined by NyOn: A Mul
          <a href="#https://w3id.org/def/NyOn#Judge" title="https://w3id.org/def/NyOn#Judge">न्यायाधीश</a>
       </li>
       <li>
-         <a href="#https://w3id.org/def/NyOn#Court_Officials" title="https://w3id.org/def/NyOn#Court_Officials">न्यायालय अधिकारि</a>
+         <a href="#https://w3id.org/def/NyOn#Court_Official" title="https://w3id.org/def/NyOn#Court_Official">न्यायालय अधिकारि</a>
       </li>
       <li>
          <a href="#https://w3id.org/def/NyOn#Court_Judgements" title="https://w3id.org/def/NyOn#Court_Judgements">न्यायालय निर्णय</a>
@@ -160,7 +165,7 @@ This section provides details for each class and property defined by NyOn: A Mul
          <a href="#https://w3id.org/def/NyOn#Petitioner" title="https://w3id.org/def/NyOn#Petitioner">याचिकाकर्ता</a>
       </li>
       <li>
-         <a href="#https://w3id.org/def/NyOn#State" title="https://w3id.org/def/NyOn#State">राज्य</a>
+         <a href="#https://schema.org/State" title="https://schema.org/State">राज्य</a>
       </li>
       <li>
          <a href="#https://w3id.org/def/NyOn#Writ_Jurisdiction" title="https://w3id.org/def/NyOn#Writ_Jurisdiction">रिट क्षेत्राधिकार</a>
@@ -181,7 +186,7 @@ This section provides details for each class and property defined by NyOn: A Mul
          <a href="#https://w3id.org/def/NyOn#Individual" title="https://w3id.org/def/NyOn#Individual">व्यक्ति</a>
       </li>
       <li>
-         <a href="#https://w3id.org/def/NyOn#Organization" title="https://w3id.org/def/NyOn#Organization">संगठन</a>
+         <a href="#https://schema.org/Organization" title="https://schema.org/Organization">संगठन</a>
       </li>
       <li>
          <a href="#https://w3id.org/def/NyOn#Session_Court" title="https://w3id.org/def/NyOn#Session_Court">सत्र न्यायालय</a>
@@ -220,6 +225,21 @@ This section provides details for each class and property defined by NyOn: A Mul
          <a href="#https://w3id.org/def/NyOn#High_Court" title="https://w3id.org/def/NyOn#High_Court">हाईकोर्ट</a>
       </li>
    </ul>
+   <div class="entity" id="http://xmlns.com/foaf/0.1/Person">
+      <h3>person<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://xmlns.com/foaf/0.1/Person</p>
+      <dl class="description">
+         <dt>is equivalent to</dt>
+         <dd>
+            <a href="#https://w3id.org/def/NyOn#Individual" title="https://w3id.org/def/NyOn#Individual">व्यक्ति</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
    <div class="entity" id="https://w3id.org/def/NyOn#Courts">
       <h3>अदालत<sup class="type-c" title="class">c</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
@@ -248,7 +268,7 @@ This section provides details for each class and property defined by NyOn: A Mul
          </dd>
          <dt>is in range of</dt>
          <dd>
-            <a href="#https://w3id.org/def/NyOn#hasCourts" title="https://w3id.org/def/NyOn#hasCourts">hasCourts</a>
+            <a href="#https://w3id.org/def/NyOn#hasCourts" title="https://w3id.org/def/NyOn#hasCourts">hasCourt</a>
             <sup class="type-op" title="object property">op</sup>
          </dd>
          <dt>is disjoint with</dt>
@@ -259,12 +279,12 @@ This section provides details for each class and property defined by NyOn: A Mul
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Case" title="https://w3id.org/def/NyOn#Case">मामला</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Case_Type" title="https://w3id.org/def/NyOn#Case_Type">मामले का प्रकार</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Court_Decision" title="https://w3id.org/def/NyOn#Court_Decision">अदालत का निर्णय</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Court_Officials" title="https://w3id.org/def/NyOn#Court_Officials">न्यायालय अधिकारि</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Court_Official" title="https://w3id.org/def/NyOn#Court_Official">न्यायालय अधिकारि</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Documents" title="https://w3id.org/def/NyOn#Documents">दस्तावेज़</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Evidence" title="https://w3id.org/def/NyOn#Evidence">सबूत</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Jurisdiction" title="https://w3id.org/def/NyOn#Jurisdiction">क्षेत्राधिकार</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Location" title="https://w3id.org/def/NyOn#Location">स्थान</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Parties" title="https://w3id.org/def/NyOn#Parties">दलों</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Party" title="https://w3id.org/def/NyOn#Party">दलों</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Party_Type" title="https://w3id.org/def/NyOn#Party_Type">पार्टी प्रकार</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Precedent_Case" title="https://w3id.org/def/NyOn#Precedent_Case">पूर्ववर्ती मामला</a>
             <sup class="type-c" title="class">c</sup>
@@ -305,13 +325,13 @@ This section provides details for each class and property defined by NyOn: A Mul
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Bench" title="https://w3id.org/def/NyOn#Bench">बेंच</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Case" title="https://w3id.org/def/NyOn#Case">मामला</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Case_Type" title="https://w3id.org/def/NyOn#Case_Type">मामले का प्रकार</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Court_Officials" title="https://w3id.org/def/NyOn#Court_Officials">न्यायालय अधिकारि</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Court_Official" title="https://w3id.org/def/NyOn#Court_Official">न्यायालय अधिकारि</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Courts" title="https://w3id.org/def/NyOn#Courts">अदालत</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Documents" title="https://w3id.org/def/NyOn#Documents">दस्तावेज़</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Evidence" title="https://w3id.org/def/NyOn#Evidence">सबूत</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Jurisdiction" title="https://w3id.org/def/NyOn#Jurisdiction">क्षेत्राधिकार</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Location" title="https://w3id.org/def/NyOn#Location">स्थान</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Parties" title="https://w3id.org/def/NyOn#Parties">दलों</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Party" title="https://w3id.org/def/NyOn#Party">दलों</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Party_Type" title="https://w3id.org/def/NyOn#Party_Type">पार्टी प्रकार</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Precedent_Case" title="https://w3id.org/def/NyOn#Precedent_Case">पूर्ववर्ती मामला</a>
             <sup class="type-c" title="class">c</sup>
@@ -331,7 +351,7 @@ This section provides details for each class and property defined by NyOn: A Mul
       <dl class="description">
          <dt>is in range of</dt>
          <dd>
-            <a href="#https://w3id.org/def/NyOn#hasActs" title="https://w3id.org/def/NyOn#hasActs">hasActs</a>
+            <a href="#https://w3id.org/def/NyOn#hasActs" title="https://w3id.org/def/NyOn#hasActs">hasAct</a>
             <sup class="type-op" title="object property">op</sup>
          </dd>
          <dt>is disjoint with</dt>
@@ -341,13 +361,13 @@ This section provides details for each class and property defined by NyOn: A Mul
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Case" title="https://w3id.org/def/NyOn#Case">मामला</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Case_Type" title="https://w3id.org/def/NyOn#Case_Type">मामले का प्रकार</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Court_Decision" title="https://w3id.org/def/NyOn#Court_Decision">अदालत का निर्णय</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Court_Officials" title="https://w3id.org/def/NyOn#Court_Officials">न्यायालय अधिकारि</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Court_Official" title="https://w3id.org/def/NyOn#Court_Official">न्यायालय अधिकारि</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Courts" title="https://w3id.org/def/NyOn#Courts">अदालत</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Documents" title="https://w3id.org/def/NyOn#Documents">दस्तावेज़</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Evidence" title="https://w3id.org/def/NyOn#Evidence">सबूत</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Jurisdiction" title="https://w3id.org/def/NyOn#Jurisdiction">क्षेत्राधिकार</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Location" title="https://w3id.org/def/NyOn#Location">स्थान</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Parties" title="https://w3id.org/def/NyOn#Parties">दलों</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Party" title="https://w3id.org/def/NyOn#Party">दलों</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Party_Type" title="https://w3id.org/def/NyOn#Party_Type">पार्टी प्रकार</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Precedent_Case" title="https://w3id.org/def/NyOn#Precedent_Case">पूर्ववर्ती मामला</a>
             <sup class="type-c" title="class">c</sup>
@@ -393,7 +413,7 @@ This section provides details for each class and property defined by NyOn: A Mul
       <dl class="description">
          <dt>has super-classes</dt>
          <dd>
-            <a href="#https://w3id.org/def/NyOn#Court_Officials" title="https://w3id.org/def/NyOn#Court_Officials">न्यायालय अधिकारि</a>
+            <a href="#https://w3id.org/def/NyOn#Court_Official" title="https://w3id.org/def/NyOn#Court_Official">न्यायालय अधिकारि</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
          <dt>is disjoint with</dt>
@@ -417,7 +437,7 @@ This section provides details for each class and property defined by NyOn: A Mul
       <dl class="description">
          <dt>has super-classes</dt>
          <dd>
-            <a href="#https://w3id.org/def/NyOn#Parties" title="https://w3id.org/def/NyOn#Parties">दलों</a>
+            <a href="#https://w3id.org/def/NyOn#Party" title="https://w3id.org/def/NyOn#Party">दलों</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
          <dt>is disjoint with</dt>
@@ -446,12 +466,6 @@ This section provides details for each class and property defined by NyOn: A Mul
          <dd>
             <a href="#https://w3id.org/def/NyOn#Jurisdiction" title="https://w3id.org/def/NyOn#Jurisdiction">क्षेत्राधिकार</a>
             <sup class="type-c" title="class">c</sup>
-         </dd>
-         <dt>is in range of</dt>
-         <dd>
-            <a href="#https://w3id.org/def/NyOn#hasAppellantJurisdiction"
-               title="https://w3id.org/def/NyOn#hasAppellantJurisdiction">hasAppellantJurisdiction</a>
-            <sup class="type-op" title="object property">op</sup>
          </dd>
          <dt>is disjoint with</dt>
          <dd>
@@ -484,7 +498,7 @@ This section provides details for each class and property defined by NyOn: A Mul
             <sup class="type-c" title="class">c</sup>)</dd>
          <dt>has super-classes</dt>
          <dd>
-            <a href="#https://w3id.org/def/NyOn#Parties" title="https://w3id.org/def/NyOn#Parties">दलों</a>
+            <a href="#https://w3id.org/def/NyOn#Party" title="https://w3id.org/def/NyOn#Party">दलों</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
          <dt>is disjoint with</dt>
@@ -655,12 +669,12 @@ This section provides details for each class and property defined by NyOn: A Mul
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Case" title="https://w3id.org/def/NyOn#Case">मामला</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Case_Type" title="https://w3id.org/def/NyOn#Case_Type">मामले का प्रकार</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Court_Decision" title="https://w3id.org/def/NyOn#Court_Decision">अदालत का निर्णय</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Court_Officials" title="https://w3id.org/def/NyOn#Court_Officials">न्यायालय अधिकारि</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Court_Official" title="https://w3id.org/def/NyOn#Court_Official">न्यायालय अधिकारि</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Courts" title="https://w3id.org/def/NyOn#Courts">अदालत</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Documents" title="https://w3id.org/def/NyOn#Documents">दस्तावेज़</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Evidence" title="https://w3id.org/def/NyOn#Evidence">सबूत</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Location" title="https://w3id.org/def/NyOn#Location">स्थान</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Parties" title="https://w3id.org/def/NyOn#Parties">दलों</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Party" title="https://w3id.org/def/NyOn#Party">दलों</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Party_Type" title="https://w3id.org/def/NyOn#Party_Type">पार्टी प्रकार</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Precedent_Case" title="https://w3id.org/def/NyOn#Precedent_Case">पूर्ववर्ती मामला</a>
             <sup class="type-c" title="class">c</sup>
@@ -713,9 +727,9 @@ This section provides details for each class and property defined by NyOn: A Mul
          </dd>
          <dt>is disjoint with</dt>
          <dd>
-            <a href="#https://w3id.org/def/NyOn#Country" title="https://w3id.org/def/NyOn#Country">देश</a>
+            <a href="#https://schema.org/State" title="https://schema.org/State">राज्य</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Country" title="https://w3id.org/def/NyOn#Country">देश</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Place" title="https://w3id.org/def/NyOn#Place">स्थान</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#State" title="https://w3id.org/def/NyOn#State">राज्य</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Taluka" title="https://w3id.org/def/NyOn#Taluka">तालुका</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
@@ -822,21 +836,21 @@ This section provides details for each class and property defined by NyOn: A Mul
          </dd>
          <dt>is disjoint with</dt>
          <dd>
-            <a href="#https://w3id.org/def/NyOn#Country" title="https://w3id.org/def/NyOn#Country">देश</a>
+            <a href="#https://schema.org/State" title="https://schema.org/State">राज्य</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Country" title="https://w3id.org/def/NyOn#Country">देश</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#District" title="https://w3id.org/def/NyOn#District">जिला</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Place" title="https://w3id.org/def/NyOn#Place">स्थान</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#State" title="https://w3id.org/def/NyOn#State">राज्य</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
    </div>
-   <div class="entity" id="https://w3id.org/def/NyOn#Parties">
+   <div class="entity" id="https://w3id.org/def/NyOn#Party">
       <h3>दलों<sup class="type-c" title="class">c</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
          </span>
       </h3>
       <p>
-         <strong>IRI:</strong> https://w3id.org/def/NyOn#Parties</p>
+         <strong>IRI:</strong> https://w3id.org/def/NyOn#Party</p>
       <div class="comment">
          <span class="markdown">ऐसे पक्ष जो मामले में शामिल कानूनी डोमेन या भागों से संबंधित नहीं हैं</span>
       </div>
@@ -852,13 +866,13 @@ This section provides details for each class and property defined by NyOn: A Mul
          </dd>
          <dt>is in domain of</dt>
          <dd>
-            <a href="#https://w3id.org/def/NyOn#hasParticipantType" title="https://w3id.org/def/NyOn#hasParticipantType">hasParticipantType</a>
+            <a href="#https://w3id.org/def/NyOn#hasName" title="https://w3id.org/def/NyOn#hasName">has name</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#https://w3id.org/def/NyOn#hasPartyType" title="https://w3id.org/def/NyOn#hasPartyType">hasPartyType</a>
             <sup class="type-op" title="object property">op</sup>
          </dd>
          <dt>is in range of</dt>
          <dd>
-            <a href="#https://w3id.org/def/NyOn#hasNonLegalParticipants"
-               title="https://w3id.org/def/NyOn#hasNonLegalParticipants">hasNonLegalParticipants</a>
+            <a href="#https://w3id.org/def/NyOn#hasParty" title="https://w3id.org/def/NyOn#hasParty">hasParty</a>
             <sup class="type-op" title="object property">op</sup>
          </dd>
          <dt>is disjoint with</dt>
@@ -869,7 +883,7 @@ This section provides details for each class and property defined by NyOn: A Mul
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Case" title="https://w3id.org/def/NyOn#Case">मामला</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Case_Type" title="https://w3id.org/def/NyOn#Case_Type">मामले का प्रकार</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Court_Decision" title="https://w3id.org/def/NyOn#Court_Decision">अदालत का निर्णय</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Court_Officials" title="https://w3id.org/def/NyOn#Court_Officials">न्यायालय अधिकारि</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Court_Official" title="https://w3id.org/def/NyOn#Court_Official">न्यायालय अधिकारि</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Courts" title="https://w3id.org/def/NyOn#Courts">अदालत</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Documents" title="https://w3id.org/def/NyOn#Documents">दस्तावेज़</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Evidence" title="https://w3id.org/def/NyOn#Evidence">सबूत</a>
@@ -901,6 +915,11 @@ This section provides details for each class and property defined by NyOn: A Mul
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Petition" title="https://w3id.org/def/NyOn#Petition">याचिका</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#https://w3id.org/def/NyOn#documentType" title="https://w3id.org/def/NyOn#documentType">documentType</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
          <dt>is disjoint with</dt>
          <dd>
             <a href="#https://w3id.org/def/NyOn#Acts" title="https://w3id.org/def/NyOn#Acts">अधिनियम</a>
@@ -909,12 +928,12 @@ This section provides details for each class and property defined by NyOn: A Mul
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Case" title="https://w3id.org/def/NyOn#Case">मामला</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Case_Type" title="https://w3id.org/def/NyOn#Case_Type">मामले का प्रकार</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Court_Decision" title="https://w3id.org/def/NyOn#Court_Decision">अदालत का निर्णय</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Court_Officials" title="https://w3id.org/def/NyOn#Court_Officials">न्यायालय अधिकारि</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Court_Official" title="https://w3id.org/def/NyOn#Court_Official">न्यायालय अधिकारि</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Courts" title="https://w3id.org/def/NyOn#Courts">अदालत</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Evidence" title="https://w3id.org/def/NyOn#Evidence">सबूत</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Jurisdiction" title="https://w3id.org/def/NyOn#Jurisdiction">क्षेत्राधिकार</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Location" title="https://w3id.org/def/NyOn#Location">स्थान</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Parties" title="https://w3id.org/def/NyOn#Parties">दलों</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Party" title="https://w3id.org/def/NyOn#Party">दलों</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Party_Type" title="https://w3id.org/def/NyOn#Party_Type">पार्टी प्रकार</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Precedent_Case" title="https://w3id.org/def/NyOn#Precedent_Case">पूर्ववर्ती मामला</a>
             <sup class="type-c" title="class">c</sup>
@@ -939,9 +958,9 @@ This section provides details for each class and property defined by NyOn: A Mul
          </dd>
          <dt>is disjoint with</dt>
          <dd>
-            <a href="#https://w3id.org/def/NyOn#District" title="https://w3id.org/def/NyOn#District">जिला</a>
+            <a href="#https://schema.org/State" title="https://schema.org/State">राज्य</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#District" title="https://w3id.org/def/NyOn#District">जिला</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Place" title="https://w3id.org/def/NyOn#Place">स्थान</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#State" title="https://w3id.org/def/NyOn#State">राज्य</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Taluka" title="https://w3id.org/def/NyOn#Taluka">तालुका</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
@@ -1085,7 +1104,7 @@ This section provides details for each class and property defined by NyOn: A Mul
       <dl class="description">
          <dt>has super-classes</dt>
          <dd>
-            <a href="#https://w3id.org/def/NyOn#Court_Officials" title="https://w3id.org/def/NyOn#Court_Officials">न्यायालय अधिकारि</a>
+            <a href="#https://w3id.org/def/NyOn#Court_Official" title="https://w3id.org/def/NyOn#Court_Official">न्यायालय अधिकारि</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
          <dt>is disjoint with</dt>
@@ -1096,13 +1115,13 @@ This section provides details for each class and property defined by NyOn: A Mul
          </dd>
       </dl>
    </div>
-   <div class="entity" id="https://w3id.org/def/NyOn#Court_Officials">
+   <div class="entity" id="https://w3id.org/def/NyOn#Court_Official">
       <h3>न्यायालय अधिकारि<sup class="type-c" title="class">c</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
          </span>
       </h3>
       <p>
-         <strong>IRI:</strong> https://w3id.org/def/NyOn#Court_Officials</p>
+         <strong>IRI:</strong> https://w3id.org/def/NyOn#Court_Official</p>
       <div class="comment">
          <span class="markdown">एक मामले में अदालत के अधिकारी शामिल हैं</span>
       </div>
@@ -1116,7 +1135,7 @@ This section provides details for each class and property defined by NyOn: A Mul
          </dd>
          <dt>is in range of</dt>
          <dd>
-            <a href="#https://w3id.org/def/NyOn#hasLegalParticipants" title="https://w3id.org/def/NyOn#hasLegalParticipants">hasLegalParticipants</a>
+            <a href="#https://w3id.org/def/NyOn#hasCourtOfficial" title="https://w3id.org/def/NyOn#hasCourtOfficial">hasCourtOfficial</a>
             <sup class="type-op" title="object property">op</sup>
          </dd>
          <dt>is disjoint with</dt>
@@ -1132,7 +1151,7 @@ This section provides details for each class and property defined by NyOn: A Mul
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Evidence" title="https://w3id.org/def/NyOn#Evidence">सबूत</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Jurisdiction" title="https://w3id.org/def/NyOn#Jurisdiction">क्षेत्राधिकार</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Location" title="https://w3id.org/def/NyOn#Location">स्थान</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Parties" title="https://w3id.org/def/NyOn#Parties">दलों</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Party" title="https://w3id.org/def/NyOn#Party">दलों</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Party_Type" title="https://w3id.org/def/NyOn#Party_Type">पार्टी प्रकार</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Precedent_Case" title="https://w3id.org/def/NyOn#Precedent_Case">पूर्ववर्ती मामला</a>
             <sup class="type-c" title="class">c</sup>
@@ -1154,11 +1173,6 @@ This section provides details for each class and property defined by NyOn: A Mul
          <dd>
             <a href="#https://w3id.org/def/NyOn#Documents" title="https://w3id.org/def/NyOn#Documents">दस्तावेज़</a>
             <sup class="type-c" title="class">c</sup>
-         </dd>
-         <dt>is in range of</dt>
-         <dd>
-            <a href="#https://w3id.org/def/NyOn#documentType" title="https://w3id.org/def/NyOn#documentType">documentType</a>
-            <sup class="type-op" title="object property">op</sup>
          </dd>
          <dt>is disjoint with</dt>
          <dd>
@@ -1241,16 +1255,16 @@ This section provides details for each class and property defined by NyOn: A Mul
       <dl class="description">
          <dt>has sub-classes</dt>
          <dd>
-            <a href="#https://w3id.org/def/NyOn#State" title="https://w3id.org/def/NyOn#State">राज्य</a>
+            <a href="#https://schema.org/State" title="https://schema.org/State">राज्य</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Individual" title="https://w3id.org/def/NyOn#Individual">व्यक्ति</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Organization" title="https://w3id.org/def/NyOn#Organization">संगठन</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#https://schema.org/Organization" title="https://schema.org/Organization">संगठन</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Group" title="https://w3id.org/def/NyOn#Group">समूह</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Government" title="https://w3id.org/def/NyOn#Government">सरकार</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
          <dt>is in range of</dt>
          <dd>
-            <a href="#https://w3id.org/def/NyOn#hasParticipantType" title="https://w3id.org/def/NyOn#hasParticipantType">hasParticipantType</a>
+            <a href="#https://w3id.org/def/NyOn#hasPartyType" title="https://w3id.org/def/NyOn#hasPartyType">hasPartyType</a>
             <sup class="type-op" title="object property">op</sup>
          </dd>
          <dt>is disjoint with</dt>
@@ -1261,13 +1275,13 @@ This section provides details for each class and property defined by NyOn: A Mul
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Case" title="https://w3id.org/def/NyOn#Case">मामला</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Case_Type" title="https://w3id.org/def/NyOn#Case_Type">मामले का प्रकार</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Court_Decision" title="https://w3id.org/def/NyOn#Court_Decision">अदालत का निर्णय</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Court_Officials" title="https://w3id.org/def/NyOn#Court_Officials">न्यायालय अधिकारि</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Court_Official" title="https://w3id.org/def/NyOn#Court_Official">न्यायालय अधिकारि</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Courts" title="https://w3id.org/def/NyOn#Courts">अदालत</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Documents" title="https://w3id.org/def/NyOn#Documents">दस्तावेज़</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Evidence" title="https://w3id.org/def/NyOn#Evidence">सबूत</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Jurisdiction" title="https://w3id.org/def/NyOn#Jurisdiction">क्षेत्राधिकार</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Location" title="https://w3id.org/def/NyOn#Location">स्थान</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Parties" title="https://w3id.org/def/NyOn#Parties">दलों</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Party" title="https://w3id.org/def/NyOn#Party">दलों</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Precedent_Case" title="https://w3id.org/def/NyOn#Precedent_Case">पूर्ववर्ती मामला</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
@@ -1302,13 +1316,13 @@ This section provides details for each class and property defined by NyOn: A Mul
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Case" title="https://w3id.org/def/NyOn#Case">मामला</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Case_Type" title="https://w3id.org/def/NyOn#Case_Type">मामले का प्रकार</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Court_Decision" title="https://w3id.org/def/NyOn#Court_Decision">अदालत का निर्णय</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Court_Officials" title="https://w3id.org/def/NyOn#Court_Officials">न्यायालय अधिकारि</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Court_Official" title="https://w3id.org/def/NyOn#Court_Official">न्यायालय अधिकारि</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Courts" title="https://w3id.org/def/NyOn#Courts">अदालत</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Documents" title="https://w3id.org/def/NyOn#Documents">दस्तावेज़</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Evidence" title="https://w3id.org/def/NyOn#Evidence">सबूत</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Jurisdiction" title="https://w3id.org/def/NyOn#Jurisdiction">क्षेत्राधिकार</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Location" title="https://w3id.org/def/NyOn#Location">स्थान</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Parties" title="https://w3id.org/def/NyOn#Parties">दलों</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Party" title="https://w3id.org/def/NyOn#Party">दलों</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Party_Type" title="https://w3id.org/def/NyOn#Party_Type">पार्टी प्रकार</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
@@ -1327,7 +1341,7 @@ This section provides details for each class and property defined by NyOn: A Mul
       <dl class="description">
          <dt>has super-classes</dt>
          <dd>
-            <a href="#https://w3id.org/def/NyOn#Parties" title="https://w3id.org/def/NyOn#Parties">दलों</a>
+            <a href="#https://w3id.org/def/NyOn#Party" title="https://w3id.org/def/NyOn#Party">दलों</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
          <dt>is disjoint with</dt>
@@ -1445,13 +1459,13 @@ This section provides details for each class and property defined by NyOn: A Mul
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Case" title="https://w3id.org/def/NyOn#Case">मामला</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Case_Type" title="https://w3id.org/def/NyOn#Case_Type">मामले का प्रकार</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Court_Decision" title="https://w3id.org/def/NyOn#Court_Decision">अदालत का निर्णय</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Court_Officials" title="https://w3id.org/def/NyOn#Court_Officials">न्यायालय अधिकारि</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Court_Official" title="https://w3id.org/def/NyOn#Court_Official">न्यायालय अधिकारि</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Courts" title="https://w3id.org/def/NyOn#Courts">अदालत</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Documents" title="https://w3id.org/def/NyOn#Documents">दस्तावेज़</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Evidence" title="https://w3id.org/def/NyOn#Evidence">सबूत</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Jurisdiction" title="https://w3id.org/def/NyOn#Jurisdiction">क्षेत्राधिकार</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Location" title="https://w3id.org/def/NyOn#Location">स्थान</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Parties" title="https://w3id.org/def/NyOn#Parties">दलों</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Party" title="https://w3id.org/def/NyOn#Party">दलों</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Party_Type" title="https://w3id.org/def/NyOn#Party_Type">पार्टी प्रकार</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Precedent_Case" title="https://w3id.org/def/NyOn#Precedent_Case">पूर्ववर्ती मामला</a>
             <sup class="type-c" title="class">c</sup>
@@ -1473,19 +1487,18 @@ This section provides details for each class and property defined by NyOn: A Mul
          <dd>
             <a href="#https://w3id.org/def/NyOn#caseBelongsToType" title="https://w3id.org/def/NyOn#caseBelongsToType">caseBelongsToType</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/def/NyOn#documentType" title="https://w3id.org/def/NyOn#documentType">documentType</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/def/NyOn#hasWitness" title="https://w3id.org/def/NyOn#hasWitness">has witness</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/def/NyOn#hasActs" title="https://w3id.org/def/NyOn#hasActs">hasActs</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/def/NyOn#hasActs" title="https://w3id.org/def/NyOn#hasActs">hasAct</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/def/NyOn#hasAuthor" title="https://w3id.org/def/NyOn#hasAuthor">hasAuthor</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/def/NyOn#hasBench" title="https://w3id.org/def/NyOn#hasBench">hasBench</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/def/NyOn#hasCaseName" title="https://w3id.org/def/NyOn#hasCaseName">hasCaseName</a>
             <sup class="type-dp" title="data property">dp</sup>, <a href="#https://w3id.org/def/NyOn#hasCaseNumber" title="https://w3id.org/def/NyOn#hasCaseNumber">hasCaseNumber</a>
-            <sup class="type-dp" title="data property">dp</sup>, <a href="#https://w3id.org/def/NyOn#hasCourtDecision" title="https://w3id.org/def/NyOn#hasCourtDecision">hasCourtDecision</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/def/NyOn#hasCourts" title="https://w3id.org/def/NyOn#hasCourts">hasCourts</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/def/NyOn#hasEvidences" title="https://w3id.org/def/NyOn#hasEvidences">hasEvidences</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/def/NyOn#hasLegalParticipants" title="https://w3id.org/def/NyOn#hasLegalParticipants">hasLegalParticipants</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/def/NyOn#hasNonLegalParticipants"
-               title="https://w3id.org/def/NyOn#hasNonLegalParticipants">hasNonLegalParticipants</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#https://w3id.org/def/NyOn#hasCourts" title="https://w3id.org/def/NyOn#hasCourts">hasCourt</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/def/NyOn#hasCourtDecision" title="https://w3id.org/def/NyOn#hasCourtDecision">hasCourtDecision</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/def/NyOn#hasCourtOfficial" title="https://w3id.org/def/NyOn#hasCourtOfficial">hasCourtOfficial</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/def/NyOn#hasEvidences" title="https://w3id.org/def/NyOn#hasEvidences">hasEvidence</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/def/NyOn#hasParty" title="https://w3id.org/def/NyOn#hasParty">hasParty</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/def/NyOn#hasPrecedentCase" title="https://w3id.org/def/NyOn#hasPrecedentCase">hasPrecedentCase</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/def/NyOn#hasWitness" title="https://w3id.org/def/NyOn#hasWitness">hasWitness</a>
             <sup class="type-op" title="object property">op</sup>
          </dd>
          <dt>is in range of</dt>
@@ -1500,13 +1513,13 @@ This section provides details for each class and property defined by NyOn: A Mul
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Bench" title="https://w3id.org/def/NyOn#Bench">बेंच</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Case_Type" title="https://w3id.org/def/NyOn#Case_Type">मामले का प्रकार</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Court_Decision" title="https://w3id.org/def/NyOn#Court_Decision">अदालत का निर्णय</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Court_Officials" title="https://w3id.org/def/NyOn#Court_Officials">न्यायालय अधिकारि</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Court_Official" title="https://w3id.org/def/NyOn#Court_Official">न्यायालय अधिकारि</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Courts" title="https://w3id.org/def/NyOn#Courts">अदालत</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Documents" title="https://w3id.org/def/NyOn#Documents">दस्तावेज़</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Evidence" title="https://w3id.org/def/NyOn#Evidence">सबूत</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Jurisdiction" title="https://w3id.org/def/NyOn#Jurisdiction">क्षेत्राधिकार</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Location" title="https://w3id.org/def/NyOn#Location">स्थान</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Parties" title="https://w3id.org/def/NyOn#Parties">दलों</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Party" title="https://w3id.org/def/NyOn#Party">दलों</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Party_Type" title="https://w3id.org/def/NyOn#Party_Type">पार्टी प्रकार</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Precedent_Case" title="https://w3id.org/def/NyOn#Precedent_Case">पूर्ववर्ती मामला</a>
             <sup class="type-c" title="class">c</sup>
@@ -1544,13 +1557,13 @@ This section provides details for each class and property defined by NyOn: A Mul
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Bench" title="https://w3id.org/def/NyOn#Bench">बेंच</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Case" title="https://w3id.org/def/NyOn#Case">मामला</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Court_Decision" title="https://w3id.org/def/NyOn#Court_Decision">अदालत का निर्णय</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Court_Officials" title="https://w3id.org/def/NyOn#Court_Officials">न्यायालय अधिकारि</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Court_Official" title="https://w3id.org/def/NyOn#Court_Official">न्यायालय अधिकारि</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Courts" title="https://w3id.org/def/NyOn#Courts">अदालत</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Documents" title="https://w3id.org/def/NyOn#Documents">दस्तावेज़</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Evidence" title="https://w3id.org/def/NyOn#Evidence">सबूत</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Jurisdiction" title="https://w3id.org/def/NyOn#Jurisdiction">क्षेत्राधिकार</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Location" title="https://w3id.org/def/NyOn#Location">स्थान</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Parties" title="https://w3id.org/def/NyOn#Parties">दलों</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Party" title="https://w3id.org/def/NyOn#Party">दलों</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Party_Type" title="https://w3id.org/def/NyOn#Party_Type">पार्टी प्रकार</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Precedent_Case" title="https://w3id.org/def/NyOn#Precedent_Case">पूर्ववर्ती मामला</a>
             <sup class="type-c" title="class">c</sup>
@@ -1630,12 +1643,6 @@ This section provides details for each class and property defined by NyOn: A Mul
          <dd>
             <a href="#https://w3id.org/def/NyOn#Jurisdiction" title="https://w3id.org/def/NyOn#Jurisdiction">क्षेत्राधिकार</a>
             <sup class="type-c" title="class">c</sup>
-         </dd>
-         <dt>is in range of</dt>
-         <dd>
-            <a href="#https://w3id.org/def/NyOn#hasOriginalJurisdiction"
-               title="https://w3id.org/def/NyOn#hasOriginalJurisdiction">hasOriginalJurisdiction</a>
-            <sup class="type-op" title="object property">op</sup>
          </dd>
          <dt>is disjoint with</dt>
          <dd>
@@ -1732,7 +1739,7 @@ This section provides details for each class and property defined by NyOn: A Mul
       <dl class="description">
          <dt>has super-classes</dt>
          <dd>
-            <a href="#https://w3id.org/def/NyOn#Parties" title="https://w3id.org/def/NyOn#Parties">दलों</a>
+            <a href="#https://w3id.org/def/NyOn#Party" title="https://w3id.org/def/NyOn#Party">दलों</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
          <dt>is disjoint with</dt>
@@ -1746,13 +1753,13 @@ This section provides details for each class and property defined by NyOn: A Mul
          </dd>
       </dl>
    </div>
-   <div class="entity" id="https://w3id.org/def/NyOn#State">
+   <div class="entity" id="https://schema.org/State">
       <h3>राज्य<sup class="type-c" title="class">c</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
          </span>
       </h3>
       <p>
-         <strong>IRI:</strong> https://w3id.org/def/NyOn#State</p>
+         <strong>IRI:</strong> https://schema.org/State</p>
       <div class="comment">
          <span class="markdown">राज्य का नाम / स्थान का प्रतिनिधित्व करता है</span>
       </div>
@@ -1770,14 +1777,14 @@ This section provides details for each class and property defined by NyOn: A Mul
          </dd>
          <dt>is disjoint with</dt>
          <dd>
-            <a href="#https://w3id.org/def/NyOn#Country" title="https://w3id.org/def/NyOn#Country">देश</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#District" title="https://w3id.org/def/NyOn#District">जिला</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Place" title="https://w3id.org/def/NyOn#Place">स्थान</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Taluka" title="https://w3id.org/def/NyOn#Taluka">तालुका</a>
+            <a href="#https://schema.org/Organization" title="https://schema.org/Organization">संगठन</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Government" title="https://w3id.org/def/NyOn#Government">सरकार</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Group" title="https://w3id.org/def/NyOn#Group">समूह</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Individual" title="https://w3id.org/def/NyOn#Individual">व्यक्ति</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Organization" title="https://w3id.org/def/NyOn#Organization">संगठन</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Country" title="https://w3id.org/def/NyOn#Country">देश</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#District" title="https://w3id.org/def/NyOn#District">जिला</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Place" title="https://w3id.org/def/NyOn#Place">स्थान</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Taluka" title="https://w3id.org/def/NyOn#Taluka">तालुका</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
@@ -1823,13 +1830,13 @@ This section provides details for each class and property defined by NyOn: A Mul
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Case" title="https://w3id.org/def/NyOn#Case">मामला</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Case_Type" title="https://w3id.org/def/NyOn#Case_Type">मामले का प्रकार</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Court_Decision" title="https://w3id.org/def/NyOn#Court_Decision">अदालत का निर्णय</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Court_Officials" title="https://w3id.org/def/NyOn#Court_Officials">न्यायालय अधिकारि</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Court_Official" title="https://w3id.org/def/NyOn#Court_Official">न्यायालय अधिकारि</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Courts" title="https://w3id.org/def/NyOn#Courts">अदालत</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Documents" title="https://w3id.org/def/NyOn#Documents">दस्तावेज़</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Evidence" title="https://w3id.org/def/NyOn#Evidence">सबूत</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Jurisdiction" title="https://w3id.org/def/NyOn#Jurisdiction">क्षेत्राधिकार</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Location" title="https://w3id.org/def/NyOn#Location">स्थान</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Parties" title="https://w3id.org/def/NyOn#Parties">दलों</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Party" title="https://w3id.org/def/NyOn#Party">दलों</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Party_Type" title="https://w3id.org/def/NyOn#Party_Type">पार्टी प्रकार</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Precedent_Case" title="https://w3id.org/def/NyOn#Precedent_Case">पूर्ववर्ती मामला</a>
             <sup class="type-c" title="class">c</sup>
@@ -1849,7 +1856,7 @@ This section provides details for each class and property defined by NyOn: A Mul
       <dl class="description">
          <dt>has super-classes</dt>
          <dd>
-            <a href="#https://w3id.org/def/NyOn#Court_Officials" title="https://w3id.org/def/NyOn#Court_Officials">न्यायालय अधिकारि</a>
+            <a href="#https://w3id.org/def/NyOn#Court_Official" title="https://w3id.org/def/NyOn#Court_Official">न्यायालय अधिकारि</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
          <dt>is disjoint with</dt>
@@ -1873,7 +1880,7 @@ This section provides details for each class and property defined by NyOn: A Mul
       <dl class="description">
          <dt>has super-classes</dt>
          <dd>
-            <a href="#https://w3id.org/def/NyOn#Parties" title="https://w3id.org/def/NyOn#Parties">दलों</a>
+            <a href="#https://w3id.org/def/NyOn#Party" title="https://w3id.org/def/NyOn#Party">दलों</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
          <dt>is disjoint with</dt>
@@ -1921,33 +1928,23 @@ This section provides details for each class and property defined by NyOn: A Mul
             <a href="#https://w3id.org/def/NyOn#Party_Type" title="https://w3id.org/def/NyOn#Party_Type">पार्टी प्रकार</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
-         <dt>is in domain of</dt>
-         <dd>
-            <a href="#https://w3id.org/def/NyOn#individualName" title="https://w3id.org/def/NyOn#individualName">individualName</a>
-            <sup class="type-dp" title="data property">dp</sup>
-         </dd>
-         <dt>is in range of</dt>
-         <dd>
-            <a href="#https://w3id.org/def/NyOn#hasIndividual" title="https://w3id.org/def/NyOn#hasIndividual">hasIndividuals</a>
-            <sup class="type-op" title="object property">op</sup>
-         </dd>
          <dt>is disjoint with</dt>
          <dd>
-            <a href="#https://w3id.org/def/NyOn#Government" title="https://w3id.org/def/NyOn#Government">सरकार</a>
+            <a href="#https://schema.org/Organization" title="https://schema.org/Organization">संगठन</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#https://schema.org/State" title="https://schema.org/State">राज्य</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Government" title="https://w3id.org/def/NyOn#Government">सरकार</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Group" title="https://w3id.org/def/NyOn#Group">समूह</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Organization" title="https://w3id.org/def/NyOn#Organization">संगठन</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#State" title="https://w3id.org/def/NyOn#State">राज्य</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
    </div>
-   <div class="entity" id="https://w3id.org/def/NyOn#Organization">
+   <div class="entity" id="https://schema.org/Organization">
       <h3>संगठन<sup class="type-c" title="class">c</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
          </span>
       </h3>
       <p>
-         <strong>IRI:</strong> https://w3id.org/def/NyOn#Organization</p>
+         <strong>IRI:</strong> https://schema.org/Organization</p>
       <div class="comment">
          <span class="markdown">संगठन (ओं) मामले में प्रतिभागी के रूप में शामिल है</span>
       </div>
@@ -1964,10 +1961,10 @@ This section provides details for each class and property defined by NyOn: A Mul
          </dd>
          <dt>is disjoint with</dt>
          <dd>
-            <a href="#https://w3id.org/def/NyOn#Government" title="https://w3id.org/def/NyOn#Government">सरकार</a>
+            <a href="#https://schema.org/State" title="https://schema.org/State">राज्य</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Government" title="https://w3id.org/def/NyOn#Government">सरकार</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Group" title="https://w3id.org/def/NyOn#Group">समूह</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Individual" title="https://w3id.org/def/NyOn#Individual">व्यक्ति</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#State" title="https://w3id.org/def/NyOn#State">राज्य</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
@@ -2020,7 +2017,7 @@ This section provides details for each class and property defined by NyOn: A Mul
          </dd>
          <dt>is in range of</dt>
          <dd>
-            <a href="#https://w3id.org/def/NyOn#hasEvidences" title="https://w3id.org/def/NyOn#hasEvidences">hasEvidences</a>
+            <a href="#https://w3id.org/def/NyOn#hasEvidences" title="https://w3id.org/def/NyOn#hasEvidences">hasEvidence</a>
             <sup class="type-op" title="object property">op</sup>
          </dd>
          <dt>is disjoint with</dt>
@@ -2031,12 +2028,12 @@ This section provides details for each class and property defined by NyOn: A Mul
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Case" title="https://w3id.org/def/NyOn#Case">मामला</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Case_Type" title="https://w3id.org/def/NyOn#Case_Type">मामले का प्रकार</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Court_Decision" title="https://w3id.org/def/NyOn#Court_Decision">अदालत का निर्णय</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Court_Officials" title="https://w3id.org/def/NyOn#Court_Officials">न्यायालय अधिकारि</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Court_Official" title="https://w3id.org/def/NyOn#Court_Official">न्यायालय अधिकारि</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Courts" title="https://w3id.org/def/NyOn#Courts">अदालत</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Documents" title="https://w3id.org/def/NyOn#Documents">दस्तावेज़</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Jurisdiction" title="https://w3id.org/def/NyOn#Jurisdiction">क्षेत्राधिकार</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Location" title="https://w3id.org/def/NyOn#Location">स्थान</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Parties" title="https://w3id.org/def/NyOn#Parties">दलों</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Party" title="https://w3id.org/def/NyOn#Party">दलों</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Party_Type" title="https://w3id.org/def/NyOn#Party_Type">पार्टी प्रकार</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Precedent_Case" title="https://w3id.org/def/NyOn#Precedent_Case">पूर्ववर्ती मामला</a>
             <sup class="type-c" title="class">c</sup>
@@ -2058,11 +2055,6 @@ This section provides details for each class and property defined by NyOn: A Mul
          <dd>
             <a href="#https://w3id.org/def/NyOn#Jurisdiction" title="https://w3id.org/def/NyOn#Jurisdiction">क्षेत्राधिकार</a>
             <sup class="type-c" title="class">c</sup>
-         </dd>
-         <dt>is in range of</dt>
-         <dd>
-            <a href="#https://w3id.org/def/NyOn#hasReviewJurisdiction" title="https://w3id.org/def/NyOn#hasReviewJurisdiction">hasReviewJurisdiction</a>
-            <sup class="type-op" title="object property">op</sup>
          </dd>
          <dt>is disjoint with</dt>
          <dd>
@@ -2089,17 +2081,12 @@ This section provides details for each class and property defined by NyOn: A Mul
             <a href="#https://w3id.org/def/NyOn#Party_Type" title="https://w3id.org/def/NyOn#Party_Type">पार्टी प्रकार</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
-         <dt>is in domain of</dt>
-         <dd>
-            <a href="#https://w3id.org/def/NyOn#hasIndividual" title="https://w3id.org/def/NyOn#hasIndividual">hasIndividuals</a>
-            <sup class="type-op" title="object property">op</sup>
-         </dd>
          <dt>is disjoint with</dt>
          <dd>
-            <a href="#https://w3id.org/def/NyOn#Government" title="https://w3id.org/def/NyOn#Government">सरकार</a>
+            <a href="#https://schema.org/Organization" title="https://schema.org/Organization">संगठन</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#https://schema.org/State" title="https://schema.org/State">राज्य</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Government" title="https://w3id.org/def/NyOn#Government">सरकार</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Individual" title="https://w3id.org/def/NyOn#Individual">व्यक्ति</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Organization" title="https://w3id.org/def/NyOn#Organization">संगठन</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#State" title="https://w3id.org/def/NyOn#State">राज्य</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
@@ -2127,10 +2114,10 @@ This section provides details for each class and property defined by NyOn: A Mul
          </dd>
          <dt>is disjoint with</dt>
          <dd>
-            <a href="#https://w3id.org/def/NyOn#Group" title="https://w3id.org/def/NyOn#Group">समूह</a>
+            <a href="#https://schema.org/Organization" title="https://schema.org/Organization">संगठन</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#https://schema.org/State" title="https://schema.org/State">राज्य</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Group" title="https://w3id.org/def/NyOn#Group">समूह</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Individual" title="https://w3id.org/def/NyOn#Individual">व्यक्ति</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Organization" title="https://w3id.org/def/NyOn#Organization">संगठन</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#State" title="https://w3id.org/def/NyOn#State">राज्य</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
@@ -2151,17 +2138,6 @@ This section provides details for each class and property defined by NyOn: A Mul
             <a href="#https://w3id.org/def/NyOn#Courts" title="https://w3id.org/def/NyOn#Courts">अदालत</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
-         <dt>is in domain of</dt>
-         <dd>
-            <a href="#https://w3id.org/def/NyOn#hasAdvisoryJurisdiction"
-               title="https://w3id.org/def/NyOn#hasAdvisoryJurisdiction">hasAdvisoryJurisdiction</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/def/NyOn#hasAppellantJurisdiction"
-               title="https://w3id.org/def/NyOn#hasAppellantJurisdiction">hasAppellantJurisdiction</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/def/NyOn#hasOriginalJurisdiction"
-               title="https://w3id.org/def/NyOn#hasOriginalJurisdiction">hasOriginalJurisdiction</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/def/NyOn#hasReviewJurisdiction" title="https://w3id.org/def/NyOn#hasReviewJurisdiction">hasReviewJurisdiction</a>
-            <sup class="type-op" title="object property">op</sup>
-         </dd>
       </dl>
    </div>
    <div class="entity" id="https://w3id.org/def/NyOn#Advisory_Jurisdiction">
@@ -2179,12 +2155,6 @@ This section provides details for each class and property defined by NyOn: A Mul
          <dd>
             <a href="#https://w3id.org/def/NyOn#Jurisdiction" title="https://w3id.org/def/NyOn#Jurisdiction">क्षेत्राधिकार</a>
             <sup class="type-c" title="class">c</sup>
-         </dd>
-         <dt>is in range of</dt>
-         <dd>
-            <a href="#https://w3id.org/def/NyOn#hasAdvisoryJurisdiction"
-               title="https://w3id.org/def/NyOn#hasAdvisoryJurisdiction">hasAdvisoryJurisdiction</a>
-            <sup class="type-op" title="object property">op</sup>
          </dd>
          <dt>is disjoint with</dt>
          <dd>
@@ -2213,7 +2183,7 @@ This section provides details for each class and property defined by NyOn: A Mul
          </dd>
          <dt>is in range of</dt>
          <dd>
-            <a href="#https://w3id.org/def/NyOn#hasWitness" title="https://w3id.org/def/NyOn#hasWitness">has witness</a>
+            <a href="#https://w3id.org/def/NyOn#hasWitness" title="https://w3id.org/def/NyOn#hasWitness">hasWitness</a>
             <sup class="type-op" title="object property">op</sup>
          </dd>
          <dt>is disjoint with</dt>
@@ -2272,7 +2242,7 @@ This section provides details for each class and property defined by NyOn: A Mul
             <a href="#https://w3id.org/def/NyOn#District" title="https://w3id.org/def/NyOn#District">जिला</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Taluka" title="https://w3id.org/def/NyOn#Taluka">तालुका</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Country" title="https://w3id.org/def/NyOn#Country">देश</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#State" title="https://w3id.org/def/NyOn#State">राज्य</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#https://schema.org/State" title="https://schema.org/State">राज्य</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Place" title="https://w3id.org/def/NyOn#Place">स्थान</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
@@ -2289,12 +2259,12 @@ This section provides details for each class and property defined by NyOn: A Mul
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Case" title="https://w3id.org/def/NyOn#Case">मामला</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Case_Type" title="https://w3id.org/def/NyOn#Case_Type">मामले का प्रकार</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Court_Decision" title="https://w3id.org/def/NyOn#Court_Decision">अदालत का निर्णय</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Court_Officials" title="https://w3id.org/def/NyOn#Court_Officials">न्यायालय अधिकारि</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Court_Official" title="https://w3id.org/def/NyOn#Court_Official">न्यायालय अधिकारि</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Courts" title="https://w3id.org/def/NyOn#Courts">अदालत</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Documents" title="https://w3id.org/def/NyOn#Documents">दस्तावेज़</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Evidence" title="https://w3id.org/def/NyOn#Evidence">सबूत</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Jurisdiction" title="https://w3id.org/def/NyOn#Jurisdiction">क्षेत्राधिकार</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Parties" title="https://w3id.org/def/NyOn#Parties">दलों</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Party" title="https://w3id.org/def/NyOn#Party">दलों</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Party_Type" title="https://w3id.org/def/NyOn#Party_Type">पार्टी प्रकार</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Precedent_Case" title="https://w3id.org/def/NyOn#Precedent_Case">पूर्ववर्ती मामला</a>
             <sup class="type-c" title="class">c</sup>
@@ -2324,9 +2294,9 @@ This section provides details for each class and property defined by NyOn: A Mul
          </dd>
          <dt>is disjoint with</dt>
          <dd>
-            <a href="#https://w3id.org/def/NyOn#Country" title="https://w3id.org/def/NyOn#Country">देश</a>
+            <a href="#https://schema.org/State" title="https://schema.org/State">राज्य</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Country" title="https://w3id.org/def/NyOn#Country">देश</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#District" title="https://w3id.org/def/NyOn#District">जिला</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#State" title="https://w3id.org/def/NyOn#State">राज्य</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://w3id.org/def/NyOn#Taluka" title="https://w3id.org/def/NyOn#Taluka">तालुका</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
@@ -2348,14 +2318,6 @@ This section provides details for each class and property defined by NyOn: A Mul
             <a href="#https://w3id.org/def/NyOn#Courts" title="https://w3id.org/def/NyOn#Courts">अदालत</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
-         <dt>is in domain of</dt>
-         <dd>
-            <a href="#https://w3id.org/def/NyOn#hasAppellantJurisdiction"
-               title="https://w3id.org/def/NyOn#hasAppellantJurisdiction">hasAppellantJurisdiction</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="#https://w3id.org/def/NyOn#hasOriginalJurisdiction"
-               title="https://w3id.org/def/NyOn#hasOriginalJurisdiction">hasOriginalJurisdiction</a>
-            <sup class="type-op" title="object property">op</sup>
-         </dd>
       </dl>
    </div>
 </div><div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="objectproperties">
@@ -2368,20 +2330,7 @@ This section provides details for each class and property defined by NyOn: A Mul
          <a href="#https://w3id.org/def/NyOn#documentType" title="https://w3id.org/def/NyOn#documentType">documentType</a>
       </li>
       <li>
-         <a href="#https://w3id.org/def/NyOn#hasWitness" title="https://w3id.org/def/NyOn#hasWitness">
-            <span>has witness</span>
-         </a>
-      </li>
-      <li>
-         <a href="#https://w3id.org/def/NyOn#hasActs" title="https://w3id.org/def/NyOn#hasActs">hasActs</a>
-      </li>
-      <li>
-         <a href="#https://w3id.org/def/NyOn#hasAdvisoryJurisdiction"
-            title="https://w3id.org/def/NyOn#hasAdvisoryJurisdiction">hasAdvisoryJurisdiction</a>
-      </li>
-      <li>
-         <a href="#https://w3id.org/def/NyOn#hasAppellantJurisdiction"
-            title="https://w3id.org/def/NyOn#hasAppellantJurisdiction">hasAppellantJurisdiction</a>
+         <a href="#https://w3id.org/def/NyOn#hasActs" title="https://w3id.org/def/NyOn#hasActs">hasAct</a>
       </li>
       <li>
          <a href="#https://w3id.org/def/NyOn#hasAuthor" title="https://w3id.org/def/NyOn#hasAuthor">hasAuthor</a>
@@ -2390,45 +2339,37 @@ This section provides details for each class and property defined by NyOn: A Mul
          <a href="#https://w3id.org/def/NyOn#hasBench" title="https://w3id.org/def/NyOn#hasBench">hasBench</a>
       </li>
       <li>
+         <a href="#https://w3id.org/def/NyOn#hasCourts" title="https://w3id.org/def/NyOn#hasCourts">hasCourt</a>
+      </li>
+      <li>
          <a href="#https://w3id.org/def/NyOn#hasCourtDecision" title="https://w3id.org/def/NyOn#hasCourtDecision">hasCourtDecision</a>
       </li>
       <li>
-         <a href="#https://w3id.org/def/NyOn#hasCourts" title="https://w3id.org/def/NyOn#hasCourts">hasCourts</a>
+         <a href="#https://w3id.org/def/NyOn#hasCourtOfficial" title="https://w3id.org/def/NyOn#hasCourtOfficial">hasCourtOfficial</a>
+      </li>
+      <li>
+         <a href="#https://w3id.org/def/NyOn#hasEvidences" title="https://w3id.org/def/NyOn#hasEvidences">hasEvidence</a>
       </li>
       <li>
          <a href="#https://w3id.org/def/NyOn#hasEvidenceLocation" title="https://w3id.org/def/NyOn#hasEvidenceLocation">hasEvidenceLocation</a>
       </li>
       <li>
-         <a href="#https://w3id.org/def/NyOn#hasEvidences" title="https://w3id.org/def/NyOn#hasEvidences">hasEvidences</a>
-      </li>
-      <li>
-         <a href="#https://w3id.org/def/NyOn#hasIndividual" title="https://w3id.org/def/NyOn#hasIndividual">hasIndividuals</a>
-      </li>
-      <li>
-         <a href="#https://w3id.org/def/NyOn#hasLegalParticipants" title="https://w3id.org/def/NyOn#hasLegalParticipants">hasLegalParticipants</a>
+         <a href="#https://w3id.org/def/NyOn#hasJurisdiction" title="https://w3id.org/def/NyOn#hasJurisdiction">hasJurisdiction</a>
       </li>
       <li>
          <a href="#https://w3id.org/def/NyOn#hasLocation" title="https://w3id.org/def/NyOn#hasLocation">hasLocation</a>
       </li>
       <li>
-         <a href="#https://w3id.org/def/NyOn#hasNonLegalParticipants"
-            title="https://w3id.org/def/NyOn#hasNonLegalParticipants">hasNonLegalParticipants</a>
+         <a href="#https://w3id.org/def/NyOn#hasParty" title="https://w3id.org/def/NyOn#hasParty">hasParty</a>
       </li>
       <li>
-         <a href="#https://w3id.org/def/NyOn#hasOriginalJurisdiction"
-            title="https://w3id.org/def/NyOn#hasOriginalJurisdiction">hasOriginalJurisdiction</a>
-      </li>
-      <li>
-         <a href="#https://w3id.org/def/NyOn#hasParticipantType" title="https://w3id.org/def/NyOn#hasParticipantType">hasParticipantType</a>
+         <a href="#https://w3id.org/def/NyOn#hasPartyType" title="https://w3id.org/def/NyOn#hasPartyType">hasPartyType</a>
       </li>
       <li>
          <a href="#https://w3id.org/def/NyOn#hasPrecedentCase" title="https://w3id.org/def/NyOn#hasPrecedentCase">hasPrecedentCase</a>
       </li>
       <li>
-         <a href="#https://w3id.org/def/NyOn#hasReviewJurisdiction" title="https://w3id.org/def/NyOn#hasReviewJurisdiction">hasReviewJurisdiction</a>
-      </li>
-      <li>
-         <a href="#https://w3id.org/def/NyOn#hasWritJurisdiction" title="https://w3id.org/def/NyOn#hasWritJurisdiction">hasWritJurisdiction</a>
+         <a href="#https://w3id.org/def/NyOn#hasWitness" title="https://w3id.org/def/NyOn#hasWitness">hasWitness</a>
       </li>
       <li>
          <a href="#https://w3id.org/def/NyOn#isACase" title="https://w3id.org/def/NyOn#isACase">refers</a>
@@ -2490,36 +2431,14 @@ This section provides details for each class and property defined by NyOn: A Mul
             </dd>
             <dt>has range</dt>
             <dd>
-               <a href="#https://w3id.org/def/NyOn#Court_Judgements" title="https://w3id.org/def/NyOn#Court_Judgements">न्यायालय निर्णय</a>
-               <sup class="type-c" title="class">c</sup>
-            </dd>
-         </dl>
-      </div>
-   </div>
-   <div class="entity" id="https://w3id.org/def/NyOn#hasWitness">
-      <h3>has witness<sup class="type-op" title="object property">op</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> https://w3id.org/def/NyOn#hasWitness</p>
-      <div class="description">
-         <dl>
-            <dt>has domain</dt>
-            <dd>
-               <a href="#https://w3id.org/def/NyOn#Case" title="https://w3id.org/def/NyOn#Case">मामला</a>
-               <sup class="type-c" title="class">c</sup>
-            </dd>
-            <dt>has range</dt>
-            <dd>
-               <a href="#https://w3id.org/def/NyOn#Witness" title="https://w3id.org/def/NyOn#Witness">साक्षी</a>
+               <a href="#https://w3id.org/def/NyOn#Documents" title="https://w3id.org/def/NyOn#Documents">दस्तावेज़</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
          </dl>
       </div>
    </div>
    <div class="entity" id="https://w3id.org/def/NyOn#hasActs">
-      <h3>hasActs<sup class="type-op" title="object property">op</sup>
+      <h3>hasAct<sup class="type-op" title="object property">op</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
          </span>
       </h3>
@@ -2544,72 +2463,6 @@ This section provides details for each class and property defined by NyOn: A Mul
             <dt>has range</dt>
             <dd>
                <a href="#https://w3id.org/def/NyOn#Acts" title="https://w3id.org/def/NyOn#Acts">अधिनियम</a>
-               <sup class="type-c" title="class">c</sup>
-            </dd>
-         </dl>
-      </div>
-   </div>
-   <div class="entity" id="https://w3id.org/def/NyOn#hasAdvisoryJurisdiction">
-      <h3>hasAdvisoryJurisdiction<sup class="type-op" title="object property">op</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> https://w3id.org/def/NyOn#hasAdvisoryJurisdiction</p>
-      <div class="comment">
-         <span class="markdown">property justifies that the jurisdiction of the court is the advisory jurisdiction</span>
-      </div>
-      <div class="description">
-         <dl>
-            <dt>has super-properties</dt>
-            <dd>
-               <a href="http://www.w3.org/2002/07/owl#topObjectProperty"
-                  target="_blank"
-                  title="http://www.w3.org/2002/07/owl#topObjectProperty">top object property</a>
-            </dd>
-            <dt>has domain</dt>
-            <dd>
-               <a href="#https://w3id.org/def/NyOn#Apex_Court" title="https://w3id.org/def/NyOn#Apex_Court">सर्वोच्च न्यायालय</a>
-               <sup class="type-c" title="class">c</sup>
-            </dd>
-            <dt>has range</dt>
-            <dd>
-               <a href="#https://w3id.org/def/NyOn#Advisory_Jurisdiction" title="https://w3id.org/def/NyOn#Advisory_Jurisdiction">सलाहकार क्षेत्राधिकार</a>
-               <sup class="type-c" title="class">c</sup>
-            </dd>
-         </dl>
-      </div>
-   </div>
-   <div class="entity" id="https://w3id.org/def/NyOn#hasAppellantJurisdiction">
-      <h3>hasAppellantJurisdiction<sup class="type-op" title="object property">op</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> https://w3id.org/def/NyOn#hasAppellantJurisdiction</p>
-      <div class="comment">
-         <span class="markdown">property justifies that the jurisdiction of the court is the appellant jurisdiction</span>
-      </div>
-      <div class="description">
-         <dl>
-            <dt>has super-properties</dt>
-            <dd>
-               <a href="http://www.w3.org/2002/07/owl#topObjectProperty"
-                  target="_blank"
-                  title="http://www.w3.org/2002/07/owl#topObjectProperty">top object property</a>
-            </dd>
-            <dt>has domain</dt>
-            <dd>
-               <a href="#https://w3id.org/def/NyOn#Apex_Court" title="https://w3id.org/def/NyOn#Apex_Court">सर्वोच्च न्यायालय</a>
-               <sup class="type-c" title="class">c</sup>
-            </dd>
-            <dd>
-               <a href="#https://w3id.org/def/NyOn#High_Court" title="https://w3id.org/def/NyOn#High_Court">हाईकोर्ट</a>
-               <sup class="type-c" title="class">c</sup>
-            </dd>
-            <dt>has range</dt>
-            <dd>
-               <a href="#https://w3id.org/def/NyOn#Appellant_Jurisdiction" title="https://w3id.org/def/NyOn#Appellant_Jurisdiction">अपीलकारी क्षेत्राधिकार</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
          </dl>
@@ -2677,6 +2530,37 @@ This section provides details for each class and property defined by NyOn: A Mul
          </dl>
       </div>
    </div>
+   <div class="entity" id="https://w3id.org/def/NyOn#hasCourts">
+      <h3>hasCourt<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/def/NyOn#hasCourts</p>
+      <div class="comment">
+         <span class="markdown">specifies the different courts involved in the case</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="http://www.w3.org/2002/07/owl#topObjectProperty"
+                  target="_blank"
+                  title="http://www.w3.org/2002/07/owl#topObjectProperty">top object property</a>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#https://w3id.org/def/NyOn#Case" title="https://w3id.org/def/NyOn#Case">मामला</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#https://w3id.org/def/NyOn#Courts" title="https://w3id.org/def/NyOn#Courts">अदालत</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
    <div class="entity" id="https://w3id.org/def/NyOn#hasCourtDecision">
       <h3>hasCourtDecision<sup class="type-op" title="object property">op</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
@@ -2708,15 +2592,15 @@ This section provides details for each class and property defined by NyOn: A Mul
          </dl>
       </div>
    </div>
-   <div class="entity" id="https://w3id.org/def/NyOn#hasCourts">
-      <h3>hasCourts<sup class="type-op" title="object property">op</sup>
+   <div class="entity" id="https://w3id.org/def/NyOn#hasCourtOfficial">
+      <h3>hasCourtOfficial<sup class="type-op" title="object property">op</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
          </span>
       </h3>
       <p>
-         <strong>IRI:</strong> https://w3id.org/def/NyOn#hasCourts</p>
+         <strong>IRI:</strong> https://w3id.org/def/NyOn#hasCourtOfficial</p>
       <div class="comment">
-         <span class="markdown">property defines the different courts involved in the case</span>
+         <span class="markdown">specifies the court officiaks involved in the case</span>
       </div>
       <div class="description">
          <dl>
@@ -2733,7 +2617,38 @@ This section provides details for each class and property defined by NyOn: A Mul
             </dd>
             <dt>has range</dt>
             <dd>
-               <a href="#https://w3id.org/def/NyOn#Courts" title="https://w3id.org/def/NyOn#Courts">अदालत</a>
+               <a href="#https://w3id.org/def/NyOn#Court_Official" title="https://w3id.org/def/NyOn#Court_Official">न्यायालय अधिकारि</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="https://w3id.org/def/NyOn#hasEvidences">
+      <h3>hasEvidence<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/def/NyOn#hasEvidences</p>
+      <div class="comment">
+         <span class="markdown">proprty represnts the evidences of the case</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="http://www.w3.org/2002/07/owl#topObjectProperty"
+                  target="_blank"
+                  title="http://www.w3.org/2002/07/owl#topObjectProperty">top object property</a>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#https://w3id.org/def/NyOn#Case" title="https://w3id.org/def/NyOn#Case">मामला</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#https://w3id.org/def/NyOn#Evidence" title="https://w3id.org/def/NyOn#Evidence">सबूत</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
          </dl>
@@ -2764,91 +2679,15 @@ This section provides details for each class and property defined by NyOn: A Mul
          </dl>
       </div>
    </div>
-   <div class="entity" id="https://w3id.org/def/NyOn#hasEvidences">
-      <h3>hasEvidences<sup class="type-op" title="object property">op</sup>
+   <div class="entity" id="https://w3id.org/def/NyOn#hasJurisdiction">
+      <h3>hasJurisdiction<sup class="type-op" title="object property">op</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
          </span>
       </h3>
       <p>
-         <strong>IRI:</strong> https://w3id.org/def/NyOn#hasEvidences</p>
+         <strong>IRI:</strong> https://w3id.org/def/NyOn#hasJurisdiction</p>
       <div class="comment">
-         <span class="markdown">proprty represnts the evidences of the case</span>
-      </div>
-      <div class="description">
-         <dl>
-            <dt>has super-properties</dt>
-            <dd>
-               <a href="http://www.w3.org/2002/07/owl#topObjectProperty"
-                  target="_blank"
-                  title="http://www.w3.org/2002/07/owl#topObjectProperty">top object property</a>
-            </dd>
-            <dt>has domain</dt>
-            <dd>
-               <a href="#https://w3id.org/def/NyOn#Case" title="https://w3id.org/def/NyOn#Case">मामला</a>
-               <sup class="type-c" title="class">c</sup>
-            </dd>
-            <dt>has range</dt>
-            <dd>
-               <a href="#https://w3id.org/def/NyOn#Evidence" title="https://w3id.org/def/NyOn#Evidence">सबूत</a>
-               <sup class="type-c" title="class">c</sup>
-            </dd>
-         </dl>
-      </div>
-   </div>
-   <div class="entity" id="https://w3id.org/def/NyOn#hasIndividual">
-      <h3>hasIndividuals<sup class="type-op" title="object property">op</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> https://w3id.org/def/NyOn#hasIndividual</p>
-      <div class="comment">
-         <span class="markdown">represents that the group party of the case includes the individuals</span>
-      </div>
-      <div class="description">
-         <dl>
-            <dt>has domain</dt>
-            <dd>
-               <a href="#https://w3id.org/def/NyOn#Group" title="https://w3id.org/def/NyOn#Group">समूह</a>
-               <sup class="type-c" title="class">c</sup>
-            </dd>
-            <dt>has range</dt>
-            <dd>
-               <a href="#https://w3id.org/def/NyOn#Individual" title="https://w3id.org/def/NyOn#Individual">व्यक्ति</a>
-               <sup class="type-c" title="class">c</sup>
-            </dd>
-         </dl>
-      </div>
-   </div>
-   <div class="entity" id="https://w3id.org/def/NyOn#hasLegalParticipants">
-      <h3>hasLegalParticipants<sup class="type-op" title="object property">op</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> https://w3id.org/def/NyOn#hasLegalParticipants</p>
-      <div class="comment">
-         <span class="markdown">property signifies the legal participants of the case</span>
-      </div>
-      <div class="description">
-         <dl>
-            <dt>has super-properties</dt>
-            <dd>
-               <a href="http://www.w3.org/2002/07/owl#topObjectProperty"
-                  target="_blank"
-                  title="http://www.w3.org/2002/07/owl#topObjectProperty">top object property</a>
-            </dd>
-            <dt>has domain</dt>
-            <dd>
-               <a href="#https://w3id.org/def/NyOn#Case" title="https://w3id.org/def/NyOn#Case">मामला</a>
-               <sup class="type-c" title="class">c</sup>
-            </dd>
-            <dt>has range</dt>
-            <dd>
-               <a href="#https://w3id.org/def/NyOn#Court_Officials" title="https://w3id.org/def/NyOn#Court_Officials">न्यायालय अधिकारि</a>
-               <sup class="type-c" title="class">c</sup>
-            </dd>
-         </dl>
+         <span class="markdown">specifies the jurisdiction the court has for the case</span>
       </div>
    </div>
    <div class="entity" id="https://w3id.org/def/NyOn#hasLocation">
@@ -2876,24 +2715,18 @@ This section provides details for each class and property defined by NyOn: A Mul
          </dl>
       </div>
    </div>
-   <div class="entity" id="https://w3id.org/def/NyOn#hasNonLegalParticipants">
-      <h3>hasNonLegalParticipants<sup class="type-op" title="object property">op</sup>
+   <div class="entity" id="https://w3id.org/def/NyOn#hasParty">
+      <h3>hasParty<sup class="type-op" title="object property">op</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
          </span>
       </h3>
       <p>
-         <strong>IRI:</strong> https://w3id.org/def/NyOn#hasNonLegalParticipants</p>
+         <strong>IRI:</strong> https://w3id.org/def/NyOn#hasParty</p>
       <div class="comment">
-         <span class="markdown">property signifies the non-legal participants of the case</span>
+         <span class="markdown">specifies the party involved in the case</span>
       </div>
       <div class="description">
          <dl>
-            <dt>has super-properties</dt>
-            <dd>
-               <a href="http://www.w3.org/2002/07/owl#topObjectProperty"
-                  target="_blank"
-                  title="http://www.w3.org/2002/07/owl#topObjectProperty">top object property</a>
-            </dd>
             <dt>has domain</dt>
             <dd>
                <a href="#https://w3id.org/def/NyOn#Case" title="https://w3id.org/def/NyOn#Case">मामला</a>
@@ -2901,62 +2734,27 @@ This section provides details for each class and property defined by NyOn: A Mul
             </dd>
             <dt>has range</dt>
             <dd>
-               <a href="#https://w3id.org/def/NyOn#Parties" title="https://w3id.org/def/NyOn#Parties">दलों</a>
+               <a href="#https://w3id.org/def/NyOn#Party" title="https://w3id.org/def/NyOn#Party">दलों</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
          </dl>
       </div>
    </div>
-   <div class="entity" id="https://w3id.org/def/NyOn#hasOriginalJurisdiction">
-      <h3>hasOriginalJurisdiction<sup class="type-op" title="object property">op</sup>
+   <div class="entity" id="https://w3id.org/def/NyOn#hasPartyType">
+      <h3>hasPartyType<sup class="type-op" title="object property">op</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
          </span>
       </h3>
       <p>
-         <strong>IRI:</strong> https://w3id.org/def/NyOn#hasOriginalJurisdiction</p>
+         <strong>IRI:</strong> https://w3id.org/def/NyOn#hasPartyType</p>
       <div class="comment">
-         <span class="markdown">property justifies that the jurisdiction of the court is the original jurisdiction</span>
-      </div>
-      <div class="description">
-         <dl>
-            <dt>has super-properties</dt>
-            <dd>
-               <a href="http://www.w3.org/2002/07/owl#topObjectProperty"
-                  target="_blank"
-                  title="http://www.w3.org/2002/07/owl#topObjectProperty">top object property</a>
-            </dd>
-            <dt>has domain</dt>
-            <dd>
-               <a href="#https://w3id.org/def/NyOn#Apex_Court" title="https://w3id.org/def/NyOn#Apex_Court">सर्वोच्च न्यायालय</a>
-               <sup class="type-c" title="class">c</sup>
-            </dd>
-            <dd>
-               <a href="#https://w3id.org/def/NyOn#High_Court" title="https://w3id.org/def/NyOn#High_Court">हाईकोर्ट</a>
-               <sup class="type-c" title="class">c</sup>
-            </dd>
-            <dt>has range</dt>
-            <dd>
-               <a href="#https://w3id.org/def/NyOn#Original_Jurisdiction" title="https://w3id.org/def/NyOn#Original_Jurisdiction">मूल न्यायाधिकार</a>
-               <sup class="type-c" title="class">c</sup>
-            </dd>
-         </dl>
-      </div>
-   </div>
-   <div class="entity" id="https://w3id.org/def/NyOn#hasParticipantType">
-      <h3>hasParticipantType<sup class="type-op" title="object property">op</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> https://w3id.org/def/NyOn#hasParticipantType</p>
-      <div class="comment">
-         <span class="markdown">property signifies the type of participants or parties of the case</span>
+         <span class="markdown">specifies the type of party being individual, organization, government, state etc.</span>
       </div>
       <div class="description">
          <dl>
             <dt>has domain</dt>
             <dd>
-               <a href="#https://w3id.org/def/NyOn#Parties" title="https://w3id.org/def/NyOn#Parties">दलों</a>
+               <a href="#https://w3id.org/def/NyOn#Party" title="https://w3id.org/def/NyOn#Party">दलों</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
             <dt>has range</dt>
@@ -2998,46 +2796,29 @@ This section provides details for each class and property defined by NyOn: A Mul
          </dl>
       </div>
    </div>
-   <div class="entity" id="https://w3id.org/def/NyOn#hasReviewJurisdiction">
-      <h3>hasReviewJurisdiction<sup class="type-op" title="object property">op</sup>
+   <div class="entity" id="https://w3id.org/def/NyOn#hasWitness">
+      <h3>hasWitness<sup class="type-op" title="object property">op</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
          </span>
       </h3>
       <p>
-         <strong>IRI:</strong> https://w3id.org/def/NyOn#hasReviewJurisdiction</p>
+         <strong>IRI:</strong> https://w3id.org/def/NyOn#hasWitness</p>
       <div class="comment">
-         <span class="markdown">property justifies that the jurisdiction of the court is the review jurisdiction</span>
+         <span class="markdown">specifies the witnesses present in the case</span>
       </div>
       <div class="description">
          <dl>
-            <dt>has super-properties</dt>
-            <dd>
-               <a href="http://www.w3.org/2002/07/owl#topObjectProperty"
-                  target="_blank"
-                  title="http://www.w3.org/2002/07/owl#topObjectProperty">top object property</a>
-            </dd>
             <dt>has domain</dt>
             <dd>
-               <a href="#https://w3id.org/def/NyOn#Apex_Court" title="https://w3id.org/def/NyOn#Apex_Court">सर्वोच्च न्यायालय</a>
+               <a href="#https://w3id.org/def/NyOn#Case" title="https://w3id.org/def/NyOn#Case">मामला</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
             <dt>has range</dt>
             <dd>
-               <a href="#https://w3id.org/def/NyOn#Review_Jurisdiction" title="https://w3id.org/def/NyOn#Review_Jurisdiction">समीक्षा क्षेत्राधिकार</a>
+               <a href="#https://w3id.org/def/NyOn#Witness" title="https://w3id.org/def/NyOn#Witness">साक्षी</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
          </dl>
-      </div>
-   </div>
-   <div class="entity" id="https://w3id.org/def/NyOn#hasWritJurisdiction">
-      <h3>hasWritJurisdiction<sup class="type-op" title="object property">op</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> https://w3id.org/def/NyOn#hasWritJurisdiction</p>
-      <div class="comment">
-         <span class="markdown">property justifies that the jurisdiction of the court is the writ jurisdiction</span>
       </div>
    </div>
    <div class="entity" id="https://w3id.org/def/NyOn#isACase">
@@ -3072,6 +2853,11 @@ This section provides details for each class and property defined by NyOn: A Mul
          <a href="#https://w3id.org/def/NyOn#GovernmentName" title="https://w3id.org/def/NyOn#GovernmentName">governmentName</a>
       </li>
       <li>
+         <a href="#https://w3id.org/def/NyOn#hasName" title="https://w3id.org/def/NyOn#hasName">
+            <span>has name</span>
+         </a>
+      </li>
+      <li>
          <a href="#https://w3id.org/def/NyOn#hasCaseName" title="https://w3id.org/def/NyOn#hasCaseName">hasCaseName</a>
       </li>
       <li>
@@ -3085,9 +2871,6 @@ This section provides details for each class and property defined by NyOn: A Mul
       </li>
       <li>
          <a href="#https://w3id.org/def/NyOn#hasOrder" title="https://w3id.org/def/NyOn#hasOrder">hasOrder</a>
-      </li>
-      <li>
-         <a href="#https://w3id.org/def/NyOn#individualName" title="https://w3id.org/def/NyOn#individualName">individualName</a>
       </li>
       <li>
          <a href="#https://w3id.org/def/NyOn#locatedAt" title="https://w3id.org/def/NyOn#locatedAt">locatedAt</a>
@@ -3125,6 +2908,29 @@ This section provides details for each class and property defined by NyOn: A Mul
             <dt>has domain</dt>
             <dd>
                <a href="#https://w3id.org/def/NyOn#Government" title="https://w3id.org/def/NyOn#Government">सरकार</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#string"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#string">string</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="https://w3id.org/def/NyOn#hasName">
+      <h3>has name<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/def/NyOn#hasName</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#https://w3id.org/def/NyOn#Party" title="https://w3id.org/def/NyOn#Party">दलों</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
             <dt>has range</dt>
@@ -3190,6 +2996,12 @@ This section provides details for each class and property defined by NyOn: A Mul
             <dd>
                <a href="#https://w3id.org/def/NyOn#Case" title="https://w3id.org/def/NyOn#Case">मामला</a>
                <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#string"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#string">string</a>
             </dd>
          </dl>
       </div>
@@ -3290,38 +3102,6 @@ This section provides details for each class and property defined by NyOn: A Mul
          </dl>
       </div>
    </div>
-   <div class="entity" id="https://w3id.org/def/NyOn#individualName">
-      <h3>individualName<sup class="type-dp" title="data property">dp</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> https://w3id.org/def/NyOn#individualName</p>
-      <div class="comment">
-         <span class="markdown">name of the individual or the party</span>
-      </div>
-      <div class="description">
-         <dl>
-            <dt>has super-properties</dt>
-            <dd>
-               <a href="http://www.w3.org/2002/07/owl#topDataProperty"
-                  target="_blank"
-                  title="http://www.w3.org/2002/07/owl#topDataProperty">top data property</a>
-            </dd>
-            <dt>has domain</dt>
-            <dd>
-               <a href="#https://w3id.org/def/NyOn#Individual" title="https://w3id.org/def/NyOn#Individual">व्यक्ति</a>
-               <sup class="type-c" title="class">c</sup>
-            </dd>
-            <dt>has range</dt>
-            <dd>
-               <a href="http://www.w3.org/2001/XMLSchema#string"
-                  target="_blank"
-                  title="http://www.w3.org/2001/XMLSchema#string">string</a>
-            </dd>
-         </dl>
-      </div>
-   </div>
    <div class="entity" id="https://w3id.org/def/NyOn#locatedAt">
       <h3>locatedAt<sup class="type-dp" title="data property">dp</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
@@ -3374,7 +3154,7 @@ This section provides details for each class and property defined by NyOn: A Mul
             </dd>
             <dt>has domain</dt>
             <dd>
-               <a href="#https://w3id.org/def/NyOn#Organization" title="https://w3id.org/def/NyOn#Organization">संगठन</a>
+               <a href="#https://schema.org/Organization" title="https://schema.org/Organization">संगठन</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
             <dt>has range</dt>
@@ -3400,7 +3180,7 @@ This section provides details for each class and property defined by NyOn: A Mul
          <dl>
             <dt>has domain</dt>
             <dd>
-               <a href="#https://w3id.org/def/NyOn#State" title="https://w3id.org/def/NyOn#State">राज्य</a>
+               <a href="#https://schema.org/State" title="https://schema.org/State">राज्य</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
             <dt>has range</dt>
