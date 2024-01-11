@@ -1,0 +1,1814 @@
+<https://w3id.org/def/nyon#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://w3id.org/def/nyon#> <http://purl.org/dc/elements/1.1/publisher> <https://www.semintelligence.org/projects> .
+<https://w3id.org/def/nyon#> <http://purl.org/dc/terms/created> "2020-04-04" .
+<https://w3id.org/def/nyon#> <http://purl.org/dc/terms/creator> "Harde, Pooja" .
+<https://w3id.org/def/nyon#> <http://purl.org/dc/terms/creator> "Jain, Sarika" .
+<https://w3id.org/def/nyon#> <http://purl.org/dc/terms/creator> "Mihindukulasooriya, Nandana" .
+<https://w3id.org/def/nyon#> <http://purl.org/dc/terms/description> "An ontology that represents concepts in the legal domain."@en .
+<https://w3id.org/def/nyon#> <http://purl.org/dc/terms/license> <http://purl.org/NET/rdflicense/cc-by4.0> .
+<https://w3id.org/def/nyon#> <http://purl.org/dc/terms/modified> "2020-07-16" .
+<https://w3id.org/def/nyon#> <http://purl.org/dc/terms/title> "NyOn: A Multilingual Legal Ontology for Globalized Judicial System"@en .
+<https://w3id.org/def/nyon#> <http://purl.org/vocab/vann/preferredNamespacePrefix> "nyon" .
+<https://w3id.org/def/nyon#> <http://purl.org/vocab/vann/preferredNamespaceUri> <https://w3id.org/def/nyon#> .
+<https://w3id.org/def/nyon#> <http://www.w3.org/2002/07/owl#versionInfo> "1.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://docs.oasis-open.org/legalruleml/ns/v1.0/FactualStatement
+<http://docs.oasis-open.org/legalruleml/ns/v1.0/FactualStatement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/publisher
+<http://purl.org/dc/elements/1.1/publisher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/created
+<http://purl.org/dc/terms/created> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/creator
+<http://purl.org/dc/terms/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/description
+<http://purl.org/dc/terms/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/modified
+<http://purl.org/dc/terms/modified> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/title
+<http://purl.org/dc/terms/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/vocab/vann/preferredNamespacePrefix
+<http://purl.org/vocab/vann/preferredNamespacePrefix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/vocab/vann/preferredNamespaceUri
+<http://purl.org/vocab/vann/preferredNamespaceUri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled
+<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2002/07/owl#sameAs
+<http://www.w3.org/2002/07/owl#sameAs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# https://w3id.org/def/nyon#OfDomian
+<https://w3id.org/def/nyon#OfDomian> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/def/nyon#OfDomian> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://w3id.org/def/nyon#OfDomian> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/nyon#CaseType> .
+<https://w3id.org/def/nyon#OfDomian> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/nyon#CaseDomain> .
+<https://w3id.org/def/nyon#OfDomian> <http://www.w3.org/2000/01/rdf-schema#label> "OfDomain"@en .
+# 
+# https://w3id.org/def/nyon#appellantArgument
+<https://w3id.org/def/nyon#appellantArgument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/def/nyon#appellantArgument> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/def/nyon#makeArgument> .
+# 
+# https://w3id.org/def/nyon#citedBy
+<https://w3id.org/def/nyon#citedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/def/nyon#citedBy> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/def/nyon#cites> .
+<https://w3id.org/def/nyon#citedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/nyon#CourtCase> .
+<https://w3id.org/def/nyon#citedBy> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/nyon#CourtCase> .
+<https://w3id.org/def/nyon#citedBy> <http://www.w3.org/2000/01/rdf-schema#label> "citedBy"@en .
+# 
+# https://w3id.org/def/nyon#cites
+<https://w3id.org/def/nyon#cites> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/def/nyon#cites> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/def/nyon#cites> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/nyon#CourtCase> .
+<https://w3id.org/def/nyon#cites> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/nyon#CourtCase> .
+<https://w3id.org/def/nyon#cites> <http://www.w3.org/2000/01/rdf-schema#label> "cites"@en .
+# 
+# https://w3id.org/def/nyon#defendentArgument
+<https://w3id.org/def/nyon#defendentArgument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/def/nyon#defendentArgument> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/def/nyon#makeArgument> .
+# 
+# https://w3id.org/def/nyon#hasAuthor
+<https://w3id.org/def/nyon#hasAuthor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/def/nyon#hasAuthor> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/nyon#CourtCase> .
+<https://w3id.org/def/nyon#hasAuthor> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/nyon#Author> .
+<https://w3id.org/def/nyon#hasAuthor> <http://www.w3.org/2000/01/rdf-schema#label> "hasAuthor"@en .
+# 
+# https://w3id.org/def/nyon#hasBench
+<https://w3id.org/def/nyon#hasBench> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/def/nyon#hasBench> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://w3id.org/def/nyon#hasBench> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/nyon#CourtCase> .
+<https://w3id.org/def/nyon#hasBench> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/nyon#Bench> .
+<https://w3id.org/def/nyon#hasBench> <http://www.w3.org/2000/01/rdf-schema#label> "hasBench"@en .
+# 
+# https://w3id.org/def/nyon#hasCourtLoc
+<https://w3id.org/def/nyon#hasCourtLoc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/def/nyon#hasCourtLoc> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://w3id.org/def/nyon#hasCourtLoc> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/nyon#Court> .
+<https://w3id.org/def/nyon#hasCourtLoc> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/nyon#Location> .
+<https://w3id.org/def/nyon#hasCourtLoc> <http://www.w3.org/2000/01/rdf-schema#label> "hasCourtLoc"@en .
+# 
+# https://w3id.org/def/nyon#hasCourtOfficial
+<https://w3id.org/def/nyon#hasCourtOfficial> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/def/nyon#hasCourtOfficial> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://w3id.org/def/nyon#hasCourtOfficial> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/nyon#CourtCase> .
+<https://w3id.org/def/nyon#hasCourtOfficial> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/nyon#Court_Official> .
+<https://w3id.org/def/nyon#hasCourtOfficial> <http://www.w3.org/2000/01/rdf-schema#label> "hasCourtOfficial"@en .
+# 
+# https://w3id.org/def/nyon#hasDateOfJudgment
+<https://w3id.org/def/nyon#hasDateOfJudgment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/def/nyon#hasDateOfJudgment> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://w3id.org/def/nyon#hasDateOfJudgment> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/nyon#Court> .
+<https://w3id.org/def/nyon#hasDateOfJudgment> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/nyon#DateOfJudgment> .
+<https://w3id.org/def/nyon#hasDateOfJudgment> <http://www.w3.org/2000/01/rdf-schema#label> "hasDateOfJudgment"@en .
+# 
+# https://w3id.org/def/nyon#hasEvidence
+<https://w3id.org/def/nyon#hasEvidence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/def/nyon#hasEvidence> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://w3id.org/def/nyon#hasEvidence> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/nyon#CourtCase> .
+<https://w3id.org/def/nyon#hasEvidence> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/nyon#Evidence> .
+<https://w3id.org/def/nyon#hasEvidence> <http://www.w3.org/2000/01/rdf-schema#label> "hasEvidence"@en .
+# 
+# https://w3id.org/def/nyon#hasEvidenceLoc
+<https://w3id.org/def/nyon#hasEvidenceLoc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/def/nyon#hasEvidenceLoc> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://w3id.org/def/nyon#hasEvidenceLoc> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/nyon#Evidence> .
+<https://w3id.org/def/nyon#hasEvidenceLoc> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/nyon#Location> .
+<https://w3id.org/def/nyon#hasEvidenceLoc> <http://www.w3.org/2000/01/rdf-schema#label> "hasEvidenceLoc"@en .
+# 
+# https://w3id.org/def/nyon#hasFact
+<https://w3id.org/def/nyon#hasFact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/def/nyon#hasFact> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://w3id.org/def/nyon#hasFact> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/nyon#CourtCase> .
+<https://w3id.org/def/nyon#hasFact> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/nyon#Fact> .
+<https://w3id.org/def/nyon#hasFact> <http://www.w3.org/2000/01/rdf-schema#label> "hasFact"@en .
+# 
+# https://w3id.org/def/nyon#hasFinalDecision
+<https://w3id.org/def/nyon#hasFinalDecision> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/def/nyon#hasFinalDecision> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://w3id.org/def/nyon#hasFinalDecision> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/nyon#CourtCase> .
+<https://w3id.org/def/nyon#hasFinalDecision> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/nyon#CourtDecision> .
+<https://w3id.org/def/nyon#hasFinalDecision> <http://www.w3.org/2000/01/rdf-schema#label> "hasFinalDecision"@en .
+# 
+# https://w3id.org/def/nyon#hasIssue
+<https://w3id.org/def/nyon#hasIssue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/def/nyon#hasIssue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/def/nyon#hasIssue> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/nyon#CourtCase> .
+<https://w3id.org/def/nyon#hasIssue> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/nyon#Issue> .
+<https://w3id.org/def/nyon#hasIssue> <http://www.w3.org/2000/01/rdf-schema#label> "hasIssue"@en .
+# 
+# https://w3id.org/def/nyon#hasJudge
+<https://w3id.org/def/nyon#hasJudge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/def/nyon#hasJudge> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/nyon#Judge> .
+<https://w3id.org/def/nyon#hasJudge> <http://www.w3.org/2000/01/rdf-schema#comment> "represent the judicial body (i.e. judge) for the case"@en .
+<https://w3id.org/def/nyon#hasJudge> <http://www.w3.org/2000/01/rdf-schema#label> "hasJudge"@en .
+# 
+# https://w3id.org/def/nyon#hasJudgmentType
+<https://w3id.org/def/nyon#hasJudgmentType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/def/nyon#hasJudgmentType> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://w3id.org/def/nyon#hasJudgmentType> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/nyon#CourtCase> .
+<https://w3id.org/def/nyon#hasJudgmentType> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/nyon#CaseType> .
+<https://w3id.org/def/nyon#hasJudgmentType> <http://www.w3.org/2000/01/rdf-schema#label> "hasJudgmentType"@en .
+# 
+# https://w3id.org/def/nyon#hasJurisdiction
+<https://w3id.org/def/nyon#hasJurisdiction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/def/nyon#hasJurisdiction> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://w3id.org/def/nyon#hasJurisdiction> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/nyon#Court> .
+<https://w3id.org/def/nyon#hasJurisdiction> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/nyon#Jurisdiction> .
+<https://w3id.org/def/nyon#hasJurisdiction> <http://www.w3.org/2000/01/rdf-schema#label> "hasJurisdiction"@en .
+# 
+# https://w3id.org/def/nyon#hasObiterDictum
+<https://w3id.org/def/nyon#hasObiterDictum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/def/nyon#hasObiterDictum> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://w3id.org/def/nyon#hasObiterDictum> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/nyon#CourtCase> .
+<https://w3id.org/def/nyon#hasObiterDictum> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/nyon#ObiterDictum> .
+<https://w3id.org/def/nyon#hasObiterDictum> <http://www.w3.org/2000/01/rdf-schema#label> "hasObiterDictum"@en .
+# 
+# https://w3id.org/def/nyon#hasParty
+<https://w3id.org/def/nyon#hasParty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/def/nyon#hasParty> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://w3id.org/def/nyon#hasParty> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/nyon#CourtCase> .
+<https://w3id.org/def/nyon#hasParty> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/nyon#Party> .
+<https://w3id.org/def/nyon#hasParty> <http://www.w3.org/2000/01/rdf-schema#label> "hasParty"@en .
+# 
+# https://w3id.org/def/nyon#hasPartyType
+<https://w3id.org/def/nyon#hasPartyType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/def/nyon#hasPartyType> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://w3id.org/def/nyon#hasPartyType> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/nyon#Party> .
+<https://w3id.org/def/nyon#hasPartyType> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/nyon#Party_Type> .
+<https://w3id.org/def/nyon#hasPartyType> <http://www.w3.org/2000/01/rdf-schema#label> "hasPartyType"@en .
+# 
+# https://w3id.org/def/nyon#hasPolicePersonnel
+<https://w3id.org/def/nyon#hasPolicePersonnel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/def/nyon#hasPolicePersonnel> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/nyon#CourtCase> .
+<https://w3id.org/def/nyon#hasPolicePersonnel> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/nyon#Investigator> .
+<https://w3id.org/def/nyon#hasPolicePersonnel> <http://www.w3.org/2000/01/rdf-schema#label> "hasPolicePersonnel"@en .
+# 
+# https://w3id.org/def/nyon#hasPrecedent
+<https://w3id.org/def/nyon#hasPrecedent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/def/nyon#hasPrecedent> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://w3id.org/def/nyon#hasPrecedent> <http://www.w3.org/2000/01/rdf-schema#comment> "represents past cases referred by the judge in the judgment"@en .
+# 
+# https://w3id.org/def/nyon#hasProvision
+<https://w3id.org/def/nyon#hasProvision> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/def/nyon#hasProvision> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/nyon#CourtCase> .
+<https://w3id.org/def/nyon#hasProvision> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/nyon#Provision> .
+<https://w3id.org/def/nyon#hasProvision> <http://www.w3.org/2000/01/rdf-schema#comment> "a clause or norm in a legal instrument or a law"@en .
+<https://w3id.org/def/nyon#hasProvision> <http://www.w3.org/2000/01/rdf-schema#label> "hasProvision"@en .
+# 
+# https://w3id.org/def/nyon#hasRatioDecidendi
+<https://w3id.org/def/nyon#hasRatioDecidendi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/def/nyon#hasRatioDecidendi> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://w3id.org/def/nyon#hasRatioDecidendi> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/nyon#CourtCase> .
+<https://w3id.org/def/nyon#hasRatioDecidendi> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/nyon#RatioDecidendi> .
+<https://w3id.org/def/nyon#hasRatioDecidendi> <http://www.w3.org/2000/01/rdf-schema#label> "hasRtioDecidendi"@en .
+# 
+# https://w3id.org/def/nyon#hasRulingOf
+<https://w3id.org/def/nyon#hasRulingOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/def/nyon#hasRulingOf> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://w3id.org/def/nyon#hasRulingOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<https://w3id.org/def/nyon#hasRulingOf> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/nyon#CourtCase> .
+<https://w3id.org/def/nyon#hasRulingOf> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/nyon#Court> .
+<https://w3id.org/def/nyon#hasRulingOf> <http://www.w3.org/2000/01/rdf-schema#label> "hasRulingOf"@en .
+# 
+# https://w3id.org/def/nyon#hasStatue
+<https://w3id.org/def/nyon#hasStatue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/def/nyon#hasStatue> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://w3id.org/def/nyon#hasStatue> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/nyon#CourtCase> .
+<https://w3id.org/def/nyon#hasStatue> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/nyon#Statue> .
+<https://w3id.org/def/nyon#hasStatue> <http://www.w3.org/2000/01/rdf-schema#label> "hasStatue"@en .
+# 
+# https://w3id.org/def/nyon#hasWitness
+<https://w3id.org/def/nyon#hasWitness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/def/nyon#hasWitness> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://w3id.org/def/nyon#hasWitness> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/nyon#CourtCase> .
+<https://w3id.org/def/nyon#hasWitness> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/nyon#Witness> .
+<https://w3id.org/def/nyon#hasWitness> <http://www.w3.org/2000/01/rdf-schema#label> "hasWitness"@en .
+# 
+# https://w3id.org/def/nyon#hasWordPhrase
+<https://w3id.org/def/nyon#hasWordPhrase> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/def/nyon#hasWordPhrase> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://w3id.org/def/nyon#hasWordPhrase> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/nyon#CourtCase> .
+<https://w3id.org/def/nyon#hasWordPhrase> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/nyon#WordAndPhrase> .
+<https://w3id.org/def/nyon#hasWordPhrase> <http://www.w3.org/2000/01/rdf-schema#label> "hasWordPhrase"@en .
+# 
+# https://w3id.org/def/nyon#hasWords
+<https://w3id.org/def/nyon#hasWords> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/def/nyon#hasWords> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/nyon#CourtCase> .
+<https://w3id.org/def/nyon#hasWords> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/nyon#CatchWord> .
+<https://w3id.org/def/nyon#hasWords> <http://www.w3.org/2000/01/rdf-schema#comment> "signifies the domain words, facts and issue related words in the case"@en .
+<https://w3id.org/def/nyon#hasWords> <http://www.w3.org/2000/01/rdf-schema#label> "hasWords"@en .
+# 
+# https://w3id.org/def/nyon#makeArgument
+<https://w3id.org/def/nyon#makeArgument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/def/nyon#makeArgument> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://w3id.org/def/nyon#makeArgument> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/nyon#Party> .
+<https://w3id.org/def/nyon#makeArgument> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/nyon#Argument> .
+<https://w3id.org/def/nyon#makeArgument> <http://www.w3.org/2000/01/rdf-schema#label> "makeArgument"@en .
+# 
+# https://w3id.org/def/nyon#petitionerArgument
+<https://w3id.org/def/nyon#petitionerArgument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/def/nyon#petitionerArgument> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/def/nyon#makeArgument> .
+# 
+# https://w3id.org/def/nyon#plaintiffArgument
+<https://w3id.org/def/nyon#plaintiffArgument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/def/nyon#plaintiffArgument> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/def/nyon#makeArgument> .
+# 
+# https://w3id.org/def/nyon#precedentOverruled
+<https://w3id.org/def/nyon#precedentOverruled> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/def/nyon#precedentOverruled> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/def/nyon#hasPrecedent> .
+<https://w3id.org/def/nyon#precedentOverruled> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/nyon#CourtCase> .
+<https://w3id.org/def/nyon#precedentOverruled> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/nyon#CourtCase> .
+<https://w3id.org/def/nyon#precedentOverruled> <http://www.w3.org/2000/01/rdf-schema#comment> "represents the past cases overruled by the judge in the current case"@en .
+<https://w3id.org/def/nyon#precedentOverruled> <http://www.w3.org/2000/01/rdf-schema#label> "precedentOverruled"@en .
+# 
+# https://w3id.org/def/nyon#precedentReliedUpon
+<https://w3id.org/def/nyon#precedentReliedUpon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/def/nyon#precedentReliedUpon> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/def/nyon#hasPrecedent> .
+<https://w3id.org/def/nyon#precedentReliedUpon> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/nyon#CourtCase> .
+<https://w3id.org/def/nyon#precedentReliedUpon> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/nyon#CourtCase> .
+<https://w3id.org/def/nyon#precedentReliedUpon> <http://www.w3.org/2000/01/rdf-schema#comment> "represnts the past cases referred by the judge on which the current judgment relies on"@en .
+<https://w3id.org/def/nyon#precedentReliedUpon> <http://www.w3.org/2000/01/rdf-schema#label> "precedentReliedUpon"@en .
+# 
+# https://w3id.org/def/nyon#precendentNotReliedUpon
+<https://w3id.org/def/nyon#precendentNotReliedUpon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/def/nyon#precendentNotReliedUpon> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/def/nyon#hasPrecedent> .
+<https://w3id.org/def/nyon#precendentNotReliedUpon> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/nyon#CourtCase> .
+<https://w3id.org/def/nyon#precendentNotReliedUpon> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/nyon#CourtCase> .
+<https://w3id.org/def/nyon#precendentNotReliedUpon> <http://www.w3.org/2000/01/rdf-schema#comment> "represent the past cases referred b ythe judge on which the case decision does not rely on"@en .
+<https://w3id.org/def/nyon#precendentNotReliedUpon> <http://www.w3.org/2000/01/rdf-schema#label> "precedentNotReliedUpon"@en .
+# 
+# https://w3id.org/def/nyon#respondentArgument
+<https://w3id.org/def/nyon#respondentArgument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/def/nyon#respondentArgument> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/def/nyon#makeArgument> .
+# 
+# https://w3id.org/def/nyon#withConcurrence
+<https://w3id.org/def/nyon#withConcurrence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/def/nyon#withConcurrence> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://w3id.org/def/nyon#withConcurrence> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/nyon#Judge> .
+<https://w3id.org/def/nyon#withConcurrence> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/nyon#Concurrence> .
+<https://w3id.org/def/nyon#withConcurrence> <http://www.w3.org/2000/01/rdf-schema#label> "withConcurrence"@en .
+# 
+# https://w3id.org/def/nyon#withDissent
+<https://w3id.org/def/nyon#withDissent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/def/nyon#withDissent> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://w3id.org/def/nyon#withDissent> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/nyon#Judge> .
+<https://w3id.org/def/nyon#withDissent> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/nyon#Dissent> .
+<https://w3id.org/def/nyon#withDissent> <http://www.w3.org/2000/01/rdf-schema#label> "withDissent"@en .
+# 
+# https://w3id.org/def/nyon#withMajority
+<https://w3id.org/def/nyon#withMajority> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/def/nyon#withMajority> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://w3id.org/def/nyon#withMajority> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/nyon#Judge> .
+<https://w3id.org/def/nyon#withMajority> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/nyon#Majority> .
+<https://w3id.org/def/nyon#withMajority> <http://www.w3.org/2000/01/rdf-schema#label> "withMajority"@en .
+# 
+# https://w3id.org/def/nyon#withOpinion
+<https://w3id.org/def/nyon#withOpinion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/def/nyon#withOpinion> <http://www.w3.org/2000/01/rdf-schema#comment> "represnts the judge opinion on the case either with majority, dissent or concurrence"@en .
+<https://w3id.org/def/nyon#withOpinion> <http://www.w3.org/2000/01/rdf-schema#label> "withOpinion"@en .
+# 
+# https://w3id.org/def/nyon#worksIn
+<https://w3id.org/def/nyon#worksIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/def/nyon#worksIn> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://w3id.org/def/nyon#worksIn> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/nyon#Court_Official> .
+<https://w3id.org/def/nyon#worksIn> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/def/nyon#Court> .
+<https://w3id.org/def/nyon#worksIn> <http://www.w3.org/2000/01/rdf-schema#label> "worksIn"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# https://w3id.org/def/nyon#COFirstName
+<https://w3id.org/def/nyon#COFirstName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/def/nyon#COFirstName> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/def/nyon#courtOffName> .
+<https://w3id.org/def/nyon#COFirstName> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/nyon#Court_Official> .
+<https://w3id.org/def/nyon#COFirstName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/def/nyon#COFirstName> <http://www.w3.org/2000/01/rdf-schema#label> "COFirstName"@en .
+# 
+# https://w3id.org/def/nyon#COLastName
+<https://w3id.org/def/nyon#COLastName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/def/nyon#COLastName> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/def/nyon#courtOffName> .
+<https://w3id.org/def/nyon#COLastName> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/nyon#Court_Official> .
+<https://w3id.org/def/nyon#COLastName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/def/nyon#COLastName> <http://www.w3.org/2000/01/rdf-schema#label> "COLastName"@en .
+# 
+# https://w3id.org/def/nyon#argumentSequenceNum
+<https://w3id.org/def/nyon#argumentSequenceNum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/def/nyon#argumentSequenceNum> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/def/nyon#argumentSequenceNum> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/nyon#Argument> .
+<https://w3id.org/def/nyon#argumentSequenceNum> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/def/nyon#argumentSequenceNum> <http://www.w3.org/2000/01/rdf-schema#label> "argumentSequenceNum"@en .
+# 
+# https://w3id.org/def/nyon#argumentValue
+<https://w3id.org/def/nyon#argumentValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/def/nyon#argumentValue> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/def/nyon#argumentValue> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/nyon#Argument> .
+<https://w3id.org/def/nyon#argumentValue> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/def/nyon#argumentValue> <http://www.w3.org/2000/01/rdf-schema#label> "argumentValue"@en .
+# 
+# https://w3id.org/def/nyon#catchwordValue
+<https://w3id.org/def/nyon#catchwordValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/def/nyon#catchwordValue> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/def/nyon#catchwordValue> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/nyon#CatchWord> .
+<https://w3id.org/def/nyon#catchwordValue> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/def/nyon#catchwordValue> <http://www.w3.org/2000/01/rdf-schema#label> "catchwordValue"@en .
+# 
+# https://w3id.org/def/nyon#courtName
+<https://w3id.org/def/nyon#courtName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/def/nyon#courtName> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/def/nyon#courtName> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/nyon#Court> .
+<https://w3id.org/def/nyon#courtName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/def/nyon#courtName> <http://www.w3.org/2000/01/rdf-schema#label> "courtName"@en .
+# 
+# https://w3id.org/def/nyon#courtOffName
+<https://w3id.org/def/nyon#courtOffName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/def/nyon#courtOffName> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/def/nyon#courtOffName> <http://www.w3.org/2000/01/rdf-schema#label> "courtOffName"@en .
+# 
+# https://w3id.org/def/nyon#dateOfJudgment
+<https://w3id.org/def/nyon#dateOfJudgment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/def/nyon#dateOfJudgment> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/def/nyon#dateOfJudgment> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid1 .
+_:genid1 <http://www.w3.org/2002/07/owl#unionOf> _:genid3 .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/nyon#DateOfJudgment> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/nyon#Argument> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/nyon#dateOfJudgment> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/def/nyon#dateOfJudgment> <http://www.w3.org/2000/01/rdf-schema#label> "dateOfJudgment"@en .
+# 
+# https://w3id.org/def/nyon#equivalentCitation
+<https://w3id.org/def/nyon#equivalentCitation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/def/nyon#equivalentCitation> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/def/nyon#equivalentCitation> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/nyon#CourtCase> .
+<https://w3id.org/def/nyon#equivalentCitation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/def/nyon#equivalentCitation> <http://www.w3.org/2002/07/owl#propertyDisjointWith> <https://w3id.org/def/nyon#neutralCitations> .
+<https://w3id.org/def/nyon#equivalentCitation> <http://www.w3.org/2000/01/rdf-schema#comment> "equivalent citations provided by the various law reporters."@en .
+# 
+# https://w3id.org/def/nyon#evidenceLocation
+<https://w3id.org/def/nyon#evidenceLocation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/def/nyon#evidenceLocation> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/def/nyon#evidenceLocation> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/nyon#Evidence> .
+<https://w3id.org/def/nyon#evidenceLocation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/def/nyon#evidenceLocation> <http://www.w3.org/2000/01/rdf-schema#label> "evidenceLocation"@en .
+# 
+# https://w3id.org/def/nyon#factSequenceNum
+<https://w3id.org/def/nyon#factSequenceNum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/def/nyon#factSequenceNum> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/def/nyon#factSequenceNum> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/nyon#Fact> .
+<https://w3id.org/def/nyon#factSequenceNum> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/def/nyon#factSequenceNum> <http://www.w3.org/2000/01/rdf-schema#label> "factSequenceNum"@en .
+# 
+# https://w3id.org/def/nyon#factValue
+<https://w3id.org/def/nyon#factValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/def/nyon#factValue> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/def/nyon#factValue> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/nyon#Fact> .
+<https://w3id.org/def/nyon#factValue> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/def/nyon#factValue> <http://www.w3.org/2000/01/rdf-schema#label> "factValue"@en .
+# 
+# https://w3id.org/def/nyon#finalDecisionValue
+<https://w3id.org/def/nyon#finalDecisionValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/def/nyon#finalDecisionValue> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/def/nyon#finalDecisionValue> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/nyon#CourtDecision> .
+<https://w3id.org/def/nyon#finalDecisionValue> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/def/nyon#finalDecisionValue> <http://www.w3.org/2000/01/rdf-schema#label> "finalDecisionValue"@en .
+# 
+# https://w3id.org/def/nyon#firstName
+<https://w3id.org/def/nyon#firstName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/def/nyon#firstName> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/def/nyon#partyName> .
+<https://w3id.org/def/nyon#firstName> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/nyon#Party> .
+<https://w3id.org/def/nyon#firstName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/def/nyon#firstName> <http://www.w3.org/2002/07/owl#propertyDisjointWith> <https://w3id.org/def/nyon#lastName> .
+<https://w3id.org/def/nyon#firstName> <http://www.w3.org/2000/01/rdf-schema#label> "firstName"@en .
+# 
+# https://w3id.org/def/nyon#hasCaseID
+<https://w3id.org/def/nyon#hasCaseID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/def/nyon#hasCaseID> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/nyon#CourtCase> .
+<https://w3id.org/def/nyon#hasCaseID> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/def/nyon#hasCaseID> <http://www.w3.org/2000/01/rdf-schema#comment> "Case has a unique ID"@en .
+<https://w3id.org/def/nyon#hasCaseID> <http://www.w3.org/2000/01/rdf-schema#label> "hasCaseID"@en .
+# 
+# https://w3id.org/def/nyon#hasCaseName
+<https://w3id.org/def/nyon#hasCaseName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/def/nyon#hasCaseName> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/nyon#CourtCase> .
+<https://w3id.org/def/nyon#hasCaseName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/def/nyon#hasCaseName> <http://www.w3.org/2000/01/rdf-schema#comment> "represents the name of a case usually contains the name of both the parties"@en .
+<https://w3id.org/def/nyon#hasCaseName> <http://www.w3.org/2000/01/rdf-schema#label> "hasCaseName"@en .
+# 
+# https://w3id.org/def/nyon#hasDate
+<https://w3id.org/def/nyon#hasDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/def/nyon#hasDate> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/def/nyon#dateOfJudgment> .
+<https://w3id.org/def/nyon#hasDate> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/nyon#DateOfJudgment> .
+<https://w3id.org/def/nyon#hasDate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/def/nyon#hasDate> <http://www.w3.org/2000/01/rdf-schema#label> "hasDate"@en .
+# 
+# https://w3id.org/def/nyon#hasDesignation
+<https://w3id.org/def/nyon#hasDesignation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/def/nyon#hasDesignation> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/nyon#Investigator> .
+<https://w3id.org/def/nyon#hasDesignation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/def/nyon#hasDesignation> <http://www.w3.org/2000/01/rdf-schema#label> "hasDesignation"@en .
+# 
+# https://w3id.org/def/nyon#hasMonth
+<https://w3id.org/def/nyon#hasMonth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/def/nyon#hasMonth> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/def/nyon#dateOfJudgment> .
+<https://w3id.org/def/nyon#hasMonth> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/nyon#DateOfJudgment> .
+<https://w3id.org/def/nyon#hasMonth> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/def/nyon#hasMonth> <http://www.w3.org/2000/01/rdf-schema#label> "hasMonth"@en .
+# 
+# https://w3id.org/def/nyon#hasPolicePersonnelName
+<https://w3id.org/def/nyon#hasPolicePersonnelName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/def/nyon#hasPolicePersonnelName> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/nyon#Investigator> .
+<https://w3id.org/def/nyon#hasPolicePersonnelName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/def/nyon#hasPolicePersonnelName> <http://www.w3.org/2000/01/rdf-schema#comment> "represents the name of the police personnel involved in the case"@en .
+<https://w3id.org/def/nyon#hasPolicePersonnelName> <http://www.w3.org/2000/01/rdf-schema#label> "hasPolicePersonnelName"@en .
+# 
+# https://w3id.org/def/nyon#hasYear
+<https://w3id.org/def/nyon#hasYear> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/def/nyon#hasYear> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/def/nyon#dateOfJudgment> .
+<https://w3id.org/def/nyon#hasYear> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/nyon#DateOfJudgment> .
+<https://w3id.org/def/nyon#hasYear> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/def/nyon#hasYear> <http://www.w3.org/2000/01/rdf-schema#label> "hasYear"@en .
+# 
+# https://w3id.org/def/nyon#issueSequenceNum
+<https://w3id.org/def/nyon#issueSequenceNum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/def/nyon#issueSequenceNum> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/def/nyon#issueSequenceNum> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/nyon#Issue> .
+<https://w3id.org/def/nyon#issueSequenceNum> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/def/nyon#issueSequenceNum> <http://www.w3.org/2000/01/rdf-schema#label> "issueSequenceNum"@en .
+# 
+# https://w3id.org/def/nyon#issueValue
+<https://w3id.org/def/nyon#issueValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/def/nyon#issueValue> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/def/nyon#issueValue> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/nyon#Issue> .
+<https://w3id.org/def/nyon#issueValue> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/def/nyon#issueValue> <http://www.w3.org/2000/01/rdf-schema#label> "issueValue"@en .
+# 
+# https://w3id.org/def/nyon#lastName
+<https://w3id.org/def/nyon#lastName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/def/nyon#lastName> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/def/nyon#partyName> .
+<https://w3id.org/def/nyon#lastName> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/nyon#Party> .
+<https://w3id.org/def/nyon#lastName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/def/nyon#lastName> <http://www.w3.org/2000/01/rdf-schema#label> "lastName"@en .
+# 
+# https://w3id.org/def/nyon#locationName
+<https://w3id.org/def/nyon#locationName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/def/nyon#locationName> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/def/nyon#locationName> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/nyon#Location> .
+<https://w3id.org/def/nyon#locationName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/def/nyon#locationName> <http://www.w3.org/2000/01/rdf-schema#label> "locationName"@en .
+# 
+# https://w3id.org/def/nyon#neutralCitations
+<https://w3id.org/def/nyon#neutralCitations> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/def/nyon#neutralCitations> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/def/nyon#neutralCitations> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/nyon#CourtCase> .
+<https://w3id.org/def/nyon#neutralCitations> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/def/nyon#neutralCitations> <http://www.w3.org/2000/01/rdf-schema#comment> "represents neutral citations given by the court itself"@en .
+# 
+# https://w3id.org/def/nyon#obiterDictumSequenceNum
+<https://w3id.org/def/nyon#obiterDictumSequenceNum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/def/nyon#obiterDictumSequenceNum> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/def/nyon#obiterDictumSequenceNum> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/nyon#ObiterDictum> .
+<https://w3id.org/def/nyon#obiterDictumSequenceNum> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/def/nyon#obiterDictumSequenceNum> <http://www.w3.org/2000/01/rdf-schema#label> "obiterDictumSequenceNum"@en .
+# 
+# https://w3id.org/def/nyon#obiterDictumValue
+<https://w3id.org/def/nyon#obiterDictumValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/def/nyon#obiterDictumValue> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/def/nyon#obiterDictumValue> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/nyon#ObiterDictum> .
+<https://w3id.org/def/nyon#obiterDictumValue> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/def/nyon#obiterDictumValue> <http://www.w3.org/2000/01/rdf-schema#label> "obiterDictumValue"@en .
+# 
+# https://w3id.org/def/nyon#partyName
+<https://w3id.org/def/nyon#partyName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/def/nyon#partyName> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/def/nyon#partyName> <http://www.w3.org/2000/01/rdf-schema#label> "partyName"@en .
+# 
+# https://w3id.org/def/nyon#ratioDecidendiSequenceNum
+<https://w3id.org/def/nyon#ratioDecidendiSequenceNum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/def/nyon#ratioDecidendiSequenceNum> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/def/nyon#ratioDecidendiSequenceNum> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/nyon#RatioDecidendi> .
+<https://w3id.org/def/nyon#ratioDecidendiSequenceNum> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/def/nyon#ratioDecidendiSequenceNum> <http://www.w3.org/2000/01/rdf-schema#label> "ratioDecidendiSequenceNum"@en .
+# 
+# https://w3id.org/def/nyon#ratioDecidendiValue
+<https://w3id.org/def/nyon#ratioDecidendiValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/def/nyon#ratioDecidendiValue> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/def/nyon#ratioDecidendiValue> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/nyon#RatioDecidendi> .
+<https://w3id.org/def/nyon#ratioDecidendiValue> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/def/nyon#ratioDecidendiValue> <http://www.w3.org/2000/01/rdf-schema#label> "ratioDecidendiValue"@en .
+# 
+# https://w3id.org/def/nyon#value
+<https://w3id.org/def/nyon#value> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/def/nyon#value> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/nyon#Opinion> .
+<https://w3id.org/def/nyon#value> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# https://w3id.org/def/nyon#wFirstName
+<https://w3id.org/def/nyon#wFirstName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/def/nyon#wFirstName> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/def/nyon#witnessName> .
+<https://w3id.org/def/nyon#wFirstName> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/nyon#Witness> .
+<https://w3id.org/def/nyon#wFirstName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/def/nyon#wFirstName> <http://www.w3.org/2002/07/owl#propertyDisjointWith> <https://w3id.org/def/nyon#wLastName> .
+<https://w3id.org/def/nyon#wFirstName> <http://www.w3.org/2000/01/rdf-schema#label> "wFirstName"@en .
+# 
+# https://w3id.org/def/nyon#wLastName
+<https://w3id.org/def/nyon#wLastName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/def/nyon#wLastName> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/def/nyon#witnessName> .
+<https://w3id.org/def/nyon#wLastName> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/nyon#Witness> .
+<https://w3id.org/def/nyon#wLastName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/def/nyon#wLastName> <http://www.w3.org/2000/01/rdf-schema#label> "wLastName"@en .
+# 
+# https://w3id.org/def/nyon#witnessName
+<https://w3id.org/def/nyon#witnessName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/def/nyon#witnessName> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/def/nyon#witnessName> <http://www.w3.org/2000/01/rdf-schema#label> "witnessName"@en .
+# 
+# https://w3id.org/def/nyon#witnessStatement
+<https://w3id.org/def/nyon#witnessStatement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/def/nyon#witnessStatement> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/def/nyon#witnessStatement> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/nyon#Witness> .
+<https://w3id.org/def/nyon#witnessStatement> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/def/nyon#witnessStatement> <http://www.w3.org/2000/01/rdf-schema#label> "witnessStatement"@en .
+# 
+# https://w3id.org/def/nyon#wordPhraseValue
+<https://w3id.org/def/nyon#wordPhraseValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/def/nyon#wordPhraseValue> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<https://w3id.org/def/nyon#wordPhraseValue> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/def/nyon#WordAndPhrase> .
+<https://w3id.org/def/nyon#wordPhraseValue> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/def/nyon#wordPhraseValue> <http://www.w3.org/2000/01/rdf-schema#label> "wordPhraseValue"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://xmlns.com/foaf/0.1/Person
+<http://xmlns.com/foaf/0.1/Person> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://xmlns.com/foaf/0.1/Person> <http://www.w3.org/2002/07/owl#equivalentClass> <https://w3id.org/def/nyon#Individual> .
+<http://xmlns.com/foaf/0.1/Person> <http://www.w3.org/2000/01/rdf-schema#label> "Person"@en .
+# 
+# https://schema.org/GovernmentOrganization
+<https://schema.org/GovernmentOrganization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://schema.org/GovernmentOrganization> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/nyon#Party_Type> .
+<https://schema.org/GovernmentOrganization> <http://www.w3.org/2000/01/rdf-schema#comment> "party involved (either on both sides or any one) is the government in the case"@en .
+<https://schema.org/GovernmentOrganization> <http://www.w3.org/2000/01/rdf-schema#label> "Government"@en .
+# 
+# https://schema.org/Organization
+<https://schema.org/Organization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://schema.org/Organization> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/nyon#Party_Type> .
+<https://schema.org/Organization> <http://www.w3.org/2000/01/rdf-schema#comment> "organization(s) involved as the participant in the case"@en .
+<https://schema.org/Organization> <http://www.w3.org/2000/01/rdf-schema#label> "Organization"@en .
+# 
+# https://schema.org/Place
+<https://schema.org/Place> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://schema.org/Place> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid4 .
+_:genid4 <http://www.w3.org/2002/07/owl#complementOf> <https://w3id.org/def/nyon#Location> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://schema.org/Place> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/nyon#Location> .
+<https://schema.org/Place> <http://www.w3.org/2000/01/rdf-schema#comment> "location name or place name"@en .
+<https://schema.org/Place> <http://www.w3.org/2000/01/rdf-schema#label> "Place"@en .
+# 
+# https://w3id.org/def/nyon#Accussed
+<https://w3id.org/def/nyon#Accussed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/nyon#Accussed> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/nyon#Party> .
+<https://w3id.org/def/nyon#Accussed> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid5 .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid5 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid8 .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid6 .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid7 .
+_:genid7 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/def/nyon#Criminal> .
+_:genid7 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/def/nyon#OfDomian> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/nyon#Respondent> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<https://w3id.org/def/nyon#Accussed> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid9 .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid9 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid12 .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid10 .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid11 .
+_:genid11 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/def/nyon#Criminal> .
+_:genid11 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/def/nyon#OfDomian> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid13 .
+_:genid13 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/def/nyon#Respondent> .
+_:genid13 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/def/nyon#hasParty> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<https://w3id.org/def/nyon#Accussed> <http://www.w3.org/2000/01/rdf-schema#comment> "person against whom an allegation has been made that he has committed an offence, or who is charge with an offence"@en .
+<https://w3id.org/def/nyon#Accussed> <http://www.w3.org/2000/01/rdf-schema#label> "Accused"@en .
+# 
+# https://w3id.org/def/nyon#Advisory_Jurisdiction
+<https://w3id.org/def/nyon#Advisory_Jurisdiction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/nyon#Advisory_Jurisdiction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/nyon#Jurisdiction> .
+<https://w3id.org/def/nyon#Advisory_Jurisdiction> <http://www.w3.org/2000/01/rdf-schema#comment> "jurisdiction type is a advisory jurisdiction"@en .
+<https://w3id.org/def/nyon#Advisory_Jurisdiction> <http://www.w3.org/2000/01/rdf-schema#label> "Advisory Jurisdiction"@en .
+# 
+# https://w3id.org/def/nyon#Appellant
+<https://w3id.org/def/nyon#Appellant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/nyon#Appellant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/nyon#Party> .
+<https://w3id.org/def/nyon#Appellant> <http://www.w3.org/2000/01/rdf-schema#comment> "party who makes an appeal"@en .
+<https://w3id.org/def/nyon#Appellant> <http://www.w3.org/2000/01/rdf-schema#label> "Appellant"@en .
+<https://w3id.org/def/nyon#Appellant> <http://www.w3.org/2002/07/owl#sameAs> "http://lmss.sali.org/R7uigsz85fFCSPszS6B93dN"@en .
+# 
+# https://w3id.org/def/nyon#Appellant_Jurisdiction
+<https://w3id.org/def/nyon#Appellant_Jurisdiction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/nyon#Appellant_Jurisdiction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/nyon#Jurisdiction> .
+<https://w3id.org/def/nyon#Appellant_Jurisdiction> <http://www.w3.org/2000/01/rdf-schema#comment> "jurisdiction type is a appellant jurisdiction"@en .
+<https://w3id.org/def/nyon#Appellant_Jurisdiction> <http://www.w3.org/2000/01/rdf-schema#label> "Appellant Jurisdiction"@en .
+# 
+# https://w3id.org/def/nyon#Argument
+<https://w3id.org/def/nyon#Argument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/nyon#Argument> <http://www.w3.org/2000/01/rdf-schema#comment> "Argument made by any of the party"@en .
+<https://w3id.org/def/nyon#Argument> <http://www.w3.org/2000/01/rdf-schema#label> "Argument"@en .
+# 
+# https://w3id.org/def/nyon#Attorney
+<https://w3id.org/def/nyon#Attorney> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/nyon#Attorney> <http://www.w3.org/2002/07/owl#equivalentClass> <https://w3id.org/def/nyon#Lawyer> .
+<https://w3id.org/def/nyon#Attorney> <http://www.w3.org/2002/07/owl#equivalentClass> <https://w3id.org/def/nyon#LearnedCounsel> .
+<https://w3id.org/def/nyon#Attorney> <http://www.w3.org/2002/07/owl#equivalentClass> <https://w3id.org/def/nyon#Solicitor> .
+<https://w3id.org/def/nyon#Attorney> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/nyon#Court_Official> .
+# 
+# https://w3id.org/def/nyon#Author
+<https://w3id.org/def/nyon#Author> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/nyon#Author> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid14 .
+_:genid14 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/def/nyon#Judge> .
+_:genid14 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid14 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/def/nyon#hasAuthor> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/def/nyon#Author> <http://www.w3.org/2000/01/rdf-schema#comment> "Author (Judge) who is responsible for a creation of case document"@en .
+<https://w3id.org/def/nyon#Author> <http://www.w3.org/2000/01/rdf-schema#label> "Author"@en .
+<https://w3id.org/def/nyon#Author> <http://www.w3.org/2002/07/owl#sameAs> "http://lmss.sali.org/Ra6EHlbqrpUT9rxM2PtwIP"@en .
+# 
+# https://w3id.org/def/nyon#Barrister
+<https://w3id.org/def/nyon#Barrister> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/nyon#Barrister> <http://www.w3.org/2002/07/owl#equivalentClass> <https://w3id.org/def/nyon#Lawyer> .
+<https://w3id.org/def/nyon#Barrister> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/nyon#Court_Official> .
+# 
+# https://w3id.org/def/nyon#Bench
+<https://w3id.org/def/nyon#Bench> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/nyon#Bench> <http://www.w3.org/2000/01/rdf-schema#comment> "Defines the bench of the case."@en .
+<https://w3id.org/def/nyon#Bench> <http://www.w3.org/2000/01/rdf-schema#label> "Bench"@en .
+<https://w3id.org/def/nyon#Bench> <http://www.w3.org/2002/07/owl#sameAs> "http://lmss.sali.org/R8w3kl1tpEaQ2woPVs9N8Kf"@en .
+# 
+# https://w3id.org/def/nyon#CaseDomain
+<https://w3id.org/def/nyon#CaseDomain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/nyon#CaseDomain> <http://www.w3.org/2000/01/rdf-schema#comment> "case belongs to specific proceeding like civil or criminal"@en .
+<https://w3id.org/def/nyon#CaseDomain> <http://www.w3.org/2000/01/rdf-schema#label> "CaseDomain"@en .
+# 
+# https://w3id.org/def/nyon#CaseType
+<https://w3id.org/def/nyon#CaseType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/nyon#CaseType> <http://www.w3.org/2000/01/rdf-schema#comment> "classification of types of cases"@en .
+<https://w3id.org/def/nyon#CaseType> <http://www.w3.org/2000/01/rdf-schema#label> "CaseType"@en .
+# 
+# https://w3id.org/def/nyon#CatchWord
+<https://w3id.org/def/nyon#CatchWord> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/nyon#CatchWord> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid15 .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid15 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid17 .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid16 .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/nyon#CaseDomain> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2002/07/owl#Thing> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<https://w3id.org/def/nyon#CatchWord> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid18 .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid18 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid21 .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid19 .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid20 .
+_:genid20 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/def/nyon#Issue> .
+_:genid20 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/def/nyon#hasWords> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid22 .
+_:genid22 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/def/nyon#CaseDomain> .
+_:genid22 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/def/nyon#hasWords> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<https://w3id.org/def/nyon#CatchWord> <http://www.w3.org/2000/01/rdf-schema#comment> "Descriptive words or phrases used to categorise the subject matter of a case along with some keywords representing the issues in the case"@en .
+<https://w3id.org/def/nyon#CatchWord> <http://www.w3.org/2000/01/rdf-schema#label> "Catchword"@en .
+# 
+# https://w3id.org/def/nyon#Chief_Meterpolitan_Court
+<https://w3id.org/def/nyon#Chief_Meterpolitan_Court> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/nyon#Chief_Meterpolitan_Court> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/nyon#Courts_for_Criminal> .
+<https://w3id.org/def/nyon#Chief_Meterpolitan_Court> <http://www.w3.org/2000/01/rdf-schema#comment> "lower court at metropolitan level after Sessions Court for criminal cases"@en .
+<https://w3id.org/def/nyon#Chief_Meterpolitan_Court> <http://www.w3.org/2000/01/rdf-schema#label> "Chief Meterpolitan Court"@en .
+# 
+# https://w3id.org/def/nyon#City_Civil_Courts
+<https://w3id.org/def/nyon#City_Civil_Courts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/nyon#City_Civil_Courts> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/nyon#Courts_for_Civil> .
+<https://w3id.org/def/nyon#City_Civil_Courts> <http://www.w3.org/2000/01/rdf-schema#comment> "lower court at metropolitan level after High Courts for civil cases"@en .
+<https://w3id.org/def/nyon#City_Civil_Courts> <http://www.w3.org/2000/01/rdf-schema#comment> "नागरिक मामलों के लिए उच्च न्यायालयों के बाद मेट्रोपॉलिटन स्तर पर निचली अदालत"@hi .
+<https://w3id.org/def/nyon#City_Civil_Courts> <http://www.w3.org/2000/01/rdf-schema#label> "City Civil Court"@en .
+# 
+# https://w3id.org/def/nyon#Civil
+<https://w3id.org/def/nyon#Civil> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/nyon#Civil> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/nyon#CaseDomain> .
+<https://w3id.org/def/nyon#Civil> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/def/nyon#Criminal> .
+<https://w3id.org/def/nyon#Civil> <http://www.w3.org/2000/01/rdf-schema#comment> "case is a civil case"@en .
+<https://w3id.org/def/nyon#Civil> <http://www.w3.org/2000/01/rdf-schema#label> "Civil"@en .
+# 
+# https://w3id.org/def/nyon#Concurrence
+<https://w3id.org/def/nyon#Concurrence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/nyon#Concurrence> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/nyon#Opinion> .
+<https://w3id.org/def/nyon#Concurrence> <http://www.w3.org/2000/01/rdf-schema#label> "Concurrence"@en .
+# 
+# https://w3id.org/def/nyon#Country
+<https://w3id.org/def/nyon#Country> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/nyon#Country> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/nyon#Location> .
+<https://w3id.org/def/nyon#Country> <http://www.w3.org/2000/01/rdf-schema#label> "Country"@en .
+<https://w3id.org/def/nyon#Country> <http://www.w3.org/2002/07/owl#sameAs> "http://lmss.sali.org/RNrcOpWxQNlCpzR0FTsHNG"@en .
+# 
+# https://w3id.org/def/nyon#Court
+<https://w3id.org/def/nyon#Court> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/nyon#Court> <http://www.w3.org/2000/01/rdf-schema#comment> "courts in the judicial system"@en .
+<https://w3id.org/def/nyon#Court> <http://www.w3.org/2000/01/rdf-schema#label> "Court"@en .
+<https://w3id.org/def/nyon#Court> <http://www.w3.org/2002/07/owl#sameAs> "http://lmss.sali.org/Rafw4pSzJ3S3d8sq6quprG"@en .
+# 
+# https://w3id.org/def/nyon#CourtCase
+<https://w3id.org/def/nyon#CourtCase> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/nyon#CourtCase> <http://www.w3.org/2000/01/rdf-schema#comment> "represents the court judgment given by a court of law"@en .
+<https://w3id.org/def/nyon#CourtCase> <http://www.w3.org/2000/01/rdf-schema#label> "CourtCase"@en .
+# 
+# https://w3id.org/def/nyon#CourtDecision
+<https://w3id.org/def/nyon#CourtDecision> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/nyon#CourtDecision> <http://www.w3.org/2000/01/rdf-schema#label> "CourtDecision"@en .
+# 
+# https://w3id.org/def/nyon#Court_Official
+<https://w3id.org/def/nyon#Court_Official> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/nyon#Court_Official> <http://www.w3.org/2000/01/rdf-schema#comment> "legal system related people involved in a case"@en .
+<https://w3id.org/def/nyon#Court_Official> <http://www.w3.org/2000/01/rdf-schema#label> "CourtOfficial"@en .
+# 
+# https://w3id.org/def/nyon#Courts_for_Civil
+<https://w3id.org/def/nyon#Courts_for_Civil> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/nyon#Courts_for_Civil> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/nyon#CaseDomain> .
+<https://w3id.org/def/nyon#Courts_for_Civil> <http://www.w3.org/2000/01/rdf-schema#comment> "court for civil cases"@en .
+<https://w3id.org/def/nyon#Courts_for_Civil> <http://www.w3.org/2000/01/rdf-schema#label> "Civil Court"@en .
+<https://w3id.org/def/nyon#Courts_for_Civil> <http://www.w3.org/2002/07/owl#sameAs> "http://lmss.sali.org/R9uoItz60Ut8I4l3jEH3mSF"@en .
+# 
+# https://w3id.org/def/nyon#Courts_for_Criminal
+<https://w3id.org/def/nyon#Courts_for_Criminal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/nyon#Courts_for_Criminal> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/nyon#CaseDomain> .
+<https://w3id.org/def/nyon#Courts_for_Criminal> <http://www.w3.org/2000/01/rdf-schema#comment> "courts for crimnial cases"@en .
+<https://w3id.org/def/nyon#Courts_for_Criminal> <http://www.w3.org/2000/01/rdf-schema#label> "Criminal Court"@en .
+<https://w3id.org/def/nyon#Courts_for_Criminal> <http://www.w3.org/2002/07/owl#sameAs> "http://lmss.sali.org/RihNVfYYtmWzQWciwxquKe"@en .
+# 
+# https://w3id.org/def/nyon#Courts_of_Smaller_Causes
+<https://w3id.org/def/nyon#Courts_of_Smaller_Causes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/nyon#Courts_of_Smaller_Causes> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/nyon#Courts_for_Civil> .
+<https://w3id.org/def/nyon#Courts_of_Smaller_Causes> <http://www.w3.org/2000/01/rdf-schema#comment> "lowest court after City Civil Courts at metropolitan level for civil cases"@en .
+<https://w3id.org/def/nyon#Courts_of_Smaller_Causes> <http://www.w3.org/2000/01/rdf-schema#label> "Court of Smaller Cause"@en .
+<https://w3id.org/def/nyon#Courts_of_Smaller_Causes> <http://www.w3.org/2002/07/owl#sameAs> "http://lmss.sali.org/R9Mmy6MnWY16eR6dlLOKnGO"@en .
+# 
+# https://w3id.org/def/nyon#Criminal
+<https://w3id.org/def/nyon#Criminal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/nyon#Criminal> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/nyon#CaseDomain> .
+<https://w3id.org/def/nyon#Criminal> <http://www.w3.org/2000/01/rdf-schema#comment> "case is a criminal case"@en .
+<https://w3id.org/def/nyon#Criminal> <http://www.w3.org/2000/01/rdf-schema#label> "Criminal"@en .
+# 
+# https://w3id.org/def/nyon#DateOfJudgment
+<https://w3id.org/def/nyon#DateOfJudgment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/nyon#DateOfJudgment> <http://www.w3.org/2000/01/rdf-schema#comment> "signifies the final date on which the judgment is given by the court of law"@en .
+<https://w3id.org/def/nyon#DateOfJudgment> <http://www.w3.org/2000/01/rdf-schema#label> "DateofJudgment"@en .
+# 
+# https://w3id.org/def/nyon#Decree
+<https://w3id.org/def/nyon#Decree> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/nyon#Decree> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid23 .
+_:genid23 <http://www.w3.org/2002/07/owl#allValuesFrom> <https://w3id.org/def/nyon#Civil> .
+_:genid23 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/def/nyon#OfDomian> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/def/nyon#Decree> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/nyon#CourtDecision> .
+<https://w3id.org/def/nyon#Decree> <http://www.w3.org/2000/01/rdf-schema#label> "Decree"@en .
+# 
+# https://w3id.org/def/nyon#Defendant
+<https://w3id.org/def/nyon#Defendant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/nyon#Defendant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/nyon#Party> .
+<https://w3id.org/def/nyon#Defendant> <http://www.w3.org/2000/01/rdf-schema#comment> "a person sued in the court of law"@en .
+<https://w3id.org/def/nyon#Defendant> <http://www.w3.org/2000/01/rdf-schema#label> "Defendant"@en .
+<https://w3id.org/def/nyon#Defendant> <http://www.w3.org/2002/07/owl#sameAs> "http://lmss.sali.org/RijIqw1HEfQF4ctjWUlgnq"@en .
+# 
+# https://w3id.org/def/nyon#Dissent
+<https://w3id.org/def/nyon#Dissent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/nyon#Dissent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/nyon#Opinion> .
+<https://w3id.org/def/nyon#Dissent> <http://www.w3.org/2000/01/rdf-schema#label> "Dissent"@en .
+# 
+# https://w3id.org/def/nyon#District
+<https://w3id.org/def/nyon#District> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/nyon#District> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/nyon#Location> .
+<https://w3id.org/def/nyon#District> <http://www.w3.org/2000/01/rdf-schema#comment> "represents district name/location"@en .
+<https://w3id.org/def/nyon#District> <http://www.w3.org/2000/01/rdf-schema#label> "District"@en .
+# 
+# https://w3id.org/def/nyon#District_Court
+<https://w3id.org/def/nyon#District_Court> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/nyon#District_Court> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/nyon#Court> .
+<https://w3id.org/def/nyon#District_Court> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/nyon#Courts_for_Civil> .
+<https://w3id.org/def/nyon#District_Court> <http://www.w3.org/2000/01/rdf-schema#comment> "a term in judicial system in India in which a case is heard and judged by at least 2 judges"@en .
+<https://w3id.org/def/nyon#District_Court> <http://www.w3.org/2000/01/rdf-schema#label> "District Court"@en .
+# 
+# https://w3id.org/def/nyon#Division_Bench
+<https://w3id.org/def/nyon#Division_Bench> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/nyon#Division_Bench> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/nyon#Bench> .
+<https://w3id.org/def/nyon#Division_Bench> <http://www.w3.org/2000/01/rdf-schema#comment> "a term in judicial system in India in which a case is heard and judged by at least 2 judges"@en .
+<https://w3id.org/def/nyon#Division_Bench> <http://www.w3.org/2000/01/rdf-schema#label> "Division Bench"@en .
+# 
+# https://w3id.org/def/nyon#Evidence
+<https://w3id.org/def/nyon#Evidence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/nyon#Evidence> <http://www.w3.org/2000/01/rdf-schema#comment> "evidences presented in front of the court in the case"@en .
+<https://w3id.org/def/nyon#Evidence> <http://www.w3.org/2000/01/rdf-schema#label> "Evidence"@en .
+<https://w3id.org/def/nyon#Evidence> <http://www.w3.org/2002/07/owl#sameAs> "http://lmss.sali.org/R7c1yU31BO5LWM06a7c0Pfd"@en .
+# 
+# https://w3id.org/def/nyon#Fact
+<https://w3id.org/def/nyon#Fact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/nyon#Fact> <http://www.w3.org/2000/01/rdf-schema#comment> "represents factual statements in the case law"@en .
+<https://w3id.org/def/nyon#Fact> <http://www.w3.org/2000/01/rdf-schema#label> "Fact"@en .
+<https://w3id.org/def/nyon#Fact> <http://www.w3.org/2002/07/owl#sameAs> "http://lmss.sali.org/RnKWv1E6U2Ssc5SRsG14NO"@en .
+# 
+# https://w3id.org/def/nyon#Group
+<https://w3id.org/def/nyon#Group> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/nyon#Group> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/nyon#Party_Type> .
+<https://w3id.org/def/nyon#Group> <http://www.w3.org/2000/01/rdf-schema#comment> "party of the case are the group of people on one side against another group of people or individual or state"@en .
+<https://w3id.org/def/nyon#Group> <http://www.w3.org/2000/01/rdf-schema#label> "Group"@en .
+# 
+# https://w3id.org/def/nyon#High_Court
+<https://w3id.org/def/nyon#High_Court> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/nyon#High_Court> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/nyon#Court> .
+<https://w3id.org/def/nyon#High_Court> <http://www.w3.org/2000/01/rdf-schema#comment> "court at the state level"@en .
+<https://w3id.org/def/nyon#High_Court> <http://www.w3.org/2000/01/rdf-schema#label> "High Court"@en .
+# 
+# https://w3id.org/def/nyon#Individual
+<https://w3id.org/def/nyon#Individual> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/nyon#Individual> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/nyon#Party_Type> .
+<https://w3id.org/def/nyon#Individual> <http://www.w3.org/2000/01/rdf-schema#comment> "participants of the case are the individual persons"@en .
+<https://w3id.org/def/nyon#Individual> <http://www.w3.org/2000/01/rdf-schema#label> "Individual"@en .
+<https://w3id.org/def/nyon#Individual> <http://www.w3.org/2002/07/owl#sameAs> "http://lmss.sali.org/RDCkFrEclhipkoHPgckuFY6"@en .
+# 
+# https://w3id.org/def/nyon#Investigator
+<https://w3id.org/def/nyon#Investigator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/nyon#Investigator> <http://www.w3.org/2000/01/rdf-schema#label> "PolicePersonnel"@en .
+<https://w3id.org/def/nyon#Investigator> <http://www.w3.org/2002/07/owl#sameAs> "http://lmss.sali.org/RDVQLifN70TJSPCRJJLBgPY"@en .
+# 
+# https://w3id.org/def/nyon#Issue
+<https://w3id.org/def/nyon#Issue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/nyon#Issue> <http://www.w3.org/2000/01/rdf-schema#comment> "issues in the case arised by the party"@en .
+<https://w3id.org/def/nyon#Issue> <http://www.w3.org/2000/01/rdf-schema#label> "Issue"@en .
+# 
+# https://w3id.org/def/nyon#Judge
+<https://w3id.org/def/nyon#Judge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/nyon#Judge> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/nyon#Court_Official> .
+<https://w3id.org/def/nyon#Judge> <http://www.w3.org/2000/01/rdf-schema#comment> "represents the judge of the case"@en .
+<https://w3id.org/def/nyon#Judge> <http://www.w3.org/2000/01/rdf-schema#label> "Judge"@en .
+<https://w3id.org/def/nyon#Judge> <http://www.w3.org/2002/07/owl#sameAs> "http://lmss.sali.org/RDnLOdTNWmEc4EhZ0SZXDm7"@en .
+# 
+# https://w3id.org/def/nyon#Judgement
+<https://w3id.org/def/nyon#Judgement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/nyon#Judgement> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid24 .
+_:genid24 <http://www.w3.org/2002/07/owl#complementOf> <https://w3id.org/def/nyon#Opinion> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/nyon#Judgement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/nyon#CourtDecision> .
+<https://w3id.org/def/nyon#Judgement> <http://www.w3.org/2000/01/rdf-schema#comment> "Judgement given by the judge "@en .
+<https://w3id.org/def/nyon#Judgement> <http://www.w3.org/2000/01/rdf-schema#label> "Judgement"@en .
+<https://w3id.org/def/nyon#Judgement> <http://www.w3.org/2002/07/owl#sameAs> "http://lmss.sali.org/R9jpIjzc10qdgl78jXOZtfm"@en .
+# 
+# https://w3id.org/def/nyon#Jurisdiction
+<https://w3id.org/def/nyon#Jurisdiction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/nyon#Jurisdiction> <http://www.w3.org/2000/01/rdf-schema#comment> "the extent to which a court of law can exercise its authority over any cases filed across a region"@en .
+<https://w3id.org/def/nyon#Jurisdiction> <http://www.w3.org/2000/01/rdf-schema#label> "Jurisdiction"@en .
+# 
+# https://w3id.org/def/nyon#Larger_Bench
+<https://w3id.org/def/nyon#Larger_Bench> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/nyon#Larger_Bench> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/nyon#Bench> .
+<https://w3id.org/def/nyon#Larger_Bench> <http://www.w3.org/2000/01/rdf-schema#comment> "a term in judicial system in India in which a case is heard and judged by three or five judges"@en .
+<https://w3id.org/def/nyon#Larger_Bench> <http://www.w3.org/2000/01/rdf-schema#label> "Larger Bench"@en .
+# 
+# https://w3id.org/def/nyon#Lawyer
+<https://w3id.org/def/nyon#Lawyer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/nyon#Lawyer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/nyon#Court_Official> .
+<https://w3id.org/def/nyon#Lawyer> <http://www.w3.org/2000/01/rdf-schema#comment> "Lawyer is a term of reference to the attroneys and advocates collectively in litigation"@en .
+<https://w3id.org/def/nyon#Lawyer> <http://www.w3.org/2000/01/rdf-schema#label> "Lawyer"@en .
+<https://w3id.org/def/nyon#Lawyer> <http://www.w3.org/2002/07/owl#sameAs> "http://lmss.sali.org/RcTA2iQmrtqOnX3WrjJIp8"@en .
+# 
+# https://w3id.org/def/nyon#LearnedCounsel
+<https://w3id.org/def/nyon#LearnedCounsel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/nyon#LearnedCounsel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/nyon#Court_Official> .
+<https://w3id.org/def/nyon#LearnedCounsel> <http://www.w3.org/2000/01/rdf-schema#comment> "Learned counsel is a term of reference to the lawyers and advocates collectively in litigation"@en .
+<https://w3id.org/def/nyon#LearnedCounsel> <http://www.w3.org/2000/01/rdf-schema#label> "LearnedCounsel"@en .
+# 
+# https://w3id.org/def/nyon#Location
+<https://w3id.org/def/nyon#Location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/nyon#Location> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid25 .
+_:genid25 <http://www.w3.org/2002/07/owl#complementOf> <https://schema.org/Place> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/nyon#Location> <http://www.w3.org/2000/01/rdf-schema#comment> "represents the location of the courts, etc and also used for evidence locations"@en .
+<https://w3id.org/def/nyon#Location> <http://www.w3.org/2000/01/rdf-schema#label> "Location"@en .
+<https://w3id.org/def/nyon#Location> <http://www.w3.org/2002/07/owl#sameAs> "http://lmss.sali.org/R9aSzp9cEiBCzObnP92jYFX"@en .
+# 
+# https://w3id.org/def/nyon#Majority
+<https://w3id.org/def/nyon#Majority> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/nyon#Majority> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/nyon#Opinion> .
+<https://w3id.org/def/nyon#Majority> <http://www.w3.org/2000/01/rdf-schema#label> "Majority"@en .
+# 
+# https://w3id.org/def/nyon#Metropolitan_Magistrate_Courts
+<https://w3id.org/def/nyon#Metropolitan_Magistrate_Courts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/nyon#Metropolitan_Magistrate_Courts> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/nyon#Courts_for_Criminal> .
+<https://w3id.org/def/nyon#Metropolitan_Magistrate_Courts> <http://www.w3.org/2000/01/rdf-schema#comment> "lowest court after Chief Metropolitan Court at metropolitan level for criminal cases"@en .
+<https://w3id.org/def/nyon#Metropolitan_Magistrate_Courts> <http://www.w3.org/2000/01/rdf-schema#label> "Metropolitan Magistrate Court"@en .
+# 
+# https://w3id.org/def/nyon#Metropolitian_Courts
+<https://w3id.org/def/nyon#Metropolitian_Courts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/nyon#Metropolitian_Courts> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/nyon#Court> .
+<https://w3id.org/def/nyon#Metropolitian_Courts> <http://www.w3.org/2000/01/rdf-schema#comment> "court for population more than 10 lakh city "@en .
+<https://w3id.org/def/nyon#Metropolitian_Courts> <http://www.w3.org/2000/01/rdf-schema#label> "Metropolitan Court"@en .
+# 
+# https://w3id.org/def/nyon#Munsif_Court
+<https://w3id.org/def/nyon#Munsif_Court> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/nyon#Munsif_Court> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/nyon#Courts_for_Civil> .
+<https://w3id.org/def/nyon#Munsif_Court> <http://www.w3.org/2000/01/rdf-schema#comment> "lowest court in heirarchy for civil ases at district level after Principal Junior Civil Court"@en .
+<https://w3id.org/def/nyon#Munsif_Court> <http://www.w3.org/2000/01/rdf-schema#label> "Munsif Court"@en .
+# 
+# https://w3id.org/def/nyon#ObiterDictum
+<https://w3id.org/def/nyon#ObiterDictum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/nyon#ObiterDictum> <http://www.w3.org/2000/01/rdf-schema#comment> "additional obersvations, remarks, and opinions made by the judge that are not the part of the reason for the decision"@en .
+<https://w3id.org/def/nyon#ObiterDictum> <http://www.w3.org/2000/01/rdf-schema#label> "Obiter Dictum"@en .
+# 
+# https://w3id.org/def/nyon#Opinion
+<https://w3id.org/def/nyon#Opinion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/nyon#Opinion> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid26 .
+_:genid26 <http://www.w3.org/2002/07/owl#complementOf> <https://w3id.org/def/nyon#Judgement> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/nyon#Opinion> <http://www.w3.org/2000/01/rdf-schema#comment> "judge opinion with respect to case or judgment"@en .
+<https://w3id.org/def/nyon#Opinion> <http://www.w3.org/2000/01/rdf-schema#label> "Opinion"@en .
+<https://w3id.org/def/nyon#Opinion> <http://www.w3.org/2002/07/owl#sameAs> "http://lmss.sali.org/RDNaE3PFsXDfIudTq7w3ace"@en .
+# 
+# https://w3id.org/def/nyon#Order
+<https://w3id.org/def/nyon#Order> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/nyon#Order> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/nyon#CourtDecision> .
+<https://w3id.org/def/nyon#Order> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid27 .
+_:genid27 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/def/nyon#CaseDomain> .
+_:genid27 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/def/nyon#OfDomian> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/def/nyon#Order> <http://www.w3.org/2000/01/rdf-schema#comment> "order given by the court"@en .
+<https://w3id.org/def/nyon#Order> <http://www.w3.org/2000/01/rdf-schema#label> "Order"@en .
+<https://w3id.org/def/nyon#Order> <http://www.w3.org/2002/07/owl#sameAs> "http://lmss.sali.org/R7ibFsNNncTIYF5AjKUDg7b"@en .
+# 
+# https://w3id.org/def/nyon#Original_Jurisdiction
+<https://w3id.org/def/nyon#Original_Jurisdiction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/nyon#Original_Jurisdiction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/nyon#Jurisdiction> .
+<https://w3id.org/def/nyon#Original_Jurisdiction> <http://www.w3.org/2000/01/rdf-schema#comment> "jurisdiction type is a original jurisdiction"@en .
+<https://w3id.org/def/nyon#Original_Jurisdiction> <http://www.w3.org/2000/01/rdf-schema#label> "Original Jurisdiction"@en .
+# 
+# https://w3id.org/def/nyon#Party
+<https://w3id.org/def/nyon#Party> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/nyon#Party> <http://www.w3.org/2000/01/rdf-schema#comment> "party or people involved in the case"@en .
+<https://w3id.org/def/nyon#Party> <http://www.w3.org/2000/01/rdf-schema#label> "Party"@en .
+# 
+# https://w3id.org/def/nyon#Party_Type
+<https://w3id.org/def/nyon#Party_Type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/nyon#Party_Type> <http://www.w3.org/2000/01/rdf-schema#comment> "represents the types of party involved in the case viz. individual, organization, govt. etc."@en .
+<https://w3id.org/def/nyon#Party_Type> <http://www.w3.org/2000/01/rdf-schema#label> "Party Type"@en .
+# 
+# https://w3id.org/def/nyon#Petitioner
+<https://w3id.org/def/nyon#Petitioner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/nyon#Petitioner> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/nyon#Party> .
+<https://w3id.org/def/nyon#Petitioner> <http://www.w3.org/2000/01/rdf-schema#comment> "one who makes the petition"@en .
+<https://w3id.org/def/nyon#Petitioner> <http://www.w3.org/2000/01/rdf-schema#label> "Petitioner"@en .
+# 
+# https://w3id.org/def/nyon#Plaintiff
+<https://w3id.org/def/nyon#Plaintiff> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/nyon#Plaintiff> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/nyon#Party> .
+<https://w3id.org/def/nyon#Plaintiff> <http://www.w3.org/2000/01/rdf-schema#comment> "party who brings the suit in the court of law"@en .
+<https://w3id.org/def/nyon#Plaintiff> <http://www.w3.org/2000/01/rdf-schema#label> "Plaintiff"@en .
+<https://w3id.org/def/nyon#Plaintiff> <http://www.w3.org/2002/07/owl#sameAs> "http://lmss.sali.org/R9tyJmIM3Lx7OItGji5zPXN"@en .
+# 
+# https://w3id.org/def/nyon#Precedent
+<https://w3id.org/def/nyon#Precedent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/nyon#Precedent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid28 .
+_:genid28 <http://www.w3.org/2002/07/owl#unionOf> _:genid35 .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid29 .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid30 .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid30 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid33 .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid31 .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid32 .
+_:genid32 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/def/nyon#High_Court> .
+_:genid32 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/def/nyon#hasRulingOf> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid34 .
+_:genid34 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/def/nyon#CourtCase> .
+_:genid34 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/def/nyon#hasPrecedent> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/nyon#District_Court> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/nyon#Precedent> <http://www.w3.org/2000/01/rdf-schema#comment> "all the past cases referred in the current judgment b ythe judge"@en .
+<https://w3id.org/def/nyon#Precedent> <http://www.w3.org/2000/01/rdf-schema#label> "Precedent"@en .
+# 
+# https://w3id.org/def/nyon#Principal_Junior_Civil_Court
+<https://w3id.org/def/nyon#Principal_Junior_Civil_Court> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/nyon#Principal_Junior_Civil_Court> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/nyon#Courts_for_Civil> .
+<https://w3id.org/def/nyon#Principal_Junior_Civil_Court> <http://www.w3.org/2000/01/rdf-schema#comment> "third lower court in hierarchy at district level for civil cases"@en .
+<https://w3id.org/def/nyon#Principal_Junior_Civil_Court> <http://www.w3.org/2000/01/rdf-schema#label> "Principal Junior Civil Court"@en .
+# 
+# https://w3id.org/def/nyon#Provision
+<https://w3id.org/def/nyon#Provision> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/nyon#Provision> <http://www.w3.org/2000/01/rdf-schema#comment> "clause or section number or article number applied/used in the case law"@en .
+<https://w3id.org/def/nyon#Provision> <http://www.w3.org/2000/01/rdf-schema#label> "Provision"@en .
+# 
+# https://w3id.org/def/nyon#RatioDecidendi
+<https://w3id.org/def/nyon#RatioDecidendi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/nyon#RatioDecidendi> <http://www.w3.org/2000/01/rdf-schema#comment> "the rationale for the decision"@en .
+<https://w3id.org/def/nyon#RatioDecidendi> <http://www.w3.org/2000/01/rdf-schema#label> "RatioDecidendi"@en .
+# 
+# https://w3id.org/def/nyon#Respondent
+<https://w3id.org/def/nyon#Respondent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/nyon#Respondent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/nyon#Party> .
+<https://w3id.org/def/nyon#Respondent> <http://www.w3.org/2000/01/rdf-schema#comment> "party called upon to respond or answer a petition, a cliam or a appeal"@en .
+<https://w3id.org/def/nyon#Respondent> <http://www.w3.org/2000/01/rdf-schema#label> "Respondent"@en .
+<https://w3id.org/def/nyon#Respondent> <http://www.w3.org/2002/07/owl#sameAs> "http://lmss.sali.org/RDsxHT4FlaoALPmeZmTt8td"@en .
+# 
+# https://w3id.org/def/nyon#Review_Jurisdiction
+<https://w3id.org/def/nyon#Review_Jurisdiction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/nyon#Review_Jurisdiction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/nyon#Jurisdiction> .
+<https://w3id.org/def/nyon#Review_Jurisdiction> <http://www.w3.org/2000/01/rdf-schema#comment> "jurisdiction type is a review jurisdiction"@en .
+<https://w3id.org/def/nyon#Review_Jurisdiction> <http://www.w3.org/2000/01/rdf-schema#label> "Review Jurisdiction"@en .
+# 
+# https://w3id.org/def/nyon#Session_Court
+<https://w3id.org/def/nyon#Session_Court> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/nyon#Session_Court> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/nyon#Courts_for_Criminal> .
+<https://w3id.org/def/nyon#Session_Court> <http://www.w3.org/2000/01/rdf-schema#comment> "lower court at both distrcit and metropolitan level after High Courts specific for criminal cases"@en .
+<https://w3id.org/def/nyon#Session_Court> <http://www.w3.org/2000/01/rdf-schema#label> "Sessions Court"@en .
+# 
+# https://w3id.org/def/nyon#Single_Judge
+<https://w3id.org/def/nyon#Single_Judge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/nyon#Single_Judge> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid36 .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid36 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid39 .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid37 .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid38 .
+_:genid38 <http://www.w3.org/2002/07/owl#onClass> <https://w3id.org/def/nyon#Judge> .
+_:genid38 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid38 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/def/nyon#hasJudge> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid40 .
+_:genid40 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/def/nyon#Judge> .
+_:genid40 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/def/nyon#hasBench> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+<https://w3id.org/def/nyon#Single_Judge> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid41 .
+_:genid41 <http://www.w3.org/2002/07/owl#complementOf> <https://w3id.org/def/nyon#Judge> .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/nyon#Single_Judge> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid42 .
+_:genid42 <http://www.w3.org/2002/07/owl#complementOf> _:genid43 .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid43 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid46 .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid44 .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid45 .
+_:genid45 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/def/nyon#Judge> .
+_:genid45 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/def/nyon#hasJudge> .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid47 .
+_:genid47 <http://www.w3.org/2002/07/owl#someValuesFrom> <https://w3id.org/def/nyon#Judge> .
+_:genid47 <http://www.w3.org/2002/07/owl#onProperty> <https://w3id.org/def/nyon#hasCourtOfficial> .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/nyon#Single_Judge> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/nyon#Bench> .
+<https://w3id.org/def/nyon#Single_Judge> <http://www.w3.org/2000/01/rdf-schema#comment> "a case heard and judged by a single judge"@en .
+<https://w3id.org/def/nyon#Single_Judge> <http://www.w3.org/2000/01/rdf-schema#label> "Single Judge"@en .
+# 
+# https://w3id.org/def/nyon#Solicitor
+<https://w3id.org/def/nyon#Solicitor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/nyon#Solicitor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/nyon#Court_Official> .
+<https://w3id.org/def/nyon#Solicitor> <http://www.w3.org/2000/01/rdf-schema#comment> "represents solicitor, learned counsel or laywer of the case"@en .
+<https://w3id.org/def/nyon#Solicitor> <http://www.w3.org/2000/01/rdf-schema#label> "Solicitor"@en .
+# 
+# https://w3id.org/def/nyon#Special_Bench
+<https://w3id.org/def/nyon#Special_Bench> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/nyon#Special_Bench> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/nyon#Bench> .
+<https://w3id.org/def/nyon#Special_Bench> <http://www.w3.org/2000/01/rdf-schema#comment> "means the Bench constituted by or under the orders of the Chief Justice to hear a case or particular class of cases"@en .
+<https://w3id.org/def/nyon#Special_Bench> <http://www.w3.org/2000/01/rdf-schema#label> "Special Bench"@en .
+# 
+# https://w3id.org/def/nyon#State
+<https://w3id.org/def/nyon#State> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/nyon#State> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/nyon#Location> .
+<https://w3id.org/def/nyon#State> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/nyon#Party_Type> .
+<https://w3id.org/def/nyon#State> <http://www.w3.org/2000/01/rdf-schema#comment> "represents state name/location"@en .
+<https://w3id.org/def/nyon#State> <http://www.w3.org/2000/01/rdf-schema#label> "State"@en .
+# 
+# https://w3id.org/def/nyon#Statue
+<https://w3id.org/def/nyon#Statue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/nyon#Statue> <http://www.w3.org/2000/01/rdf-schema#comment> "includes the acts and norms of the law"@en .
+<https://w3id.org/def/nyon#Statue> <http://www.w3.org/2000/01/rdf-schema#label> "Statue"@en .
+# 
+# https://w3id.org/def/nyon#Sub_Court
+<https://w3id.org/def/nyon#Sub_Court> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/nyon#Sub_Court> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid48 .
+_:genid48 <http://www.w3.org/2002/07/owl#complementOf> <https://w3id.org/def/nyon#Tribunal> .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/nyon#Sub_Court> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/nyon#Courts_for_Civil> .
+<https://w3id.org/def/nyon#Sub_Court> <http://www.w3.org/2000/01/rdf-schema#comment> "second lower court in hierarchy at District level for civil cases"@en .
+<https://w3id.org/def/nyon#Sub_Court> <http://www.w3.org/2000/01/rdf-schema#label> "Sub Court"@en .
+# 
+# https://w3id.org/def/nyon#SupremeCourt
+<https://w3id.org/def/nyon#SupremeCourt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/nyon#SupremeCourt> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/nyon#Court> .
+<https://w3id.org/def/nyon#SupremeCourt> <http://www.w3.org/2000/01/rdf-schema#comment> "highest court in the judicial system"@en .
+<https://w3id.org/def/nyon#SupremeCourt> <http://www.w3.org/2000/01/rdf-schema#label> "Supreme Court of India"@en .
+# 
+# https://w3id.org/def/nyon#Taluka
+<https://w3id.org/def/nyon#Taluka> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/nyon#Taluka> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/nyon#Location> .
+<https://w3id.org/def/nyon#Taluka> <http://www.w3.org/2000/01/rdf-schema#comment> "represents taluka name/location"@en .
+<https://w3id.org/def/nyon#Taluka> <http://www.w3.org/2000/01/rdf-schema#label> "Taluka"@en .
+# 
+# https://w3id.org/def/nyon#Tribunal
+<https://w3id.org/def/nyon#Tribunal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/nyon#Tribunal> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/nyon#Court> .
+<https://w3id.org/def/nyon#Tribunal> <http://www.w3.org/2000/01/rdf-schema#comment> "institutions established for discharging judicial or quasi-judicial duties under the Government of India"@en .
+<https://w3id.org/def/nyon#Tribunal> <http://www.w3.org/2000/01/rdf-schema#label> "Tribunal"@en .
+# 
+# https://w3id.org/def/nyon#Tribunal_Bench
+<https://w3id.org/def/nyon#Tribunal_Bench> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/nyon#Tribunal_Bench> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/nyon#Bench> .
+<https://w3id.org/def/nyon#Tribunal_Bench> <http://www.w3.org/2000/01/rdf-schema#comment> "Bench deals with tribunals cases"@en .
+<https://w3id.org/def/nyon#Tribunal_Bench> <http://www.w3.org/2000/01/rdf-schema#label> "Tribunal Bench"@en .
+# 
+# https://w3id.org/def/nyon#Witness
+<https://w3id.org/def/nyon#Witness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/nyon#Witness> <http://www.w3.org/2000/01/rdf-schema#comment> "witness involved/presented in the case"@en .
+<https://w3id.org/def/nyon#Witness> <http://www.w3.org/2000/01/rdf-schema#label> "Witness"@en .
+<https://w3id.org/def/nyon#Witness> <http://www.w3.org/2002/07/owl#sameAs> "http://lmss.sali.org/R9tZFXPrXQJWHbqSgtCQxJF"@en .
+# 
+# https://w3id.org/def/nyon#WordAndPhrase
+<https://w3id.org/def/nyon#WordAndPhrase> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/nyon#WordAndPhrase> <http://www.w3.org/2000/01/rdf-schema#comment> "words or phrases exctracted from the case to make the search better for the cases or find relevent cases or judgment"@en .
+<https://w3id.org/def/nyon#WordAndPhrase> <http://www.w3.org/2000/01/rdf-schema#label> "WordsAndPhrases"@en .
+# 
+# https://w3id.org/def/nyon#Writ_Jurisdiction
+<https://w3id.org/def/nyon#Writ_Jurisdiction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/nyon#Writ_Jurisdiction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/nyon#Jurisdiction> .
+<https://w3id.org/def/nyon#Writ_Jurisdiction> <http://www.w3.org/2000/01/rdf-schema#comment> "jurisdiction type is a writ jurisdiction"@en .
+<https://w3id.org/def/nyon#Writ_Jurisdiction> <http://www.w3.org/2000/01/rdf-schema#label> "Writ Jurisdiction"@en .
+# 
+# https://w3id.org/def/nyon#Judicial_Magistrate_Court(First_Class)
+<https://w3id.org/def/nyon#Judicial_Magistrate_Court(First_Class)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/nyon#Judicial_Magistrate_Court(First_Class)> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/nyon#Courts_for_Criminal> .
+<https://w3id.org/def/nyon#Judicial_Magistrate_Court(First_Class)> <http://www.w3.org/2000/01/rdf-schema#comment> "second lower court at distrcit level after districit level Session Court for criminal cases"@en .
+<https://w3id.org/def/nyon#Judicial_Magistrate_Court(First_Class)> <http://www.w3.org/2000/01/rdf-schema#label> "Judicial Magistrate Court (First Class)"@en .
+# 
+# https://w3id.org/def/nyon#Judicial_Magistrate_Court(Second_Class)
+<https://w3id.org/def/nyon#Judicial_Magistrate_Court(Second_Class)> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/def/nyon#Judicial_Magistrate_Court(Second_Class)> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/def/nyon#Courts_for_Criminal> .
+<https://w3id.org/def/nyon#Judicial_Magistrate_Court(Second_Class)> <http://www.w3.org/2000/01/rdf-schema#comment> "lowest court after Judicial Magistrate Court (First Class) at distrcit level for criminal cases"@en .
+<https://w3id.org/def/nyon#Judicial_Magistrate_Court(Second_Class)> <http://www.w3.org/2000/01/rdf-schema#label> "Judicial Magistrate Court (Second Class)"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# https://w3id.org/def/nyon#C1
+<https://w3id.org/def/nyon#C1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/def/nyon#C1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/nyon#CourtCase> .
+<https://w3id.org/def/nyon#C1> <https://w3id.org/def/nyon#hasJudge> <https://w3id.org/def/nyon#J1> .
+<https://w3id.org/def/nyon#C1> <https://w3id.org/def/nyon#hasCaseName> "A vs B"@en .
+# 
+# https://w3id.org/def/nyon#J1
+<https://w3id.org/def/nyon#J1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/def/nyon#J1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/nyon#Judge> .
+<https://w3id.org/def/nyon#J1> <https://w3id.org/def/nyon#withOpinion> <https://w3id.org/def/nyon#M0> .
+<https://w3id.org/def/nyon#J1> <https://w3id.org/def/nyon#COFirstName> "Arjit Pasayat"@en .
+# 
+# https://w3id.org/def/nyon#M0
+<https://w3id.org/def/nyon#M0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/def/nyon#M0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/def/nyon#Majority> .
+<https://w3id.org/def/nyon#M0> <https://w3id.org/def/nyon#value> "7 Yes, 5 No"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    General axioms
+# #
+# #################################################################
+# 
+# 
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid49 <http://www.w3.org/2002/07/owl#members> _:genid54 .
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid53 .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid52 .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid51 .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid50 .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/nyon#State> .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/nyon#Individual> .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/nyon#Group> .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://schema.org/Organization> .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://schema.org/GovernmentOrganization> .
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid55 <http://www.w3.org/2002/07/owl#members> _:genid60 .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid59 .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid58 .
+_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid57 .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid56 .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/nyon#Taluka> .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/nyon#State> .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/nyon#District> .
+_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/nyon#Country> .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://schema.org/Place> .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid61 <http://www.w3.org/2002/07/owl#members> _:genid65 .
+_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid64 .
+_:genid64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid63 .
+_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid62 .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/nyon#Review_Jurisdiction> .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/nyon#Original_Jurisdiction> .
+_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/nyon#Appellant_Jurisdiction> .
+_:genid64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/nyon#Advisory_Jurisdiction> .
+_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid66 <http://www.w3.org/2002/07/owl#members> _:genid71 .
+_:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid70 .
+_:genid70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid69 .
+_:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid68 .
+_:genid68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid67 .
+_:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/nyon#Judicial_Magistrate_Court(Second_Class)> .
+_:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/nyon#Judicial_Magistrate_Court(First_Class)> .
+_:genid68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/nyon#Session_Court> .
+_:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/nyon#Metropolitan_Magistrate_Courts> .
+_:genid70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/nyon#Chief_Meterpolitan_Court> .
+_:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid72 <http://www.w3.org/2002/07/owl#members> _:genid78 .
+_:genid78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid77 .
+_:genid77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid76 .
+_:genid76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid75 .
+_:genid75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid74 .
+_:genid74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid73 .
+_:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/nyon#Sub_Court> .
+_:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/nyon#Principal_Junior_Civil_Court> .
+_:genid74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/nyon#Munsif_Court> .
+_:genid75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/nyon#District_Court> .
+_:genid76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/nyon#Courts_of_Smaller_Causes> .
+_:genid77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/nyon#City_Civil_Courts> .
+_:genid78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid79 <http://www.w3.org/2002/07/owl#members> _:genid82 .
+_:genid82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid81 .
+_:genid81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid80 .
+_:genid80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/nyon#Majority> .
+_:genid80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/nyon#Dissent> .
+_:genid81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/nyon#Concurrence> .
+_:genid82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid83 <http://www.w3.org/2002/07/owl#members> _:genid86 .
+_:genid86 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid85 .
+_:genid85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid84 .
+_:genid84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/nyon#Solicitor> .
+_:genid84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/nyon#Judge> .
+_:genid85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid86 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/nyon#Investigator> .
+_:genid86 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointProperties> .
+_:genid87 <http://www.w3.org/2002/07/owl#members> _:genid92 .
+_:genid92 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid91 .
+_:genid91 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid90 .
+_:genid90 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid89 .
+_:genid89 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid88 .
+_:genid88 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid88 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/nyon#respondentArgument> .
+_:genid88 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid89 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/nyon#plaintiffArgument> .
+_:genid89 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid90 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/nyon#petitionerArgument> .
+_:genid90 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid91 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/nyon#defendentArgument> .
+_:genid91 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid92 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/nyon#appellantArgument> .
+_:genid92 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid93 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointProperties> .
+_:genid93 <http://www.w3.org/2002/07/owl#members> _:genid112 .
+_:genid112 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid111 .
+_:genid111 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid110 .
+_:genid110 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid109 .
+_:genid109 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid108 .
+_:genid108 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid107 .
+_:genid107 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid106 .
+_:genid106 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid105 .
+_:genid105 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid104 .
+_:genid104 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid103 .
+_:genid103 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid102 .
+_:genid102 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid101 .
+_:genid101 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid100 .
+_:genid100 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid99 .
+_:genid99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid98 .
+_:genid98 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid97 .
+_:genid97 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid96 .
+_:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid95 .
+_:genid95 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid94 .
+_:genid94 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid94 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/nyon#hasWords> .
+_:genid94 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid95 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/nyon#hasWordPhrase> .
+_:genid95 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/nyon#hasWitness> .
+_:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid97 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/nyon#hasStatue> .
+_:genid97 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid98 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/nyon#hasRulingOf> .
+_:genid98 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/nyon#hasRatioDecidendi> .
+_:genid99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid100 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/nyon#hasPolicePersonnel> .
+_:genid100 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid101 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/nyon#hasParty> .
+_:genid101 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid102 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/nyon#hasObiterDictum> .
+_:genid102 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid103 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/nyon#hasJudgmentType> .
+_:genid103 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid104 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/nyon#hasFinalDecision> .
+_:genid104 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid105 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/nyon#hasFact> .
+_:genid105 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid106 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/nyon#hasEvidence> .
+_:genid106 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid107 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/nyon#hasDateOfJudgment> .
+_:genid107 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid108 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/nyon#hasCourtOfficial> .
+_:genid108 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid109 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/nyon#hasBench> .
+_:genid109 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid110 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/nyon#hasAuthor> .
+_:genid110 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid111 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/nyon#cites> .
+_:genid111 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid112 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/nyon#citedBy> .
+_:genid112 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid113 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointProperties> .
+_:genid113 <http://www.w3.org/2002/07/owl#members> _:genid116 .
+_:genid116 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid115 .
+_:genid115 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid114 .
+_:genid114 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid114 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/nyon#precendentNotReliedUpon> .
+_:genid114 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid115 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/nyon#precedentReliedUpon> .
+_:genid115 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid116 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/nyon#precedentOverruled> .
+_:genid116 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid117 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointProperties> .
+_:genid117 <http://www.w3.org/2002/07/owl#members> _:genid142 .
+_:genid142 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid141 .
+_:genid141 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid140 .
+_:genid140 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid139 .
+_:genid139 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid138 .
+_:genid138 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid137 .
+_:genid137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid136 .
+_:genid136 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid135 .
+_:genid135 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid134 .
+_:genid134 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid133 .
+_:genid133 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid132 .
+_:genid132 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid131 .
+_:genid131 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid130 .
+_:genid130 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid129 .
+_:genid129 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid128 .
+_:genid128 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid127 .
+_:genid127 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid126 .
+_:genid126 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid125 .
+_:genid125 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid124 .
+_:genid124 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid123 .
+_:genid123 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid122 .
+_:genid122 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid121 .
+_:genid121 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid120 .
+_:genid120 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid119 .
+_:genid119 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid118 .
+_:genid118 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid118 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/nyon#wordPhraseValue> .
+_:genid118 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid119 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/nyon#witnessStatement> .
+_:genid119 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid120 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/nyon#witnessName> .
+_:genid120 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid121 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/nyon#ratioDecidendiValue> .
+_:genid121 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid122 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/nyon#ratioDecidendiSequenceNum> .
+_:genid122 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid123 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/nyon#partyName> .
+_:genid123 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid124 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/nyon#obiterDictumValue> .
+_:genid124 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid125 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/nyon#obiterDictumSequenceNum> .
+_:genid125 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid126 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/nyon#locationName> .
+_:genid126 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid127 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/nyon#issueValue> .
+_:genid127 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid128 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/nyon#issueSequenceNum> .
+_:genid128 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid129 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/nyon#hasPolicePersonnelName> .
+_:genid129 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid130 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/nyon#hasDesignation> .
+_:genid130 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid131 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/nyon#hasCaseName> .
+_:genid131 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid132 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/nyon#hasCaseID> .
+_:genid132 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid133 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/nyon#finalDecisionValue> .
+_:genid133 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid134 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/nyon#factValue> .
+_:genid134 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid135 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/nyon#factSequenceNum> .
+_:genid135 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid136 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/nyon#evidenceLocation> .
+_:genid136 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/nyon#dateOfJudgment> .
+_:genid137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid138 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/nyon#courtOffName> .
+_:genid138 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid139 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/nyon#courtName> .
+_:genid139 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid140 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/nyon#catchwordValue> .
+_:genid140 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid141 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/nyon#argumentValue> .
+_:genid141 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid142 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/nyon#argumentSequenceNum> .
+_:genid142 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid143 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointProperties> .
+_:genid143 <http://www.w3.org/2002/07/owl#members> _:genid146 .
+_:genid146 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid145 .
+_:genid145 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid144 .
+_:genid144 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid144 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/nyon#hasYear> .
+_:genid144 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid145 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/nyon#hasMonth> .
+_:genid145 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid146 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/def/nyon#hasDate> .
+_:genid146 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Rules
+# #
+# #################################################################
+# 
+# 
+<https://w3id.org/def/NyOn#cj> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+<https://w3id.org/def/NyOn#p> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+<https://w3id.org/def/NyOn#a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+<https://w3id.org/def/NyOn#r> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+<https://w3id.org/def/NyOn#x> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+<https://w3id.org/def/NyOn#j> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+<https://w3id.org/def/NyOn#c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+<https://w3id.org/def/NyOn#d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+<https://w3id.org/def/NyOn#m> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+<https://w3id.org/def/NyOn#y> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+_:genid147 <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid147 <http://www.w3.org/2000/01/rdf-schema#comment> "" .
+_:genid147 <http://www.w3.org/2000/01/rdf-schema#label> "S5" .
+_:genid147 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid147 <http://www.w3.org/2003/11/swrl#body> _:genid156 .
+_:genid156 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid154 .
+_:genid154 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid152 .
+_:genid152 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid150 .
+_:genid150 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid148 .
+_:genid148 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid148 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid149 .
+_:genid149 <http://www.w3.org/2003/11/swrl#argument2> <https://w3id.org/def/NyOn#p> .
+_:genid149 <http://www.w3.org/2003/11/swrl#argument1> <https://w3id.org/def/NyOn#cj> .
+_:genid149 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://w3id.org/def/nyon#hasParty> .
+_:genid149 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid148 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid150 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid151 .
+_:genid151 <http://www.w3.org/2003/11/swrl#argument1> <https://w3id.org/def/NyOn#a> .
+_:genid151 <http://www.w3.org/2003/11/swrl#classPredicate> <https://w3id.org/def/nyon#Argument> .
+_:genid151 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid150 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid152 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid153 .
+_:genid153 <http://www.w3.org/2003/11/swrl#argument2> <https://w3id.org/def/NyOn#a> .
+_:genid153 <http://www.w3.org/2003/11/swrl#argument1> <https://w3id.org/def/NyOn#p> .
+_:genid153 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://w3id.org/def/nyon#makeArgument> .
+_:genid153 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid152 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid154 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid155 .
+_:genid155 <http://www.w3.org/2003/11/swrl#argument1> <https://w3id.org/def/NyOn#p> .
+_:genid155 <http://www.w3.org/2003/11/swrl#classPredicate> <https://w3id.org/def/nyon#Petitioner> .
+_:genid155 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid154 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid156 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid157 .
+_:genid157 <http://www.w3.org/2003/11/swrl#argument1> <https://w3id.org/def/NyOn#cj> .
+_:genid157 <http://www.w3.org/2003/11/swrl#classPredicate> <https://w3id.org/def/nyon#CourtCase> .
+_:genid157 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid156 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid147 <http://www.w3.org/2003/11/swrl#head> _:genid158 .
+_:genid158 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid158 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid159 .
+_:genid159 <http://www.w3.org/2003/11/swrl#argument2> <https://w3id.org/def/NyOn#a> .
+_:genid159 <http://www.w3.org/2003/11/swrl#argument1> <https://w3id.org/def/NyOn#cj> .
+_:genid159 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://w3id.org/def/nyon#petitionerArgument> .
+_:genid159 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid158 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid160 <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid160 <http://www.w3.org/2000/01/rdf-schema#comment> "" .
+_:genid160 <http://www.w3.org/2000/01/rdf-schema#label> "S6" .
+_:genid160 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid160 <http://www.w3.org/2003/11/swrl#body> _:genid165 .
+_:genid165 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid163 .
+_:genid163 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid161 .
+_:genid161 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid161 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid162 .
+_:genid162 <http://www.w3.org/2003/11/swrl#argument2> <https://w3id.org/def/NyOn#r> .
+_:genid162 <http://www.w3.org/2003/11/swrl#argument1> <https://w3id.org/def/NyOn#cj> .
+_:genid162 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://w3id.org/def/nyon#hasParty> .
+_:genid162 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid161 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid163 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid164 .
+_:genid164 <http://www.w3.org/2003/11/swrl#argument1> <https://w3id.org/def/NyOn#r> .
+_:genid164 <http://www.w3.org/2003/11/swrl#classPredicate> <https://w3id.org/def/nyon#Respondent> .
+_:genid164 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid163 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid165 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid166 .
+_:genid166 <http://www.w3.org/2003/11/swrl#argument2> <https://w3id.org/def/NyOn#a> .
+_:genid166 <http://www.w3.org/2003/11/swrl#argument1> <https://w3id.org/def/NyOn#p> .
+_:genid166 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://w3id.org/def/nyon#makeArgument> .
+_:genid166 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid165 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid160 <http://www.w3.org/2003/11/swrl#head> _:genid167 .
+_:genid167 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid167 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid168 .
+_:genid168 <http://www.w3.org/2003/11/swrl#argument2> <https://w3id.org/def/NyOn#a> .
+_:genid168 <http://www.w3.org/2003/11/swrl#argument1> <https://w3id.org/def/NyOn#r> .
+_:genid168 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://w3id.org/def/nyon#respondentArgument> .
+_:genid168 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid167 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid169 <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid169 <http://www.w3.org/2000/01/rdf-schema#comment> "" .
+_:genid169 <http://www.w3.org/2000/01/rdf-schema#label> "S4" .
+_:genid169 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid169 <http://www.w3.org/2003/11/swrl#body> _:genid174 .
+_:genid174 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid172 .
+_:genid172 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid170 .
+_:genid170 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid170 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid171 .
+_:genid171 <http://www.w3.org/2003/11/swrl#argument2> <https://w3id.org/def/NyOn#c> .
+_:genid171 <http://www.w3.org/2003/11/swrl#argument1> <https://w3id.org/def/NyOn#j> .
+_:genid171 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://w3id.org/def/nyon#withConcurrence> .
+_:genid171 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid170 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid172 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid173 .
+_:genid173 <http://www.w3.org/2003/11/swrl#argument1> <https://w3id.org/def/NyOn#c> .
+_:genid173 <http://www.w3.org/2003/11/swrl#classPredicate> <https://w3id.org/def/nyon#Concurrence> .
+_:genid173 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid172 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid174 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid175 .
+_:genid175 <http://www.w3.org/2003/11/swrl#argument2> <https://w3id.org/def/NyOn#j> .
+_:genid175 <http://www.w3.org/2003/11/swrl#argument1> <https://w3id.org/def/NyOn#x> .
+_:genid175 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://w3id.org/def/nyon#hasJudge> .
+_:genid175 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid174 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid169 <http://www.w3.org/2003/11/swrl#head> _:genid176 .
+_:genid176 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid176 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid177 .
+_:genid177 <http://www.w3.org/2003/11/swrl#argument2> <https://w3id.org/def/NyOn#c> .
+_:genid177 <http://www.w3.org/2003/11/swrl#argument1> <https://w3id.org/def/NyOn#j> .
+_:genid177 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://w3id.org/def/nyon#withOpinion> .
+_:genid177 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid176 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid178 <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid178 <http://www.w3.org/2000/01/rdf-schema#comment> "" .
+_:genid178 <http://www.w3.org/2000/01/rdf-schema#label> "S3" .
+_:genid178 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid178 <http://www.w3.org/2003/11/swrl#body> _:genid183 .
+_:genid183 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid181 .
+_:genid181 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid179 .
+_:genid179 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid179 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid180 .
+_:genid180 <http://www.w3.org/2003/11/swrl#argument2> <https://w3id.org/def/NyOn#d> .
+_:genid180 <http://www.w3.org/2003/11/swrl#argument1> <https://w3id.org/def/NyOn#j> .
+_:genid180 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://w3id.org/def/nyon#withDissent> .
+_:genid180 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid179 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid181 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid182 .
+_:genid182 <http://www.w3.org/2003/11/swrl#argument1> <https://w3id.org/def/NyOn#d> .
+_:genid182 <http://www.w3.org/2003/11/swrl#classPredicate> <https://w3id.org/def/nyon#Dissent> .
+_:genid182 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid181 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid183 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid184 .
+_:genid184 <http://www.w3.org/2003/11/swrl#argument2> <https://w3id.org/def/NyOn#j> .
+_:genid184 <http://www.w3.org/2003/11/swrl#argument1> <https://w3id.org/def/NyOn#x> .
+_:genid184 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://w3id.org/def/nyon#hasJudge> .
+_:genid184 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid183 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid178 <http://www.w3.org/2003/11/swrl#head> _:genid185 .
+_:genid185 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid185 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid186 .
+_:genid186 <http://www.w3.org/2003/11/swrl#argument2> <https://w3id.org/def/NyOn#d> .
+_:genid186 <http://www.w3.org/2003/11/swrl#argument1> <https://w3id.org/def/NyOn#j> .
+_:genid186 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://w3id.org/def/nyon#withOpinion> .
+_:genid186 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid185 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid187 <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid187 <http://www.w3.org/2000/01/rdf-schema#comment> "" .
+_:genid187 <http://www.w3.org/2000/01/rdf-schema#label> "S2" .
+_:genid187 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid187 <http://www.w3.org/2003/11/swrl#body> _:genid192 .
+_:genid192 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid190 .
+_:genid190 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid188 .
+_:genid188 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid188 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid189 .
+_:genid189 <http://www.w3.org/2003/11/swrl#argument2> <https://w3id.org/def/NyOn#m> .
+_:genid189 <http://www.w3.org/2003/11/swrl#argument1> <https://w3id.org/def/NyOn#j> .
+_:genid189 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://w3id.org/def/nyon#withMajority> .
+_:genid189 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid188 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid190 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid191 .
+_:genid191 <http://www.w3.org/2003/11/swrl#argument1> <https://w3id.org/def/NyOn#m> .
+_:genid191 <http://www.w3.org/2003/11/swrl#classPredicate> <https://w3id.org/def/nyon#Majority> .
+_:genid191 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid190 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid192 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid193 .
+_:genid193 <http://www.w3.org/2003/11/swrl#argument2> <https://w3id.org/def/NyOn#j> .
+_:genid193 <http://www.w3.org/2003/11/swrl#argument1> <https://w3id.org/def/NyOn#x> .
+_:genid193 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://w3id.org/def/nyon#hasJudge> .
+_:genid193 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid192 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid187 <http://www.w3.org/2003/11/swrl#head> _:genid194 .
+_:genid194 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid194 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid195 .
+_:genid195 <http://www.w3.org/2003/11/swrl#argument2> <https://w3id.org/def/NyOn#m> .
+_:genid195 <http://www.w3.org/2003/11/swrl#argument1> <https://w3id.org/def/NyOn#j> .
+_:genid195 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://w3id.org/def/nyon#withOpinion> .
+_:genid195 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid194 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid196 <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid196 <http://www.w3.org/2000/01/rdf-schema#comment> "" .
+_:genid196 <http://www.w3.org/2000/01/rdf-schema#label> "S1" .
+_:genid196 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid196 <http://www.w3.org/2003/11/swrl#body> _:genid201 .
+_:genid201 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid199 .
+_:genid199 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid197 .
+_:genid197 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid197 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid198 .
+_:genid198 <http://www.w3.org/2003/11/swrl#argument2> <https://w3id.org/def/NyOn#j> .
+_:genid198 <http://www.w3.org/2003/11/swrl#argument1> <https://w3id.org/def/NyOn#y> .
+_:genid198 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://w3id.org/def/nyon#hasCourtOfficial> .
+_:genid198 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid197 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid199 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid200 .
+_:genid200 <http://www.w3.org/2003/11/swrl#argument1> <https://w3id.org/def/NyOn#j> .
+_:genid200 <http://www.w3.org/2003/11/swrl#classPredicate> <https://w3id.org/def/nyon#Judge> .
+_:genid200 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid199 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid201 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid202 .
+_:genid202 <http://www.w3.org/2003/11/swrl#argument2> <https://w3id.org/def/NyOn#y> .
+_:genid202 <http://www.w3.org/2003/11/swrl#argument1> <https://w3id.org/def/NyOn#x> .
+_:genid202 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://w3id.org/def/nyon#hasFinalDecision> .
+_:genid202 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid201 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid196 <http://www.w3.org/2003/11/swrl#head> _:genid203 .
+_:genid203 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid203 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid204 .
+_:genid204 <http://www.w3.org/2003/11/swrl#argument2> <https://w3id.org/def/NyOn#j> .
+_:genid204 <http://www.w3.org/2003/11/swrl#argument1> <https://w3id.org/def/NyOn#x> .
+_:genid204 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://w3id.org/def/nyon#hasJudge> .
+_:genid204 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid203 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
