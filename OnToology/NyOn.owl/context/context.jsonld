@@ -1,0 +1,621 @@
+{
+  "@context" : {
+    "" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#Judicial_Magistrate_Court(First_Class)"
+    },
+    "Respondent" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#Respondent"
+    },
+    "Fact" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#Fact"
+    },
+    "Accussed" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#Accussed"
+    },
+    "Order" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#Order"
+    },
+    "Court_Official" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#Court_Official"
+    },
+    "Taluka" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#Taluka"
+    },
+    "Principal_Junior_Civil_Court" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#Principal_Junior_Civil_Court"
+    },
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
+    "created" : {
+      "@id" : "http://purl.org/dc/terms/created"
+    },
+    "CourtCase" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#CourtCase"
+    },
+    "Opinion" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#Opinion"
+    },
+    "hasStatue" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#hasStatue",
+      "@type" : "@id"
+    },
+    "Judge" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#Judge"
+    },
+    "license" : {
+      "@id" : "http://purl.org/dc/terms/license"
+    },
+    "Petitioner" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#Petitioner"
+    },
+    "Dissent" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#Dissent"
+    },
+    "Barrister" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#Barrister"
+    },
+    "withDissent" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#withDissent",
+      "@type" : "@id"
+    },
+    "Country" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#Country"
+    },
+    "Plaintiff" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#Plaintiff"
+    },
+    "Courts_for_Civil" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#Courts_for_Civil"
+    },
+    "hasJudge" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#hasJudge",
+      "@type" : "@id"
+    },
+    "hasDateOfJudgment" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#hasDateOfJudgment",
+      "@type" : "@id"
+    },
+    "hasCaseID" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#hasCaseID",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Organization" : {
+      "@id" : "https://schema.org/Organization"
+    },
+    "RatioDecidendi" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#RatioDecidendi"
+    },
+    "wLastName" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#wLastName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Thing" : {
+      "@id" : "http://www.w3.org/2002/07/owl#Thing"
+    },
+    "topDataProperty" : {
+      "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+    },
+    "isRuleEnabled" : {
+      "@id" : "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"
+    },
+    "Session_Court" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#Session_Court"
+    },
+    "hasObiterDictum" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#hasObiterDictum",
+      "@type" : "@id"
+    },
+    "Judgement" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#Judgement"
+    },
+    "Munsif_Court" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#Munsif_Court"
+    },
+    "Metropolitian_Courts" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#Metropolitian_Courts"
+    },
+    "petitionerArgument" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#petitionerArgument",
+      "@type" : "@id"
+    },
+    "defendentArgument" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#defendentArgument",
+      "@type" : "@id"
+    },
+    "District" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#District"
+    },
+    "hasCaseName" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#hasCaseName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRatioDecidendi" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#hasRatioDecidendi",
+      "@type" : "@id"
+    },
+    "Advisory_Jurisdiction" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#Advisory_Jurisdiction"
+    },
+    "FactualStatement" : {
+      "@id" : "http://docs.oasis-open.org/legalruleml/ns/v1.0/FactualStatement"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "ratioDecidendiValue" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#ratioDecidendiValue",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Appellant" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#Appellant"
+    },
+    "precendentNotReliedUpon" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#precendentNotReliedUpon",
+      "@type" : "@id"
+    },
+    "equivalentCitation" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#equivalentCitation",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasEvidenceLoc" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#hasEvidenceLoc",
+      "@type" : "@id"
+    },
+    "Decree" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#Decree"
+    },
+    "Location" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#Location"
+    },
+    "hasBench" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#hasBench",
+      "@type" : "@id"
+    },
+    "Provision" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#Provision"
+    },
+    "withMajority" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#withMajority",
+      "@type" : "@id"
+    },
+    "Evidence" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#Evidence"
+    },
+    "lastName" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#lastName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "WordAndPhrase" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#WordAndPhrase"
+    },
+    "Statue" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#Statue"
+    },
+    "citedBy" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#citedBy",
+      "@type" : "@id"
+    },
+    "hasCourtLoc" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#hasCourtLoc",
+      "@type" : "@id"
+    },
+    "Sub_Court" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#Sub_Court"
+    },
+    "Bench" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#Bench"
+    },
+    "Person" : {
+      "@id" : "http://xmlns.com/foaf/0.1/Person"
+    },
+    "Division_Bench" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#Division_Bench"
+    },
+    "witnessStatement" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#witnessStatement",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "argumentValue" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#argumentValue",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasProvision" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#hasProvision",
+      "@type" : "@id"
+    },
+    "Courts_of_Smaller_Causes" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#Courts_of_Smaller_Causes"
+    },
+    "hasDate" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#hasDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "Investigator" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#Investigator"
+    },
+    "hasWitness" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#hasWitness",
+      "@type" : "@id"
+    },
+    "GovernmentOrganization" : {
+      "@id" : "https://schema.org/GovernmentOrganization"
+    },
+    "witnessName" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#witnessName"
+    },
+    "Party_Type" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#Party_Type"
+    },
+    "hasEvidence" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#hasEvidence",
+      "@type" : "@id"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/terms/creator"
+    },
+    "Special_Bench" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#Special_Bench"
+    },
+    "Individual" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#Individual"
+    },
+    "topObjectProperty" : {
+      "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+      "@type" : "@id"
+    },
+    "factSequenceNum" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#factSequenceNum",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "SupremeCourt" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#SupremeCourt"
+    },
+    "Lawyer" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#Lawyer"
+    },
+    "value" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#value",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "DateOfJudgment" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#DateOfJudgment"
+    },
+    "Single_Judge" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#Single_Judge"
+    },
+    "Review_Jurisdiction" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#Review_Jurisdiction"
+    },
+    "issueValue" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#issueValue",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "ratioDecidendiSequenceNum" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#ratioDecidendiSequenceNum",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "hasDesignation" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#hasDesignation",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Issue" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#Issue"
+    },
+    "hasJudgmentType" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#hasJudgmentType",
+      "@type" : "@id"
+    },
+    "finalDecisionValue" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#finalDecisionValue",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasAuthor" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#hasAuthor",
+      "@type" : "@id"
+    },
+    "Courts_for_Criminal" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#Courts_for_Criminal"
+    },
+    "hasPrecedent" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#hasPrecedent",
+      "@type" : "@id"
+    },
+    "argumentSequenceNum" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#argumentSequenceNum",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "firstName" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#firstName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Argument" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#Argument"
+    },
+    "hasCourtOfficial" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#hasCourtOfficial",
+      "@type" : "@id"
+    },
+    "neutralCitations" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#neutralCitations",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "catchwordValue" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#catchwordValue",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasFinalDecision" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#hasFinalDecision",
+      "@type" : "@id"
+    },
+    "dateOfJudgment" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#dateOfJudgment",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "preferredNamespacePrefix" : {
+      "@id" : "http://purl.org/vocab/vann/preferredNamespacePrefix"
+    },
+    "COFirstName" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#COFirstName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasMonth" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#hasMonth",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "OfDomian" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#OfDomian",
+      "@type" : "@id"
+    },
+    "precedentOverruled" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#precedentOverruled",
+      "@type" : "@id"
+    },
+    "Place" : {
+      "@id" : "https://schema.org/Place"
+    },
+    "withOpinion" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#withOpinion",
+      "@type" : "@id"
+    },
+    "hasWordPhrase" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#hasWordPhrase",
+      "@type" : "@id"
+    },
+    "issueSequenceNum" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#issueSequenceNum",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "Solicitor" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#Solicitor"
+    },
+    "Tribunal" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#Tribunal"
+    },
+    "Civil" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#Civil"
+    },
+    "Jurisdiction" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#Jurisdiction"
+    },
+    "LearnedCounsel" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#LearnedCounsel"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/terms/title"
+    },
+    "High_Court" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#High_Court"
+    },
+    "publisher" : {
+      "@id" : "http://purl.org/dc/elements/1.1/publisher"
+    },
+    "respondentArgument" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#respondentArgument",
+      "@type" : "@id"
+    },
+    "hasFact" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#hasFact",
+      "@type" : "@id"
+    },
+    "Chief_Meterpolitan_Court" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#Chief_Meterpolitan_Court"
+    },
+    "hasJurisdiction" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#hasJurisdiction",
+      "@type" : "@id"
+    },
+    "CatchWord" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#CatchWord"
+    },
+    "CourtDecision" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#CourtDecision"
+    },
+    "modified" : {
+      "@id" : "http://purl.org/dc/terms/modified"
+    },
+    "makeArgument" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#makeArgument",
+      "@type" : "@id"
+    },
+    "Criminal" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#Criminal"
+    },
+    "obiterDictumSequenceNum" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#obiterDictumSequenceNum",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "Author" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#Author"
+    },
+    "Court" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#Court"
+    },
+    "courtName" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#courtName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Appellant_Jurisdiction" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#Appellant_Jurisdiction"
+    },
+    "wordPhraseValue" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#wordPhraseValue",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Original_Jurisdiction" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#Original_Jurisdiction"
+    },
+    "Defendant" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#Defendant"
+    },
+    "State" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#State"
+    },
+    "hasPolicePersonnelName" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#hasPolicePersonnelName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "ObiterDictum" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#ObiterDictum"
+    },
+    "Precedent" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#Precedent"
+    },
+    "cites" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#cites",
+      "@type" : "@id"
+    },
+    "withConcurrence" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#withConcurrence",
+      "@type" : "@id"
+    },
+    "Tribunal_Bench" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#Tribunal_Bench"
+    },
+    "worksIn" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#worksIn",
+      "@type" : "@id"
+    },
+    "City_Civil_Courts" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#City_Civil_Courts"
+    },
+    "appellantArgument" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#appellantArgument",
+      "@type" : "@id"
+    },
+    "wFirstName" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#wFirstName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "sameAs" : {
+      "@id" : "http://www.w3.org/2002/07/owl#sameAs"
+    },
+    "Party" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#Party"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "hasWords" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#hasWords",
+      "@type" : "@id"
+    },
+    "hasYear" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#hasYear",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "Group" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#Group"
+    },
+    "hasPolicePersonnel" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#hasPolicePersonnel",
+      "@type" : "@id"
+    },
+    "CaseDomain" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#CaseDomain"
+    },
+    "hasIssue" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#hasIssue",
+      "@type" : "@id"
+    },
+    "courtOffName" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#courtOffName"
+    },
+    "COLastName" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#COLastName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "factValue" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#factValue",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Majority" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#Majority"
+    },
+    "Concurrence" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#Concurrence"
+    },
+    "obiterDictumValue" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#obiterDictumValue",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Attorney" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#Attorney"
+    },
+    "Witness" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#Witness"
+    },
+    "locationName" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#locationName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Metropolitan_Magistrate_Courts" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#Metropolitan_Magistrate_Courts"
+    },
+    "partyName" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#partyName"
+    },
+    "plaintiffArgument" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#plaintiffArgument",
+      "@type" : "@id"
+    },
+    "District_Court" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#District_Court"
+    },
+    "hasPartyType" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#hasPartyType",
+      "@type" : "@id"
+    },
+    "hasParty" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#hasParty",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/terms/description"
+    },
+    "preferredNamespaceUri" : {
+      "@id" : "http://purl.org/vocab/vann/preferredNamespaceUri"
+    },
+    "evidenceLocation" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#evidenceLocation",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Larger_Bench" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#Larger_Bench"
+    },
+    "CaseType" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#CaseType"
+    },
+    "hasRulingOf" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#hasRulingOf",
+      "@type" : "@id"
+    },
+    "precedentReliedUpon" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#precedentReliedUpon",
+      "@type" : "@id"
+    },
+    "Writ_Jurisdiction" : {
+      "@id" : "https://w3id.org/def/NyOnLegal#Writ_Jurisdiction"
+    }
+  }
+}
