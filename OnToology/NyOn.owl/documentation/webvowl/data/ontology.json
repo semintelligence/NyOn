@@ -27,12 +27,12 @@
       }, {
         "identifier" : "creator",
         "language" : "undefined",
-        "value" : "Harde, Pooja",
+        "value" : "Mihindukulasooriya, Nandana",
         "type" : "label"
       }, {
         "identifier" : "creator",
         "language" : "undefined",
-        "value" : "Mihindukulasooriya, Nandana",
+        "value" : "Harde, Pooja",
         "type" : "label"
       } ],
       "created" : [ {
@@ -136,10 +136,10 @@
     "type" : "owl:Class"
   }, {
     "id" : "105",
-    "type" : "owl:equivalentClass"
-  }, {
-    "id" : "107",
     "type" : "owl:Class"
+  }, {
+    "id" : "106",
+    "type" : "owl:equivalentClass"
   }, {
     "id" : "70",
     "type" : "owl:Class"
@@ -180,7 +180,7 @@
     "id" : "74",
     "type" : "owl:Class"
   }, {
-    "id" : "106",
+    "id" : "107",
     "type" : "owl:Class"
   }, {
     "id" : "156",
@@ -234,7 +234,7 @@
     "id" : "124",
     "type" : "owl:intersectionOf"
   }, {
-    "id" : "114",
+    "id" : "115",
     "type" : "owl:Class"
   }, {
     "id" : "36",
@@ -246,7 +246,7 @@
     "id" : "165",
     "type" : "owl:Class"
   }, {
-    "id" : "113",
+    "id" : "114",
     "type" : "owl:Class"
   }, {
     "id" : "240",
@@ -668,16 +668,6 @@
     "id" : "89",
     "superClasses" : [ "71" ]
   }, {
-    "iri" : "https://w3id.org/def/nyon#Barrister",
-    "baseIri" : "https://w3id.org/def/nyon",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Barrister"
-    },
-    "attributes" : [ "equivalent" ],
-    "id" : "105",
-    "superClasses" : [ "106" ]
-  }, {
     "iri" : "https://w3id.org/def/nyon#Author",
     "baseIri" : "https://w3id.org/def/nyon",
     "instances" : 0,
@@ -696,7 +686,17 @@
     "comment" : {
       "en" : "Author (Judge) who is responsible for a creation of case document"
     },
-    "id" : "107"
+    "id" : "105"
+  }, {
+    "iri" : "https://w3id.org/def/nyon#Barrister",
+    "baseIri" : "https://w3id.org/def/nyon",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Barrister"
+    },
+    "attributes" : [ "equivalent" ],
+    "id" : "106",
+    "superClasses" : [ "107" ]
   }, {
     "iri" : "https://w3id.org/def/nyon#State",
     "baseIri" : "https://w3id.org/def/nyon",
@@ -775,7 +775,7 @@
       "IRI-based" : "Court",
       "en" : "Court"
     },
-    "subClasses" : [ "17", "20", "22", "113", "114" ],
+    "subClasses" : [ "17", "20", "22", "114", "115" ],
     "comment" : {
       "en" : "courts in the judicial system"
     },
@@ -853,7 +853,7 @@
     },
     "attributes" : [ "equivalent" ],
     "id" : "141",
-    "superClasses" : [ "106" ]
+    "superClasses" : [ "107" ]
   }, {
     "iri" : "https://w3id.org/def/nyon#Plaintiff",
     "baseIri" : "https://w3id.org/def/nyon",
@@ -896,11 +896,11 @@
       "IRI-based" : "Court_Official",
       "en" : "CourtOfficial"
     },
-    "subClasses" : [ "151", "152", "101", "105", "153", "141" ],
+    "subClasses" : [ "151", "152", "101", "106", "153", "141" ],
     "comment" : {
       "en" : "legal system related people involved in a case"
     },
-    "id" : "106"
+    "id" : "107"
   }, {
     "iri" : "https://w3id.org/def/nyon#Majority",
     "baseIri" : "https://w3id.org/def/nyon",
@@ -1066,7 +1066,7 @@
     },
     "attributes" : [ "equivalent" ],
     "id" : "151",
-    "superClasses" : [ "106" ]
+    "superClasses" : [ "107" ]
   }, {
     "iri" : "https://w3id.org/def/nyon#Argument",
     "baseIri" : "https://w3id.org/def/nyon",
@@ -1146,7 +1146,7 @@
     },
     "attributes" : [ "equivalent" ],
     "id" : "153",
-    "superClasses" : [ "106" ]
+    "superClasses" : [ "107" ]
   }, {
     "iri" : "https://w3id.org/def/nyon#Defendant",
     "baseIri" : "https://w3id.org/def/nyon",
@@ -1193,7 +1193,7 @@
     "comment" : {
       "en" : "highest court in the judicial system"
     },
-    "id" : "114",
+    "id" : "115",
     "superClasses" : [ "18" ]
   }, {
     "iri" : "https://w3id.org/def/nyon#Courts_for_Civil",
@@ -1230,7 +1230,7 @@
     },
     "attributes" : [ "equivalent" ],
     "id" : "152",
-    "superClasses" : [ "106" ]
+    "superClasses" : [ "107" ]
   }, {
     "iri" : "https://w3id.org/def/nyon#City_Civil_Courts",
     "baseIri" : "https://w3id.org/def/nyon",
@@ -1256,7 +1256,7 @@
     "comment" : {
       "en" : "court at the state level"
     },
-    "id" : "113",
+    "id" : "114",
     "superClasses" : [ "18" ]
   }, {
     "iri" : "https://w3id.org/def/nyon#Witness",
@@ -1328,7 +1328,7 @@
       "en" : "represents the judge of the case"
     },
     "id" : "101",
-    "superClasses" : [ "106" ]
+    "superClasses" : [ "107" ]
   }, {
     "iri" : "https://w3id.org/def/nyon#Principal_Junior_Civil_Court",
     "baseIri" : "https://w3id.org/def/nyon",
@@ -1926,7 +1926,7 @@
     "comment" : {
       "en" : "location name or place name"
     },
-    "attributes" : [ "complement", "external" ],
+    "attributes" : [ "external", "complement" ],
     "id" : "132",
     "complement" : [ "83" ],
     "superClasses" : [ "83" ]
@@ -2113,7 +2113,7 @@
     "id" : "111",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "115",
+    "id" : "113",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "116",
@@ -2614,12 +2614,12 @@
   "propertyAttribute" : [ {
     "range" : "2",
     "domain" : "1",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "0"
   }, {
     "range" : "2",
     "domain" : "4",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "3"
   }, {
     "iri" : "https://w3id.org/def/nyon#finalDecisionValue",
@@ -2635,32 +2635,32 @@
   }, {
     "range" : "2",
     "domain" : "11",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "10"
   }, {
     "range" : "2",
     "domain" : "13",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "12"
   }, {
     "range" : "2",
     "domain" : "15",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "14"
   }, {
     "range" : "18",
     "domain" : "17",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "16"
   }, {
     "range" : "18",
     "domain" : "20",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "19"
   }, {
     "range" : "18",
     "domain" : "22",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "21"
   }, {
     "iri" : "https://w3id.org/def/nyon#hasDate",
@@ -2707,7 +2707,7 @@
     },
     "domain" : "38",
     "subproperty" : [ "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52", "53", "54", "55", "56", "57", "58", "59", "60", "61", "62", "63" ],
-    "attributes" : [ "external", "object" ],
+    "attributes" : [ "object", "external" ],
     "id" : "37"
   }, {
     "iri" : "https://w3id.org/def/nyon#defendentArgument",
@@ -2735,57 +2735,57 @@
   }, {
     "range" : "71",
     "domain" : "70",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "69"
   }, {
     "range" : "2",
     "domain" : "73",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "72"
   }, {
     "range" : "29",
     "domain" : "74",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "78"
   }, {
     "range" : "29",
     "domain" : "28",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "79"
   }, {
     "range" : "29",
     "domain" : "75",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "80"
   }, {
     "range" : "29",
     "domain" : "76",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "81"
   }, {
     "range" : "29",
     "domain" : "77",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "84"
   }, {
     "range" : "71",
     "domain" : "86",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "85"
   }, {
     "range" : "71",
     "domain" : "89",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "88"
   }, {
     "range" : "71",
     "domain" : "91",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "90"
   }, {
     "range" : "71",
     "domain" : "93",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "92"
   }, {
     "iri" : "https://w3id.org/def/nyon#witnessName",
@@ -2843,7 +2843,7 @@
     },
     "superproperty" : [ "37" ],
     "domain" : "31",
-    "attributes" : [ "functional", "object" ],
+    "attributes" : [ "object", "functional" ],
     "id" : "52"
   }, {
     "iri" : "https://w3id.org/def/nyon#respondentArgument",
@@ -2875,22 +2875,22 @@
       "IRI-based" : "topDataProperty"
     },
     "domain" : "38",
-    "attributes" : [ "external", "datatype" ],
-    "id" : "115"
+    "attributes" : [ "datatype", "external" ],
+    "id" : "113"
   }, {
     "range" : "9",
     "domain" : "8",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "116"
   }, {
     "range" : "9",
     "domain" : "36",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "117"
   }, {
     "range" : "9",
     "domain" : "65",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "118"
   }, {
     "iri" : "https://w3id.org/def/nyon#evidenceLocation",
@@ -2911,7 +2911,7 @@
       "IRI-based" : "COFirstName",
       "en" : "COFirstName"
     },
-    "domain" : "106",
+    "domain" : "107",
     "attributes" : [ "datatype" ],
     "id" : "121"
   }, {
@@ -2966,22 +2966,22 @@
   }, {
     "range" : "83",
     "domain" : "132",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "131"
   }, {
     "range" : "83",
     "domain" : "82",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "133"
   }, {
     "range" : "83",
     "domain" : "135",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "134"
   }, {
     "range" : "83",
     "domain" : "137",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "136"
   }, {
     "iri" : "https://w3id.org/def/nyon#ratioDecidendiValue",
@@ -2997,22 +2997,22 @@
   }, {
     "range" : "83",
     "domain" : "70",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "142"
   }, {
     "range" : "9",
     "domain" : "144",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "143"
   }, {
     "range" : "24",
     "domain" : "102",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "145"
   }, {
     "range" : "24",
     "domain" : "23",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "146"
   }, {
     "iri" : "https://w3id.org/def/nyon#obiterDictumValue",
@@ -3028,17 +3028,17 @@
   }, {
     "range" : "6",
     "domain" : "150",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "149"
   }, {
     "range" : "6",
     "domain" : "155",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "154"
   }, {
     "range" : "6",
     "domain" : "109",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "157"
   }, {
     "iri" : "https://w3id.org/def/nyon#ratioDecidendiSequenceNum",
@@ -3060,7 +3060,7 @@
       "en" : "cites"
     },
     "domain" : "31",
-    "attributes" : [ "functional", "object" ],
+    "attributes" : [ "object", "functional" ],
     "id" : "130"
   }, {
     "iri" : "https://w3id.org/def/nyon#hasWords",
@@ -3090,7 +3090,7 @@
   }, {
     "range" : "36",
     "domain" : "165",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "164"
   }, {
     "iri" : "https://w3id.org/def/nyon#courtName",
@@ -3106,7 +3106,7 @@
   }, {
     "range" : "36",
     "domain" : "35",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "168"
   }, {
     "iri" : "https://w3id.org/def/nyon#hasJudgmentType",
@@ -3123,42 +3123,42 @@
   }, {
     "range" : "36",
     "domain" : "170",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "169"
   }, {
     "range" : "36",
     "domain" : "20",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "171"
   }, {
     "range" : "24",
     "domain" : "156",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "174"
   }, {
     "range" : "173",
     "domain" : "176",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "175"
   }, {
     "range" : "173",
     "domain" : "178",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "177"
   }, {
     "range" : "173",
     "domain" : "180",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "179"
   }, {
     "range" : "173",
     "domain" : "172",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "181"
   }, {
     "range" : "36",
     "domain" : "183",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "182"
   }, {
     "iri" : "https://w3id.org/def/nyon#hasProvision",
@@ -3177,12 +3177,12 @@
   }, {
     "range" : "36",
     "domain" : "186",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "185"
   }, {
     "iri" : "https://w3id.org/def/nyon#hasAuthor",
     "baseIri" : "https://w3id.org/def/nyon",
-    "range" : "107",
+    "range" : "105",
     "label" : {
       "IRI-based" : "hasAuthor",
       "en" : "hasAuthor"
@@ -3210,28 +3210,28 @@
       "IRI-based" : "COLastName",
       "en" : "COLastName"
     },
-    "domain" : "106",
+    "domain" : "107",
     "attributes" : [ "datatype" ],
     "id" : "193"
   }, {
     "range" : "65",
     "domain" : "64",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "196"
   }, {
     "range" : "65",
     "domain" : "190",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "197"
   }, {
     "range" : "65",
     "domain" : "191",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "198"
   }, {
     "range" : "173",
     "domain" : "200",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "199"
   }, {
     "iri" : "https://w3id.org/def/nyon#hasCourtLoc",
@@ -3246,34 +3246,34 @@
     "attributes" : [ "object" ],
     "id" : "51"
   }, {
-    "range" : "106",
+    "range" : "107",
     "domain" : "152",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "201"
   }, {
-    "range" : "106",
+    "range" : "107",
     "domain" : "101",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "202"
   }, {
-    "range" : "106",
-    "domain" : "105",
-    "attributes" : [ "anonymous", "object" ],
+    "range" : "107",
+    "domain" : "106",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "203"
   }, {
-    "range" : "106",
+    "range" : "107",
     "domain" : "153",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "204"
   }, {
-    "range" : "106",
+    "range" : "107",
     "domain" : "141",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "205"
   }, {
     "iri" : "https://w3id.org/def/nyon#hasCourtOfficial",
     "baseIri" : "https://w3id.org/def/nyon",
-    "range" : "106",
+    "range" : "107",
     "label" : {
       "IRI-based" : "hasCourtOfficial",
       "en" : "hasCourtOfficial"
@@ -3285,12 +3285,12 @@
   }, {
     "range" : "65",
     "domain" : "188",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "206"
   }, {
     "range" : "65",
     "domain" : "189",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "207"
   }, {
     "iri" : "https://w3id.org/def/nyon#hasJudge",
@@ -3331,23 +3331,23 @@
     "id" : "209"
   }, {
     "range" : "18",
-    "domain" : "113",
-    "attributes" : [ "anonymous", "object" ],
+    "domain" : "114",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "211"
   }, {
     "range" : "18",
-    "domain" : "114",
-    "attributes" : [ "anonymous", "object" ],
+    "domain" : "115",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "212"
   }, {
-    "range" : "106",
+    "range" : "107",
     "domain" : "151",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "213"
   }, {
     "range" : "190",
     "domain" : "64",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "214"
   }, {
     "iri" : "https://w3id.org/def/nyon#dateOfJudgment",
@@ -3409,17 +3409,17 @@
   }, {
     "range" : "189",
     "domain" : "188",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "222"
   }, {
     "range" : "191",
     "domain" : "188",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "223"
   }, {
     "range" : "28",
     "domain" : "77",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "224"
   }, {
     "iri" : "https://w3id.org/def/nyon#hasEvidence",
@@ -3436,17 +3436,17 @@
   }, {
     "range" : "28",
     "domain" : "76",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "225"
   }, {
     "range" : "190",
     "domain" : "188",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "226"
   }, {
     "range" : "64",
     "domain" : "188",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "227"
   }, {
     "iri" : "https://w3id.org/def/nyon#hasParty",
@@ -3463,22 +3463,22 @@
   }, {
     "range" : "77",
     "domain" : "74",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "228"
   }, {
     "range" : "76",
     "domain" : "74",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "229"
   }, {
     "range" : "77",
     "domain" : "76",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "230"
   }, {
     "range" : "28",
     "domain" : "74",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "231"
   }, {
     "iri" : "https://w3id.org/def/nyon#hasWordPhrase",
@@ -3507,7 +3507,7 @@
   }, {
     "range" : "82",
     "domain" : "135",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "232"
   }, {
     "iri" : "https://w3id.org/def/nyon#value",
@@ -3522,12 +3522,12 @@
   }, {
     "range" : "70",
     "domain" : "135",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "235"
   }, {
     "range" : "82",
     "domain" : "70",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "236"
   }, {
     "iri" : "https://w3id.org/def/nyon#hasPartyType",
@@ -3544,7 +3544,7 @@
   }, {
     "range" : "135",
     "domain" : "137",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "237"
   }, {
     "iri" : "https://w3id.org/def/nyon#partyName",
@@ -3560,7 +3560,7 @@
   }, {
     "range" : "82",
     "domain" : "132",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "241"
   }, {
     "iri" : "https://w3id.org/def/nyon#equivalentCitation",
@@ -3578,17 +3578,17 @@
   }, {
     "range" : "82",
     "domain" : "137",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "244"
   }, {
     "range" : "70",
     "domain" : "137",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "245"
   }, {
     "range" : "137",
     "domain" : "132",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "246"
   }, {
     "iri" : "https://w3id.org/def/nyon#precedentReliedUpon",
@@ -3608,7 +3608,7 @@
   }, {
     "range" : "70",
     "domain" : "132",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "249"
   }, {
     "iri" : "https://w3id.org/def/nyon#appellantArgument",
@@ -3624,12 +3624,12 @@
   }, {
     "range" : "135",
     "domain" : "132",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "251"
   }, {
     "range" : "183",
     "domain" : "170",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "252"
   }, {
     "iri" : "https://w3id.org/def/nyon#wLastName",
@@ -3651,17 +3651,17 @@
       "en" : "hasIssue"
     },
     "domain" : "31",
-    "attributes" : [ "functional", "object" ],
+    "attributes" : [ "object", "functional" ],
     "id" : "255"
   }, {
     "range" : "102",
     "domain" : "23",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "256"
   }, {
     "range" : "144",
     "domain" : "8",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "257"
   }, {
     "iri" : "https://w3id.org/def/nyon#wFirstName",
@@ -3710,7 +3710,7 @@
   }, {
     "range" : "183",
     "domain" : "20",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "266"
   }, {
     "iri" : "https://w3id.org/def/nyon#hasFinalDecision",
@@ -3727,47 +3727,47 @@
   }, {
     "range" : "170",
     "domain" : "20",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "267"
   }, {
     "range" : "183",
     "domain" : "35",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "268"
   }, {
     "range" : "170",
     "domain" : "35",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "269"
   }, {
     "range" : "170",
     "domain" : "186",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "270"
   }, {
     "range" : "35",
     "domain" : "186",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "271"
   }, {
     "range" : "35",
     "domain" : "20",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "272"
   }, {
     "range" : "183",
     "domain" : "186",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "273"
   }, {
     "range" : "20",
     "domain" : "186",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "274"
   }, {
     "range" : "183",
     "domain" : "165",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "275"
   }, {
     "iri" : "https://w3id.org/def/nyon#hasPrecedent",
@@ -3823,27 +3823,27 @@
   }, {
     "range" : "170",
     "domain" : "165",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "282"
   }, {
     "range" : "186",
     "domain" : "165",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "283"
   }, {
     "range" : "189",
     "domain" : "191",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "284"
   }, {
     "range" : "35",
     "domain" : "165",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "285"
   }, {
     "range" : "20",
     "domain" : "165",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "286"
   }, {
     "iri" : "https://w3id.org/def/nyon#courtOffName",
@@ -3859,22 +3859,22 @@
   }, {
     "range" : "189",
     "domain" : "64",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "288"
   }, {
     "range" : "191",
     "domain" : "64",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "289"
   }, {
     "range" : "189",
     "domain" : "190",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "290"
   }, {
     "range" : "191",
     "domain" : "190",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "291"
   }, {
     "iri" : "https://w3id.org/def/nyon#firstName",
@@ -3907,7 +3907,7 @@
       "en" : "worksIn"
     },
     "superproperty" : [ "37" ],
-    "domain" : "106",
+    "domain" : "107",
     "attributes" : [ "object" ],
     "id" : "45"
   }, {
@@ -3936,12 +3936,12 @@
   }, {
     "range" : "152",
     "domain" : "101",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "298"
   }, {
     "range" : "152",
     "domain" : "32",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "299"
   }, {
     "iri" : "https://w3id.org/def/nyon#precedentOverruled",
@@ -3968,22 +3968,22 @@
     },
     "superproperty" : [ "37" ],
     "domain" : "155",
-    "attributes" : [ "someValues", "object" ],
+    "attributes" : [ "object", "someValues" ],
     "id" : "300"
   }, {
     "range" : "156",
     "domain" : "102",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "301"
   }, {
     "range" : "156",
     "domain" : "23",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "302"
   }, {
     "range" : "101",
     "domain" : "32",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "303"
   }, {
     "iri" : "https://w3id.org/def/nyon#OfDomian",
@@ -3995,7 +3995,7 @@
     },
     "superproperty" : [ "37" ],
     "domain" : "109",
-    "attributes" : [ "allValues", "object" ],
+    "attributes" : [ "object", "allValues" ],
     "id" : "304"
   }, {
     "iri" : "https://w3id.org/def/nyon#hasEvidenceLoc",
@@ -4025,22 +4025,22 @@
   }, {
     "range" : "93",
     "domain" : "86",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "306"
   }, {
     "range" : "70",
     "domain" : "86",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "307"
   }, {
     "range" : "89",
     "domain" : "91",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "308"
   }, {
     "range" : "93",
     "domain" : "91",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "309"
   }, {
     "iri" : "https://w3id.org/def/nyon#witnessStatement",
@@ -4056,32 +4056,32 @@
   }, {
     "range" : "70",
     "domain" : "91",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "311"
   }, {
     "range" : "93",
     "domain" : "89",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "312"
   }, {
     "range" : "70",
     "domain" : "89",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "313"
   }, {
     "range" : "70",
     "domain" : "93",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "314"
   }, {
     "range" : "91",
     "domain" : "86",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "315"
   }, {
     "range" : "89",
     "domain" : "86",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "316"
   }, {
     "iri" : "https://w3id.org/def/nyon#hasCaseID",
