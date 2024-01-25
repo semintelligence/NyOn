@@ -12,6 +12,9 @@ This section provides details for each class and property defined by NyOn: A Mul
          <a href="#Advisory_Jurisdiction" title="https://w3id.org/def/nyon#Advisory_Jurisdiction">Advisory Jurisdiction</a>
       </li>
       <li>
+         <a href="#Analysis" title="https://w3id.org/def/nyon#Analysis">Analysis</a>
+      </li>
+      <li>
          <a href="#Appellant" title="https://w3id.org/def/nyon#Appellant">Appellant</a>
       </li>
       <li>
@@ -22,17 +25,7 @@ This section provides details for each class and property defined by NyOn: A Mul
          <a href="#Argument" title="https://w3id.org/def/nyon#Argument">Argument</a>
       </li>
       <li>
-         <a href="#Attorney" title="https://w3id.org/def/nyon#Attorney">
-            <span>attorney</span>
-         </a>
-      </li>
-      <li>
          <a href="#Author" title="https://w3id.org/def/nyon#Author">Author</a>
-      </li>
-      <li>
-         <a href="#Barrister" title="https://w3id.org/def/nyon#Barrister">
-            <span>barrister</span>
-         </a>
       </li>
       <li>
          <a href="#Bench" title="https://w3id.org/def/nyon#Bench">Bench</a>
@@ -77,6 +70,9 @@ This section provides details for each class and property defined by NyOn: A Mul
       </li>
       <li>
          <a href="#CourtDecision" title="https://w3id.org/def/nyon#CourtDecision">CourtDecision</a>
+      </li>
+      <li>
+         <a href="#CourtJudgment" title="https://w3id.org/def/nyon#CourtJudgment">CourtJudgment</a>
       </li>
       <li>
          <a href="#Court_Official" title="https://w3id.org/def/nyon#Court_Official">CourtOfficial</a>
@@ -172,7 +168,7 @@ This section provides details for each class and property defined by NyOn: A Mul
          <a href="#Munsif_Court" title="https://w3id.org/def/nyon#Munsif_Court">Munsif Court</a>
       </li>
       <li>
-         <a href="#ObiterDictum" title="https://w3id.org/def/nyon#ObiterDictum">Obiter Dictum</a>
+         <a href="#ObiterDictum" title="https://w3id.org/def/nyon#ObiterDictum">ObiterDictum</a>
       </li>
       <li>
          <a href="#Opinion" title="https://w3id.org/def/nyon#Opinion">Opinion</a>
@@ -227,6 +223,9 @@ This section provides details for each class and property defined by NyOn: A Mul
          <a href="#Review_Jurisdiction" title="https://w3id.org/def/nyon#Review_Jurisdiction">Review Jurisdiction</a>
       </li>
       <li>
+         <a href="#RulingOf" title="https://w3id.org/def/nyon#RulingOf">RulingOf</a>
+      </li>
+      <li>
          <a href="#Session_Court" title="https://w3id.org/def/nyon#Session_Court">Sessions Court</a>
       </li>
       <li>
@@ -275,7 +274,7 @@ This section provides details for each class and property defined by NyOn: A Mul
          </span>
       </h3>
       <p>
-         <strong>IRI:</strong> <a href=https://w3id.org/def/nyon#Accussed>https://w3id.org/def/nyon#Accussed</a></p>
+         <strong>IRI:</strong> https://w3id.org/def/nyon#Accussed</p>
       <div class="comment">
          <span class="markdown">person against whom an allegation has been made that he has committed an offence, or who is charge with an offence</span>
       </div>
@@ -283,6 +282,7 @@ This section provides details for each class and property defined by NyOn: A Mul
          <dt>has super-classes</dt>
          <dd>
             <a href="#Party" title="https://w3id.org/def/nyon#Party">Party</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Respondent" title="https://w3id.org/def/nyon#Respondent">Respondent</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
@@ -313,6 +313,30 @@ This section provides details for each class and property defined by NyOn: A Mul
          </dd>
       </dl>
    </div>
+   <div class="entity" id="Analysis">
+      <h3>Analysis<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/def/nyon#Analysis</p>
+      <div class="comment">
+         <span class="markdown">specifies the judge's analysis for the current case</span>
+      </div>
+      <dl class="description">
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#hasEndIndex" title="https://w3id.org/def/nyon#hasEndIndex">hasEndIndex</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#hasStartIndex" title="https://w3id.org/def/nyon#hasStartIndex">hasStartIndex</a>
+            <sup class="type-dp" title="data property">dp</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#hasAnalysis" title="https://w3id.org/def/nyon#hasAnalysis">hasAnalysis</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
    <div class="entity" id="Appellant">
       <h3>Appellant<sup class="type-c" title="class">c</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
@@ -328,6 +352,11 @@ This section provides details for each class and property defined by NyOn: A Mul
          <dd>
             <a href="#Party" title="https://w3id.org/def/nyon#Party">Party</a>
             <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#appellantArgument" title="https://w3id.org/def/nyon#appellantArgument">appellantArgument</a>
+            <sup class="type-op" title="object property">op</sup>
          </dd>
       </dl>
    </div>
@@ -367,44 +396,28 @@ This section provides details for each class and property defined by NyOn: A Mul
          <span class="markdown">Argument made by any of the party</span>
       </div>
       <dl class="description">
+         <dt>has super-classes</dt>
+         <dd/>
          <dt>is in domain of</dt>
          <dd>
-            <a href="#argumentSequenceNum" title="https://w3id.org/def/nyon#argumentSequenceNum">argumentSequenceNum</a>
-            <sup class="type-dp" title="data property">dp</sup>, <a href="#argumentValue" title="https://w3id.org/def/nyon#argumentValue">argumentValue</a>
-            <sup class="type-dp" title="data property">dp</sup>
+            <a href="#appellantArgument" title="https://w3id.org/def/nyon#appellantArgument">appellantArgument</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#defendentArgument" title="https://w3id.org/def/nyon#defendentArgument">defendantArgument</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#hasEndIndex" title="https://w3id.org/def/nyon#hasEndIndex">hasEndIndex</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#hasStartIndex" title="https://w3id.org/def/nyon#hasStartIndex">hasStartIndex</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#petitionerArgument" title="https://w3id.org/def/nyon#petitionerArgument">petitionerArgument</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#plaintiffArgument" title="https://w3id.org/def/nyon#plaintiffArgument">plaintiffArgument</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#respondentArgument" title="https://w3id.org/def/nyon#respondentArgument">respondentArgument</a>
+            <sup class="type-op" title="object property">op</sup>
          </dd>
          <dt>is in range of</dt>
          <dd>
-            <a href="#makeArgument" title="https://w3id.org/def/nyon#makeArgument">makeArgument</a>
+            <a href="#appellantArgument" title="https://w3id.org/def/nyon#appellantArgument">appellantArgument</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#defendentArgument" title="https://w3id.org/def/nyon#defendentArgument">defendantArgument</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#makeArgument" title="https://w3id.org/def/nyon#makeArgument">makeArgument</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#petitionerArgument" title="https://w3id.org/def/nyon#petitionerArgument">petitionerArgument</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#plaintiffArgument" title="https://w3id.org/def/nyon#plaintiffArgument">plaintiffArgument</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#respondentArgument" title="https://w3id.org/def/nyon#respondentArgument">respondentArgument</a>
             <sup class="type-op" title="object property">op</sup>
-         </dd>
-      </dl>
-   </div>
-   <div class="entity" id="Attorney">
-      <h3>attorney<sup class="type-c" title="class">c</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> https://w3id.org/def/nyon#Attorney</p>
-      <dl class="description">
-         <dt>is equivalent to</dt>
-         <dd>
-            <a href="#Lawyer" title="https://w3id.org/def/nyon#Lawyer">Lawyer</a>
-            <sup class="type-c" title="class">c</sup>
-         </dd>
-         <dd>
-            <a href="#LearnedCounsel" title="https://w3id.org/def/nyon#LearnedCounsel">LearnedCounsel</a>
-            <sup class="type-c" title="class">c</sup>
-         </dd>
-         <dd>
-            <a href="#Solicitor" title="https://w3id.org/def/nyon#Solicitor">Solicitor</a>
-            <sup class="type-c" title="class">c</sup>
-         </dd>
-         <dt>has super-classes</dt>
-         <dd>
-            <a href="#Court_Official" title="https://w3id.org/def/nyon#Court_Official">CourtOfficial</a>
-            <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
    </div>
@@ -426,30 +439,12 @@ This section provides details for each class and property defined by NyOn: A Mul
             <span class="logic">exactly</span> 1 <a href="#Judge" title="https://w3id.org/def/nyon#Judge">Judge</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
+         <dt>has super-classes</dt>
+         <dd/>
          <dt>is in range of</dt>
          <dd>
             <a href="#hasAuthor" title="https://w3id.org/def/nyon#hasAuthor">hasAuthor</a>
             <sup class="type-op" title="object property">op</sup>
-         </dd>
-      </dl>
-   </div>
-   <div class="entity" id="Barrister">
-      <h3>barrister<sup class="type-c" title="class">c</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> https://w3id.org/def/nyon#Barrister</p>
-      <dl class="description">
-         <dt>is equivalent to</dt>
-         <dd>
-            <a href="#Lawyer" title="https://w3id.org/def/nyon#Lawyer">Lawyer</a>
-            <sup class="type-c" title="class">c</sup>
-         </dd>
-         <dt>has super-classes</dt>
-         <dd>
-            <a href="#Court_Official" title="https://w3id.org/def/nyon#Court_Official">CourtOfficial</a>
-            <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
    </div>
@@ -493,15 +488,38 @@ This section provides details for each class and property defined by NyOn: A Mul
       <dl class="description">
          <dt>has sub-classes</dt>
          <dd>
-            <a href="#Civil" title="https://w3id.org/def/nyon#Civil">Civil</a>
+            <a href="#CatchWord" title="https://w3id.org/def/nyon#CatchWord">Catchword</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Chief_Meterpolitan_Court"
+               title="https://w3id.org/def/nyon#Chief_Meterpolitan_Court">Chief Meterpolitan Court</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#City_Civil_Courts" title="https://w3id.org/def/nyon#City_Civil_Courts">City Civil Court</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Civil" title="https://w3id.org/def/nyon#Civil">Civil</a>
             <sup class="type-c" title="class">c</sup>, <a href="#Courts_for_Civil" title="https://w3id.org/def/nyon#Courts_for_Civil">Civil Court</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Courts_of_Smaller_Causes"
+               title="https://w3id.org/def/nyon#Courts_of_Smaller_Causes">Court of Smaller Cause</a>
             <sup class="type-c" title="class">c</sup>, <a href="#Criminal" title="https://w3id.org/def/nyon#Criminal">Criminal</a>
             <sup class="type-c" title="class">c</sup>, <a href="#Courts_for_Criminal" title="https://w3id.org/def/nyon#Courts_for_Criminal">Criminal Court</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#District_Court" title="https://w3id.org/def/nyon#District_Court">District Court</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Judicial_Magistrate_Court(First_Class)"
+               title="https://w3id.org/def/nyon#Judicial_Magistrate_Court(First_Class)">Judicial Magistrate Court (First Class)</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Judicial_Magistrate_Court(Second_Class)"
+               title="https://w3id.org/def/nyon#Judicial_Magistrate_Court(Second_Class)">Judicial Magistrate Court (Second Class)</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Metropolitan_Magistrate_Courts"
+               title="https://w3id.org/def/nyon#Metropolitan_Magistrate_Courts">Metropolitan Magistrate Court</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Munsif_Court" title="https://w3id.org/def/nyon#Munsif_Court">Munsif Court</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Principal_Junior_Civil_Court"
+               title="https://w3id.org/def/nyon#Principal_Junior_Civil_Court">Principal Junior Civil Court</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Session_Court" title="https://w3id.org/def/nyon#Session_Court">Sessions Court</a>
             <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#catchwordValue" title="https://w3id.org/def/nyon#catchwordValue">catchwordValue</a>
+            <sup class="type-dp" title="data property">dp</sup>
          </dd>
          <dt>is in range of</dt>
          <dd>
             <a href="#OfDomian" title="https://w3id.org/def/nyon#OfDomian">OfDomain</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#hasWords" title="https://w3id.org/def/nyon#hasWords">hasWords</a>
             <sup class="type-op" title="object property">op</sup>
          </dd>
       </dl>
@@ -541,7 +559,10 @@ This section provides details for each class and property defined by NyOn: A Mul
       </div>
       <dl class="description">
          <dt>has super-classes</dt>
-         <dd/>
+         <dd>
+            <a href="#CaseDomain" title="https://w3id.org/def/nyon#CaseDomain">CaseDomain</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
          <dt>is in domain of</dt>
          <dd>
             <a href="#catchwordValue" title="https://w3id.org/def/nyon#catchwordValue">catchwordValue</a>
@@ -567,7 +588,8 @@ This section provides details for each class and property defined by NyOn: A Mul
       <dl class="description">
          <dt>has super-classes</dt>
          <dd>
-            <a href="#Courts_for_Criminal" title="https://w3id.org/def/nyon#Courts_for_Criminal">Criminal Court</a>
+            <a href="#CaseDomain" title="https://w3id.org/def/nyon#CaseDomain">CaseDomain</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Courts_for_Criminal" title="https://w3id.org/def/nyon#Courts_for_Criminal">Criminal Court</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
          <dt>is disjoint with</dt>
@@ -596,7 +618,8 @@ This section provides details for each class and property defined by NyOn: A Mul
       <dl class="description">
          <dt>has super-classes</dt>
          <dd>
-            <a href="#Courts_for_Civil" title="https://w3id.org/def/nyon#Courts_for_Civil">Civil Court</a>
+            <a href="#CaseDomain" title="https://w3id.org/def/nyon#CaseDomain">CaseDomain</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Courts_for_Civil" title="https://w3id.org/def/nyon#Courts_for_Civil">Civil Court</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
          <dt>is disjoint with</dt>
@@ -672,6 +695,9 @@ This section provides details for each class and property defined by NyOn: A Mul
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/def/nyon#Concurrence</p>
+      <div class="comment">
+         <span class="markdown">decisions result when a judge agrees with the ultimate conclusion made by the majority of the court but disagrees on how they reached that decision</span>
+      </div>
       <dl class="description">
          <dt>has super-classes</dt>
          <dd>
@@ -698,6 +724,9 @@ This section provides details for each class and property defined by NyOn: A Mul
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/def/nyon#Country</p>
+      <div class="comment">
+         <span class="markdown">A country</span>
+      </div>
       <dl class="description">
          <dt>has super-classes</dt>
          <dd>
@@ -763,7 +792,8 @@ This section provides details for each class and property defined by NyOn: A Mul
       <dl class="description">
          <dt>has super-classes</dt>
          <dd>
-            <a href="#Courts_for_Civil" title="https://w3id.org/def/nyon#Courts_for_Civil">Civil Court</a>
+            <a href="#CaseDomain" title="https://w3id.org/def/nyon#CaseDomain">CaseDomain</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Courts_for_Civil" title="https://w3id.org/def/nyon#Courts_for_Civil">Civil Court</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
          <dt>is disjoint with</dt>
@@ -786,57 +816,8 @@ This section provides details for each class and property defined by NyOn: A Mul
       <p>
          <strong>IRI:</strong> https://w3id.org/def/nyon#CourtCase</p>
       <div class="comment">
-         <span class="markdown">represents the court judgment given by a court of law</span>
+         <span class="markdown">specifies the case of the court of law</span>
       </div>
-      <dl class="description">
-         <dt>is in domain of</dt>
-         <dd>
-            <a href="#citedBy" title="https://w3id.org/def/nyon#citedBy">citedBy</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="#cites" title="https://w3id.org/def/nyon#cites">cites</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="#equivalentCitation" title="https://w3id.org/def/nyon#equivalentCitation">equivalent citation</a>
-            <sup class="type-dp" title="data property">dp</sup>, <a href="#hasAuthor" title="https://w3id.org/def/nyon#hasAuthor">hasAuthor</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="#hasBench" title="https://w3id.org/def/nyon#hasBench">hasBench</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="#hasCaseID" title="https://w3id.org/def/nyon#hasCaseID">hasCaseID</a>
-            <sup class="type-dp" title="data property">dp</sup>, <a href="#hasCaseName" title="https://w3id.org/def/nyon#hasCaseName">hasCaseName</a>
-            <sup class="type-dp" title="data property">dp</sup>, <a href="#hasCourtOfficial" title="https://w3id.org/def/nyon#hasCourtOfficial">hasCourtOfficial</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="#hasEvidence" title="https://w3id.org/def/nyon#hasEvidence">hasEvidence</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="#hasFact" title="https://w3id.org/def/nyon#hasFact">hasFact</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="#hasFinalDecision" title="https://w3id.org/def/nyon#hasFinalDecision">hasFinalDecision</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="#hasIssue" title="https://w3id.org/def/nyon#hasIssue">hasIssue</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="#hasJudgmentType" title="https://w3id.org/def/nyon#hasJudgmentType">hasJudgmentType</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="#hasObiterDictum" title="https://w3id.org/def/nyon#hasObiterDictum">hasObiterDictum</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="#hasParty" title="https://w3id.org/def/nyon#hasParty">hasParty</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="#hasPolicePersonnel" title="https://w3id.org/def/nyon#hasPolicePersonnel">hasPolicePersonnel</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="#hasProvision" title="https://w3id.org/def/nyon#hasProvision">hasProvision</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="#hasRatioDecidendi" title="https://w3id.org/def/nyon#hasRatioDecidendi">hasRtioDecidendi</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="#hasRulingOf" title="https://w3id.org/def/nyon#hasRulingOf">hasRulingOf</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="#hasStatue" title="https://w3id.org/def/nyon#hasStatue">hasStatue</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="#hasWitness" title="https://w3id.org/def/nyon#hasWitness">hasWitness</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="#hasWordPhrase" title="https://w3id.org/def/nyon#hasWordPhrase">hasWordPhrase</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="#hasWords" title="https://w3id.org/def/nyon#hasWords">hasWords</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="#neutralCitations" title="https://w3id.org/def/nyon#neutralCitations">neutral citations</a>
-            <sup class="type-dp" title="data property">dp</sup>, <a href="#precendentNotReliedUpon"
-               title="https://w3id.org/def/nyon#precendentNotReliedUpon">precedentNotReliedUpon</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="#precedentOverruled" title="https://w3id.org/def/nyon#precedentOverruled">precedentOverruled</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="#precedentReliedUpon" title="https://w3id.org/def/nyon#precedentReliedUpon">precedentReliedUpon</a>
-            <sup class="type-op" title="object property">op</sup>
-         </dd>
-         <dt>is in range of</dt>
-         <dd>
-            <a href="#citedBy" title="https://w3id.org/def/nyon#citedBy">citedBy</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="#cites" title="https://w3id.org/def/nyon#cites">cites</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="#precendentNotReliedUpon"
-               title="https://w3id.org/def/nyon#precendentNotReliedUpon">precedentNotReliedUpon</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="#precedentOverruled" title="https://w3id.org/def/nyon#precedentOverruled">precedentOverruled</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="#precedentReliedUpon" title="https://w3id.org/def/nyon#precedentReliedUpon">precedentReliedUpon</a>
-            <sup class="type-op" title="object property">op</sup>
-         </dd>
-         <dt>has members</dt>
-         <dd>
-            <a href="#C1" title="https://w3id.org/def/nyon#C1">c1</a>
-            <sup class="type-ni" title="named individual">ni</sup>
-         </dd>
-      </dl>
    </div>
    <div class="entity" id="CourtDecision">
       <h3>CourtDecision<sup class="type-c" title="class">c</sup>
@@ -853,14 +834,68 @@ This section provides details for each class and property defined by NyOn: A Mul
             <sup class="type-c" title="class">c</sup>, <a href="#Order" title="https://w3id.org/def/nyon#Order">Order</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
-         <dt>is in domain of</dt>
-         <dd>
-            <a href="#finalDecisionValue" title="https://w3id.org/def/nyon#finalDecisionValue">finalDecisionValue</a>
-            <sup class="type-dp" title="data property">dp</sup>
-         </dd>
          <dt>is in range of</dt>
          <dd>
             <a href="#hasFinalDecision" title="https://w3id.org/def/nyon#hasFinalDecision">hasFinalDecision</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="CourtJudgment">
+      <h3>CourtJudgment<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/def/nyon#CourtJudgment</p>
+      <div class="comment">
+         <span class="markdown">represents the court judgment given by a court of law</span>
+      </div>
+      <dl class="description">
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#citedBy" title="https://w3id.org/def/nyon#citedBy">citedBy</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#cites" title="https://w3id.org/def/nyon#cites">cites</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#equivalentCitation" title="https://w3id.org/def/nyon#equivalentCitation">equivalentCitation</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#hasPrecedent" title="https://w3id.org/def/nyon#hasPrecedent">has precedent</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#hasAnalysis" title="https://w3id.org/def/nyon#hasAnalysis">hasAnalysis</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#hasAuthor" title="https://w3id.org/def/nyon#hasAuthor">hasAuthor</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#hasBench" title="https://w3id.org/def/nyon#hasBench">hasBench</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#hasCaseID" title="https://w3id.org/def/nyon#hasCaseID">hasCaseID</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#hasCaseName" title="https://w3id.org/def/nyon#hasCaseName">hasCaseName</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#hasCourtOfficial" title="https://w3id.org/def/nyon#hasCourtOfficial">hasCourtOfficial</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#hasEvidence" title="https://w3id.org/def/nyon#hasEvidence">hasEvidence</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#hasFact" title="https://w3id.org/def/nyon#hasFact">hasFact</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#hasFinalDecision" title="https://w3id.org/def/nyon#hasFinalDecision">hasFinalDecision</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#hasIssue" title="https://w3id.org/def/nyon#hasIssue">hasIssue</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#hasJudge" title="https://w3id.org/def/nyon#hasJudge">hasJudge</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#hasJudgmentType" title="https://w3id.org/def/nyon#hasJudgmentType">hasJudgmentType</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#hasObiterDictum" title="https://w3id.org/def/nyon#hasObiterDictum">hasObiterDictum</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#hasParty" title="https://w3id.org/def/nyon#hasParty">hasParty</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#hasPolicePersonnel" title="https://w3id.org/def/nyon#hasPolicePersonnel">hasPolicePersonnel</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#hasProvision" title="https://w3id.org/def/nyon#hasProvision">hasProvision</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#hasRatioDecidendi" title="https://w3id.org/def/nyon#hasRatioDecidendi">hasRatioDecidendi</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#hasRulingOf" title="https://w3id.org/def/nyon#hasRulingOf">hasRulingOf</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#hasStatue" title="https://w3id.org/def/nyon#hasStatue">hasStatue</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#hasWitness" title="https://w3id.org/def/nyon#hasWitness">hasWitness</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#hasWordPhrase" title="https://w3id.org/def/nyon#hasWordPhrase">hasWordPhrase</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#hasWords" title="https://w3id.org/def/nyon#hasWords">hasWords</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#neutralCitations" title="https://w3id.org/def/nyon#neutralCitations">neutralCitations</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#precendentNotReliedUpon"
+               title="https://w3id.org/def/nyon#precendentNotReliedUpon">precedentNotReliedUpon</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#precedentOverruled" title="https://w3id.org/def/nyon#precedentOverruled">precedentOverruled</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#precedentReliedUpon" title="https://w3id.org/def/nyon#precedentReliedUpon">precedentReliedUpon</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#citedBy" title="https://w3id.org/def/nyon#citedBy">citedBy</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#cites" title="https://w3id.org/def/nyon#cites">cites</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#hasPrecedent" title="https://w3id.org/def/nyon#hasPrecedent">has precedent</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#precendentNotReliedUpon"
+               title="https://w3id.org/def/nyon#precendentNotReliedUpon">precedentNotReliedUpon</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#precedentOverruled" title="https://w3id.org/def/nyon#precedentOverruled">precedentOverruled</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#precedentReliedUpon" title="https://w3id.org/def/nyon#precedentReliedUpon">precedentReliedUpon</a>
             <sup class="type-op" title="object property">op</sup>
          </dd>
       </dl>
@@ -882,20 +917,23 @@ This section provides details for each class and property defined by NyOn: A Mul
             <sup class="type-c" title="class">c</sup>, <a href="#Lawyer" title="https://w3id.org/def/nyon#Lawyer">Lawyer</a>
             <sup class="type-c" title="class">c</sup>, <a href="#LearnedCounsel" title="https://w3id.org/def/nyon#LearnedCounsel">LearnedCounsel</a>
             <sup class="type-c" title="class">c</sup>, <a href="#Solicitor" title="https://w3id.org/def/nyon#Solicitor">Solicitor</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#Attorney" title="https://w3id.org/def/nyon#Attorney">attorney</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#Barrister" title="https://w3id.org/def/nyon#Barrister">barrister</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
          <dt>is in domain of</dt>
          <dd>
             <a href="#COFirstName" title="https://w3id.org/def/nyon#COFirstName">COFirstName</a>
             <sup class="type-dp" title="data property">dp</sup>, <a href="#COLastName" title="https://w3id.org/def/nyon#COLastName">COLastName</a>
-            <sup class="type-dp" title="data property">dp</sup>, <a href="#worksIn" title="https://w3id.org/def/nyon#worksIn">worksIn</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#withConcurrence" title="https://w3id.org/def/nyon#withConcurrence">withConcurrence</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#withDissent" title="https://w3id.org/def/nyon#withDissent">withDissent</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#withMajority" title="https://w3id.org/def/nyon#withMajority">withMajority</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#withOpinion" title="https://w3id.org/def/nyon#withOpinion">withOpinion</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#worksIn" title="https://w3id.org/def/nyon#worksIn">worksIn</a>
             <sup class="type-op" title="object property">op</sup>
          </dd>
          <dt>is in range of</dt>
          <dd>
             <a href="#hasCourtOfficial" title="https://w3id.org/def/nyon#hasCourtOfficial">hasCourtOfficial</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#hasJudge" title="https://w3id.org/def/nyon#hasJudge">hasJudge</a>
             <sup class="type-op" title="object property">op</sup>
          </dd>
       </dl>
@@ -965,6 +1003,8 @@ This section provides details for each class and property defined by NyOn: A Mul
          <span class="markdown">signifies the final date on which the judgment is given by the court of law</span>
       </div>
       <dl class="description">
+         <dt>has super-classes</dt>
+         <dd/>
          <dt>is in domain of</dt>
          <dd>
             <a href="#hasDate" title="https://w3id.org/def/nyon#hasDate">hasDate</a>
@@ -986,6 +1026,9 @@ This section provides details for each class and property defined by NyOn: A Mul
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/def/nyon#Decree</p>
+      <div class="comment">
+         <span class="markdown">formal order issued by the judges</span>
+      </div>
       <dl class="description">
          <dt>is equivalent to</dt>
          <dd>
@@ -1018,6 +1061,11 @@ This section provides details for each class and property defined by NyOn: A Mul
             <a href="#Party" title="https://w3id.org/def/nyon#Party">Party</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#defendentArgument" title="https://w3id.org/def/nyon#defendentArgument">defendantArgument</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
       </dl>
    </div>
    <div class="entity" id="Dissent">
@@ -1027,6 +1075,9 @@ This section provides details for each class and property defined by NyOn: A Mul
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/def/nyon#Dissent</p>
+      <div class="comment">
+         <span class="markdown">judges who do not agree with the majority of the Court</span>
+      </div>
       <dl class="description">
          <dt>has super-classes</dt>
          <dd>
@@ -1085,7 +1136,8 @@ This section provides details for each class and property defined by NyOn: A Mul
       <dl class="description">
          <dt>has super-classes</dt>
          <dd>
-            <a href="#Courts_for_Civil" title="https://w3id.org/def/nyon#Courts_for_Civil">Civil Court</a>
+            <a href="#CaseDomain" title="https://w3id.org/def/nyon#CaseDomain">CaseDomain</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Courts_for_Civil" title="https://w3id.org/def/nyon#Courts_for_Civil">Civil Court</a>
             <sup class="type-c" title="class">c</sup>, <a href="#Court" title="https://w3id.org/def/nyon#Court">Court</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
@@ -1157,8 +1209,9 @@ This section provides details for each class and property defined by NyOn: A Mul
       <dl class="description">
          <dt>is in domain of</dt>
          <dd>
-            <a href="#factSequenceNum" title="https://w3id.org/def/nyon#factSequenceNum">factSequenceNum</a>
-            <sup class="type-dp" title="data property">dp</sup>, <a href="#factValue" title="https://w3id.org/def/nyon#factValue">factValue</a>
+            <a href="#factValue" title="https://w3id.org/def/nyon#factValue">factValue</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#hasEndIndex" title="https://w3id.org/def/nyon#hasEndIndex">hasEndIndex</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#hasStartIndex" title="https://w3id.org/def/nyon#hasStartIndex">hasStartIndex</a>
             <sup class="type-dp" title="data property">dp</sup>
          </dd>
          <dt>is in range of</dt>
@@ -1252,6 +1305,12 @@ This section provides details for each class and property defined by NyOn: A Mul
          <dt>has super-classes</dt>
          <dd>
             <a href="#Party_Type" title="https://w3id.org/def/nyon#Party_Type">Party Type</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#http://xmlns.com/foaf/0.1/Person" title="http://xmlns.com/foaf/0.1/Person">Person</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>has sub-classes</dt>
+         <dd>
+            <a href="#http://xmlns.com/foaf/0.1/Person" title="http://xmlns.com/foaf/0.1/Person">Person</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
          <dt>is disjoint with</dt>
@@ -1277,7 +1336,8 @@ This section provides details for each class and property defined by NyOn: A Mul
       <dl class="description">
          <dt>is in domain of</dt>
          <dd>
-            <a href="#issueSequenceNum" title="https://w3id.org/def/nyon#issueSequenceNum">issueSequenceNum</a>
+            <a href="#hasEndIndex" title="https://w3id.org/def/nyon#hasEndIndex">hasEndIndex</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#hasStartIndex" title="https://w3id.org/def/nyon#hasStartIndex">hasStartIndex</a>
             <sup class="type-dp" title="data property">dp</sup>, <a href="#issueValue" title="https://w3id.org/def/nyon#issueValue">issueValue</a>
             <sup class="type-dp" title="data property">dp</sup>
          </dd>
@@ -1309,17 +1369,13 @@ This section provides details for each class and property defined by NyOn: A Mul
             <a href="#withConcurrence" title="https://w3id.org/def/nyon#withConcurrence">withConcurrence</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#withDissent" title="https://w3id.org/def/nyon#withDissent">withDissent</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#withMajority" title="https://w3id.org/def/nyon#withMajority">withMajority</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#withOpinion" title="https://w3id.org/def/nyon#withOpinion">withOpinion</a>
             <sup class="type-op" title="object property">op</sup>
          </dd>
          <dt>is in range of</dt>
          <dd>
             <a href="#hasJudge" title="https://w3id.org/def/nyon#hasJudge">hasJudge</a>
             <sup class="type-op" title="object property">op</sup>
-         </dd>
-         <dt>has members</dt>
-         <dd>
-            <a href="#J1" title="https://w3id.org/def/nyon#J1">j1</a>
-            <sup class="type-ni" title="named individual">ni</sup>
          </dd>
          <dt>is disjoint with</dt>
          <dd>
@@ -1364,7 +1420,8 @@ This section provides details for each class and property defined by NyOn: A Mul
       <dl class="description">
          <dt>has super-classes</dt>
          <dd>
-            <a href="#Courts_for_Criminal" title="https://w3id.org/def/nyon#Courts_for_Criminal">Criminal Court</a>
+            <a href="#CaseDomain" title="https://w3id.org/def/nyon#CaseDomain">CaseDomain</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Courts_for_Criminal" title="https://w3id.org/def/nyon#Courts_for_Criminal">Criminal Court</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
          <dt>is disjoint with</dt>
@@ -1393,7 +1450,8 @@ This section provides details for each class and property defined by NyOn: A Mul
       <dl class="description">
          <dt>has super-classes</dt>
          <dd>
-            <a href="#Courts_for_Criminal" title="https://w3id.org/def/nyon#Courts_for_Criminal">Criminal Court</a>
+            <a href="#CaseDomain" title="https://w3id.org/def/nyon#CaseDomain">CaseDomain</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Courts_for_Criminal" title="https://w3id.org/def/nyon#Courts_for_Criminal">Criminal Court</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
          <dt>is disjoint with</dt>
@@ -1506,6 +1564,8 @@ This section provides details for each class and property defined by NyOn: A Mul
          <dd>
             <span class="logic">not</span> (<a href="#https://schema.org/Place" title="https://schema.org/Place">Place</a>
             <sup class="type-c" title="class">c</sup>)</dd>
+         <dt>has super-classes</dt>
+         <dd/>
          <dt>has sub-classes</dt>
          <dd>
             <a href="#Country" title="https://w3id.org/def/nyon#Country">Country</a>
@@ -1535,6 +1595,9 @@ This section provides details for each class and property defined by NyOn: A Mul
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/def/nyon#Majority</p>
+      <div class="comment">
+         <span class="markdown">Majority decisions are the ones where a majority of the judges agree</span>
+      </div>
       <dl class="description">
          <dt>has super-classes</dt>
          <dd>
@@ -1545,11 +1608,6 @@ This section provides details for each class and property defined by NyOn: A Mul
          <dd>
             <a href="#withMajority" title="https://w3id.org/def/nyon#withMajority">withMajority</a>
             <sup class="type-op" title="object property">op</sup>
-         </dd>
-         <dt>has members</dt>
-         <dd>
-            <a href="#M0" title="https://w3id.org/def/nyon#M0">m0</a>
-            <sup class="type-ni" title="named individual">ni</sup>
          </dd>
          <dt>is disjoint with</dt>
          <dd>
@@ -1590,7 +1648,8 @@ This section provides details for each class and property defined by NyOn: A Mul
       <dl class="description">
          <dt>has super-classes</dt>
          <dd>
-            <a href="#Courts_for_Criminal" title="https://w3id.org/def/nyon#Courts_for_Criminal">Criminal Court</a>
+            <a href="#CaseDomain" title="https://w3id.org/def/nyon#CaseDomain">CaseDomain</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Courts_for_Criminal" title="https://w3id.org/def/nyon#Courts_for_Criminal">Criminal Court</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
          <dt>is disjoint with</dt>
@@ -1619,7 +1678,8 @@ This section provides details for each class and property defined by NyOn: A Mul
       <dl class="description">
          <dt>has super-classes</dt>
          <dd>
-            <a href="#Courts_for_Civil" title="https://w3id.org/def/nyon#Courts_for_Civil">Civil Court</a>
+            <a href="#CaseDomain" title="https://w3id.org/def/nyon#CaseDomain">CaseDomain</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Courts_for_Civil" title="https://w3id.org/def/nyon#Courts_for_Civil">Civil Court</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
          <dt>is disjoint with</dt>
@@ -1636,7 +1696,7 @@ This section provides details for each class and property defined by NyOn: A Mul
       </dl>
    </div>
    <div class="entity" id="ObiterDictum">
-      <h3>Obiter Dictum<sup class="type-c" title="class">c</sup>
+      <h3>ObiterDictum<sup class="type-c" title="class">c</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
          </span>
       </h3>
@@ -1648,8 +1708,8 @@ This section provides details for each class and property defined by NyOn: A Mul
       <dl class="description">
          <dt>is in domain of</dt>
          <dd>
-            <a href="#obiterDictumSequenceNum"
-               title="https://w3id.org/def/nyon#obiterDictumSequenceNum">obiterDictumSequenceNum</a>
+            <a href="#hasEndIndex" title="https://w3id.org/def/nyon#hasEndIndex">hasEndIndex</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#hasStartIndex" title="https://w3id.org/def/nyon#hasStartIndex">hasStartIndex</a>
             <sup class="type-dp" title="data property">dp</sup>, <a href="#obiterDictumValue" title="https://w3id.org/def/nyon#obiterDictumValue">obiterDictumValue</a>
             <sup class="type-dp" title="data property">dp</sup>
          </dd>
@@ -1675,6 +1735,8 @@ This section provides details for each class and property defined by NyOn: A Mul
          <dd>
             <span class="logic">not</span> (<a href="#Judgement" title="https://w3id.org/def/nyon#Judgement">Judgement</a>
             <sup class="type-c" title="class">c</sup>)</dd>
+         <dt>has super-classes</dt>
+         <dd/>
          <dt>has sub-classes</dt>
          <dd>
             <a href="#Concurrence" title="https://w3id.org/def/nyon#Concurrence">Concurrence</a>
@@ -1684,8 +1746,16 @@ This section provides details for each class and property defined by NyOn: A Mul
          </dd>
          <dt>is in domain of</dt>
          <dd>
-            <a href="#value" title="https://w3id.org/def/nyon#value">value</a>
+            <a href="#opinionValue" title="https://w3id.org/def/nyon#opinionValue">opinionValue</a>
             <sup class="type-dp" title="data property">dp</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#withConcurrence" title="https://w3id.org/def/nyon#withConcurrence">withConcurrence</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#withDissent" title="https://w3id.org/def/nyon#withDissent">withDissent</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#withMajority" title="https://w3id.org/def/nyon#withMajority">withMajority</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#withOpinion" title="https://w3id.org/def/nyon#withOpinion">withOpinion</a>
+            <sup class="type-op" title="object property">op</sup>
          </dd>
       </dl>
    </div>
@@ -1782,15 +1852,25 @@ This section provides details for each class and property defined by NyOn: A Mul
          </dd>
          <dt>is in domain of</dt>
          <dd>
-            <a href="#firstName" title="https://w3id.org/def/nyon#firstName">firstName</a>
+            <a href="#appellantArgument" title="https://w3id.org/def/nyon#appellantArgument">appellantArgument</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#defendentArgument" title="https://w3id.org/def/nyon#defendentArgument">defendantArgument</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#firstName" title="https://w3id.org/def/nyon#firstName">firstName</a>
             <sup class="type-dp" title="data property">dp</sup>, <a href="#hasPartyType" title="https://w3id.org/def/nyon#hasPartyType">hasPartyType</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#lastName" title="https://w3id.org/def/nyon#lastName">lastName</a>
             <sup class="type-dp" title="data property">dp</sup>, <a href="#makeArgument" title="https://w3id.org/def/nyon#makeArgument">makeArgument</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#petitionerArgument" title="https://w3id.org/def/nyon#petitionerArgument">petitionerArgument</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#plaintiffArgument" title="https://w3id.org/def/nyon#plaintiffArgument">plaintiffArgument</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#respondentArgument" title="https://w3id.org/def/nyon#respondentArgument">respondentArgument</a>
             <sup class="type-op" title="object property">op</sup>
          </dd>
          <dt>is in range of</dt>
          <dd>
-            <a href="#hasParty" title="https://w3id.org/def/nyon#hasParty">hasParty</a>
+            <a href="#appellantArgument" title="https://w3id.org/def/nyon#appellantArgument">appellantArgument</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#defendentArgument" title="https://w3id.org/def/nyon#defendentArgument">defendantArgument</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#hasParty" title="https://w3id.org/def/nyon#hasParty">hasParty</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#petitionerArgument" title="https://w3id.org/def/nyon#petitionerArgument">petitionerArgument</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#plaintiffArgument" title="https://w3id.org/def/nyon#plaintiffArgument">plaintiffArgument</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#respondentArgument" title="https://w3id.org/def/nyon#respondentArgument">respondentArgument</a>
             <sup class="type-op" title="object property">op</sup>
          </dd>
       </dl>
@@ -1812,6 +1892,7 @@ This section provides details for each class and property defined by NyOn: A Mul
             <sup class="type-c" title="class">c</sup>, <a href="#Group" title="https://w3id.org/def/nyon#Group">Group</a>
             <sup class="type-c" title="class">c</sup>, <a href="#Individual" title="https://w3id.org/def/nyon#Individual">Individual</a>
             <sup class="type-c" title="class">c</sup>, <a href="#https://schema.org/Organization" title="https://schema.org/Organization">Organization</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#http://xmlns.com/foaf/0.1/Person" title="http://xmlns.com/foaf/0.1/Person">Person</a>
             <sup class="type-c" title="class">c</sup>, <a href="#State" title="https://w3id.org/def/nyon#State">State</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
@@ -1829,8 +1910,22 @@ This section provides details for each class and property defined by NyOn: A Mul
       </h3>
       <p>
          <strong>IRI:</strong> http://xmlns.com/foaf/0.1/Person</p>
+      <div class="comment">
+         <span class="markdown">A person</span>
+      </div>
       <dl class="description">
          <dt>is equivalent to</dt>
+         <dd>
+            <a href="#Individual" title="https://w3id.org/def/nyon#Individual">Individual</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#Individual" title="https://w3id.org/def/nyon#Individual">Individual</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Party_Type" title="https://w3id.org/def/nyon#Party_Type">Party Type</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>has sub-classes</dt>
          <dd>
             <a href="#Individual" title="https://w3id.org/def/nyon#Individual">Individual</a>
             <sup class="type-c" title="class">c</sup>
@@ -1852,6 +1947,11 @@ This section provides details for each class and property defined by NyOn: A Mul
          <dd>
             <a href="#Party" title="https://w3id.org/def/nyon#Party">Party</a>
             <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#petitionerArgument" title="https://w3id.org/def/nyon#petitionerArgument">petitionerArgument</a>
+            <sup class="type-op" title="object property">op</sup>
          </dd>
       </dl>
    </div>
@@ -1901,6 +2001,11 @@ This section provides details for each class and property defined by NyOn: A Mul
             <a href="#Party" title="https://w3id.org/def/nyon#Party">Party</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#plaintiffArgument" title="https://w3id.org/def/nyon#plaintiffArgument">plaintiffArgument</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
       </dl>
    </div>
    <div class="entity" id="Investigator">
@@ -1910,11 +2015,15 @@ This section provides details for each class and property defined by NyOn: A Mul
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/def/nyon#Investigator</p>
+      <div class="comment">
+         <span class="markdown">A police officer is a warranted law employee of a police force</span>
+      </div>
       <dl class="description">
          <dt>is in domain of</dt>
          <dd>
             <a href="#hasDesignation" title="https://w3id.org/def/nyon#hasDesignation">hasDesignation</a>
-            <sup class="type-dp" title="data property">dp</sup>, <a href="#hasPolicePersonnelName" title="https://w3id.org/def/nyon#hasPolicePersonnelName">hasPolicePersonnelName</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#hasPolicePersonnelName"
+               title="https://w3id.org/def/nyon#hasPolicePersonnelName">hasPolicePersonnelName</a>
             <sup class="type-dp" title="data property">dp</sup>
          </dd>
          <dt>is in range of</dt>
@@ -1958,7 +2067,8 @@ This section provides details for each class and property defined by NyOn: A Mul
       <dl class="description">
          <dt>has super-classes</dt>
          <dd>
-            <a href="#Courts_for_Civil" title="https://w3id.org/def/nyon#Courts_for_Civil">Civil Court</a>
+            <a href="#CaseDomain" title="https://w3id.org/def/nyon#CaseDomain">CaseDomain</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Courts_for_Civil" title="https://w3id.org/def/nyon#Courts_for_Civil">Civil Court</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
          <dt>is disjoint with</dt>
@@ -2004,14 +2114,14 @@ This section provides details for each class and property defined by NyOn: A Mul
       <dl class="description">
          <dt>is in domain of</dt>
          <dd>
-            <a href="#ratioDecidendiSequenceNum"
-               title="https://w3id.org/def/nyon#ratioDecidendiSequenceNum">ratioDecidendiSequenceNum</a>
+            <a href="#hasEndIndex" title="https://w3id.org/def/nyon#hasEndIndex">hasEndIndex</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#hasStartIndex" title="https://w3id.org/def/nyon#hasStartIndex">hasStartIndex</a>
             <sup class="type-dp" title="data property">dp</sup>, <a href="#ratioDecidendiValue" title="https://w3id.org/def/nyon#ratioDecidendiValue">ratioDecidendiValue</a>
             <sup class="type-dp" title="data property">dp</sup>
          </dd>
          <dt>is in range of</dt>
          <dd>
-            <a href="#hasRatioDecidendi" title="https://w3id.org/def/nyon#hasRatioDecidendi">hasRtioDecidendi</a>
+            <a href="#hasRatioDecidendi" title="https://w3id.org/def/nyon#hasRatioDecidendi">hasRatioDecidendi</a>
             <sup class="type-op" title="object property">op</sup>
          </dd>
       </dl>
@@ -2031,6 +2141,16 @@ This section provides details for each class and property defined by NyOn: A Mul
          <dd>
             <a href="#Party" title="https://w3id.org/def/nyon#Party">Party</a>
             <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>has sub-classes</dt>
+         <dd>
+            <a href="#Accussed" title="https://w3id.org/def/nyon#Accussed">Accused</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#respondentArgument" title="https://w3id.org/def/nyon#respondentArgument">respondentArgument</a>
+            <sup class="type-op" title="object property">op</sup>
          </dd>
       </dl>
    </div>
@@ -2060,6 +2180,17 @@ This section provides details for each class and property defined by NyOn: A Mul
          </dd>
       </dl>
    </div>
+   <div class="entity" id="RulingOf">
+      <h3>RulingOf<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/def/nyon#RulingOf</p>
+      <div class="comment">
+         <span class="markdown">specifies the verdicts given by the various courts that are mentioned in the judgment</span>
+      </div>
+   </div>
    <div class="entity" id="Session_Court">
       <h3>Sessions Court<sup class="type-c" title="class">c</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
@@ -2073,7 +2204,8 @@ This section provides details for each class and property defined by NyOn: A Mul
       <dl class="description">
          <dt>has super-classes</dt>
          <dd>
-            <a href="#Courts_for_Criminal" title="https://w3id.org/def/nyon#Courts_for_Criminal">Criminal Court</a>
+            <a href="#CaseDomain" title="https://w3id.org/def/nyon#CaseDomain">CaseDomain</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Courts_for_Criminal" title="https://w3id.org/def/nyon#Courts_for_Criminal">Criminal Court</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
          <dt>is disjoint with</dt>
@@ -2406,9 +2538,7 @@ This section provides details for each class and property defined by NyOn: A Mul
    <h3 id="properties" class="list">Object Properties</h3>
    <ul class="hlist">
       <li>
-         <a href="#appellantArgument" title="https://w3id.org/def/nyon#appellantArgument">
-            <span>appellant argument</span>
-         </a>
+         <a href="#appellantArgument" title="https://w3id.org/def/nyon#appellantArgument">appellantArgument</a>
       </li>
       <li>
          <a href="#citedBy" title="https://w3id.org/def/nyon#citedBy">citedBy</a>
@@ -2417,14 +2547,15 @@ This section provides details for each class and property defined by NyOn: A Mul
          <a href="#cites" title="https://w3id.org/def/nyon#cites">cites</a>
       </li>
       <li>
-         <a href="#defendentArgument" title="https://w3id.org/def/nyon#defendentArgument">
-            <span>defendent argument</span>
-         </a>
+         <a href="#defendentArgument" title="https://w3id.org/def/nyon#defendentArgument">defendantArgument</a>
       </li>
       <li>
          <a href="#hasPrecedent" title="https://w3id.org/def/nyon#hasPrecedent">
             <span>has precedent</span>
          </a>
+      </li>
+      <li>
+         <a href="#hasAnalysis" title="https://w3id.org/def/nyon#hasAnalysis">hasAnalysis</a>
       </li>
       <li>
          <a href="#hasAuthor" title="https://w3id.org/def/nyon#hasAuthor">hasAuthor</a>
@@ -2481,7 +2612,7 @@ This section provides details for each class and property defined by NyOn: A Mul
          <a href="#hasProvision" title="https://w3id.org/def/nyon#hasProvision">hasProvision</a>
       </li>
       <li>
-         <a href="#hasRatioDecidendi" title="https://w3id.org/def/nyon#hasRatioDecidendi">hasRtioDecidendi</a>
+         <a href="#hasRatioDecidendi" title="https://w3id.org/def/nyon#hasRatioDecidendi">hasRatioDecidendi</a>
       </li>
       <li>
          <a href="#hasRulingOf" title="https://w3id.org/def/nyon#hasRulingOf">hasRulingOf</a>
@@ -2505,14 +2636,10 @@ This section provides details for each class and property defined by NyOn: A Mul
          <a href="#OfDomian" title="https://w3id.org/def/nyon#OfDomian">OfDomain</a>
       </li>
       <li>
-         <a href="#petitionerArgument" title="https://w3id.org/def/nyon#petitionerArgument">
-            <span>petitioner argument</span>
-         </a>
+         <a href="#petitionerArgument" title="https://w3id.org/def/nyon#petitionerArgument">petitionerArgument</a>
       </li>
       <li>
-         <a href="#plaintiffArgument" title="https://w3id.org/def/nyon#plaintiffArgument">
-            <span>plaintiff argument</span>
-         </a>
+         <a href="#plaintiffArgument" title="https://w3id.org/def/nyon#plaintiffArgument">plaintiffArgument</a>
       </li>
       <li>
          <a href="#precendentNotReliedUpon"
@@ -2525,9 +2652,7 @@ This section provides details for each class and property defined by NyOn: A Mul
          <a href="#precedentReliedUpon" title="https://w3id.org/def/nyon#precedentReliedUpon">precedentReliedUpon</a>
       </li>
       <li>
-         <a href="#respondentArgument" title="https://w3id.org/def/nyon#respondentArgument">
-            <span>respondent argument</span>
-         </a>
+         <a href="#respondentArgument" title="https://w3id.org/def/nyon#respondentArgument">respondentArgument</a>
       </li>
       <li>
          <a href="#withConcurrence" title="https://w3id.org/def/nyon#withConcurrence">withConcurrence</a>
@@ -2546,18 +2671,57 @@ This section provides details for each class and property defined by NyOn: A Mul
       </li>
    </ul>
    <div class="entity" id="appellantArgument">
-      <h3>appellant argument<sup class="type-op" title="object property">op</sup>
+      <h3>appellantArgument<sup class="type-op" title="object property">op</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
          </span>
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/def/nyon#appellantArgument</p>
+      <div class="comment">
+         <span class="markdown">specifies the argument made by the appellant (nyon:Appellant) of nyon:CourtCase</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
             <dd>
                <a href="#makeArgument" title="https://w3id.org/def/nyon#makeArgument">makeArgument</a>
                <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Argument" title="https://w3id.org/def/nyon#Argument">Argument</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
+               <a href="#Party" title="https://w3id.org/def/nyon#Party">Party</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
+               <a href="#Argument" title="https://w3id.org/def/nyon#Argument">Argument</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#DateOfJudgment" title="https://w3id.org/def/nyon#DateOfJudgment">DateofJudgment</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#Appellant" title="https://w3id.org/def/nyon#Appellant">Appellant</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
+               <a href="#Argument" title="https://w3id.org/def/nyon#Argument">Argument</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
+               <a href="#Party" title="https://w3id.org/def/nyon#Party">Party</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
+               <a href="#Argument" title="https://w3id.org/def/nyon#Argument">Argument</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#DateOfJudgment" title="https://w3id.org/def/nyon#DateOfJudgment">DateofJudgment</a>
+               <sup class="type-c" title="class">c</sup>
             </dd>
          </dl>
       </div>
@@ -2569,16 +2733,22 @@ This section provides details for each class and property defined by NyOn: A Mul
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/def/nyon#citedBy</p>
+      <div class="comment">
+         <span class="markdown">specifies the nyon:CourtCase being cited by nyon:CourtCase</span>
+      </div>
       <div class="description">
+         <p>
+            <strong>has characteristics:
+                </strong> reflexive</p>
          <dl>
             <dt>has domain</dt>
             <dd>
-               <a href="#CourtCase" title="https://w3id.org/def/nyon#CourtCase">CourtCase</a>
+               <a href="#CourtJudgment" title="https://w3id.org/def/nyon#CourtJudgment">CourtJudgment</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
             <dt>has range</dt>
             <dd>
-               <a href="#CourtCase" title="https://w3id.org/def/nyon#CourtCase">CourtCase</a>
+               <a href="#CourtJudgment" title="https://w3id.org/def/nyon#CourtJudgment">CourtJudgment</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
             <dt>is inverse of</dt>
@@ -2596,19 +2766,22 @@ This section provides details for each class and property defined by NyOn: A Mul
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/def/nyon#cites</p>
+      <div class="comment">
+         <span class="markdown">specifies the nyon:CourtCase is citing another nyon:CourtCase</span>
+      </div>
       <div class="description">
          <p>
             <strong>has characteristics:
-                </strong> functional</p>
+                </strong> functional, reflexive</p>
          <dl>
             <dt>has domain</dt>
             <dd>
-               <a href="#CourtCase" title="https://w3id.org/def/nyon#CourtCase">CourtCase</a>
+               <a href="#CourtJudgment" title="https://w3id.org/def/nyon#CourtJudgment">CourtJudgment</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
             <dt>has range</dt>
             <dd>
-               <a href="#CourtCase" title="https://w3id.org/def/nyon#CourtCase">CourtCase</a>
+               <a href="#CourtJudgment" title="https://w3id.org/def/nyon#CourtJudgment">CourtJudgment</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
             <dt>is inverse of</dt>
@@ -2620,18 +2793,57 @@ This section provides details for each class and property defined by NyOn: A Mul
       </div>
    </div>
    <div class="entity" id="defendentArgument">
-      <h3>defendent argument<sup class="type-op" title="object property">op</sup>
+      <h3>defendantArgument<sup class="type-op" title="object property">op</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
          </span>
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/def/nyon#defendentArgument</p>
+      <div class="comment">
+         <span class="markdown">specifies the argument made by the defendant (nyon:Defendant) of nyon:CourtCase</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
             <dd>
                <a href="#makeArgument" title="https://w3id.org/def/nyon#makeArgument">makeArgument</a>
                <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Argument" title="https://w3id.org/def/nyon#Argument">Argument</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
+               <a href="#Party" title="https://w3id.org/def/nyon#Party">Party</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
+               <a href="#Argument" title="https://w3id.org/def/nyon#Argument">Argument</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#DateOfJudgment" title="https://w3id.org/def/nyon#DateOfJudgment">DateofJudgment</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#Argument" title="https://w3id.org/def/nyon#Argument">Argument</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
+               <a href="#Defendant" title="https://w3id.org/def/nyon#Defendant">Defendant</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
+               <a href="#Party" title="https://w3id.org/def/nyon#Party">Party</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
+               <a href="#Argument" title="https://w3id.org/def/nyon#Argument">Argument</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#DateOfJudgment" title="https://w3id.org/def/nyon#DateOfJudgment">DateofJudgment</a>
+               <sup class="type-c" title="class">c</sup>
             </dd>
          </dl>
       </div>
@@ -2647,6 +2859,9 @@ This section provides details for each class and property defined by NyOn: A Mul
          <span class="markdown">represents past cases referred by the judge in the judgment</span>
       </div>
       <div class="description">
+         <p>
+            <strong>has characteristics:
+                </strong> reflexive</p>
          <dl>
             <dt>has super-properties</dt>
             <dd>
@@ -2662,6 +2877,41 @@ This section provides details for each class and property defined by NyOn: A Mul
                <sup class="type-op" title="object property">op</sup>, <a href="#precedentReliedUpon" title="https://w3id.org/def/nyon#precedentReliedUpon">precedentReliedUpon</a>
                <sup class="type-op" title="object property">op</sup>
             </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#CourtJudgment" title="https://w3id.org/def/nyon#CourtJudgment">CourtJudgment</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#CourtJudgment" title="https://w3id.org/def/nyon#CourtJudgment">CourtJudgment</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasAnalysis">
+      <h3>hasAnalysis<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/def/nyon#hasAnalysis</p>
+      <div class="comment">
+         <span class="markdown">specifies the analysis given by the judge in the case</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#CourtJudgment" title="https://w3id.org/def/nyon#CourtJudgment">CourtJudgment</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#Analysis" title="https://w3id.org/def/nyon#Analysis">Analysis</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
          </dl>
       </div>
    </div>
@@ -2672,16 +2922,25 @@ This section provides details for each class and property defined by NyOn: A Mul
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/def/nyon#hasAuthor</p>
+      <div class="comment">
+         <span class="markdown">specifies an author (nyon:Author) (any judge (nyon:Judge) from the bench) of the nyon:CourtCase</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has domain</dt>
             <dd>
-               <a href="#CourtCase" title="https://w3id.org/def/nyon#CourtCase">CourtCase</a>
+               <a href="#CourtJudgment" title="https://w3id.org/def/nyon#CourtJudgment">CourtJudgment</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
             <dt>has range</dt>
             <dd>
                <a href="#Author" title="https://w3id.org/def/nyon#Author">Author</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
+               <a href="#hasAuthor" title="https://w3id.org/def/nyon#hasAuthor">hasAuthor</a>
+               <sup class="type-op" title="object property">op</sup> 
+               <span class="logic">exactly</span> 1 <a href="#Judge" title="https://w3id.org/def/nyon#Judge">Judge</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
          </dl>
@@ -2694,6 +2953,9 @@ This section provides details for each class and property defined by NyOn: A Mul
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/def/nyon#hasBench</p>
+      <div class="comment">
+         <span class="markdown">specifies the bench associated with nyon:Bench of the nyon:CourtCase</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
@@ -2704,7 +2966,7 @@ This section provides details for each class and property defined by NyOn: A Mul
             </dd>
             <dt>has domain</dt>
             <dd>
-               <a href="#CourtCase" title="https://w3id.org/def/nyon#CourtCase">CourtCase</a>
+               <a href="#CourtJudgment" title="https://w3id.org/def/nyon#CourtJudgment">CourtJudgment</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
             <dt>has range</dt>
@@ -2722,6 +2984,9 @@ This section provides details for each class and property defined by NyOn: A Mul
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/def/nyon#hasCourtLoc</p>
+      <div class="comment">
+         <span class="markdown">specifies the location of the nyon:Court</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
@@ -2740,6 +3005,9 @@ This section provides details for each class and property defined by NyOn: A Mul
                <a href="#Location" title="https://w3id.org/def/nyon#Location">Location</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
+            <dd>
+               <span class="logic">not</span> (<a href="#https://schema.org/Place" title="https://schema.org/Place">Place</a>
+               <sup class="type-c" title="class">c</sup>)</dd>
          </dl>
       </div>
    </div>
@@ -2750,6 +3018,9 @@ This section provides details for each class and property defined by NyOn: A Mul
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/def/nyon#hasCourtOfficial</p>
+      <div class="comment">
+         <span class="markdown">specifies the court official represented with nyon:CourtOfficial connected to the nyon:CourtCase</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
@@ -2760,7 +3031,7 @@ This section provides details for each class and property defined by NyOn: A Mul
             </dd>
             <dt>has domain</dt>
             <dd>
-               <a href="#CourtCase" title="https://w3id.org/def/nyon#CourtCase">CourtCase</a>
+               <a href="#CourtJudgment" title="https://w3id.org/def/nyon#CourtJudgment">CourtJudgment</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
             <dt>has range</dt>
@@ -2778,6 +3049,9 @@ This section provides details for each class and property defined by NyOn: A Mul
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/def/nyon#hasDateOfJudgment</p>
+      <div class="comment">
+         <span class="markdown">specifies the date of the judgment of the nyon:CourtCase</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
@@ -2796,6 +3070,13 @@ This section provides details for each class and property defined by NyOn: A Mul
                <a href="#DateOfJudgment" title="https://w3id.org/def/nyon#DateOfJudgment">DateofJudgment</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
+            <dd>
+               <a href="#Argument" title="https://w3id.org/def/nyon#Argument">Argument</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#DateOfJudgment" title="https://w3id.org/def/nyon#DateOfJudgment">DateofJudgment</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
          </dl>
       </div>
    </div>
@@ -2806,6 +3087,9 @@ This section provides details for each class and property defined by NyOn: A Mul
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/def/nyon#hasEvidence</p>
+      <div class="comment">
+         <span class="markdown">specifies the evidence associated with the nyon:Evidence instance for the nyon:CourtCase</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
@@ -2816,7 +3100,7 @@ This section provides details for each class and property defined by NyOn: A Mul
             </dd>
             <dt>has domain</dt>
             <dd>
-               <a href="#CourtCase" title="https://w3id.org/def/nyon#CourtCase">CourtCase</a>
+               <a href="#CourtJudgment" title="https://w3id.org/def/nyon#CourtJudgment">CourtJudgment</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
             <dt>has range</dt>
@@ -2834,6 +3118,9 @@ This section provides details for each class and property defined by NyOn: A Mul
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/def/nyon#hasEvidenceLoc</p>
+      <div class="comment">
+         <span class="markdown">specifies the evidence location associated with the nyon:Evidence instance for the nyon:CourtCase</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
@@ -2852,6 +3139,9 @@ This section provides details for each class and property defined by NyOn: A Mul
                <a href="#Location" title="https://w3id.org/def/nyon#Location">Location</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
+            <dd>
+               <span class="logic">not</span> (<a href="#https://schema.org/Place" title="https://schema.org/Place">Place</a>
+               <sup class="type-c" title="class">c</sup>)</dd>
          </dl>
       </div>
    </div>
@@ -2862,6 +3152,9 @@ This section provides details for each class and property defined by NyOn: A Mul
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/def/nyon#hasFact</p>
+      <div class="comment">
+         <span class="markdown">specifies the fact associated with nyon:Fact belonging to a specific nyon:CourtCase</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
@@ -2872,7 +3165,7 @@ This section provides details for each class and property defined by NyOn: A Mul
             </dd>
             <dt>has domain</dt>
             <dd>
-               <a href="#CourtCase" title="https://w3id.org/def/nyon#CourtCase">CourtCase</a>
+               <a href="#CourtJudgment" title="https://w3id.org/def/nyon#CourtJudgment">CourtJudgment</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
             <dt>has range</dt>
@@ -2890,6 +3183,9 @@ This section provides details for each class and property defined by NyOn: A Mul
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/def/nyon#hasFinalDecision</p>
+      <div class="comment">
+         <span class="markdown">specifies the final verdict associated with the nyon:CourtCase</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
@@ -2900,7 +3196,7 @@ This section provides details for each class and property defined by NyOn: A Mul
             </dd>
             <dt>has domain</dt>
             <dd>
-               <a href="#CourtCase" title="https://w3id.org/def/nyon#CourtCase">CourtCase</a>
+               <a href="#CourtJudgment" title="https://w3id.org/def/nyon#CourtJudgment">CourtJudgment</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
             <dt>has range</dt>
@@ -2918,6 +3214,9 @@ This section provides details for each class and property defined by NyOn: A Mul
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/def/nyon#hasIssue</p>
+      <div class="comment">
+         <span class="markdown">specifies the issue associated with the nyon:Issue instance mentioned in the nyon:CourtCase</span>
+      </div>
       <div class="description">
          <p>
             <strong>has characteristics:
@@ -2925,7 +3224,7 @@ This section provides details for each class and property defined by NyOn: A Mul
          <dl>
             <dt>has domain</dt>
             <dd>
-               <a href="#CourtCase" title="https://w3id.org/def/nyon#CourtCase">CourtCase</a>
+               <a href="#CourtJudgment" title="https://w3id.org/def/nyon#CourtJudgment">CourtJudgment</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
             <dt>has range</dt>
@@ -2944,11 +3243,20 @@ This section provides details for each class and property defined by NyOn: A Mul
       <p>
          <strong>IRI:</strong> https://w3id.org/def/nyon#hasJudge</p>
       <div class="comment">
-         <span class="markdown">represent the judicial body (i.e. judge) for the case</span>
+         <span class="markdown">specifies the judicial body (nyon:Judge) of nyon:CourtCase</span>
       </div>
       <div class="description">
          <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#CourtJudgment" title="https://w3id.org/def/nyon#CourtJudgment">CourtJudgment</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
             <dt>has range</dt>
+            <dd>
+               <a href="#Court_Official" title="https://w3id.org/def/nyon#Court_Official">CourtOfficial</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
             <dd>
                <a href="#Judge" title="https://w3id.org/def/nyon#Judge">Judge</a>
                <sup class="type-c" title="class">c</sup>
@@ -2963,6 +3271,9 @@ This section provides details for each class and property defined by NyOn: A Mul
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/def/nyon#hasJudgmentType</p>
+      <div class="comment">
+         <span class="markdown">specifies the type of judgment (nyon:CaseType) for nyon:CourtCase</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
@@ -2973,7 +3284,7 @@ This section provides details for each class and property defined by NyOn: A Mul
             </dd>
             <dt>has domain</dt>
             <dd>
-               <a href="#CourtCase" title="https://w3id.org/def/nyon#CourtCase">CourtCase</a>
+               <a href="#CourtJudgment" title="https://w3id.org/def/nyon#CourtJudgment">CourtJudgment</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
             <dt>has range</dt>
@@ -2991,6 +3302,9 @@ This section provides details for each class and property defined by NyOn: A Mul
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/def/nyon#hasJurisdiction</p>
+      <div class="comment">
+         <span class="markdown">specifies the jurisdiction (nyon:Jurisdiction) for nyon:Court</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
@@ -3019,6 +3333,9 @@ This section provides details for each class and property defined by NyOn: A Mul
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/def/nyon#hasObiterDictum</p>
+      <div class="comment">
+         <span class="markdown">specifies the obiter dicta associated with nyon:ObiterDictum mentioned in nyon:CourtCase</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
@@ -3029,12 +3346,12 @@ This section provides details for each class and property defined by NyOn: A Mul
             </dd>
             <dt>has domain</dt>
             <dd>
-               <a href="#CourtCase" title="https://w3id.org/def/nyon#CourtCase">CourtCase</a>
+               <a href="#CourtJudgment" title="https://w3id.org/def/nyon#CourtJudgment">CourtJudgment</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
             <dt>has range</dt>
             <dd>
-               <a href="#ObiterDictum" title="https://w3id.org/def/nyon#ObiterDictum">Obiter Dictum</a>
+               <a href="#ObiterDictum" title="https://w3id.org/def/nyon#ObiterDictum">ObiterDictum</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
          </dl>
@@ -3047,6 +3364,9 @@ This section provides details for each class and property defined by NyOn: A Mul
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/def/nyon#hasParty</p>
+      <div class="comment">
+         <span class="markdown">specifies the party (nyon:Party) associated with nyon:CourtCase</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
@@ -3057,7 +3377,7 @@ This section provides details for each class and property defined by NyOn: A Mul
             </dd>
             <dt>has domain</dt>
             <dd>
-               <a href="#CourtCase" title="https://w3id.org/def/nyon#CourtCase">CourtCase</a>
+               <a href="#CourtJudgment" title="https://w3id.org/def/nyon#CourtJudgment">CourtJudgment</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
             <dt>has range</dt>
@@ -3075,6 +3395,9 @@ This section provides details for each class and property defined by NyOn: A Mul
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/def/nyon#hasPartyType</p>
+      <div class="comment">
+         <span class="markdown">specifies the type of party (nyon:PartyType) involved in nyon:CourtCase</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
@@ -3103,11 +3426,14 @@ This section provides details for each class and property defined by NyOn: A Mul
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/def/nyon#hasPolicePersonnel</p>
+      <div class="comment">
+         <span class="markdown">specifies the police officer (nyon:PolicePersonnel) doing mentioned in nyon:CourtCase</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has domain</dt>
             <dd>
-               <a href="#CourtCase" title="https://w3id.org/def/nyon#CourtCase">CourtCase</a>
+               <a href="#CourtJudgment" title="https://w3id.org/def/nyon#CourtJudgment">CourtJudgment</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
             <dt>has range</dt>
@@ -3126,13 +3452,13 @@ This section provides details for each class and property defined by NyOn: A Mul
       <p>
          <strong>IRI:</strong> https://w3id.org/def/nyon#hasProvision</p>
       <div class="comment">
-         <span class="markdown">a clause or norm in a legal instrument or a law</span>
+         <span class="markdown">specifies a clause or norm (nyon:Provision) in a legal instrument or a law</span>
       </div>
       <div class="description">
          <dl>
             <dt>has domain</dt>
             <dd>
-               <a href="#CourtCase" title="https://w3id.org/def/nyon#CourtCase">CourtCase</a>
+               <a href="#CourtJudgment" title="https://w3id.org/def/nyon#CourtJudgment">CourtJudgment</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
             <dt>has range</dt>
@@ -3144,12 +3470,15 @@ This section provides details for each class and property defined by NyOn: A Mul
       </div>
    </div>
    <div class="entity" id="hasRatioDecidendi">
-      <h3>hasRtioDecidendi<sup class="type-op" title="object property">op</sup>
+      <h3>hasRatioDecidendi<sup class="type-op" title="object property">op</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
          </span>
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/def/nyon#hasRatioDecidendi</p>
+      <div class="comment">
+         <span class="markdown">specifies the judges ratio of decision (nyon:RatioDecidendi) for nyon:CourtCase</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
@@ -3160,7 +3489,7 @@ This section provides details for each class and property defined by NyOn: A Mul
             </dd>
             <dt>has domain</dt>
             <dd>
-               <a href="#CourtCase" title="https://w3id.org/def/nyon#CourtCase">CourtCase</a>
+               <a href="#CourtJudgment" title="https://w3id.org/def/nyon#CourtJudgment">CourtJudgment</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
             <dt>has range</dt>
@@ -3178,6 +3507,9 @@ This section provides details for each class and property defined by NyOn: A Mul
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/def/nyon#hasRulingOf</p>
+      <div class="comment">
+         <span class="markdown">specifies the ruling (previous judgments nyon:CourtCase) of the lower court (nyon:Court)</span>
+      </div>
       <div class="description">
          <p>
             <strong>has characteristics:
@@ -3191,7 +3523,7 @@ This section provides details for each class and property defined by NyOn: A Mul
             </dd>
             <dt>has domain</dt>
             <dd>
-               <a href="#CourtCase" title="https://w3id.org/def/nyon#CourtCase">CourtCase</a>
+               <a href="#CourtJudgment" title="https://w3id.org/def/nyon#CourtJudgment">CourtJudgment</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
             <dt>has range</dt>
@@ -3209,6 +3541,9 @@ This section provides details for each class and property defined by NyOn: A Mul
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/def/nyon#hasStatue</p>
+      <div class="comment">
+         <span class="markdown">specifies the statute (nyon:Statute) mentioned in nyon:CourtCase</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
@@ -3219,7 +3554,7 @@ This section provides details for each class and property defined by NyOn: A Mul
             </dd>
             <dt>has domain</dt>
             <dd>
-               <a href="#CourtCase" title="https://w3id.org/def/nyon#CourtCase">CourtCase</a>
+               <a href="#CourtJudgment" title="https://w3id.org/def/nyon#CourtJudgment">CourtJudgment</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
             <dt>has range</dt>
@@ -3237,6 +3572,9 @@ This section provides details for each class and property defined by NyOn: A Mul
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/def/nyon#hasWitness</p>
+      <div class="comment">
+         <span class="markdown">specifies the witness (nyon:Witness) mentioned in nyon:CourtCase</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
@@ -3247,7 +3585,7 @@ This section provides details for each class and property defined by NyOn: A Mul
             </dd>
             <dt>has domain</dt>
             <dd>
-               <a href="#CourtCase" title="https://w3id.org/def/nyon#CourtCase">CourtCase</a>
+               <a href="#CourtJudgment" title="https://w3id.org/def/nyon#CourtJudgment">CourtJudgment</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
             <dt>has range</dt>
@@ -3265,6 +3603,9 @@ This section provides details for each class and property defined by NyOn: A Mul
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/def/nyon#hasWordPhrase</p>
+      <div class="comment">
+         <span class="markdown">specifies the phrases and words (specially nyon:Issue) mentioned in nyon:CourtCase</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
@@ -3275,7 +3616,7 @@ This section provides details for each class and property defined by NyOn: A Mul
             </dd>
             <dt>has domain</dt>
             <dd>
-               <a href="#CourtCase" title="https://w3id.org/def/nyon#CourtCase">CourtCase</a>
+               <a href="#CourtJudgment" title="https://w3id.org/def/nyon#CourtJudgment">CourtJudgment</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
             <dt>has range</dt>
@@ -3300,12 +3641,48 @@ This section provides details for each class and property defined by NyOn: A Mul
          <dl>
             <dt>has domain</dt>
             <dd>
-               <a href="#CourtCase" title="https://w3id.org/def/nyon#CourtCase">CourtCase</a>
+               <a href="#CourtJudgment" title="https://w3id.org/def/nyon#CourtJudgment">CourtJudgment</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
             <dt>has range</dt>
             <dd>
+               <a href="#CaseDomain" title="https://w3id.org/def/nyon#CaseDomain">CaseDomain</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
                <a href="#CatchWord" title="https://w3id.org/def/nyon#CatchWord">Catchword</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
+               <a href="http://www.w3.org/2002/07/owl#Thing"
+                  target="_blank"
+                  title="http://www.w3.org/2002/07/owl#Thing">thing</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">and</span> 
+               <a href="#CaseDomain" title="https://w3id.org/def/nyon#CaseDomain">CaseDomain</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>(<a href="#hasWords" title="https://w3id.org/def/nyon#hasWords">hasWords</a>
+               <sup class="type-op" title="object property">op</sup> 
+               <span class="logic">some</span> 
+               <a href="#CaseDomain" title="https://w3id.org/def/nyon#CaseDomain">CaseDomain</a>
+               <sup class="type-c" title="class">c</sup>) <span class="logic">and</span> (<a href="#hasWords" title="https://w3id.org/def/nyon#hasWords">hasWords</a>
+               <sup class="type-op" title="object property">op</sup> 
+               <span class="logic">some</span> 
+               <a href="#Issue" title="https://w3id.org/def/nyon#Issue">Issue</a>
+               <sup class="type-c" title="class">c</sup>)</dd>
+            <dd>
+               <a href="#hasWords" title="https://w3id.org/def/nyon#hasWords">hasWords</a>
+               <sup class="type-op" title="object property">op</sup> 
+               <span class="logic">some</span> 
+               <a href="#CaseDomain" title="https://w3id.org/def/nyon#CaseDomain">CaseDomain</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
+               <a href="#hasWords" title="https://w3id.org/def/nyon#hasWords">hasWords</a>
+               <sup class="type-op" title="object property">op</sup> 
+               <span class="logic">some</span> 
+               <a href="#Issue" title="https://w3id.org/def/nyon#Issue">Issue</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
          </dl>
@@ -3318,6 +3695,9 @@ This section provides details for each class and property defined by NyOn: A Mul
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/def/nyon#makeArgument</p>
+      <div class="comment">
+         <span class="markdown">specifies the arguments done in nyon:CourtCase by some party (nyon:Party)</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
@@ -3328,11 +3708,11 @@ This section provides details for each class and property defined by NyOn: A Mul
             </dd>
             <dt>has sub-properties</dt>
             <dd>
-               <a href="#appellantArgument" title="https://w3id.org/def/nyon#appellantArgument">appellant argument</a>
-               <sup class="type-op" title="object property">op</sup>, <a href="#defendentArgument" title="https://w3id.org/def/nyon#defendentArgument">defendent argument</a>
-               <sup class="type-op" title="object property">op</sup>, <a href="#petitionerArgument" title="https://w3id.org/def/nyon#petitionerArgument">petitioner argument</a>
-               <sup class="type-op" title="object property">op</sup>, <a href="#plaintiffArgument" title="https://w3id.org/def/nyon#plaintiffArgument">plaintiff argument</a>
-               <sup class="type-op" title="object property">op</sup>, <a href="#respondentArgument" title="https://w3id.org/def/nyon#respondentArgument">respondent argument</a>
+               <a href="#appellantArgument" title="https://w3id.org/def/nyon#appellantArgument">appellantArgument</a>
+               <sup class="type-op" title="object property">op</sup>, <a href="#defendentArgument" title="https://w3id.org/def/nyon#defendentArgument">defendantArgument</a>
+               <sup class="type-op" title="object property">op</sup>, <a href="#petitionerArgument" title="https://w3id.org/def/nyon#petitionerArgument">petitionerArgument</a>
+               <sup class="type-op" title="object property">op</sup>, <a href="#plaintiffArgument" title="https://w3id.org/def/nyon#plaintiffArgument">plaintiffArgument</a>
+               <sup class="type-op" title="object property">op</sup>, <a href="#respondentArgument" title="https://w3id.org/def/nyon#respondentArgument">respondentArgument</a>
                <sup class="type-op" title="object property">op</sup>
             </dd>
             <dt>has domain</dt>
@@ -3345,6 +3725,13 @@ This section provides details for each class and property defined by NyOn: A Mul
                <a href="#Argument" title="https://w3id.org/def/nyon#Argument">Argument</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
+            <dd>
+               <a href="#Argument" title="https://w3id.org/def/nyon#Argument">Argument</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#DateOfJudgment" title="https://w3id.org/def/nyon#DateOfJudgment">DateofJudgment</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
          </dl>
       </div>
    </div>
@@ -3355,6 +3742,9 @@ This section provides details for each class and property defined by NyOn: A Mul
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/def/nyon#OfDomian</p>
+      <div class="comment">
+         <span class="markdown">specifies the law domain (nyon:CaseDomain) the court case (nyon:CourtCase) belongs to</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
@@ -3377,12 +3767,15 @@ This section provides details for each class and property defined by NyOn: A Mul
       </div>
    </div>
    <div class="entity" id="petitionerArgument">
-      <h3>petitioner argument<sup class="type-op" title="object property">op</sup>
+      <h3>petitionerArgument<sup class="type-op" title="object property">op</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
          </span>
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/def/nyon#petitionerArgument</p>
+      <div class="comment">
+         <span class="markdown">specifies the argument made by the Petitioner (nyon:Petitioner) of nyon:CourtCase</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
@@ -3390,22 +3783,97 @@ This section provides details for each class and property defined by NyOn: A Mul
                <a href="#makeArgument" title="https://w3id.org/def/nyon#makeArgument">makeArgument</a>
                <sup class="type-op" title="object property">op</sup>
             </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Argument" title="https://w3id.org/def/nyon#Argument">Argument</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
+               <a href="#Party" title="https://w3id.org/def/nyon#Party">Party</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
+               <a href="#Argument" title="https://w3id.org/def/nyon#Argument">Argument</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#DateOfJudgment" title="https://w3id.org/def/nyon#DateOfJudgment">DateofJudgment</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#Argument" title="https://w3id.org/def/nyon#Argument">Argument</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
+               <a href="#Party" title="https://w3id.org/def/nyon#Party">Party</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
+               <a href="#Petitioner" title="https://w3id.org/def/nyon#Petitioner">Petitioner</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
+               <a href="#Argument" title="https://w3id.org/def/nyon#Argument">Argument</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#DateOfJudgment" title="https://w3id.org/def/nyon#DateOfJudgment">DateofJudgment</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
          </dl>
       </div>
    </div>
    <div class="entity" id="plaintiffArgument">
-      <h3>plaintiff argument<sup class="type-op" title="object property">op</sup>
+      <h3>plaintiffArgument<sup class="type-op" title="object property">op</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
          </span>
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/def/nyon#plaintiffArgument</p>
+      <div class="comment">
+         <span class="markdown">specifies the argument made by the plaintiff (nyon:Plaintiff) of nyon:CourtCase</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
             <dd>
                <a href="#makeArgument" title="https://w3id.org/def/nyon#makeArgument">makeArgument</a>
                <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Argument" title="https://w3id.org/def/nyon#Argument">Argument</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
+               <a href="#Party" title="https://w3id.org/def/nyon#Party">Party</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
+               <a href="#Argument" title="https://w3id.org/def/nyon#Argument">Argument</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#DateOfJudgment" title="https://w3id.org/def/nyon#DateOfJudgment">DateofJudgment</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#Argument" title="https://w3id.org/def/nyon#Argument">Argument</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
+               <a href="#Party" title="https://w3id.org/def/nyon#Party">Party</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
+               <a href="#Plaintiff" title="https://w3id.org/def/nyon#Plaintiff">Plaintiff</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
+               <a href="#Argument" title="https://w3id.org/def/nyon#Argument">Argument</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#DateOfJudgment" title="https://w3id.org/def/nyon#DateOfJudgment">DateofJudgment</a>
+               <sup class="type-c" title="class">c</sup>
             </dd>
          </dl>
       </div>
@@ -3418,7 +3886,7 @@ This section provides details for each class and property defined by NyOn: A Mul
       <p>
          <strong>IRI:</strong> https://w3id.org/def/nyon#precendentNotReliedUpon</p>
       <div class="comment">
-         <span class="markdown">represent the past cases referred b ythe judge on which the case decision does not rely on</span>
+         <span class="markdown">specifies the previous cases (nyon:CourtCase) referred by the judge on which the case decision does not rely on</span>
       </div>
       <div class="description">
          <dl>
@@ -3429,12 +3897,12 @@ This section provides details for each class and property defined by NyOn: A Mul
             </dd>
             <dt>has domain</dt>
             <dd>
-               <a href="#CourtCase" title="https://w3id.org/def/nyon#CourtCase">CourtCase</a>
+               <a href="#CourtJudgment" title="https://w3id.org/def/nyon#CourtJudgment">CourtJudgment</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
             <dt>has range</dt>
             <dd>
-               <a href="#CourtCase" title="https://w3id.org/def/nyon#CourtCase">CourtCase</a>
+               <a href="#CourtJudgment" title="https://w3id.org/def/nyon#CourtJudgment">CourtJudgment</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
          </dl>
@@ -3448,7 +3916,7 @@ This section provides details for each class and property defined by NyOn: A Mul
       <p>
          <strong>IRI:</strong> https://w3id.org/def/nyon#precedentOverruled</p>
       <div class="comment">
-         <span class="markdown">represents the past cases overruled by the judge in the current case</span>
+         <span class="markdown">specifies the past cases (nyon:CourtCase) overruled by the judge in the current case</span>
       </div>
       <div class="description">
          <dl>
@@ -3459,12 +3927,12 @@ This section provides details for each class and property defined by NyOn: A Mul
             </dd>
             <dt>has domain</dt>
             <dd>
-               <a href="#CourtCase" title="https://w3id.org/def/nyon#CourtCase">CourtCase</a>
+               <a href="#CourtJudgment" title="https://w3id.org/def/nyon#CourtJudgment">CourtJudgment</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
             <dt>has range</dt>
             <dd>
-               <a href="#CourtCase" title="https://w3id.org/def/nyon#CourtCase">CourtCase</a>
+               <a href="#CourtJudgment" title="https://w3id.org/def/nyon#CourtJudgment">CourtJudgment</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
          </dl>
@@ -3478,7 +3946,7 @@ This section provides details for each class and property defined by NyOn: A Mul
       <p>
          <strong>IRI:</strong> https://w3id.org/def/nyon#precedentReliedUpon</p>
       <div class="comment">
-         <span class="markdown">represnts the past cases referred by the judge on which the current judgment relies on</span>
+         <span class="markdown">specifies the past cases (nyon:CourtCase) referred by the judge on which the current judgment relies on</span>
       </div>
       <div class="description">
          <dl>
@@ -3489,30 +3957,69 @@ This section provides details for each class and property defined by NyOn: A Mul
             </dd>
             <dt>has domain</dt>
             <dd>
-               <a href="#CourtCase" title="https://w3id.org/def/nyon#CourtCase">CourtCase</a>
+               <a href="#CourtJudgment" title="https://w3id.org/def/nyon#CourtJudgment">CourtJudgment</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
             <dt>has range</dt>
             <dd>
-               <a href="#CourtCase" title="https://w3id.org/def/nyon#CourtCase">CourtCase</a>
+               <a href="#CourtJudgment" title="https://w3id.org/def/nyon#CourtJudgment">CourtJudgment</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
          </dl>
       </div>
    </div>
    <div class="entity" id="respondentArgument">
-      <h3>respondent argument<sup class="type-op" title="object property">op</sup>
+      <h3>respondentArgument<sup class="type-op" title="object property">op</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
          </span>
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/def/nyon#respondentArgument</p>
+      <div class="comment">
+         <span class="markdown">specifies the argument made by the respondent (nyon:Respondent) of nyon:CourtCase</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
             <dd>
                <a href="#makeArgument" title="https://w3id.org/def/nyon#makeArgument">makeArgument</a>
                <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Argument" title="https://w3id.org/def/nyon#Argument">Argument</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
+               <a href="#Party" title="https://w3id.org/def/nyon#Party">Party</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
+               <a href="#Argument" title="https://w3id.org/def/nyon#Argument">Argument</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#DateOfJudgment" title="https://w3id.org/def/nyon#DateOfJudgment">DateofJudgment</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#Argument" title="https://w3id.org/def/nyon#Argument">Argument</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
+               <a href="#Party" title="https://w3id.org/def/nyon#Party">Party</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
+               <a href="#Respondent" title="https://w3id.org/def/nyon#Respondent">Respondent</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
+               <a href="#Argument" title="https://w3id.org/def/nyon#Argument">Argument</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#DateOfJudgment" title="https://w3id.org/def/nyon#DateOfJudgment">DateofJudgment</a>
+               <sup class="type-c" title="class">c</sup>
             </dd>
          </dl>
       </div>
@@ -3524,15 +4031,21 @@ This section provides details for each class and property defined by NyOn: A Mul
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/def/nyon#withConcurrence</p>
+      <div class="comment">
+         <span class="markdown">specifies the judge (nyon:Judge) gives the opinion in concurrence (nyon:Concurrence) of the court</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
             <dd>
-               <a href="http://www.w3.org/2002/07/owl#topObjectProperty"
-                  target="_blank"
-                  title="http://www.w3.org/2002/07/owl#topObjectProperty">top object property</a>
+               <a href="#withOpinion" title="https://w3id.org/def/nyon#withOpinion">withOpinion</a>
+               <sup class="type-op" title="object property">op</sup>
             </dd>
             <dt>has domain</dt>
+            <dd>
+               <a href="#Court_Official" title="https://w3id.org/def/nyon#Court_Official">CourtOfficial</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
             <dd>
                <a href="#Judge" title="https://w3id.org/def/nyon#Judge">Judge</a>
                <sup class="type-c" title="class">c</sup>
@@ -3542,6 +4055,13 @@ This section provides details for each class and property defined by NyOn: A Mul
                <a href="#Concurrence" title="https://w3id.org/def/nyon#Concurrence">Concurrence</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
+            <dd>
+               <a href="#Opinion" title="https://w3id.org/def/nyon#Opinion">Opinion</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
+               <span class="logic">not</span> (<a href="#Judgement" title="https://w3id.org/def/nyon#Judgement">Judgement</a>
+               <sup class="type-c" title="class">c</sup>)</dd>
          </dl>
       </div>
    </div>
@@ -3552,15 +4072,21 @@ This section provides details for each class and property defined by NyOn: A Mul
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/def/nyon#withDissent</p>
+      <div class="comment">
+         <span class="markdown">specifies the judge (nyon:Judge) gives the opinion in dissent (nyon:Dissent) of the court</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
             <dd>
-               <a href="http://www.w3.org/2002/07/owl#topObjectProperty"
-                  target="_blank"
-                  title="http://www.w3.org/2002/07/owl#topObjectProperty">top object property</a>
+               <a href="#withOpinion" title="https://w3id.org/def/nyon#withOpinion">withOpinion</a>
+               <sup class="type-op" title="object property">op</sup>
             </dd>
             <dt>has domain</dt>
+            <dd>
+               <a href="#Court_Official" title="https://w3id.org/def/nyon#Court_Official">CourtOfficial</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
             <dd>
                <a href="#Judge" title="https://w3id.org/def/nyon#Judge">Judge</a>
                <sup class="type-c" title="class">c</sup>
@@ -3570,6 +4096,13 @@ This section provides details for each class and property defined by NyOn: A Mul
                <a href="#Dissent" title="https://w3id.org/def/nyon#Dissent">Dissent</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
+            <dd>
+               <a href="#Opinion" title="https://w3id.org/def/nyon#Opinion">Opinion</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
+               <span class="logic">not</span> (<a href="#Judgement" title="https://w3id.org/def/nyon#Judgement">Judgement</a>
+               <sup class="type-c" title="class">c</sup>)</dd>
          </dl>
       </div>
    </div>
@@ -3580,15 +4113,21 @@ This section provides details for each class and property defined by NyOn: A Mul
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/def/nyon#withMajority</p>
+      <div class="comment">
+         <span class="markdown">specifies the judge (nyon:Judge) gives the opinion in majority (nyon:Majority) of the court</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
             <dd>
-               <a href="http://www.w3.org/2002/07/owl#topObjectProperty"
-                  target="_blank"
-                  title="http://www.w3.org/2002/07/owl#topObjectProperty">top object property</a>
+               <a href="#withOpinion" title="https://w3id.org/def/nyon#withOpinion">withOpinion</a>
+               <sup class="type-op" title="object property">op</sup>
             </dd>
             <dt>has domain</dt>
+            <dd>
+               <a href="#Court_Official" title="https://w3id.org/def/nyon#Court_Official">CourtOfficial</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
             <dd>
                <a href="#Judge" title="https://w3id.org/def/nyon#Judge">Judge</a>
                <sup class="type-c" title="class">c</sup>
@@ -3598,6 +4137,13 @@ This section provides details for each class and property defined by NyOn: A Mul
                <a href="#Majority" title="https://w3id.org/def/nyon#Majority">Majority</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
+            <dd>
+               <a href="#Opinion" title="https://w3id.org/def/nyon#Opinion">Opinion</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
+               <span class="logic">not</span> (<a href="#Judgement" title="https://w3id.org/def/nyon#Judgement">Judgement</a>
+               <sup class="type-c" title="class">c</sup>)</dd>
          </dl>
       </div>
    </div>
@@ -3611,6 +4157,34 @@ This section provides details for each class and property defined by NyOn: A Mul
       <div class="comment">
          <span class="markdown">represnts the judge opinion on the case either with majority, dissent or concurrence</span>
       </div>
+      <div class="description">
+         <dl>
+            <dt>has sub-properties</dt>
+            <dd>
+               <a href="#withConcurrence" title="https://w3id.org/def/nyon#withConcurrence">withConcurrence</a>
+               <sup class="type-op" title="object property">op</sup>, <a href="#withDissent" title="https://w3id.org/def/nyon#withDissent">withDissent</a>
+               <sup class="type-op" title="object property">op</sup>, <a href="#withMajority" title="https://w3id.org/def/nyon#withMajority">withMajority</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Court_Official" title="https://w3id.org/def/nyon#Court_Official">CourtOfficial</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
+               <a href="#Judge" title="https://w3id.org/def/nyon#Judge">Judge</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#Opinion" title="https://w3id.org/def/nyon#Opinion">Opinion</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
+               <span class="logic">not</span> (<a href="#Judgement" title="https://w3id.org/def/nyon#Judgement">Judgement</a>
+               <sup class="type-c" title="class">c</sup>)</dd>
+         </dl>
+      </div>
    </div>
    <div class="entity" id="worksIn">
       <h3>worksIn<sup class="type-op" title="object property">op</sup>
@@ -3619,6 +4193,9 @@ This section provides details for each class and property defined by NyOn: A Mul
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/def/nyon#worksIn</p>
+      <div class="comment">
+         <span class="markdown">specifies the judge (nyon:Judge) working in court (nyon:Court)</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
@@ -3646,12 +4223,6 @@ This section provides details for each class and property defined by NyOn: A Mul
    <h3 id="dataproperties-headline" class="list">Data Properties</h3>
    <ul class="hlist">
       <li>
-         <a href="#argumentSequenceNum" title="https://w3id.org/def/nyon#argumentSequenceNum">argumentSequenceNum</a>
-      </li>
-      <li>
-         <a href="#argumentValue" title="https://w3id.org/def/nyon#argumentValue">argumentValue</a>
-      </li>
-      <li>
          <a href="#catchwordValue" title="https://w3id.org/def/nyon#catchwordValue">catchwordValue</a>
       </li>
       <li>
@@ -3670,21 +4241,13 @@ This section provides details for each class and property defined by NyOn: A Mul
          <a href="#dateOfJudgment" title="https://w3id.org/def/nyon#dateOfJudgment">dateOfJudgment</a>
       </li>
       <li>
-         <a href="#equivalentCitation" title="https://w3id.org/def/nyon#equivalentCitation">
-            <span>equivalent citation</span>
-         </a>
+         <a href="#equivalentCitation" title="https://w3id.org/def/nyon#equivalentCitation">equivalentCitation</a>
       </li>
       <li>
          <a href="#evidenceLocation" title="https://w3id.org/def/nyon#evidenceLocation">evidenceLocation</a>
       </li>
       <li>
-         <a href="#factSequenceNum" title="https://w3id.org/def/nyon#factSequenceNum">factSequenceNum</a>
-      </li>
-      <li>
          <a href="#factValue" title="https://w3id.org/def/nyon#factValue">factValue</a>
-      </li>
-      <li>
-         <a href="#finalDecisionValue" title="https://w3id.org/def/nyon#finalDecisionValue">finalDecisionValue</a>
       </li>
       <li>
          <a href="#firstName" title="https://w3id.org/def/nyon#firstName">firstName</a>
@@ -3702,16 +4265,20 @@ This section provides details for each class and property defined by NyOn: A Mul
          <a href="#hasDesignation" title="https://w3id.org/def/nyon#hasDesignation">hasDesignation</a>
       </li>
       <li>
+         <a href="#hasEndIndex" title="https://w3id.org/def/nyon#hasEndIndex">hasEndIndex</a>
+      </li>
+      <li>
          <a href="#hasMonth" title="https://w3id.org/def/nyon#hasMonth">hasMonth</a>
       </li>
       <li>
-         <a href="#hasPolicePersonnelName" title="https://w3id.org/def/nyon#hasPolicePersonnelName">hasPolicePersonnelName</a>
+         <a href="#hasPolicePersonnelName"
+            title="https://w3id.org/def/nyon#hasPolicePersonnelName">hasPolicePersonnelName</a>
+      </li>
+      <li>
+         <a href="#hasStartIndex" title="https://w3id.org/def/nyon#hasStartIndex">hasStartIndex</a>
       </li>
       <li>
          <a href="#hasYear" title="https://w3id.org/def/nyon#hasYear">hasYear</a>
-      </li>
-      <li>
-         <a href="#issueSequenceNum" title="https://w3id.org/def/nyon#issueSequenceNum">issueSequenceNum</a>
       </li>
       <li>
          <a href="#issueValue" title="https://w3id.org/def/nyon#issueValue">issueValue</a>
@@ -3723,31 +4290,19 @@ This section provides details for each class and property defined by NyOn: A Mul
          <a href="#locationName" title="https://w3id.org/def/nyon#locationName">locationName</a>
       </li>
       <li>
-         <a href="#neutralCitations" title="https://w3id.org/def/nyon#neutralCitations">
-            <span>neutral citations</span>
-         </a>
-      </li>
-      <li>
-         <a href="#obiterDictumSequenceNum"
-            title="https://w3id.org/def/nyon#obiterDictumSequenceNum">obiterDictumSequenceNum</a>
+         <a href="#neutralCitations" title="https://w3id.org/def/nyon#neutralCitations">neutralCitations</a>
       </li>
       <li>
          <a href="#obiterDictumValue" title="https://w3id.org/def/nyon#obiterDictumValue">obiterDictumValue</a>
       </li>
       <li>
+         <a href="#opinionValue" title="https://w3id.org/def/nyon#opinionValue">opinionValue</a>
+      </li>
+      <li>
          <a href="#partyName" title="https://w3id.org/def/nyon#partyName">partyName</a>
       </li>
       <li>
-         <a href="#ratioDecidendiSequenceNum"
-            title="https://w3id.org/def/nyon#ratioDecidendiSequenceNum">ratioDecidendiSequenceNum</a>
-      </li>
-      <li>
          <a href="#ratioDecidendiValue" title="https://w3id.org/def/nyon#ratioDecidendiValue">ratioDecidendiValue</a>
-      </li>
-      <li>
-         <a href="#value" title="https://w3id.org/def/nyon#value">
-            <span>value</span>
-         </a>
       </li>
       <li>
          <a href="#wFirstName" title="https://w3id.org/def/nyon#wFirstName">wFirstName</a>
@@ -3765,64 +4320,6 @@ This section provides details for each class and property defined by NyOn: A Mul
          <a href="#wordPhraseValue" title="https://w3id.org/def/nyon#wordPhraseValue">wordPhraseValue</a>
       </li>
    </ul>
-   <div class="entity" id="argumentSequenceNum">
-      <h3>argumentSequenceNum<sup class="type-dp" title="data property">dp</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> https://w3id.org/def/nyon#argumentSequenceNum</p>
-      <div class="description">
-         <dl>
-            <dt>has super-properties</dt>
-            <dd>
-               <a href="http://www.w3.org/2002/07/owl#topDataProperty"
-                  target="_blank"
-                  title="http://www.w3.org/2002/07/owl#topDataProperty">top data property</a>
-            </dd>
-            <dt>has domain</dt>
-            <dd>
-               <a href="#Argument" title="https://w3id.org/def/nyon#Argument">Argument</a>
-               <sup class="type-c" title="class">c</sup>
-            </dd>
-            <dt>has range</dt>
-            <dd>
-               <a href="http://www.w3.org/2001/XMLSchema#int"
-                  target="_blank"
-                  title="http://www.w3.org/2001/XMLSchema#int">int</a>
-            </dd>
-         </dl>
-      </div>
-   </div>
-   <div class="entity" id="argumentValue">
-      <h3>argumentValue<sup class="type-dp" title="data property">dp</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> https://w3id.org/def/nyon#argumentValue</p>
-      <div class="description">
-         <dl>
-            <dt>has super-properties</dt>
-            <dd>
-               <a href="http://www.w3.org/2002/07/owl#topDataProperty"
-                  target="_blank"
-                  title="http://www.w3.org/2002/07/owl#topDataProperty">top data property</a>
-            </dd>
-            <dt>has domain</dt>
-            <dd>
-               <a href="#Argument" title="https://w3id.org/def/nyon#Argument">Argument</a>
-               <sup class="type-c" title="class">c</sup>
-            </dd>
-            <dt>has range</dt>
-            <dd>
-               <a href="http://www.w3.org/2001/XMLSchema#string"
-                  target="_blank"
-                  title="http://www.w3.org/2001/XMLSchema#string">string</a>
-            </dd>
-         </dl>
-      </div>
-   </div>
    <div class="entity" id="catchwordValue">
       <h3>catchwordValue<sup class="type-dp" title="data property">dp</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
@@ -3830,6 +4327,9 @@ This section provides details for each class and property defined by NyOn: A Mul
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/def/nyon#catchwordValue</p>
+      <div class="comment">
+         <span class="markdown">specifies the catchwords present in the judgemnt</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
@@ -3840,7 +4340,43 @@ This section provides details for each class and property defined by NyOn: A Mul
             </dd>
             <dt>has domain</dt>
             <dd>
+               <a href="#CaseDomain" title="https://w3id.org/def/nyon#CaseDomain">CaseDomain</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
                <a href="#CatchWord" title="https://w3id.org/def/nyon#CatchWord">Catchword</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
+               <a href="http://www.w3.org/2002/07/owl#Thing"
+                  target="_blank"
+                  title="http://www.w3.org/2002/07/owl#Thing">thing</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">and</span> 
+               <a href="#CaseDomain" title="https://w3id.org/def/nyon#CaseDomain">CaseDomain</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>(<a href="#hasWords" title="https://w3id.org/def/nyon#hasWords">hasWords</a>
+               <sup class="type-op" title="object property">op</sup> 
+               <span class="logic">some</span> 
+               <a href="#CaseDomain" title="https://w3id.org/def/nyon#CaseDomain">CaseDomain</a>
+               <sup class="type-c" title="class">c</sup>) <span class="logic">and</span> (<a href="#hasWords" title="https://w3id.org/def/nyon#hasWords">hasWords</a>
+               <sup class="type-op" title="object property">op</sup> 
+               <span class="logic">some</span> 
+               <a href="#Issue" title="https://w3id.org/def/nyon#Issue">Issue</a>
+               <sup class="type-c" title="class">c</sup>)</dd>
+            <dd>
+               <a href="#hasWords" title="https://w3id.org/def/nyon#hasWords">hasWords</a>
+               <sup class="type-op" title="object property">op</sup> 
+               <span class="logic">some</span> 
+               <a href="#CaseDomain" title="https://w3id.org/def/nyon#CaseDomain">CaseDomain</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
+               <a href="#hasWords" title="https://w3id.org/def/nyon#hasWords">hasWords</a>
+               <sup class="type-op" title="object property">op</sup> 
+               <span class="logic">some</span> 
+               <a href="#Issue" title="https://w3id.org/def/nyon#Issue">Issue</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
             <dt>has range</dt>
@@ -3859,6 +4395,9 @@ This section provides details for each class and property defined by NyOn: A Mul
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/def/nyon#COFirstName</p>
+      <div class="comment">
+         <span class="markdown">specifies the first name of the court official</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
@@ -3887,6 +4426,9 @@ This section provides details for each class and property defined by NyOn: A Mul
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/def/nyon#COLastName</p>
+      <div class="comment">
+         <span class="markdown">specifies the last name of teh court official</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
@@ -3915,6 +4457,9 @@ This section provides details for each class and property defined by NyOn: A Mul
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/def/nyon#courtName</p>
+      <div class="comment">
+         <span class="markdown">specifies the name of the court mentioned in the judgment</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
@@ -3944,6 +4489,9 @@ This section provides details for each class and property defined by NyOn: A Mul
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/def/nyon#courtOffName</p>
+      <div class="comment">
+         <span class="markdown">specifies the court official's name mentioned in the judgment</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
@@ -3968,6 +4516,9 @@ This section provides details for each class and property defined by NyOn: A Mul
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/def/nyon#dateOfJudgment</p>
+      <div class="comment">
+         <span class="markdown">specifies the date of the verdict for the court case</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
@@ -4001,7 +4552,7 @@ This section provides details for each class and property defined by NyOn: A Mul
       </div>
    </div>
    <div class="entity" id="equivalentCitation">
-      <h3>equivalent citation<sup class="type-dp" title="data property">dp</sup>
+      <h3>equivalentCitation<sup class="type-dp" title="data property">dp</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
          </span>
       </h3>
@@ -4020,7 +4571,7 @@ This section provides details for each class and property defined by NyOn: A Mul
             </dd>
             <dt>has domain</dt>
             <dd>
-               <a href="#CourtCase" title="https://w3id.org/def/nyon#CourtCase">CourtCase</a>
+               <a href="#CourtJudgment" title="https://w3id.org/def/nyon#CourtJudgment">CourtJudgment</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
             <dt>has range</dt>
@@ -4039,6 +4590,9 @@ This section provides details for each class and property defined by NyOn: A Mul
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/def/nyon#evidenceLocation</p>
+      <div class="comment">
+         <span class="markdown">specifies the location of the evidence found</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
@@ -4061,35 +4615,6 @@ This section provides details for each class and property defined by NyOn: A Mul
          </dl>
       </div>
    </div>
-   <div class="entity" id="factSequenceNum">
-      <h3>factSequenceNum<sup class="type-dp" title="data property">dp</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> https://w3id.org/def/nyon#factSequenceNum</p>
-      <div class="description">
-         <dl>
-            <dt>has super-properties</dt>
-            <dd>
-               <a href="http://www.w3.org/2002/07/owl#topDataProperty"
-                  target="_blank"
-                  title="http://www.w3.org/2002/07/owl#topDataProperty">top data property</a>
-            </dd>
-            <dt>has domain</dt>
-            <dd>
-               <a href="#Fact" title="https://w3id.org/def/nyon#Fact">Fact</a>
-               <sup class="type-c" title="class">c</sup>
-            </dd>
-            <dt>has range</dt>
-            <dd>
-               <a href="http://www.w3.org/2001/XMLSchema#int"
-                  target="_blank"
-                  title="http://www.w3.org/2001/XMLSchema#int">int</a>
-            </dd>
-         </dl>
-      </div>
-   </div>
    <div class="entity" id="factValue">
       <h3>factValue<sup class="type-dp" title="data property">dp</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
@@ -4097,46 +4622,14 @@ This section provides details for each class and property defined by NyOn: A Mul
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/def/nyon#factValue</p>
+      <div class="comment">
+         <span class="markdown">specifies the factual statement text from teh judgment</span>
+      </div>
       <div class="description">
          <dl>
-            <dt>has super-properties</dt>
-            <dd>
-               <a href="http://www.w3.org/2002/07/owl#topDataProperty"
-                  target="_blank"
-                  title="http://www.w3.org/2002/07/owl#topDataProperty">top data property</a>
-            </dd>
             <dt>has domain</dt>
             <dd>
                <a href="#Fact" title="https://w3id.org/def/nyon#Fact">Fact</a>
-               <sup class="type-c" title="class">c</sup>
-            </dd>
-            <dt>has range</dt>
-            <dd>
-               <a href="http://www.w3.org/2001/XMLSchema#string"
-                  target="_blank"
-                  title="http://www.w3.org/2001/XMLSchema#string">string</a>
-            </dd>
-         </dl>
-      </div>
-   </div>
-   <div class="entity" id="finalDecisionValue">
-      <h3>finalDecisionValue<sup class="type-dp" title="data property">dp</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> https://w3id.org/def/nyon#finalDecisionValue</p>
-      <div class="description">
-         <dl>
-            <dt>has super-properties</dt>
-            <dd>
-               <a href="http://www.w3.org/2002/07/owl#topDataProperty"
-                  target="_blank"
-                  title="http://www.w3.org/2002/07/owl#topDataProperty">top data property</a>
-            </dd>
-            <dt>has domain</dt>
-            <dd>
-               <a href="#CourtDecision" title="https://w3id.org/def/nyon#CourtDecision">CourtDecision</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
             <dt>has range</dt>
@@ -4155,6 +4648,9 @@ This section provides details for each class and property defined by NyOn: A Mul
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/def/nyon#firstName</p>
+      <div class="comment">
+         <span class="markdown">specifies the first name of the party</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
@@ -4190,7 +4686,7 @@ This section provides details for each class and property defined by NyOn: A Mul
          <dl>
             <dt>has domain</dt>
             <dd>
-               <a href="#CourtCase" title="https://w3id.org/def/nyon#CourtCase">CourtCase</a>
+               <a href="#CourtJudgment" title="https://w3id.org/def/nyon#CourtJudgment">CourtJudgment</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
             <dt>has range</dt>
@@ -4216,7 +4712,7 @@ This section provides details for each class and property defined by NyOn: A Mul
          <dl>
             <dt>has domain</dt>
             <dd>
-               <a href="#CourtCase" title="https://w3id.org/def/nyon#CourtCase">CourtCase</a>
+               <a href="#CourtJudgment" title="https://w3id.org/def/nyon#CourtJudgment">CourtJudgment</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
             <dt>has range</dt>
@@ -4235,6 +4731,9 @@ This section provides details for each class and property defined by NyOn: A Mul
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/def/nyon#hasDate</p>
+      <div class="comment">
+         <span class="markdown">specifies the date of the verdict</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
@@ -4247,11 +4746,23 @@ This section provides details for each class and property defined by NyOn: A Mul
                <a href="#DateOfJudgment" title="https://w3id.org/def/nyon#DateOfJudgment">DateofJudgment</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
+            <dd>
+               <a href="#Argument" title="https://w3id.org/def/nyon#Argument">Argument</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#DateOfJudgment" title="https://w3id.org/def/nyon#DateOfJudgment">DateofJudgment</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
             <dt>has range</dt>
             <dd>
                <a href="http://www.w3.org/2001/XMLSchema#int"
                   target="_blank"
                   title="http://www.w3.org/2001/XMLSchema#int">int</a>
+            </dd>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#string"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#string">string</a>
             </dd>
          </dl>
       </div>
@@ -4263,11 +4774,60 @@ This section provides details for each class and property defined by NyOn: A Mul
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/def/nyon#hasDesignation</p>
+      <div class="comment">
+         <span class="markdown">specifies the designation of th police personnel</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has domain</dt>
             <dd>
                <a href="#Investigator" title="https://w3id.org/def/nyon#Investigator">PolicePersonnel</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#string"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#string">string</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasEndIndex">
+      <h3>hasEndIndex<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/def/nyon#hasEndIndex</p>
+      <div class="comment">
+         <span class="markdown">specifies the end index of the case element in the judgment</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Analysis" title="https://w3id.org/def/nyon#Analysis">Analysis</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
+               <a href="#Argument" title="https://w3id.org/def/nyon#Argument">Argument</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
+               <a href="#Fact" title="https://w3id.org/def/nyon#Fact">Fact</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
+               <a href="#Issue" title="https://w3id.org/def/nyon#Issue">Issue</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
+               <a href="#ObiterDictum" title="https://w3id.org/def/nyon#ObiterDictum">ObiterDictum</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
+               <a href="#RatioDecidendi" title="https://w3id.org/def/nyon#RatioDecidendi">RatioDecidendi</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
             <dt>has range</dt>
@@ -4286,6 +4846,9 @@ This section provides details for each class and property defined by NyOn: A Mul
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/def/nyon#hasMonth</p>
+      <div class="comment">
+         <span class="markdown">specifies the month of the verdict</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
@@ -4295,6 +4858,13 @@ This section provides details for each class and property defined by NyOn: A Mul
             </dd>
             <dt>has domain</dt>
             <dd>
+               <a href="#DateOfJudgment" title="https://w3id.org/def/nyon#DateOfJudgment">DateofJudgment</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
+               <a href="#Argument" title="https://w3id.org/def/nyon#Argument">Argument</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
                <a href="#DateOfJudgment" title="https://w3id.org/def/nyon#DateOfJudgment">DateofJudgment</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
@@ -4333,6 +4903,52 @@ This section provides details for each class and property defined by NyOn: A Mul
          </dl>
       </div>
    </div>
+   <div class="entity" id="hasStartIndex">
+      <h3>hasStartIndex<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/def/nyon#hasStartIndex</p>
+      <div class="comment">
+         <span class="markdown">specifies the start index of the case element in the judgment</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Analysis" title="https://w3id.org/def/nyon#Analysis">Analysis</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
+               <a href="#Argument" title="https://w3id.org/def/nyon#Argument">Argument</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
+               <a href="#Fact" title="https://w3id.org/def/nyon#Fact">Fact</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
+               <a href="#Issue" title="https://w3id.org/def/nyon#Issue">Issue</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
+               <a href="#ObiterDictum" title="https://w3id.org/def/nyon#ObiterDictum">ObiterDictum</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
+               <a href="#RatioDecidendi" title="https://w3id.org/def/nyon#RatioDecidendi">RatioDecidendi</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#string"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#string">string</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
    <div class="entity" id="hasYear">
       <h3>hasYear<sup class="type-dp" title="data property">dp</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
@@ -4340,6 +4956,9 @@ This section provides details for each class and property defined by NyOn: A Mul
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/def/nyon#hasYear</p>
+      <div class="comment">
+         <span class="markdown">specifies the year of teh verdict</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
@@ -4352,33 +4971,11 @@ This section provides details for each class and property defined by NyOn: A Mul
                <a href="#DateOfJudgment" title="https://w3id.org/def/nyon#DateOfJudgment">DateofJudgment</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
-            <dt>has range</dt>
             <dd>
-               <a href="http://www.w3.org/2001/XMLSchema#int"
-                  target="_blank"
-                  title="http://www.w3.org/2001/XMLSchema#int">int</a>
-            </dd>
-         </dl>
-      </div>
-   </div>
-   <div class="entity" id="issueSequenceNum">
-      <h3>issueSequenceNum<sup class="type-dp" title="data property">dp</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> https://w3id.org/def/nyon#issueSequenceNum</p>
-      <div class="description">
-         <dl>
-            <dt>has super-properties</dt>
-            <dd>
-               <a href="http://www.w3.org/2002/07/owl#topDataProperty"
-                  target="_blank"
-                  title="http://www.w3.org/2002/07/owl#topDataProperty">top data property</a>
-            </dd>
-            <dt>has domain</dt>
-            <dd>
-               <a href="#Issue" title="https://w3id.org/def/nyon#Issue">Issue</a>
+               <a href="#Argument" title="https://w3id.org/def/nyon#Argument">Argument</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#DateOfJudgment" title="https://w3id.org/def/nyon#DateOfJudgment">DateofJudgment</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
             <dt>has range</dt>
@@ -4386,6 +4983,11 @@ This section provides details for each class and property defined by NyOn: A Mul
                <a href="http://www.w3.org/2001/XMLSchema#int"
                   target="_blank"
                   title="http://www.w3.org/2001/XMLSchema#int">int</a>
+            </dd>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#string"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#string">string</a>
             </dd>
          </dl>
       </div>
@@ -4397,6 +4999,9 @@ This section provides details for each class and property defined by NyOn: A Mul
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/def/nyon#issueValue</p>
+      <div class="comment">
+         <span class="markdown">specifies the issues mentioned in the judgment</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
@@ -4426,6 +5031,9 @@ This section provides details for each class and property defined by NyOn: A Mul
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/def/nyon#lastName</p>
+      <div class="comment">
+         <span class="markdown">specifies the last name of the party</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
@@ -4454,6 +5062,9 @@ This section provides details for each class and property defined by NyOn: A Mul
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/def/nyon#locationName</p>
+      <div class="comment">
+         <span class="markdown">specifies the name of the location</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
@@ -4467,6 +5078,9 @@ This section provides details for each class and property defined by NyOn: A Mul
                <a href="#Location" title="https://w3id.org/def/nyon#Location">Location</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
+            <dd>
+               <span class="logic">not</span> (<a href="#https://schema.org/Place" title="https://schema.org/Place">Place</a>
+               <sup class="type-c" title="class">c</sup>)</dd>
             <dt>has range</dt>
             <dd>
                <a href="http://www.w3.org/2001/XMLSchema#string"
@@ -4477,7 +5091,7 @@ This section provides details for each class and property defined by NyOn: A Mul
       </div>
    </div>
    <div class="entity" id="neutralCitations">
-      <h3>neutral citations<sup class="type-dp" title="data property">dp</sup>
+      <h3>neutralCitations<sup class="type-dp" title="data property">dp</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
          </span>
       </h3>
@@ -4496,7 +5110,7 @@ This section provides details for each class and property defined by NyOn: A Mul
             </dd>
             <dt>has domain</dt>
             <dd>
-               <a href="#CourtCase" title="https://w3id.org/def/nyon#CourtCase">CourtCase</a>
+               <a href="#CourtJudgment" title="https://w3id.org/def/nyon#CourtJudgment">CourtJudgment</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
             <dt>has range</dt>
@@ -4508,35 +5122,6 @@ This section provides details for each class and property defined by NyOn: A Mul
          </dl>
       </div>
    </div>
-   <div class="entity" id="obiterDictumSequenceNum">
-      <h3>obiterDictumSequenceNum<sup class="type-dp" title="data property">dp</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> https://w3id.org/def/nyon#obiterDictumSequenceNum</p>
-      <div class="description">
-         <dl>
-            <dt>has super-properties</dt>
-            <dd>
-               <a href="http://www.w3.org/2002/07/owl#topDataProperty"
-                  target="_blank"
-                  title="http://www.w3.org/2002/07/owl#topDataProperty">top data property</a>
-            </dd>
-            <dt>has domain</dt>
-            <dd>
-               <a href="#ObiterDictum" title="https://w3id.org/def/nyon#ObiterDictum">Obiter Dictum</a>
-               <sup class="type-c" title="class">c</sup>
-            </dd>
-            <dt>has range</dt>
-            <dd>
-               <a href="http://www.w3.org/2001/XMLSchema#int"
-                  target="_blank"
-                  title="http://www.w3.org/2001/XMLSchema#int">int</a>
-            </dd>
-         </dl>
-      </div>
-   </div>
    <div class="entity" id="obiterDictumValue">
       <h3>obiterDictumValue<sup class="type-dp" title="data property">dp</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
@@ -4544,6 +5129,9 @@ This section provides details for each class and property defined by NyOn: A Mul
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/def/nyon#obiterDictumValue</p>
+      <div class="comment">
+         <span class="markdown">speciifes the unimportant analysis from the judgment</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
@@ -4554,9 +5142,38 @@ This section provides details for each class and property defined by NyOn: A Mul
             </dd>
             <dt>has domain</dt>
             <dd>
-               <a href="#ObiterDictum" title="https://w3id.org/def/nyon#ObiterDictum">Obiter Dictum</a>
+               <a href="#ObiterDictum" title="https://w3id.org/def/nyon#ObiterDictum">ObiterDictum</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#string"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#string">string</a>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="opinionValue">
+      <h3>opinionValue<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/def/nyon#opinionValue</p>
+      <div class="comment">
+         <span class="markdown">specifies the opinions of the judges mentioned in the judgment</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Opinion" title="https://w3id.org/def/nyon#Opinion">Opinion</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dd>
+               <span class="logic">not</span> (<a href="#Judgement" title="https://w3id.org/def/nyon#Judgement">Judgement</a>
+               <sup class="type-c" title="class">c</sup>)</dd>
             <dt>has range</dt>
             <dd>
                <a href="http://www.w3.org/2001/XMLSchema#string"
@@ -4573,6 +5190,9 @@ This section provides details for each class and property defined by NyOn: A Mul
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/def/nyon#partyName</p>
+      <div class="comment">
+         <span class="markdown">specifies the party name involved in the court case</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
@@ -4590,35 +5210,6 @@ This section provides details for each class and property defined by NyOn: A Mul
          </dl>
       </div>
    </div>
-   <div class="entity" id="ratioDecidendiSequenceNum">
-      <h3>ratioDecidendiSequenceNum<sup class="type-dp" title="data property">dp</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> https://w3id.org/def/nyon#ratioDecidendiSequenceNum</p>
-      <div class="description">
-         <dl>
-            <dt>has super-properties</dt>
-            <dd>
-               <a href="http://www.w3.org/2002/07/owl#topDataProperty"
-                  target="_blank"
-                  title="http://www.w3.org/2002/07/owl#topDataProperty">top data property</a>
-            </dd>
-            <dt>has domain</dt>
-            <dd>
-               <a href="#RatioDecidendi" title="https://w3id.org/def/nyon#RatioDecidendi">RatioDecidendi</a>
-               <sup class="type-c" title="class">c</sup>
-            </dd>
-            <dt>has range</dt>
-            <dd>
-               <a href="http://www.w3.org/2001/XMLSchema#int"
-                  target="_blank"
-                  title="http://www.w3.org/2001/XMLSchema#int">int</a>
-            </dd>
-         </dl>
-      </div>
-   </div>
    <div class="entity" id="ratioDecidendiValue">
       <h3>ratioDecidendiValue<sup class="type-dp" title="data property">dp</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
@@ -4626,6 +5217,9 @@ This section provides details for each class and property defined by NyOn: A Mul
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/def/nyon#ratioDecidendiValue</p>
+      <div class="comment">
+         <span class="markdown">specifies the rational of decision mentioned in the judgment</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
@@ -4637,29 +5231,6 @@ This section provides details for each class and property defined by NyOn: A Mul
             <dt>has domain</dt>
             <dd>
                <a href="#RatioDecidendi" title="https://w3id.org/def/nyon#RatioDecidendi">RatioDecidendi</a>
-               <sup class="type-c" title="class">c</sup>
-            </dd>
-            <dt>has range</dt>
-            <dd>
-               <a href="http://www.w3.org/2001/XMLSchema#string"
-                  target="_blank"
-                  title="http://www.w3.org/2001/XMLSchema#string">string</a>
-            </dd>
-         </dl>
-      </div>
-   </div>
-   <div class="entity" id="value">
-      <h3>value<sup class="type-dp" title="data property">dp</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> https://w3id.org/def/nyon#value</p>
-      <div class="description">
-         <dl>
-            <dt>has domain</dt>
-            <dd>
-               <a href="#Opinion" title="https://w3id.org/def/nyon#Opinion">Opinion</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
             <dt>has range</dt>
@@ -4678,6 +5249,9 @@ This section provides details for each class and property defined by NyOn: A Mul
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/def/nyon#wFirstName</p>
+      <div class="comment">
+         <span class="markdown">specifies the first name of the witness</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
@@ -4706,6 +5280,9 @@ This section provides details for each class and property defined by NyOn: A Mul
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/def/nyon#witnessName</p>
+      <div class="comment">
+         <span class="markdown">specifies the witness name mentioned in the court case</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
@@ -4730,6 +5307,9 @@ This section provides details for each class and property defined by NyOn: A Mul
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/def/nyon#witnessStatement</p>
+      <div class="comment">
+         <span class="markdown">specifies the statements given by the witness</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
@@ -4759,6 +5339,9 @@ This section provides details for each class and property defined by NyOn: A Mul
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/def/nyon#wLastName</p>
+      <div class="comment">
+         <span class="markdown">specifies the last name of the witness</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
@@ -4787,6 +5370,9 @@ This section provides details for each class and property defined by NyOn: A Mul
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/def/nyon#wordPhraseValue</p>
+      <div class="comment">
+         <span class="markdown">specifies the important phrases or issues mentioned in the judgment</span>
+      </div>
       <div class="description">
          <dl>
             <dt>has super-properties</dt>
@@ -4809,111 +5395,11 @@ This section provides details for each class and property defined by NyOn: A Mul
          </dl>
       </div>
    </div>
-</div><div xmlns:widoco="https://w3id.org/widoco/vocab#"
-     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     id="namedindividuals">
-   <h3 id="namedindividuals" class="list">Named Individuals</h3>
-   <ul class="hlist">
-      <li>
-         <a href="#C1" title="https://w3id.org/def/nyon#C1">
-            <span>c1</span>
-         </a>
-      </li>
-      <li>
-         <a href="#J1" title="https://w3id.org/def/nyon#J1">
-            <span>j1</span>
-         </a>
-      </li>
-      <li>
-         <a href="#M0" title="https://w3id.org/def/nyon#M0">
-            <span>m0</span>
-         </a>
-      </li>
-   </ul>
-   <div class="entity" id="C1">
-      <h3>c1<sup class="type-ni" title="named individual">ni</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> https://w3id.org/def/nyon#C1</p>
-      <dl class="description">
-         <dt>belongs to</dt>
-         <dd>
-            <a href="#CourtCase" title="https://w3id.org/def/nyon#CourtCase">CourtCase</a>
-            <sup class="type-c" title="class">c</sup>
-         </dd>
-         <dt>has facts</dt>
-         <dd>
-            <a href="#hasJudge" title="https://w3id.org/def/nyon#hasJudge">hasJudge</a>
-            <sup class="type-op" title="object property">op</sup> 
-            <a href="#J1" title="https://w3id.org/def/nyon#J1">j1</a>
-         </dd>
-         <dd>
-            <a href="#hasCaseName" title="https://w3id.org/def/nyon#hasCaseName">hasCaseName</a>
-            <sup class="type-dp" title="data property">dp</sup> 
-            <span class="literal">"A vs B"@en</span>
-         </dd>
-      </dl>
-   </div>
-   <div class="entity" id="J1">
-      <h3>j1<sup class="type-ni" title="named individual">ni</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> https://w3id.org/def/nyon#J1</p>
-      <dl class="description">
-         <dt>belongs to</dt>
-         <dd>
-            <a href="#Judge" title="https://w3id.org/def/nyon#Judge">Judge</a>
-            <sup class="type-c" title="class">c</sup>
-         </dd>
-         <dt>has facts</dt>
-         <dd>
-            <a href="#withOpinion" title="https://w3id.org/def/nyon#withOpinion">withOpinion</a>
-            <sup class="type-op" title="object property">op</sup> 
-            <a href="#M0" title="https://w3id.org/def/nyon#M0">m0</a>
-         </dd>
-         <dd>
-            <a href="#COFirstName" title="https://w3id.org/def/nyon#COFirstName">COFirstName</a>
-            <sup class="type-dp" title="data property">dp</sup> 
-            <span class="literal">"Arjit Pasayat"@en</span>
-         </dd>
-      </dl>
-   </div>
-   <div class="entity" id="M0">
-      <h3>m0<sup class="type-ni" title="named individual">ni</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> https://w3id.org/def/nyon#M0</p>
-      <dl class="description">
-         <dt>belongs to</dt>
-         <dd>
-            <a href="#Majority" title="https://w3id.org/def/nyon#Majority">Majority</a>
-            <sup class="type-c" title="class">c</sup>
-         </dd>
-         <dt>has facts</dt>
-         <dd>
-            <a href="#value" title="https://w3id.org/def/nyon#value">value</a>
-            <sup class="type-dp" title="data property">dp</sup> 
-            <span class="literal">"7 Yes, 5 No"@en</span>
-         </dd>
-      </dl>
-   </div>
-</div><div xmlns:widoco="https://w3id.org/widoco/vocab#"
-     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     id="rules">
-   <h3 class="list" id="rule">Rules</h3>
-   <ul class="hlist"/>
 </div><div id="legend">
 <h2>Legend <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
 <div   class="entity">
 <sup class="type-c" title="Classes">c</sup>: Classes <br/>
 <sup class="type-op" title="Object Properties">op</sup>: Object Properties <br/>
 <sup class="type-dp" title="Data Properties">dp</sup>: Data Properties <br/>
-<sup class="type-ni" title="Named Individuals">ni</sup>: Named Individuals
 </div>
 </div>
