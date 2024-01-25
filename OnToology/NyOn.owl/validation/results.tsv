@@ -21,7 +21,7 @@ https://w3id.org/def/nyon#Country type Class	Conflict
 https://w3id.org/def/nyon#Fact type Class	Conflict
 N160db215abc844a99450734d5fdc33ab type Class	Undefined
 https://w3id.org/def/nyon#District_Court type Class	Conflict
-https://w3id.org/def/nyon#Barrister type Class	Conflict
+https://w3id.org/def/nyon#Barrister type Class	Undefined
 https://w3id.org/def/nyon#Tribunal type Class	Conflict
 https://w3id.org/def/nyon#Respondent type Class	Conflict
 https://w3id.org/def/nyon#Session_Court type Class	Conflict
@@ -57,7 +57,7 @@ https://w3id.org/def/nyon#Bench type Class	Conflict
 N722aa0eeccab44aa87c359895fd1a557 type Class	Undefined
 https://w3id.org/def/nyon#Judge type Class	Conflict
 https://w3id.org/def/nyon#DateOfJudgment type Class	Conflict
-https://w3id.org/def/nyon#Attorney type Class	Conflict
+https://w3id.org/def/nyon#Attorney type Class	Undefined
 https://w3id.org/def/nyon#CourtCase type Class	Conflict
 https://w3id.org/def/nyon#Opinion type Class	Conflict
 https://w3id.org/def/nyon#CourtDecision type Class	Conflict
