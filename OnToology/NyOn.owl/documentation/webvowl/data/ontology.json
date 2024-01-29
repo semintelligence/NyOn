@@ -209,7 +209,7 @@
     "id" : "54",
     "type" : "owl:Class"
   }, {
-    "id" : "102",
+    "id" : "103",
     "type" : "owl:Class"
   }, {
     "id" : "68",
@@ -669,7 +669,7 @@
     "iri" : "https://w3id.org/def/nyon#RulingOf",
     "baseIri" : "https://w3id.org/def/nyon",
     "instances" : 0,
-    "id" : "102"
+    "id" : "103"
   }, {
     "iri" : "https://w3id.org/def/nyon#Lawyer",
     "baseIri" : "https://w3id.org/def/nyon",
@@ -1345,7 +1345,7 @@
     "range" : "50",
     "superproperty" : [ "17" ],
     "domain" : "8",
-    "attributes" : [ "object", "functional" ],
+    "attributes" : [ "functional", "object" ],
     "id" : "49"
   }, {
     "iri" : "https://w3id.org/def/nyon#COFirstName",
@@ -1368,14 +1368,14 @@
     "baseIri" : "https://w3id.org/def/nyon",
     "range" : "8",
     "domain" : "8",
-    "attributes" : [ "object", "reflexive" ],
+    "attributes" : [ "reflexive", "object" ],
     "id" : "63"
   }, {
     "iri" : "https://w3id.org/def/nyon#cites",
     "baseIri" : "https://w3id.org/def/nyon",
     "range" : "8",
     "domain" : "8",
-    "attributes" : [ "object", "reflexive", "functional" ],
+    "attributes" : [ "reflexive", "functional", "object" ],
     "id" : "64"
   }, {
     "iri" : "https://w3id.org/def/nyon#hasJudgmentType",
@@ -1455,14 +1455,14 @@
     "baseIri" : "https://w3id.org/def/nyon",
     "range" : "1",
     "domain" : "104",
-    "attributes" : [ "object", "someValues" ],
+    "attributes" : [ "someValues", "object" ],
     "id" : "105"
   }, {
     "iri" : "https://w3id.org/def/nyon#hasWords",
     "baseIri" : "https://w3id.org/def/nyon",
     "range" : "107",
     "domain" : "104",
-    "attributes" : [ "object", "someValues" ],
+    "attributes" : [ "someValues", "object" ],
     "id" : "106"
   }, {
     "range" : "22",
@@ -1506,7 +1506,7 @@
     "range" : "119",
     "superproperty" : [ "17" ],
     "domain" : "39",
-    "attributes" : [ "object", "allValues" ],
+    "attributes" : [ "allValues", "object" ],
     "id" : "118"
   }, {
     "iri" : "https://w3id.org/def/nyon#hasParty",
@@ -1514,7 +1514,7 @@
     "range" : "41",
     "superproperty" : [ "17" ],
     "domain" : "39",
-    "attributes" : [ "object", "someValues" ],
+    "attributes" : [ "someValues", "object" ],
     "id" : "120"
   }, {
     "range" : "22",
@@ -1618,7 +1618,7 @@
     "baseIri" : "https://w3id.org/def/nyon",
     "range" : "107",
     "domain" : "8",
-    "attributes" : [ "object", "functional" ],
+    "attributes" : [ "functional", "object" ],
     "id" : "141"
   }, {
     "range" : "115",
@@ -1695,7 +1695,7 @@
     "superproperty" : [ "17" ],
     "domain" : "8",
     "subproperty" : [ "61", "155", "136" ],
-    "attributes" : [ "object", "reflexive" ],
+    "attributes" : [ "reflexive", "object" ],
     "id" : "62"
   }, {
     "range" : "80",
@@ -1756,7 +1756,7 @@
     "range" : "1",
     "superproperty" : [ "17" ],
     "domain" : "86",
-    "attributes" : [ "object", "someValues" ],
+    "attributes" : [ "someValues", "object" ],
     "id" : "176"
   }, {
     "range" : "67",
@@ -1769,7 +1769,7 @@
     "range" : "0",
     "superproperty" : [ "17" ],
     "domain" : "47",
-    "attributes" : [ "object", "allValues" ],
+    "attributes" : [ "allValues", "object" ],
     "id" : "180"
   }, {
     "range" : "66",
@@ -1813,7 +1813,7 @@
     "range" : "0",
     "superproperty" : [ "17" ],
     "domain" : "47",
-    "attributes" : [ "object", "allValues" ],
+    "attributes" : [ "allValues", "object" ],
     "id" : "186"
   }, {
     "range" : "112",
