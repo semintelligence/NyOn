@@ -9,10 +9,6 @@
     "Fact" : {
       "@id" : "https://w3id.org/def/nyon#Fact"
     },
-    "hasStartIndex" : {
-      "@id" : "https://w3id.org/def/nyon#hasStartIndex",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
-    },
     "Accussed" : {
       "@id" : "https://w3id.org/def/nyon#Accussed"
     },
@@ -47,15 +43,8 @@
     "Judge" : {
       "@id" : "https://w3id.org/def/nyon#Judge"
     },
-    "RulingOf" : {
-      "@id" : "https://w3id.org/def/nyon#RulingOf"
-    },
     "license" : {
       "@id" : "http://purl.org/dc/terms/license"
-    },
-    "opinionValue" : {
-      "@id" : "https://w3id.org/def/nyon#opinionValue",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
     },
     "Petitioner" : {
       "@id" : "https://w3id.org/def/nyon#Petitioner"
@@ -134,10 +123,6 @@
     "District" : {
       "@id" : "https://w3id.org/def/nyon#District"
     },
-    "hasEndIndex" : {
-      "@id" : "https://w3id.org/def/nyon#hasEndIndex",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
-    },
     "hasCaseName" : {
       "@id" : "https://w3id.org/def/nyon#hasCaseName",
       "@type" : "http://www.w3.org/2001/XMLSchema#string"
@@ -184,10 +169,6 @@
       "@id" : "https://w3id.org/def/nyon#hasBench",
       "@type" : "@id"
     },
-    "hasAnalysis" : {
-      "@id" : "https://w3id.org/def/nyon#hasAnalysis",
-      "@type" : "@id"
-    },
     "Provision" : {
       "@id" : "https://w3id.org/def/nyon#Provision"
     },
@@ -232,6 +213,10 @@
       "@id" : "https://w3id.org/def/nyon#witnessStatement",
       "@type" : "http://www.w3.org/2001/XMLSchema#string"
     },
+    "argumentValue" : {
+      "@id" : "https://w3id.org/def/nyon#argumentValue",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
     "hasProvision" : {
       "@id" : "https://w3id.org/def/nyon#hasProvision",
       "@type" : "@id"
@@ -240,7 +225,8 @@
       "@id" : "https://w3id.org/def/nyon#Courts_of_Smaller_Causes"
     },
     "hasDate" : {
-      "@id" : "https://w3id.org/def/nyon#hasDate"
+      "@id" : "https://w3id.org/def/nyon#hasDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
     },
     "Investigator" : {
       "@id" : "https://w3id.org/def/nyon#Investigator"
@@ -275,11 +261,19 @@
       "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty",
       "@type" : "@id"
     },
+    "factSequenceNum" : {
+      "@id" : "https://w3id.org/def/nyon#factSequenceNum",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
     "SupremeCourt" : {
       "@id" : "https://w3id.org/def/nyon#SupremeCourt"
     },
     "Lawyer" : {
       "@id" : "https://w3id.org/def/nyon#Lawyer"
+    },
+    "value" : {
+      "@id" : "https://w3id.org/def/nyon#value",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
     },
     "DateOfJudgment" : {
       "@id" : "https://w3id.org/def/nyon#DateOfJudgment"
@@ -294,6 +288,10 @@
       "@id" : "https://w3id.org/def/nyon#issueValue",
       "@type" : "http://www.w3.org/2001/XMLSchema#string"
     },
+    "ratioDecidendiSequenceNum" : {
+      "@id" : "https://w3id.org/def/nyon#ratioDecidendiSequenceNum",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
     "hasDesignation" : {
       "@id" : "https://w3id.org/def/nyon#hasDesignation",
       "@type" : "http://www.w3.org/2001/XMLSchema#string"
@@ -304,6 +302,10 @@
     "hasJudgmentType" : {
       "@id" : "https://w3id.org/def/nyon#hasJudgmentType",
       "@type" : "@id"
+    },
+    "finalDecisionValue" : {
+      "@id" : "https://w3id.org/def/nyon#finalDecisionValue",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
     },
     "hasAuthor" : {
       "@id" : "https://w3id.org/def/nyon#hasAuthor",
@@ -316,8 +318,9 @@
       "@id" : "https://w3id.org/def/nyon#hasPrecedent",
       "@type" : "@id"
     },
-    "Analysis" : {
-      "@id" : "https://w3id.org/def/nyon#Analysis"
+    "argumentSequenceNum" : {
+      "@id" : "https://w3id.org/def/nyon#argumentSequenceNum",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
     },
     "firstName" : {
       "@id" : "https://w3id.org/def/nyon#firstName",
@@ -345,9 +348,6 @@
     "dateOfJudgment" : {
       "@id" : "https://w3id.org/def/nyon#dateOfJudgment",
       "@type" : "http://www.w3.org/2001/XMLSchema#string"
-    },
-    "CourtJudgment" : {
-      "@id" : "https://w3id.org/def/nyon#CourtJudgment"
     },
     "preferredNamespacePrefix" : {
       "@id" : "http://purl.org/vocab/vann/preferredNamespacePrefix"
@@ -378,6 +378,10 @@
     "hasWordPhrase" : {
       "@id" : "https://w3id.org/def/nyon#hasWordPhrase",
       "@type" : "@id"
+    },
+    "issueSequenceNum" : {
+      "@id" : "https://w3id.org/def/nyon#issueSequenceNum",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
     },
     "Solicitor" : {
       "@id" : "https://w3id.org/def/nyon#Solicitor"
@@ -433,6 +437,10 @@
     },
     "Criminal" : {
       "@id" : "https://w3id.org/def/nyon#Criminal"
+    },
+    "obiterDictumSequenceNum" : {
+      "@id" : "https://w3id.org/def/nyon#obiterDictumSequenceNum",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
     },
     "Author" : {
       "@id" : "https://w3id.org/def/nyon#Author"
@@ -510,7 +518,8 @@
       "@type" : "@id"
     },
     "hasYear" : {
-      "@id" : "https://w3id.org/def/nyon#hasYear"
+      "@id" : "https://w3id.org/def/nyon#hasYear",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
     },
     "Group" : {
       "@id" : "https://w3id.org/def/nyon#Group"
