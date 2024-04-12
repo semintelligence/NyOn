@@ -88,21 +88,8 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 ###  https://w3id.org/def/nyon#appellantArgument
 :appellantArgument rdf:type owl:ObjectProperty ;
                    rdfs:subPropertyOf :makeArgument ;
-                   rdfs:domain :Argument ,
-                               :Party ,
-                               [ rdf:type owl:Class ;
-                                 owl:unionOf ( :Argument
-                                               :DateOfJudgment
-                                             )
-                               ] ;
-                   rdfs:range :Appellant ,
-                              :Argument ,
-                              :Party ,
-                              [ rdf:type owl:Class ;
-                                owl:unionOf ( :Argument
-                                              :DateOfJudgment
-                                            )
-                              ] ;
+                   rdfs:domain :Argument ;
+                   rdfs:range :Appellant ;
                    rdfs:comment "specifies the argument made by the appellant (nyon:Appellant) of nyon:CourtCase" ;
                    rdfs:label "appellantArgument" .
 
@@ -111,8 +98,8 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 :citedBy rdf:type owl:ObjectProperty ;
          owl:inverseOf :cites ;
          rdf:type owl:ReflexiveProperty ;
-         rdfs:domain :CourtJudgment ;
-         rdfs:range :CourtJudgment ;
+         rdfs:domain :CourtCase ;
+         rdfs:range :CourtCase ;
          rdfs:comment "specifies the nyon:CourtCase being cited by nyon:CourtCase" ;
          rdfs:label "citedBy"@en .
 
@@ -121,8 +108,8 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 :cites rdf:type owl:ObjectProperty ,
                 owl:FunctionalProperty ,
                 owl:ReflexiveProperty ;
-       rdfs:domain :CourtJudgment ;
-       rdfs:range :CourtJudgment ;
+       rdfs:domain :CourtCase ;
+       rdfs:range :CourtCase ;
        rdfs:comment "specifies the nyon:CourtCase is citing another nyon:CourtCase" ;
        rdfs:label "cites"@en .
 
@@ -130,42 +117,16 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 ###  https://w3id.org/def/nyon#defendentArgument
 :defendentArgument rdf:type owl:ObjectProperty ;
                    rdfs:subPropertyOf :makeArgument ;
-                   rdfs:domain :Argument ,
-                               :Party ,
-                               [ rdf:type owl:Class ;
-                                 owl:unionOf ( :Argument
-                                               :DateOfJudgment
-                                             )
-                               ] ;
-                   rdfs:range :Argument ,
-                              :Defendant ,
-                              :Party ,
-                              [ rdf:type owl:Class ;
-                                owl:unionOf ( :Argument
-                                              :DateOfJudgment
-                                            )
-                              ] ;
+                   rdfs:domain :Argument ;
+                   rdfs:range :Defendant ;
                    rdfs:comment "specifies the argument made by the defendant (nyon:Defendant) of nyon:CourtCase" ;
                    rdfs:label "defendantArgument" .
 
 
-###  https://w3id.org/def/nyon#hasAnalysis
-:hasAnalysis rdf:type owl:ObjectProperty ;
-             rdfs:domain :CourtJudgment ;
-             rdfs:range :Analysis ;
-             rdfs:comment "specifies the analysis given by the judge in the case"@en ;
-             rdfs:label "hasAnalysis"@en .
-
-
 ###  https://w3id.org/def/nyon#hasAuthor
 :hasAuthor rdf:type owl:ObjectProperty ;
-           rdfs:domain :CourtJudgment ;
-           rdfs:range :Author ,
-                      [ rdf:type owl:Restriction ;
-                        owl:onProperty :hasAuthor ;
-                        owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                        owl:onClass :Judge
-                      ] ;
+           rdfs:domain :CourtCase ;
+           rdfs:range :Author ;
            rdfs:comment "specifies an author (nyon:Author) (any judge (nyon:Judge) from the bench) of the nyon:CourtCase" ;
            rdfs:label "hasAuthor"@en .
 
@@ -173,7 +134,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 ###  https://w3id.org/def/nyon#hasBench
 :hasBench rdf:type owl:ObjectProperty ;
           rdfs:subPropertyOf owl:topObjectProperty ;
-          rdfs:domain :CourtJudgment ;
+          rdfs:domain :CourtCase ;
           rdfs:range :Bench ;
           rdfs:comment "specifies the bench associated with nyon:Bench of the nyon:CourtCase" ;
           rdfs:label "hasBench"@en .
@@ -183,10 +144,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 :hasCourtLoc rdf:type owl:ObjectProperty ;
              rdfs:subPropertyOf owl:topObjectProperty ;
              rdfs:domain :Court ;
-             rdfs:range :Location ,
-                        [ rdf:type owl:Class ;
-                          owl:complementOf <https://schema.org/Place>
-                        ] ;
+             rdfs:range :Location ;
              rdfs:comment "specifies the location of the nyon:Court" ;
              rdfs:label "hasCourtLoc"@en .
 
@@ -194,7 +152,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 ###  https://w3id.org/def/nyon#hasCourtOfficial
 :hasCourtOfficial rdf:type owl:ObjectProperty ;
                   rdfs:subPropertyOf owl:topObjectProperty ;
-                  rdfs:domain :CourtJudgment ;
+                  rdfs:domain :CourtCase ;
                   rdfs:range :Court_Official ;
                   rdfs:comment "specifies the court official represented with nyon:CourtOfficial connected to the nyon:CourtCase" ;
                   rdfs:label "hasCourtOfficial"@en .
@@ -204,12 +162,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 :hasDateOfJudgment rdf:type owl:ObjectProperty ;
                    rdfs:subPropertyOf owl:topObjectProperty ;
                    rdfs:domain :Court ;
-                   rdfs:range :DateOfJudgment ,
-                              [ rdf:type owl:Class ;
-                                owl:unionOf ( :Argument
-                                              :DateOfJudgment
-                                            )
-                              ] ;
+                   rdfs:range :DateOfJudgment ;
                    rdfs:comment "specifies the date of the judgment of the nyon:CourtCase" ;
                    rdfs:label "hasDateOfJudgment"@en .
 
@@ -217,7 +170,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 ###  https://w3id.org/def/nyon#hasEvidence
 :hasEvidence rdf:type owl:ObjectProperty ;
              rdfs:subPropertyOf owl:topObjectProperty ;
-             rdfs:domain :CourtJudgment ;
+             rdfs:domain :CourtCase ;
              rdfs:range :Evidence ;
              rdfs:comment "specifies the evidence associated with the nyon:Evidence instance for the nyon:CourtCase" ;
              rdfs:label "hasEvidence"@en .
@@ -227,10 +180,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 :hasEvidenceLoc rdf:type owl:ObjectProperty ;
                 rdfs:subPropertyOf owl:topObjectProperty ;
                 rdfs:domain :Evidence ;
-                rdfs:range :Location ,
-                           [ rdf:type owl:Class ;
-                             owl:complementOf <https://schema.org/Place>
-                           ] ;
+                rdfs:range :Location ;
                 rdfs:comment "specifies the evidence location associated with the nyon:Evidence instance for the nyon:CourtCase" ;
                 rdfs:label "hasEvidenceLoc"@en .
 
@@ -238,7 +188,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 ###  https://w3id.org/def/nyon#hasFact
 :hasFact rdf:type owl:ObjectProperty ;
          rdfs:subPropertyOf owl:topObjectProperty ;
-         rdfs:domain :CourtJudgment ;
+         rdfs:domain :CourtCase ;
          rdfs:range :Fact ;
          rdfs:comment "specifies the fact associated with nyon:Fact belonging to a specific nyon:CourtCase" ;
          rdfs:label "hasFact"@en .
@@ -247,7 +197,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 ###  https://w3id.org/def/nyon#hasFinalDecision
 :hasFinalDecision rdf:type owl:ObjectProperty ;
                   rdfs:subPropertyOf owl:topObjectProperty ;
-                  rdfs:domain :CourtJudgment ;
+                  rdfs:domain :CourtCase ;
                   rdfs:range :CourtDecision ;
                   rdfs:comment "specifies the final verdict associated with the nyon:CourtCase" ;
                   rdfs:label "hasFinalDecision"@en .
@@ -256,7 +206,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 ###  https://w3id.org/def/nyon#hasIssue
 :hasIssue rdf:type owl:ObjectProperty ,
                    owl:FunctionalProperty ;
-          rdfs:domain :CourtJudgment ;
+          rdfs:domain :CourtCase ;
           rdfs:range :Issue ;
           rdfs:comment "specifies the issue associated with the nyon:Issue instance mentioned in the nyon:CourtCase" ;
           rdfs:label "hasIssue"@en .
@@ -264,9 +214,8 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 
 ###  https://w3id.org/def/nyon#hasJudge
 :hasJudge rdf:type owl:ObjectProperty ;
-          rdfs:domain :CourtJudgment ;
-          rdfs:range :Court_Official ,
-                     :Judge ;
+          rdfs:domain :CourtCase ;
+          rdfs:range :Judge ;
           rdfs:comment "specifies the judicial body (nyon:Judge) of nyon:CourtCase"@en ;
           rdfs:label "hasJudge"@en .
 
@@ -274,7 +223,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 ###  https://w3id.org/def/nyon#hasJudgmentType
 :hasJudgmentType rdf:type owl:ObjectProperty ;
                  rdfs:subPropertyOf owl:topObjectProperty ;
-                 rdfs:domain :CourtJudgment ;
+                 rdfs:domain :CourtCase ;
                  rdfs:range :CaseType ;
                  rdfs:comment "specifies the type of judgment (nyon:CaseType) for nyon:CourtCase" ;
                  rdfs:label "hasJudgmentType"@en .
@@ -292,7 +241,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 ###  https://w3id.org/def/nyon#hasObiterDictum
 :hasObiterDictum rdf:type owl:ObjectProperty ;
                  rdfs:subPropertyOf owl:topObjectProperty ;
-                 rdfs:domain :CourtJudgment ;
+                 rdfs:domain :CourtCase ;
                  rdfs:range :ObiterDictum ;
                  rdfs:comment "specifies the obiter dicta associated with nyon:ObiterDictum mentioned in nyon:CourtCase" ;
                  rdfs:label "hasObiterDictum"@en .
@@ -301,7 +250,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 ###  https://w3id.org/def/nyon#hasParty
 :hasParty rdf:type owl:ObjectProperty ;
           rdfs:subPropertyOf owl:topObjectProperty ;
-          rdfs:domain :CourtJudgment ;
+          rdfs:domain :CourtCase ;
           rdfs:range :Party ;
           rdfs:comment "specifies the party (nyon:Party) associated with nyon:CourtCase" ;
           rdfs:label "hasParty"@en .
@@ -318,7 +267,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 
 ###  https://w3id.org/def/nyon#hasPolicePersonnel
 :hasPolicePersonnel rdf:type owl:ObjectProperty ;
-                    rdfs:domain :CourtJudgment ;
+                    rdfs:domain :CourtCase ;
                     rdfs:range :Investigator ;
                     rdfs:comment "specifies the police officer (nyon:PolicePersonnel) doing mentioned in nyon:CourtCase" ;
                     rdfs:label "hasPolicePersonnel"@en .
@@ -328,15 +277,15 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 :hasPrecedent rdf:type owl:ObjectProperty ;
               rdfs:subPropertyOf owl:topObjectProperty ;
               rdf:type owl:ReflexiveProperty ;
-              rdfs:domain :CourtJudgment ;
-              rdfs:range :CourtJudgment ;
+              rdfs:domain :CourtCase ;
+              rdfs:range :CourtCase ;
               rdfs:comment "represents past cases referred by the judge in the judgment"@en ,
                            "specifies the previous cases of type nyon:CourtCase" .
 
 
 ###  https://w3id.org/def/nyon#hasProvision
 :hasProvision rdf:type owl:ObjectProperty ;
-              rdfs:domain :CourtJudgment ;
+              rdfs:domain :CourtCase ;
               rdfs:range :Provision ;
               rdfs:comment "specifies a clause or norm (nyon:Provision) in a legal instrument or a law" ;
               rdfs:label "hasProvision"@en .
@@ -345,7 +294,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 ###  https://w3id.org/def/nyon#hasRatioDecidendi
 :hasRatioDecidendi rdf:type owl:ObjectProperty ;
                    rdfs:subPropertyOf owl:topObjectProperty ;
-                   rdfs:domain :CourtJudgment ;
+                   rdfs:domain :CourtCase ;
                    rdfs:range :RatioDecidendi ;
                    rdfs:comment "specifies the judges ratio of decision (nyon:RatioDecidendi) for nyon:CourtCase" ;
                    rdfs:label "hasRatioDecidendi"@en .
@@ -355,7 +304,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 :hasRulingOf rdf:type owl:ObjectProperty ;
              rdfs:subPropertyOf owl:topObjectProperty ;
              rdf:type owl:FunctionalProperty ;
-             rdfs:domain :CourtJudgment ;
+             rdfs:domain :CourtCase ;
              rdfs:range :Court ;
              rdfs:comment "specifies the ruling (previous judgments nyon:CourtCase) of the lower court (nyon:Court)" ;
              rdfs:label "hasRulingOf"@en .
@@ -364,7 +313,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 ###  https://w3id.org/def/nyon#hasStatue
 :hasStatue rdf:type owl:ObjectProperty ;
            rdfs:subPropertyOf owl:topObjectProperty ;
-           rdfs:domain :CourtJudgment ;
+           rdfs:domain :CourtCase ;
            rdfs:range :Statue ;
            rdfs:comment "specifies the statute (nyon:Statute) mentioned in nyon:CourtCase" ;
            rdfs:label "hasStatue"@en .
@@ -373,7 +322,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 ###  https://w3id.org/def/nyon#hasWitness
 :hasWitness rdf:type owl:ObjectProperty ;
             rdfs:subPropertyOf owl:topObjectProperty ;
-            rdfs:domain :CourtJudgment ;
+            rdfs:domain :CourtCase ;
             rdfs:range :Witness ;
             rdfs:comment "specifies the witness (nyon:Witness) mentioned in nyon:CourtCase" ;
             rdfs:label "hasWitness"@en .
@@ -382,7 +331,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 ###  https://w3id.org/def/nyon#hasWordPhrase
 :hasWordPhrase rdf:type owl:ObjectProperty ;
                rdfs:subPropertyOf owl:topObjectProperty ;
-               rdfs:domain :CourtJudgment ;
+               rdfs:domain :CourtCase ;
                rdfs:range :WordAndPhrase ;
                rdfs:comment "specifies the phrases and words (specially nyon:Issue) mentioned in nyon:CourtCase" ;
                rdfs:label "hasWordPhrase"@en .
@@ -390,33 +339,8 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 
 ###  https://w3id.org/def/nyon#hasWords
 :hasWords rdf:type owl:ObjectProperty ;
-          rdfs:domain :CourtJudgment ;
-          rdfs:range :CaseDomain ,
-                     :CatchWord ,
-                     [ owl:intersectionOf ( owl:Thing
-                                            :CaseDomain
-                                          ) ;
-                       rdf:type owl:Class
-                     ] ,
-                     [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
-                                              owl:onProperty :hasWords ;
-                                              owl:someValuesFrom :CaseDomain
-                                            ]
-                                            [ rdf:type owl:Restriction ;
-                                              owl:onProperty :hasWords ;
-                                              owl:someValuesFrom :Issue
-                                            ]
-                                          ) ;
-                       rdf:type owl:Class
-                     ] ,
-                     [ rdf:type owl:Restriction ;
-                       owl:onProperty :hasWords ;
-                       owl:someValuesFrom :CaseDomain
-                     ] ,
-                     [ rdf:type owl:Restriction ;
-                       owl:onProperty :hasWords ;
-                       owl:someValuesFrom :Issue
-                     ] ;
+          rdfs:domain :CourtCase ;
+          rdfs:range :CatchWord ;
           rdfs:comment "signifies the domain words, facts and issue related words in the case" ;
           rdfs:label "hasWords"@en .
 
@@ -425,12 +349,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 :makeArgument rdf:type owl:ObjectProperty ;
               rdfs:subPropertyOf owl:topObjectProperty ;
               rdfs:domain :Party ;
-              rdfs:range :Argument ,
-                         [ rdf:type owl:Class ;
-                           owl:unionOf ( :Argument
-                                         :DateOfJudgment
-                                       )
-                         ] ;
+              rdfs:range :Argument ;
               rdfs:comment "specifies the arguments done in nyon:CourtCase by some party (nyon:Party)" ;
               rdfs:label "makeArgument"@en .
 
@@ -438,21 +357,8 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 ###  https://w3id.org/def/nyon#petitionerArgument
 :petitionerArgument rdf:type owl:ObjectProperty ;
                     rdfs:subPropertyOf :makeArgument ;
-                    rdfs:domain :Argument ,
-                                :Party ,
-                                [ rdf:type owl:Class ;
-                                  owl:unionOf ( :Argument
-                                                :DateOfJudgment
-                                              )
-                                ] ;
-                    rdfs:range :Argument ,
-                               :Party ,
-                               :Petitioner ,
-                               [ rdf:type owl:Class ;
-                                 owl:unionOf ( :Argument
-                                               :DateOfJudgment
-                                             )
-                               ] ;
+                    rdfs:domain :Argument ;
+                    rdfs:range :Petitioner ;
                     rdfs:comment "specifies the argument made by the Petitioner (nyon:Petitioner) of nyon:CourtCase" ;
                     rdfs:label "petitionerArgument" .
 
@@ -460,21 +366,8 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 ###  https://w3id.org/def/nyon#plaintiffArgument
 :plaintiffArgument rdf:type owl:ObjectProperty ;
                    rdfs:subPropertyOf :makeArgument ;
-                   rdfs:domain :Argument ,
-                               :Party ,
-                               [ rdf:type owl:Class ;
-                                 owl:unionOf ( :Argument
-                                               :DateOfJudgment
-                                             )
-                               ] ;
-                   rdfs:range :Argument ,
-                              :Party ,
-                              :Plaintiff ,
-                              [ rdf:type owl:Class ;
-                                owl:unionOf ( :Argument
-                                              :DateOfJudgment
-                                            )
-                              ] ;
+                   rdfs:domain :Argument ;
+                   rdfs:range :Plaintiff ;
                    rdfs:comment "specifies the argument made by the plaintiff (nyon:Plaintiff) of nyon:CourtCase" ;
                    rdfs:label "plaintiffArgument" .
 
@@ -482,8 +375,8 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 ###  https://w3id.org/def/nyon#precedentOverruled
 :precedentOverruled rdf:type owl:ObjectProperty ;
                     rdfs:subPropertyOf :hasPrecedent ;
-                    rdfs:domain :CourtJudgment ;
-                    rdfs:range :CourtJudgment ;
+                    rdfs:domain :CourtCase ;
+                    rdfs:range :CourtCase ;
                     rdfs:comment "specifies the past cases (nyon:CourtCase) overruled by the judge in the current case" ;
                     rdfs:label "precedentOverruled"@en .
 
@@ -491,8 +384,8 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 ###  https://w3id.org/def/nyon#precedentReliedUpon
 :precedentReliedUpon rdf:type owl:ObjectProperty ;
                      rdfs:subPropertyOf :hasPrecedent ;
-                     rdfs:domain :CourtJudgment ;
-                     rdfs:range :CourtJudgment ;
+                     rdfs:domain :CourtCase ;
+                     rdfs:range :CourtCase ;
                      rdfs:comment "specifies the past cases (nyon:CourtCase) referred by the judge on which the current judgment relies on" ;
                      rdfs:label "precedentReliedUpon"@en .
 
@@ -500,8 +393,8 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 ###  https://w3id.org/def/nyon#precendentNotReliedUpon
 :precendentNotReliedUpon rdf:type owl:ObjectProperty ;
                          rdfs:subPropertyOf :hasPrecedent ;
-                         rdfs:domain :CourtJudgment ;
-                         rdfs:range :CourtJudgment ;
+                         rdfs:domain :CourtCase ;
+                         rdfs:range :CourtCase ;
                          rdfs:comment "specifies the previous cases (nyon:CourtCase) referred by the judge on which the case decision does not rely on" ;
                          rdfs:label "precedentNotReliedUpon"@en .
 
@@ -509,21 +402,8 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 ###  https://w3id.org/def/nyon#respondentArgument
 :respondentArgument rdf:type owl:ObjectProperty ;
                     rdfs:subPropertyOf :makeArgument ;
-                    rdfs:domain :Argument ,
-                                :Party ,
-                                [ rdf:type owl:Class ;
-                                  owl:unionOf ( :Argument
-                                                :DateOfJudgment
-                                              )
-                                ] ;
-                    rdfs:range :Argument ,
-                               :Party ,
-                               :Respondent ,
-                               [ rdf:type owl:Class ;
-                                 owl:unionOf ( :Argument
-                                               :DateOfJudgment
-                                             )
-                               ] ;
+                    rdfs:domain :Argument ;
+                    rdfs:range :Respondent ;
                     rdfs:comment "specifies the argument made by the respondent (nyon:Respondent) of nyon:CourtCase" ;
                     rdfs:label "respondentArgument" .
 
@@ -531,13 +411,8 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 ###  https://w3id.org/def/nyon#withConcurrence
 :withConcurrence rdf:type owl:ObjectProperty ;
                  rdfs:subPropertyOf :withOpinion ;
-                 rdfs:domain :Court_Official ,
-                             :Judge ;
-                 rdfs:range :Concurrence ,
-                            :Opinion ,
-                            [ rdf:type owl:Class ;
-                              owl:complementOf :Judgement
-                            ] ;
+                 rdfs:domain :Judge ;
+                 rdfs:range :Concurrence ;
                  rdfs:comment "specifies the judge (nyon:Judge) gives the opinion in concurrence (nyon:Concurrence) of the court" ;
                  rdfs:label "withConcurrence"@en .
 
@@ -545,13 +420,8 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 ###  https://w3id.org/def/nyon#withDissent
 :withDissent rdf:type owl:ObjectProperty ;
              rdfs:subPropertyOf :withOpinion ;
-             rdfs:domain :Court_Official ,
-                         :Judge ;
-             rdfs:range :Dissent ,
-                        :Opinion ,
-                        [ rdf:type owl:Class ;
-                          owl:complementOf :Judgement
-                        ] ;
+             rdfs:domain :Judge ;
+             rdfs:range :Dissent ;
              rdfs:comment "specifies the judge (nyon:Judge) gives the opinion in dissent (nyon:Dissent) of the court" ;
              rdfs:label "withDissent"@en .
 
@@ -559,25 +429,16 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 ###  https://w3id.org/def/nyon#withMajority
 :withMajority rdf:type owl:ObjectProperty ;
               rdfs:subPropertyOf :withOpinion ;
-              rdfs:domain :Court_Official ,
-                          :Judge ;
-              rdfs:range :Majority ,
-                         :Opinion ,
-                         [ rdf:type owl:Class ;
-                           owl:complementOf :Judgement
-                         ] ;
+              rdfs:domain :Judge ;
+              rdfs:range :Majority ;
               rdfs:comment "specifies the judge (nyon:Judge) gives the opinion in majority (nyon:Majority) of the court" ;
               rdfs:label "withMajority"@en .
 
 
 ###  https://w3id.org/def/nyon#withOpinion
 :withOpinion rdf:type owl:ObjectProperty ;
-             rdfs:domain :Court_Official ,
-                         :Judge ;
-             rdfs:range :Opinion ,
-                        [ rdf:type owl:Class ;
-                          owl:complementOf :Judgement
-                        ] ;
+             rdfs:domain :Judge ;
+             rdfs:range :Opinion ;
              rdfs:comment "represnts the judge opinion on the case either with majority, dissent or concurrence"@en ;
              rdfs:label "withOpinion"@en .
 
@@ -600,7 +461,6 @@ owl:sameAs rdf:type owl:AnnotationProperty .
              rdfs:subPropertyOf :courtOffName ;
              rdfs:domain :Court_Official ;
              rdfs:range xsd:string ;
-             rdfs:comment "specifies the first name of the court official"@en ;
              rdfs:label "COFirstName"@en .
 
 
@@ -609,41 +469,30 @@ owl:sameAs rdf:type owl:AnnotationProperty .
             rdfs:subPropertyOf :courtOffName ;
             rdfs:domain :Court_Official ;
             rdfs:range xsd:string ;
-            rdfs:comment "specifies the last name of teh court official"@en ;
             rdfs:label "COLastName"@en .
+
+
+###  https://w3id.org/def/nyon#argumentSequenceNum
+:argumentSequenceNum rdf:type owl:DatatypeProperty ;
+                     rdfs:subPropertyOf owl:topDataProperty ;
+                     rdfs:domain :Argument ;
+                     rdfs:range xsd:int ;
+                     rdfs:label "argumentSequenceNum"@en .
+
+
+###  https://w3id.org/def/nyon#argumentValue
+:argumentValue rdf:type owl:DatatypeProperty ;
+               rdfs:subPropertyOf owl:topDataProperty ;
+               rdfs:domain :Argument ;
+               rdfs:range xsd:string ;
+               rdfs:label "argumentValue"@en .
 
 
 ###  https://w3id.org/def/nyon#catchwordValue
 :catchwordValue rdf:type owl:DatatypeProperty ;
                 rdfs:subPropertyOf owl:topDataProperty ;
-                rdfs:domain :CaseDomain ,
-                            :CatchWord ,
-                            [ owl:intersectionOf ( owl:Thing
-                                                   :CaseDomain
-                                                 ) ;
-                              rdf:type owl:Class
-                            ] ,
-                            [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
-                                                     owl:onProperty :hasWords ;
-                                                     owl:someValuesFrom :CaseDomain
-                                                   ]
-                                                   [ rdf:type owl:Restriction ;
-                                                     owl:onProperty :hasWords ;
-                                                     owl:someValuesFrom :Issue
-                                                   ]
-                                                 ) ;
-                              rdf:type owl:Class
-                            ] ,
-                            [ rdf:type owl:Restriction ;
-                              owl:onProperty :hasWords ;
-                              owl:someValuesFrom :CaseDomain
-                            ] ,
-                            [ rdf:type owl:Restriction ;
-                              owl:onProperty :hasWords ;
-                              owl:someValuesFrom :Issue
-                            ] ;
+                rdfs:domain :CatchWord ;
                 rdfs:range xsd:string ;
-                rdfs:comment "specifies the catchwords present in the judgemnt"@en ;
                 rdfs:label "catchwordValue"@en .
 
 
@@ -652,14 +501,12 @@ owl:sameAs rdf:type owl:AnnotationProperty .
            rdfs:subPropertyOf owl:topDataProperty ;
            rdfs:domain :Court ;
            rdfs:range xsd:string ;
-           rdfs:comment "specifies the name of the court mentioned in the judgment"@en ;
            rdfs:label "courtName"@en .
 
 
 ###  https://w3id.org/def/nyon#courtOffName
 :courtOffName rdf:type owl:DatatypeProperty ;
               rdfs:subPropertyOf owl:topDataProperty ;
-              rdfs:comment "specifies the court official's name mentioned in the judgment"@en ;
               rdfs:label "courtOffName"@en .
 
 
@@ -672,18 +519,16 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                                           )
                             ] ;
                 rdfs:range xsd:string ;
-                rdfs:comment "specifies the date of the verdict for the court case"@en ;
                 rdfs:label "dateOfJudgment"@en .
 
 
 ###  https://w3id.org/def/nyon#equivalentCitation
 :equivalentCitation rdf:type owl:DatatypeProperty ;
                     rdfs:subPropertyOf owl:topDataProperty ;
-                    rdfs:domain :CourtJudgment ;
+                    rdfs:domain :CourtCase ;
                     rdfs:range xsd:string ;
                     owl:propertyDisjointWith :neutralCitations ;
-                    rdfs:comment "equivalent citations provided by the various law reporters."@en ;
-                    rdfs:label "equivalentCitation"@en .
+                    rdfs:comment "equivalent citations provided by the various law reporters."@en .
 
 
 ###  https://w3id.org/def/nyon#evidenceLocation
@@ -691,16 +536,31 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                   rdfs:subPropertyOf owl:topDataProperty ;
                   rdfs:domain :Evidence ;
                   rdfs:range xsd:string ;
-                  rdfs:comment "specifies the location of the evidence found"@en ;
                   rdfs:label "evidenceLocation"@en .
+
+
+###  https://w3id.org/def/nyon#factSequenceNum
+:factSequenceNum rdf:type owl:DatatypeProperty ;
+                 rdfs:subPropertyOf owl:topDataProperty ;
+                 rdfs:domain :Fact ;
+                 rdfs:range xsd:int ;
+                 rdfs:label "factSequenceNum"@en .
 
 
 ###  https://w3id.org/def/nyon#factValue
 :factValue rdf:type owl:DatatypeProperty ;
+           rdfs:subPropertyOf owl:topDataProperty ;
            rdfs:domain :Fact ;
            rdfs:range xsd:string ;
-           rdfs:comment "specifies the factual statement text from teh judgment"@en ;
            rdfs:label "factValue"@en .
+
+
+###  https://w3id.org/def/nyon#finalDecisionValue
+:finalDecisionValue rdf:type owl:DatatypeProperty ;
+                    rdfs:subPropertyOf owl:topDataProperty ;
+                    rdfs:domain :CourtDecision ;
+                    rdfs:range xsd:string ;
+                    rdfs:label "finalDecisionValue"@en .
 
 
 ###  https://w3id.org/def/nyon#firstName
@@ -709,38 +569,30 @@ owl:sameAs rdf:type owl:AnnotationProperty .
            rdfs:domain :Party ;
            rdfs:range xsd:string ;
            owl:propertyDisjointWith :lastName ;
-           rdfs:comment "specifies the first name of the party"@en ;
            rdfs:label "firstName"@en .
 
 
 ###  https://w3id.org/def/nyon#hasCaseID
 :hasCaseID rdf:type owl:DatatypeProperty ;
-           rdfs:domain :CourtJudgment ;
+           rdfs:domain :CourtCase ;
            rdfs:range xsd:string ;
            rdfs:comment "Case has a unique ID"@en ;
-           rdfs:label "hasCaseID"@en .
+           rdfs:label "caseID" .
 
 
 ###  https://w3id.org/def/nyon#hasCaseName
 :hasCaseName rdf:type owl:DatatypeProperty ;
-             rdfs:domain :CourtJudgment ;
+             rdfs:domain :CourtCase ;
              rdfs:range xsd:string ;
              rdfs:comment "represents the name of a case usually contains the name of both the parties"@en ;
-             rdfs:label "hasCaseName"@en .
+             rdfs:label "caseName" .
 
 
 ###  https://w3id.org/def/nyon#hasDate
 :hasDate rdf:type owl:DatatypeProperty ;
          rdfs:subPropertyOf :dateOfJudgment ;
-         rdfs:domain :DateOfJudgment ,
-                     [ rdf:type owl:Class ;
-                       owl:unionOf ( :Argument
-                                     :DateOfJudgment
-                                   )
-                     ] ;
-         rdfs:range xsd:int ,
-                    xsd:string ;
-         rdfs:comment "specifies the date of the verdict"@en ;
+         rdfs:domain :DateOfJudgment ;
+         rdfs:range xsd:int ;
          rdfs:label "hasDate"@en .
 
 
@@ -748,34 +600,14 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 :hasDesignation rdf:type owl:DatatypeProperty ;
                 rdfs:domain :Investigator ;
                 rdfs:range xsd:string ;
-                rdfs:comment "specifies the designation of th police personnel"@en ;
                 rdfs:label "hasDesignation"@en .
-
-
-###  https://w3id.org/def/nyon#hasEndIndex
-:hasEndIndex rdf:type owl:DatatypeProperty ;
-             rdfs:domain :Analysis ,
-                         :Argument ,
-                         :Fact ,
-                         :Issue ,
-                         :ObiterDictum ,
-                         :RatioDecidendi ;
-             rdfs:range xsd:string ;
-             rdfs:comment "specifies the end index of the case element in the judgment"@en ;
-             rdfs:label "hasEndIndex" .
 
 
 ###  https://w3id.org/def/nyon#hasMonth
 :hasMonth rdf:type owl:DatatypeProperty ;
           rdfs:subPropertyOf :dateOfJudgment ;
-          rdfs:domain :DateOfJudgment ,
-                      [ rdf:type owl:Class ;
-                        owl:unionOf ( :Argument
-                                      :DateOfJudgment
-                                    )
-                      ] ;
+          rdfs:domain :DateOfJudgment ;
           rdfs:range xsd:string ;
-          rdfs:comment "specifies the month of the verdict"@en ;
           rdfs:label "hasMonth"@en .
 
 
@@ -787,32 +619,20 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                         rdfs:label "hasPolicePersonnelName"@en .
 
 
-###  https://w3id.org/def/nyon#hasStartIndex
-:hasStartIndex rdf:type owl:DatatypeProperty ;
-               rdfs:domain :Analysis ,
-                           :Argument ,
-                           :Fact ,
-                           :Issue ,
-                           :ObiterDictum ,
-                           :RatioDecidendi ;
-               rdfs:range xsd:string ;
-               rdfs:comment "specifies the start index of the case element in the judgment"@en ;
-               rdfs:label "hasStartIndex" .
-
-
 ###  https://w3id.org/def/nyon#hasYear
 :hasYear rdf:type owl:DatatypeProperty ;
          rdfs:subPropertyOf :dateOfJudgment ;
-         rdfs:domain :DateOfJudgment ,
-                     [ rdf:type owl:Class ;
-                       owl:unionOf ( :Argument
-                                     :DateOfJudgment
-                                   )
-                     ] ;
-         rdfs:range xsd:int ,
-                    xsd:string ;
-         rdfs:comment "specifies the year of teh verdict"@en ;
+         rdfs:domain :DateOfJudgment ;
+         rdfs:range xsd:int ;
          rdfs:label "hasYear"@en .
+
+
+###  https://w3id.org/def/nyon#issueSequenceNum
+:issueSequenceNum rdf:type owl:DatatypeProperty ;
+                  rdfs:subPropertyOf owl:topDataProperty ;
+                  rdfs:domain :Issue ;
+                  rdfs:range xsd:int ;
+                  rdfs:label "issueSequenceNum"@en .
 
 
 ###  https://w3id.org/def/nyon#issueValue
@@ -820,7 +640,6 @@ owl:sameAs rdf:type owl:AnnotationProperty .
             rdfs:subPropertyOf owl:topDataProperty ;
             rdfs:domain :Issue ;
             rdfs:range xsd:string ;
-            rdfs:comment "specifies the issues mentioned in the judgment"@en ;
             rdfs:label "issueValue"@en .
 
 
@@ -829,29 +648,31 @@ owl:sameAs rdf:type owl:AnnotationProperty .
           rdfs:subPropertyOf :partyName ;
           rdfs:domain :Party ;
           rdfs:range xsd:string ;
-          rdfs:comment "specifies the last name of the party"@en ;
           rdfs:label "lastName"@en .
 
 
 ###  https://w3id.org/def/nyon#locationName
 :locationName rdf:type owl:DatatypeProperty ;
               rdfs:subPropertyOf owl:topDataProperty ;
-              rdfs:domain :Location ,
-                          [ rdf:type owl:Class ;
-                            owl:complementOf <https://schema.org/Place>
-                          ] ;
+              rdfs:domain :Location ;
               rdfs:range xsd:string ;
-              rdfs:comment "specifies the name of the location"@en ;
               rdfs:label "locationName"@en .
 
 
 ###  https://w3id.org/def/nyon#neutralCitations
 :neutralCitations rdf:type owl:DatatypeProperty ;
                   rdfs:subPropertyOf owl:topDataProperty ;
-                  rdfs:domain :CourtJudgment ;
+                  rdfs:domain :CourtCase ;
                   rdfs:range xsd:string ;
-                  rdfs:comment "represents neutral citations given by the court itself"@en ;
-                  rdfs:label "neutralCitations"@en .
+                  rdfs:comment "represents neutral citations given by the court itself"@en .
+
+
+###  https://w3id.org/def/nyon#obiterDictumSequenceNum
+:obiterDictumSequenceNum rdf:type owl:DatatypeProperty ;
+                         rdfs:subPropertyOf owl:topDataProperty ;
+                         rdfs:domain :ObiterDictum ;
+                         rdfs:range xsd:int ;
+                         rdfs:label "obiterDictumSequenceNum"@en .
 
 
 ###  https://w3id.org/def/nyon#obiterDictumValue
@@ -859,26 +680,21 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                    rdfs:subPropertyOf owl:topDataProperty ;
                    rdfs:domain :ObiterDictum ;
                    rdfs:range xsd:string ;
-                   rdfs:comment "speciifes the unimportant analysis from the judgment"@en ;
                    rdfs:label "obiterDictumValue"@en .
-
-
-###  https://w3id.org/def/nyon#opinionValue
-:opinionValue rdf:type owl:DatatypeProperty ;
-              rdfs:domain :Opinion ,
-                          [ rdf:type owl:Class ;
-                            owl:complementOf :Judgement
-                          ] ;
-              rdfs:range xsd:string ;
-              rdfs:comment "specifies the opinions of the judges mentioned in the judgment"@en ;
-              rdfs:label "opinionValue"@en .
 
 
 ###  https://w3id.org/def/nyon#partyName
 :partyName rdf:type owl:DatatypeProperty ;
            rdfs:subPropertyOf owl:topDataProperty ;
-           rdfs:comment "specifies the party name involved in the court case"@en ;
            rdfs:label "partyName"@en .
+
+
+###  https://w3id.org/def/nyon#ratioDecidendiSequenceNum
+:ratioDecidendiSequenceNum rdf:type owl:DatatypeProperty ;
+                           rdfs:subPropertyOf owl:topDataProperty ;
+                           rdfs:domain :RatioDecidendi ;
+                           rdfs:range xsd:int ;
+                           rdfs:label "ratioDecidendiSequenceNum"@en .
 
 
 ###  https://w3id.org/def/nyon#ratioDecidendiValue
@@ -886,8 +702,13 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                      rdfs:subPropertyOf owl:topDataProperty ;
                      rdfs:domain :RatioDecidendi ;
                      rdfs:range xsd:string ;
-                     rdfs:comment "specifies the rational of decision mentioned in the judgment"@en ;
                      rdfs:label "ratioDecidendiValue"@en .
+
+
+###  https://w3id.org/def/nyon#value
+:value rdf:type owl:DatatypeProperty ;
+       rdfs:domain :Opinion ;
+       rdfs:range xsd:string .
 
 
 ###  https://w3id.org/def/nyon#wFirstName
@@ -896,7 +717,6 @@ owl:sameAs rdf:type owl:AnnotationProperty .
             rdfs:domain :Witness ;
             rdfs:range xsd:string ;
             owl:propertyDisjointWith :wLastName ;
-            rdfs:comment "specifies the first name of the witness"@en ;
             rdfs:label "wFirstName"@en .
 
 
@@ -905,14 +725,12 @@ owl:sameAs rdf:type owl:AnnotationProperty .
            rdfs:subPropertyOf :witnessName ;
            rdfs:domain :Witness ;
            rdfs:range xsd:string ;
-           rdfs:comment "specifies the last name of the witness"@en ;
            rdfs:label "wLastName"@en .
 
 
 ###  https://w3id.org/def/nyon#witnessName
 :witnessName rdf:type owl:DatatypeProperty ;
              rdfs:subPropertyOf owl:topDataProperty ;
-             rdfs:comment "specifies the witness name mentioned in the court case"@en ;
              rdfs:label "witnessName"@en .
 
 
@@ -921,7 +739,6 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                   rdfs:subPropertyOf owl:topDataProperty ;
                   rdfs:domain :Witness ;
                   rdfs:range xsd:string ;
-                  rdfs:comment "specifies the statements given by the witness"@en ;
                   rdfs:label "witnessStatement"@en .
 
 
@@ -930,7 +747,6 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                  rdfs:subPropertyOf owl:topDataProperty ;
                  rdfs:domain :WordAndPhrase ;
                  rdfs:range xsd:string ;
-                 rdfs:comment "specifies the important phrases or issues mentioned in the judgment"@en ;
                  rdfs:label "wordPhraseValue"@en .
 
 
@@ -941,8 +757,6 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 ###  http://xmlns.com/foaf/0.1/Person
 <http://xmlns.com/foaf/0.1/Person> rdf:type owl:Class ;
                                    owl:equivalentClass :Individual ;
-                                   rdfs:subClassOf :Individual ,
-                                                   :Party_Type ;
                                    rdfs:comment "A person" ;
                                    rdfs:label "Person"@en .
 
@@ -966,10 +780,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                            owl:equivalentClass [ rdf:type owl:Class ;
                                                  owl:complementOf :Location
                                                ] ;
-                           rdfs:subClassOf :Location ,
-                                           [ rdf:type owl:Class ;
-                                             owl:complementOf :Location
-                                           ] ;
+                           rdfs:subClassOf :Location ;
                            rdfs:comment "location name or place name"@en ;
                            rdfs:label "Place"@en .
 
@@ -977,7 +788,6 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 ###  https://w3id.org/def/nyon#Accussed
 :Accussed rdf:type owl:Class ;
           rdfs:subClassOf :Party ,
-                          :Respondent ,
                           [ owl:intersectionOf ( :Respondent
                                                  [ rdf:type owl:Restriction ;
                                                    owl:onProperty :OfDomian ;
@@ -996,14 +806,6 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                                                  ]
                                                ) ;
                             rdf:type owl:Class
-                          ] ,
-                          [ rdf:type owl:Restriction ;
-                            owl:onProperty :hasParty ;
-                            owl:someValuesFrom :Respondent
-                          ] ,
-                          [ rdf:type owl:Restriction ;
-                            owl:onProperty :OfDomian ;
-                            owl:allValuesFrom :Criminal
                           ] ;
           rdfs:comment "person against whom an allegation has been made that he has committed an offence, or who is charge with an offence"@en ;
           rdfs:label "Accused"@en .
@@ -1014,12 +816,6 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                        rdfs:subClassOf :Jurisdiction ;
                        rdfs:comment "jurisdiction type is a advisory jurisdiction"@en ;
                        rdfs:label "Advisory Jurisdiction"@en .
-
-
-###  https://w3id.org/def/nyon#Analysis
-:Analysis rdf:type owl:Class ;
-          rdfs:comment "specifies the judge's analysis for the current case"@en ;
-          rdfs:label "Analysis"@en .
 
 
 ###  https://w3id.org/def/nyon#Appellant
@@ -1039,11 +835,6 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 
 ###  https://w3id.org/def/nyon#Argument
 :Argument rdf:type owl:Class ;
-          rdfs:subClassOf [ rdf:type owl:Class ;
-                            owl:unionOf ( :Argument
-                                          :DateOfJudgment
-                                        )
-                          ] ;
           rdfs:comment "Argument made by any of the party"@en ;
           rdfs:label "Argument"@en .
 
@@ -1055,11 +846,6 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                               owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
                               owl:onClass :Judge
                             ] ;
-        rdfs:subClassOf [ rdf:type owl:Restriction ;
-                          owl:onProperty :hasAuthor ;
-                          owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                          owl:onClass :Judge
-                        ] ;
         rdfs:comment "Author (Judge) who is responsible for a creation of case document"@en ;
         rdfs:label "Author"@en ;
         owl:sameAs "http://lmss.sali.org/Ra6EHlbqrpUT9rxM2PtwIP"@en .
@@ -1086,8 +872,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 
 ###  https://w3id.org/def/nyon#CatchWord
 :CatchWord rdf:type owl:Class ;
-           rdfs:subClassOf :CaseDomain ,
-                           [ owl:intersectionOf ( owl:Thing
+           rdfs:subClassOf [ owl:intersectionOf ( owl:Thing
                                                   :CaseDomain
                                                 ) ;
                              rdf:type owl:Class
@@ -1102,14 +887,6 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                                                   ]
                                                 ) ;
                              rdf:type owl:Class
-                           ] ,
-                           [ rdf:type owl:Restriction ;
-                             owl:onProperty :hasWords ;
-                             owl:someValuesFrom :CaseDomain
-                           ] ,
-                           [ rdf:type owl:Restriction ;
-                             owl:onProperty :hasWords ;
-                             owl:someValuesFrom :Issue
                            ] ;
            rdfs:comment "Descriptive words or phrases used to categorise the subject matter of a case along with some keywords representing the issues in the case"@en ;
            rdfs:label "Catchword"@en .
@@ -1117,18 +894,15 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 
 ###  https://w3id.org/def/nyon#Chief_Meterpolitan_Court
 :Chief_Meterpolitan_Court rdf:type owl:Class ;
-                          rdfs:subClassOf :CaseDomain ,
-                                          :Courts_for_Criminal ;
+                          rdfs:subClassOf :Courts_for_Criminal ;
                           rdfs:comment "lower court at metropolitan level after Sessions Court for criminal cases"@en ;
                           rdfs:label "Chief Meterpolitan Court"@en .
 
 
 ###  https://w3id.org/def/nyon#City_Civil_Courts
 :City_Civil_Courts rdf:type owl:Class ;
-                   rdfs:subClassOf :CaseDomain ,
-                                   :Courts_for_Civil ;
-                   rdfs:comment "lower court at metropolitan level after High Courts for civil cases"@en ,
-                                "नागरिक मामलों के लिए उच्च न्यायालयों के बाद मेट्रोपॉलिटन स्तर पर निचली अदालत"@hi ;
+                   rdfs:subClassOf :Courts_for_Civil ;
+                   rdfs:comment "lower court at metropolitan level after High Courts for civil cases"@en ;
                    rdfs:label "City Civil Court"@en .
 
 
@@ -1142,20 +916,14 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 
 ###  https://w3id.org/def/nyon#Concurrence
 :Concurrence rdf:type owl:Class ;
-             rdfs:subClassOf :Opinion ,
-                             [ rdf:type owl:Class ;
-                               owl:complementOf :Judgement
-                             ] ;
+             rdfs:subClassOf :Opinion ;
              rdfs:comment "decisions result when a judge agrees with the ultimate conclusion made by the majority of the court but disagrees on how they reached that decision" ;
              rdfs:label "Concurrence"@en .
 
 
 ###  https://w3id.org/def/nyon#Country
 :Country rdf:type owl:Class ;
-         rdfs:subClassOf :Location ,
-                         [ rdf:type owl:Class ;
-                           owl:complementOf <https://schema.org/Place>
-                         ] ;
+         rdfs:subClassOf :Location ;
          rdfs:comment "A country" ;
          rdfs:label "Country"@en ;
          owl:sameAs "http://lmss.sali.org/RNrcOpWxQNlCpzR0FTsHNG"@en .
@@ -1170,19 +938,13 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 
 ###  https://w3id.org/def/nyon#CourtCase
 :CourtCase rdf:type owl:Class ;
-           rdfs:comment "specifies the case of the court of law"@en ;
+           rdfs:comment "represents the court judgment given by a court of law"@en ;
            rdfs:label "CourtCase"@en .
 
 
 ###  https://w3id.org/def/nyon#CourtDecision
 :CourtDecision rdf:type owl:Class ;
                rdfs:label "CourtDecision"@en .
-
-
-###  https://w3id.org/def/nyon#CourtJudgment
-:CourtJudgment rdf:type owl:Class ;
-               rdfs:comment "represents the court judgment given by a court of law"@en ;
-               rdfs:label "CourtJudgment"@en .
 
 
 ###  https://w3id.org/def/nyon#Court_Official
@@ -1209,8 +971,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 
 ###  https://w3id.org/def/nyon#Courts_of_Smaller_Causes
 :Courts_of_Smaller_Causes rdf:type owl:Class ;
-                          rdfs:subClassOf :CaseDomain ,
-                                          :Courts_for_Civil ;
+                          rdfs:subClassOf :Courts_for_Civil ;
                           rdfs:comment "lowest court after City Civil Courts at metropolitan level for civil cases"@en ;
                           rdfs:label "Court of Smaller Cause"@en ;
                           owl:sameAs "http://lmss.sali.org/R9Mmy6MnWY16eR6dlLOKnGO"@en .
@@ -1225,11 +986,6 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 
 ###  https://w3id.org/def/nyon#DateOfJudgment
 :DateOfJudgment rdf:type owl:Class ;
-                rdfs:subClassOf [ rdf:type owl:Class ;
-                                  owl:unionOf ( :Argument
-                                                :DateOfJudgment
-                                              )
-                                ] ;
                 rdfs:comment "signifies the final date on which the judgment is given by the court of law"@en ;
                 rdfs:label "DateofJudgment"@en .
 
@@ -1240,11 +996,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                               owl:onProperty :OfDomian ;
                               owl:allValuesFrom :Civil
                             ] ;
-        rdfs:subClassOf :CourtDecision ,
-                        [ rdf:type owl:Restriction ;
-                          owl:onProperty :OfDomian ;
-                          owl:allValuesFrom :Civil
-                        ] ;
+        rdfs:subClassOf :CourtDecision ;
         rdfs:comment "formal order issued by the judges" ;
         rdfs:label "Decree"@en .
 
@@ -1259,44 +1011,22 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 
 ###  https://w3id.org/def/nyon#Dissent
 :Dissent rdf:type owl:Class ;
-         rdfs:subClassOf :Opinion ,
-                         [ rdf:type owl:Class ;
-                           owl:complementOf :Judgement
-                         ] ;
+         rdfs:subClassOf :Opinion ;
          rdfs:comment "judges who do not agree with the majority of the Court" ;
          rdfs:label "Dissent"@en .
 
 
 ###  https://w3id.org/def/nyon#District
 :District rdf:type owl:Class ;
-          rdfs:subClassOf :Location ,
-                          [ rdf:type owl:Class ;
-                            owl:complementOf <https://schema.org/Place>
-                          ] ;
+          rdfs:subClassOf :Location ;
           rdfs:comment "represents district name/location"@en ;
           rdfs:label "District"@en .
 
 
 ###  https://w3id.org/def/nyon#District_Court
 :District_Court rdf:type owl:Class ;
-                rdfs:subClassOf :CaseDomain ,
-                                :Court ,
-                                :Courts_for_Civil ,
-                                [ rdf:type owl:Class ;
-                                  owl:unionOf ( :District_Court
-                                                [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
-                                                                         owl:onProperty :hasPrecedent ;
-                                                                         owl:someValuesFrom :CourtCase
-                                                                       ]
-                                                                       [ rdf:type owl:Restriction ;
-                                                                         owl:onProperty :hasRulingOf ;
-                                                                         owl:someValuesFrom :High_Court
-                                                                       ]
-                                                                     ) ;
-                                                  rdf:type owl:Class
-                                                ]
-                                              )
-                                ] ;
+                rdfs:subClassOf :Court ,
+                                :Courts_for_Civil ;
                 rdfs:comment "a term in judicial system in India in which a case is heard and judged by at least 2 judges"@en ;
                 rdfs:label "District Court"@en .
 
@@ -1338,8 +1068,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 
 ###  https://w3id.org/def/nyon#Individual
 :Individual rdf:type owl:Class ;
-            rdfs:subClassOf <http://xmlns.com/foaf/0.1/Person> ,
-                            :Party_Type ;
+            rdfs:subClassOf :Party_Type ;
             rdfs:comment "participants of the case are the individual persons"@en ;
             rdfs:label "Individual"@en ;
             owl:sameAs "http://lmss.sali.org/RDCkFrEclhipkoHPgckuFY6"@en .
@@ -1371,10 +1100,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
            owl:equivalentClass [ rdf:type owl:Class ;
                                  owl:complementOf :Opinion
                                ] ;
-           rdfs:subClassOf :CourtDecision ,
-                           [ rdf:type owl:Class ;
-                             owl:complementOf :Opinion
-                           ] ;
+           rdfs:subClassOf :CourtDecision ;
            rdfs:comment "Judgement given by the judge "@en ;
            rdfs:label "Judgement"@en ;
            owl:sameAs "http://lmss.sali.org/R9jpIjzc10qdgl78jXOZtfm"@en .
@@ -1413,9 +1139,6 @@ owl:sameAs rdf:type owl:AnnotationProperty .
           owl:equivalentClass [ rdf:type owl:Class ;
                                 owl:complementOf <https://schema.org/Place>
                               ] ;
-          rdfs:subClassOf [ rdf:type owl:Class ;
-                            owl:complementOf <https://schema.org/Place>
-                          ] ;
           rdfs:comment "represents the location of the courts, etc and also used for evidence locations"@en ;
           rdfs:label "Location"@en ;
           owl:sameAs "http://lmss.sali.org/R9aSzp9cEiBCzObnP92jYFX"@en .
@@ -1423,18 +1146,14 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 
 ###  https://w3id.org/def/nyon#Majority
 :Majority rdf:type owl:Class ;
-          rdfs:subClassOf :Opinion ,
-                          [ rdf:type owl:Class ;
-                            owl:complementOf :Judgement
-                          ] ;
+          rdfs:subClassOf :Opinion ;
           rdfs:comment "Majority decisions are the ones where a majority of the judges agree" ;
           rdfs:label "Majority"@en .
 
 
 ###  https://w3id.org/def/nyon#Metropolitan_Magistrate_Courts
 :Metropolitan_Magistrate_Courts rdf:type owl:Class ;
-                                rdfs:subClassOf :CaseDomain ,
-                                                :Courts_for_Criminal ;
+                                rdfs:subClassOf :Courts_for_Criminal ;
                                 rdfs:comment "lowest court after Chief Metropolitan Court at metropolitan level for criminal cases"@en ;
                                 rdfs:label "Metropolitan Magistrate Court"@en .
 
@@ -1448,8 +1167,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 
 ###  https://w3id.org/def/nyon#Munsif_Court
 :Munsif_Court rdf:type owl:Class ;
-              rdfs:subClassOf :CaseDomain ,
-                              :Courts_for_Civil ;
+              rdfs:subClassOf :Courts_for_Civil ;
               rdfs:comment "lowest court in heirarchy for civil ases at district level after Principal Junior Civil Court"@en ;
               rdfs:label "Munsif Court"@en .
 
@@ -1457,7 +1175,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 ###  https://w3id.org/def/nyon#ObiterDictum
 :ObiterDictum rdf:type owl:Class ;
               rdfs:comment "additional obersvations, remarks, and opinions made by the judge that are not the part of the reason for the decision"@en ;
-              rdfs:label "ObiterDictum"@en .
+              rdfs:label "Obiter Dictum"@en .
 
 
 ###  https://w3id.org/def/nyon#Opinion
@@ -1465,9 +1183,6 @@ owl:sameAs rdf:type owl:AnnotationProperty .
          owl:equivalentClass [ rdf:type owl:Class ;
                                owl:complementOf :Judgement
                              ] ;
-         rdfs:subClassOf [ rdf:type owl:Class ;
-                           owl:complementOf :Judgement
-                         ] ;
          rdfs:comment "judge opinion with respect to case or judgment"@en ;
          rdfs:label "Opinion"@en ;
          owl:sameAs "http://lmss.sali.org/RDNaE3PFsXDfIudTq7w3ace"@en .
@@ -1525,7 +1240,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                              owl:unionOf ( :District_Court
                                            [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
                                                                     owl:onProperty :hasPrecedent ;
-                                                                    owl:someValuesFrom :CourtJudgment
+                                                                    owl:someValuesFrom :CourtCase
                                                                   ]
                                                                   [ rdf:type owl:Restriction ;
                                                                     owl:onProperty :hasRulingOf ;
@@ -1542,8 +1257,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 
 ###  https://w3id.org/def/nyon#Principal_Junior_Civil_Court
 :Principal_Junior_Civil_Court rdf:type owl:Class ;
-                              rdfs:subClassOf :CaseDomain ,
-                                              :Courts_for_Civil ;
+                              rdfs:subClassOf :Courts_for_Civil ;
                               rdfs:comment "third lower court in hierarchy at district level for civil cases"@en ;
                               rdfs:label "Principal Junior Civil Court"@en .
 
@@ -1575,16 +1289,9 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                      rdfs:label "Review Jurisdiction"@en .
 
 
-###  https://w3id.org/def/nyon#RulingOf
-:RulingOf rdf:type owl:Class ;
-          rdfs:comment "specifies the verdicts given by the various courts that are mentioned in the judgment"@en ;
-          rdfs:label "RulingOf"@en .
-
-
 ###  https://w3id.org/def/nyon#Session_Court
 :Session_Court rdf:type owl:Class ;
-               rdfs:subClassOf :CaseDomain ,
-                               :Courts_for_Criminal ;
+               rdfs:subClassOf :Courts_for_Criminal ;
                rdfs:comment "lower court at both distrcit and metropolitan level after High Courts specific for criminal cases"@en ;
                rdfs:label "Sessions Court"@en .
 
@@ -1641,10 +1348,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 ###  https://w3id.org/def/nyon#State
 :State rdf:type owl:Class ;
        rdfs:subClassOf :Location ,
-                       :Party_Type ,
-                       [ rdf:type owl:Class ;
-                         owl:complementOf <https://schema.org/Place>
-                       ] ;
+                       :Party_Type ;
        rdfs:comment "represents state name/location"@en ;
        rdfs:label "State"@en .
 
@@ -1660,10 +1364,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
            owl:equivalentClass [ rdf:type owl:Class ;
                                  owl:complementOf :Tribunal
                                ] ;
-           rdfs:subClassOf :Courts_for_Civil ,
-                           [ rdf:type owl:Class ;
-                             owl:complementOf :Tribunal
-                           ] ;
+           rdfs:subClassOf :Courts_for_Civil ;
            rdfs:comment "second lower court in hierarchy at District level for civil cases"@en ;
            rdfs:label "Sub Court"@en .
 
@@ -1677,10 +1378,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 
 ###  https://w3id.org/def/nyon#Taluka
 :Taluka rdf:type owl:Class ;
-        rdfs:subClassOf :Location ,
-                        [ rdf:type owl:Class ;
-                          owl:complementOf <https://schema.org/Place>
-                        ] ;
+        rdfs:subClassOf :Location ;
         rdfs:comment "represents taluka name/location"@en ;
         rdfs:label "Taluka"@en .
 
@@ -1721,16 +1419,14 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 
 ###  https://w3id.org/def/nyon#Judicial_Magistrate_Court(First_Class)
 <https://w3id.org/def/nyon#Judicial_Magistrate_Court(First_Class)> rdf:type owl:Class ;
-                                                                   rdfs:subClassOf :CaseDomain ,
-                                                                                   :Courts_for_Criminal ;
+                                                                   rdfs:subClassOf :Courts_for_Criminal ;
                                                                    rdfs:comment "second lower court at distrcit level after districit level Session Court for criminal cases"@en ;
                                                                    rdfs:label "Judicial Magistrate Court (First Class)"@en .
 
 
 ###  https://w3id.org/def/nyon#Judicial_Magistrate_Court(Second_Class)
 <https://w3id.org/def/nyon#Judicial_Magistrate_Court(Second_Class)> rdf:type owl:Class ;
-                                                                    rdfs:subClassOf :CaseDomain ,
-                                                                                    :Courts_for_Criminal ;
+                                                                    rdfs:subClassOf :Courts_for_Criminal ;
                                                                     rdfs:comment "lowest court after Judicial Magistrate Court (First Class) at distrcit level for criminal cases"@en ;
                                                                     rdfs:label "Judicial Magistrate Court (Second Class)"@en .
 
@@ -1738,340 +1434,6 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 #################################################################
 #    General axioms
 #################################################################
-
-[ owl:intersectionOf ( [ rdf:type owl:Restriction ;
-                         owl:onProperty :hasBench ;
-                         owl:someValuesFrom :Judge
-                       ]
-                       [ rdf:type owl:Restriction ;
-                         owl:onProperty :hasJudge ;
-                         owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                         owl:onClass :Judge
-                       ]
-                     ) ;
-  rdf:type owl:Class ;
-  owl:equivalentClass [ rdf:type owl:Class ;
-                        owl:complementOf :Judge
-                      ]
-] .
-
-
-[ owl:intersectionOf ( [ rdf:type owl:Restriction ;
-                         owl:onProperty :hasBench ;
-                         owl:someValuesFrom :Judge
-                       ]
-                       [ rdf:type owl:Restriction ;
-                         owl:onProperty :hasJudge ;
-                         owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                         owl:onClass :Judge
-                       ]
-                     ) ;
-  rdf:type owl:Class ;
-  owl:equivalentClass [ rdf:type owl:Class ;
-                        owl:complementOf [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
-                                                                  owl:onProperty :hasCourtOfficial ;
-                                                                  owl:someValuesFrom :Judge
-                                                                ]
-                                                                [ rdf:type owl:Restriction ;
-                                                                  owl:onProperty :hasJudge ;
-                                                                  owl:someValuesFrom :Judge
-                                                                ]
-                                                              ) ;
-                                           rdf:type owl:Class
-                                         ]
-                      ]
-] .
-
-
-[ rdf:type owl:Class ;
-  owl:complementOf :Judge ;
-  owl:equivalentClass [ rdf:type owl:Class ;
-                        owl:complementOf [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
-                                                                  owl:onProperty :hasCourtOfficial ;
-                                                                  owl:someValuesFrom :Judge
-                                                                ]
-                                                                [ rdf:type owl:Restriction ;
-                                                                  owl:onProperty :hasJudge ;
-                                                                  owl:someValuesFrom :Judge
-                                                                ]
-                                                              ) ;
-                                           rdf:type owl:Class
-                                         ]
-                      ]
-] .
-
-
-[ owl:intersectionOf ( owl:Thing
-                       :CaseDomain
-                     ) ;
-  rdf:type owl:Class ;
-  rdfs:subClassOf :CaseDomain
-] .
-
-
-[ owl:intersectionOf ( :Respondent
-                       [ rdf:type owl:Restriction ;
-                         owl:onProperty :OfDomian ;
-                         owl:allValuesFrom :Criminal
-                       ]
-                     ) ;
-  rdf:type owl:Class ;
-  rdfs:subClassOf :Party
-] .
-
-
-[ owl:intersectionOf ( :Respondent
-                       [ rdf:type owl:Restriction ;
-                         owl:onProperty :OfDomian ;
-                         owl:allValuesFrom :Criminal
-                       ]
-                     ) ;
-  rdf:type owl:Class ;
-  rdfs:subClassOf :Respondent
-] .
-
-
-[ owl:intersectionOf ( :Respondent
-                       [ rdf:type owl:Restriction ;
-                         owl:onProperty :OfDomian ;
-                         owl:allValuesFrom :Criminal
-                       ]
-                     ) ;
-  rdf:type owl:Class ;
-  rdfs:subClassOf [ rdf:type owl:Restriction ;
-                    owl:onProperty :OfDomian ;
-                    owl:allValuesFrom :Criminal
-                  ]
-] .
-
-
-[ owl:intersectionOf ( [ rdf:type owl:Restriction ;
-                         owl:onProperty :hasCourtOfficial ;
-                         owl:someValuesFrom :Judge
-                       ]
-                       [ rdf:type owl:Restriction ;
-                         owl:onProperty :hasJudge ;
-                         owl:someValuesFrom :Judge
-                       ]
-                     ) ;
-  rdf:type owl:Class ;
-  rdfs:subClassOf [ rdf:type owl:Restriction ;
-                    owl:onProperty :hasCourtOfficial ;
-                    owl:someValuesFrom :Judge
-                  ]
-] .
-
-
-[ owl:intersectionOf ( [ rdf:type owl:Restriction ;
-                         owl:onProperty :hasCourtOfficial ;
-                         owl:someValuesFrom :Judge
-                       ]
-                       [ rdf:type owl:Restriction ;
-                         owl:onProperty :hasJudge ;
-                         owl:someValuesFrom :Judge
-                       ]
-                     ) ;
-  rdf:type owl:Class ;
-  rdfs:subClassOf [ rdf:type owl:Restriction ;
-                    owl:onProperty :hasJudge ;
-                    owl:someValuesFrom :Judge
-                  ]
-] .
-
-
-[ owl:intersectionOf ( [ rdf:type owl:Restriction ;
-                         owl:onProperty :hasParty ;
-                         owl:someValuesFrom :Respondent
-                       ]
-                       [ rdf:type owl:Restriction ;
-                         owl:onProperty :OfDomian ;
-                         owl:allValuesFrom :Criminal
-                       ]
-                     ) ;
-  rdf:type owl:Class ;
-  rdfs:subClassOf [ rdf:type owl:Restriction ;
-                    owl:onProperty :hasParty ;
-                    owl:someValuesFrom :Respondent
-                  ]
-] .
-
-
-[ owl:intersectionOf ( [ rdf:type owl:Restriction ;
-                         owl:onProperty :hasParty ;
-                         owl:someValuesFrom :Respondent
-                       ]
-                       [ rdf:type owl:Restriction ;
-                         owl:onProperty :OfDomian ;
-                         owl:allValuesFrom :Criminal
-                       ]
-                     ) ;
-  rdf:type owl:Class ;
-  rdfs:subClassOf [ rdf:type owl:Restriction ;
-                    owl:onProperty :OfDomian ;
-                    owl:allValuesFrom :Criminal
-                  ]
-] .
-
-
-[ owl:intersectionOf ( [ rdf:type owl:Restriction ;
-                         owl:onProperty :hasPrecedent ;
-                         owl:someValuesFrom :CourtCase
-                       ]
-                       [ rdf:type owl:Restriction ;
-                         owl:onProperty :hasRulingOf ;
-                         owl:someValuesFrom :High_Court
-                       ]
-                     ) ;
-  rdf:type owl:Class ;
-  rdfs:subClassOf [ rdf:type owl:Class ;
-                    owl:unionOf ( :District_Court
-                                  [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
-                                                           owl:onProperty :hasPrecedent ;
-                                                           owl:someValuesFrom :CourtCase
-                                                         ]
-                                                         [ rdf:type owl:Restriction ;
-                                                           owl:onProperty :hasRulingOf ;
-                                                           owl:someValuesFrom :High_Court
-                                                         ]
-                                                       ) ;
-                                    rdf:type owl:Class
-                                  ]
-                                )
-                  ]
-] .
-
-
-[ owl:intersectionOf ( [ rdf:type owl:Restriction ;
-                         owl:onProperty :hasPrecedent ;
-                         owl:someValuesFrom :CourtCase
-                       ]
-                       [ rdf:type owl:Restriction ;
-                         owl:onProperty :hasRulingOf ;
-                         owl:someValuesFrom :High_Court
-                       ]
-                     ) ;
-  rdf:type owl:Class ;
-  rdfs:subClassOf [ rdf:type owl:Restriction ;
-                    owl:onProperty :hasPrecedent ;
-                    owl:someValuesFrom :CourtCase
-                  ]
-] .
-
-
-[ owl:intersectionOf ( [ rdf:type owl:Restriction ;
-                         owl:onProperty :hasPrecedent ;
-                         owl:someValuesFrom :CourtCase
-                       ]
-                       [ rdf:type owl:Restriction ;
-                         owl:onProperty :hasRulingOf ;
-                         owl:someValuesFrom :High_Court
-                       ]
-                     ) ;
-  rdf:type owl:Class ;
-  rdfs:subClassOf [ rdf:type owl:Restriction ;
-                    owl:onProperty :hasRulingOf ;
-                    owl:someValuesFrom :High_Court
-                  ]
-] .
-
-
-[ owl:intersectionOf ( [ rdf:type owl:Restriction ;
-                         owl:onProperty :hasWords ;
-                         owl:someValuesFrom :CaseDomain
-                       ]
-                       [ rdf:type owl:Restriction ;
-                         owl:onProperty :hasWords ;
-                         owl:someValuesFrom :Issue
-                       ]
-                     ) ;
-  rdf:type owl:Class ;
-  rdfs:subClassOf [ rdf:type owl:Restriction ;
-                    owl:onProperty :hasWords ;
-                    owl:someValuesFrom :CaseDomain
-                  ]
-] .
-
-
-[ owl:intersectionOf ( [ rdf:type owl:Restriction ;
-                         owl:onProperty :hasWords ;
-                         owl:someValuesFrom :CaseDomain
-                       ]
-                       [ rdf:type owl:Restriction ;
-                         owl:onProperty :hasWords ;
-                         owl:someValuesFrom :Issue
-                       ]
-                     ) ;
-  rdf:type owl:Class ;
-  rdfs:subClassOf [ rdf:type owl:Restriction ;
-                    owl:onProperty :hasWords ;
-                    owl:someValuesFrom :Issue
-                  ]
-] .
-
-
-[ rdf:type owl:Class ;
-  owl:complementOf <https://schema.org/Place> ;
-  rdfs:subClassOf :Location
-] .
-
-
-[ rdf:type owl:Class ;
-  owl:complementOf :Judgement ;
-  rdfs:subClassOf :Opinion
-] .
-
-
-[ rdf:type owl:Class ;
-  owl:complementOf :Location ;
-  rdfs:subClassOf <https://schema.org/Place>
-] .
-
-
-[ rdf:type owl:Class ;
-  owl:complementOf :Opinion ;
-  rdfs:subClassOf :CourtDecision
-] .
-
-
-[ rdf:type owl:Class ;
-  owl:complementOf :Opinion ;
-  rdfs:subClassOf :Judgement
-] .
-
-
-[ rdf:type owl:Class ;
-  owl:complementOf :Tribunal ;
-  rdfs:subClassOf :Courts_for_Civil
-] .
-
-
-[ rdf:type owl:Class ;
-  owl:complementOf :Tribunal ;
-  rdfs:subClassOf :Sub_Court
-] .
-
-
-[ rdf:type owl:Restriction ;
-  owl:onProperty :OfDomian ;
-  owl:allValuesFrom :Civil ;
-  rdfs:subClassOf :CourtDecision
-] .
-
-
-[ rdf:type owl:Restriction ;
-  owl:onProperty :OfDomian ;
-  owl:allValuesFrom :Civil ;
-  rdfs:subClassOf :Decree
-] .
-
-
-[ rdf:type owl:Restriction ;
-  owl:onProperty :hasAuthor ;
-  owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-  owl:onClass :Judge ;
-  rdfs:subClassOf :Author
-] .
-
 
 [ rdf:type owl:AllDisjointClasses ;
   owl:members ( <https://schema.org/GovernmentOrganization>
@@ -2182,6 +1544,36 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 
 
 [ rdf:type owl:AllDisjointProperties ;
+  owl:members ( :argumentSequenceNum
+                :argumentValue
+                :catchwordValue
+                :courtName
+                :courtOffName
+                :dateOfJudgment
+                :evidenceLocation
+                :factSequenceNum
+                :factValue
+                :finalDecisionValue
+                :hasCaseID
+                :hasCaseName
+                :hasDesignation
+                :hasPolicePersonnelName
+                :issueSequenceNum
+                :issueValue
+                :locationName
+                :obiterDictumSequenceNum
+                :obiterDictumValue
+                :partyName
+                :ratioDecidendiSequenceNum
+                :ratioDecidendiValue
+                :witnessName
+                :witnessStatement
+                :wordPhraseValue
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointProperties ;
   owl:members ( :hasDate
                 :hasMonth
                 :hasYear
@@ -2213,28 +1605,19 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 
 <https://w3id.org/def/NyOn#y> rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
 
-:cj rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
-
-:p rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
-
-:a rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
-
-:d rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
-
 [ <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean ;
    rdfs:comment "" ;
    rdfs:label "S5" ;
    rdf:type <http://www.w3.org/2003/11/swrl#Imp> ;
    <http://www.w3.org/2003/11/swrl#body> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> ;
-                                                       <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasParty ;
-                                                       <http://www.w3.org/2003/11/swrl#argument1> <https://w3id.org/def/NyOn#cj> ;
-                                                       <http://www.w3.org/2003/11/swrl#argument2> <https://w3id.org/def/NyOn#p>
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> :CourtCase ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <https://w3id.org/def/NyOn#cj>
                                                      ] ;
                                            rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
                                                       rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
-                                                                  <http://www.w3.org/2003/11/swrl#classPredicate> :CourtJudgment ;
-                                                                  <http://www.w3.org/2003/11/swrl#argument1> <https://w3id.org/def/NyOn#cj>
+                                                                  <http://www.w3.org/2003/11/swrl#classPredicate> :Petitioner ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument1> <https://w3id.org/def/NyOn#p>
                                                                 ] ;
                                                       rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
                                                                  rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> ;
@@ -2244,13 +1627,14 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                                                                            ] ;
                                                                  rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
                                                                             rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
-                                                                                        <http://www.w3.org/2003/11/swrl#classPredicate> :Petitioner ;
-                                                                                        <http://www.w3.org/2003/11/swrl#argument1> <https://w3id.org/def/NyOn#p>
+                                                                                        <http://www.w3.org/2003/11/swrl#classPredicate> :Argument ;
+                                                                                        <http://www.w3.org/2003/11/swrl#argument1> <https://w3id.org/def/NyOn#a>
                                                                                       ] ;
                                                                             rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                                                                       rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
-                                                                                                   <http://www.w3.org/2003/11/swrl#classPredicate> :Argument ;
-                                                                                                   <http://www.w3.org/2003/11/swrl#argument1> <https://w3id.org/def/NyOn#a>
+                                                                                       rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> ;
+                                                                                                   <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasParty ;
+                                                                                                   <http://www.w3.org/2003/11/swrl#argument1> <https://w3id.org/def/NyOn#cj> ;
+                                                                                                   <http://www.w3.org/2003/11/swrl#argument2> <https://w3id.org/def/NyOn#p>
                                                                                                  ] ;
                                                                                        rdf:rest rdf:nil
                                                                                      ]
@@ -2438,147 +1822,6 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                                                        <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasJudge ;
                                                        <http://www.w3.org/2003/11/swrl#argument1> <https://w3id.org/def/NyOn#x> ;
                                                        <http://www.w3.org/2003/11/swrl#argument2> <https://w3id.org/def/NyOn#j>
-                                                     ] ;
-                                           rdf:rest rdf:nil
-                                         ]
- ] .
-
-[ <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean ;
-   rdfs:comment "" ;
-   rdfs:label "S9" ;
-   rdf:type <http://www.w3.org/2003/11/swrl#Imp> ;
-   <http://www.w3.org/2003/11/swrl#body> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> ;
-                                                       <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasParty ;
-                                                       <http://www.w3.org/2003/11/swrl#argument1> :cj ;
-                                                       <http://www.w3.org/2003/11/swrl#argument2> :p
-                                                     ] ;
-                                           rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                                      rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
-                                                                  <http://www.w3.org/2003/11/swrl#classPredicate> :CourtJudgment ;
-                                                                  <http://www.w3.org/2003/11/swrl#argument1> :cj
-                                                                ] ;
-                                                      rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                                                 rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
-                                                                             <http://www.w3.org/2003/11/swrl#classPredicate> :Argument ;
-                                                                             <http://www.w3.org/2003/11/swrl#argument1> :a
-                                                                           ] ;
-                                                                 rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                                                            rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
-                                                                                        <http://www.w3.org/2003/11/swrl#classPredicate> :Defendant ;
-                                                                                        <http://www.w3.org/2003/11/swrl#argument1> :d
-                                                                                      ] ;
-                                                                            rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                                                                       rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> ;
-                                                                                                   <http://www.w3.org/2003/11/swrl#propertyPredicate> :makeArgument ;
-                                                                                                   <http://www.w3.org/2003/11/swrl#argument1> :p ;
-                                                                                                   <http://www.w3.org/2003/11/swrl#argument2> :a
-                                                                                                 ] ;
-                                                                                       rdf:rest rdf:nil
-                                                                                     ]
-                                                                          ]
-                                                               ]
-                                                    ]
-                                         ] ;
-   <http://www.w3.org/2003/11/swrl#head> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> ;
-                                                       <http://www.w3.org/2003/11/swrl#propertyPredicate> :defendentArgument ;
-                                                       <http://www.w3.org/2003/11/swrl#argument1> :cj ;
-                                                       <http://www.w3.org/2003/11/swrl#argument2> :a
-                                                     ] ;
-                                           rdf:rest rdf:nil
-                                         ]
- ] .
-
-[ <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean ;
-   rdfs:comment "" ;
-   rdfs:label "S8" ;
-   rdf:type <http://www.w3.org/2003/11/swrl#Imp> ;
-   <http://www.w3.org/2003/11/swrl#body> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> ;
-                                                       <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasParty ;
-                                                       <http://www.w3.org/2003/11/swrl#argument1> :cj ;
-                                                       <http://www.w3.org/2003/11/swrl#argument2> :p
-                                                     ] ;
-                                           rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                                      rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
-                                                                  <http://www.w3.org/2003/11/swrl#classPredicate> :CourtJudgment ;
-                                                                  <http://www.w3.org/2003/11/swrl#argument1> :cj
-                                                                ] ;
-                                                      rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                                                 rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> ;
-                                                                             <http://www.w3.org/2003/11/swrl#propertyPredicate> :makeArgument ;
-                                                                             <http://www.w3.org/2003/11/swrl#argument1> :p ;
-                                                                             <http://www.w3.org/2003/11/swrl#argument2> :a
-                                                                           ] ;
-                                                                 rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                                                            rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
-                                                                                        <http://www.w3.org/2003/11/swrl#classPredicate> :Plaintiff ;
-                                                                                        <http://www.w3.org/2003/11/swrl#argument1> :p
-                                                                                      ] ;
-                                                                            rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                                                                       rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
-                                                                                                   <http://www.w3.org/2003/11/swrl#classPredicate> :Argument ;
-                                                                                                   <http://www.w3.org/2003/11/swrl#argument1> :a
-                                                                                                 ] ;
-                                                                                       rdf:rest rdf:nil
-                                                                                     ]
-                                                                          ]
-                                                               ]
-                                                    ]
-                                         ] ;
-   <http://www.w3.org/2003/11/swrl#head> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> ;
-                                                       <http://www.w3.org/2003/11/swrl#propertyPredicate> :plaintiffArgument ;
-                                                       <http://www.w3.org/2003/11/swrl#argument1> :cj ;
-                                                       <http://www.w3.org/2003/11/swrl#argument2> :a
-                                                     ] ;
-                                           rdf:rest rdf:nil
-                                         ]
- ] .
-
-[ <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^xsd:boolean ;
-   rdfs:comment "" ;
-   rdfs:label "S7" ;
-   rdf:type <http://www.w3.org/2003/11/swrl#Imp> ;
-   <http://www.w3.org/2003/11/swrl#body> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> ;
-                                                       <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasParty ;
-                                                       <http://www.w3.org/2003/11/swrl#argument1> :cj ;
-                                                       <http://www.w3.org/2003/11/swrl#argument2> :p
-                                                     ] ;
-                                           rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                                      rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
-                                                                  <http://www.w3.org/2003/11/swrl#classPredicate> :CourtJudgment ;
-                                                                  <http://www.w3.org/2003/11/swrl#argument1> :cj
-                                                                ] ;
-                                                      rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                                                 rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> ;
-                                                                             <http://www.w3.org/2003/11/swrl#propertyPredicate> :makeArgument ;
-                                                                             <http://www.w3.org/2003/11/swrl#argument1> :p ;
-                                                                             <http://www.w3.org/2003/11/swrl#argument2> :a
-                                                                           ] ;
-                                                                 rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                                                            rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
-                                                                                        <http://www.w3.org/2003/11/swrl#classPredicate> :Respondent ;
-                                                                                        <http://www.w3.org/2003/11/swrl#argument1> :p
-                                                                                      ] ;
-                                                                            rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                                                                       rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
-                                                                                                   <http://www.w3.org/2003/11/swrl#classPredicate> :Argument ;
-                                                                                                   <http://www.w3.org/2003/11/swrl#argument1> :a
-                                                                                                 ] ;
-                                                                                       rdf:rest rdf:nil
-                                                                                     ]
-                                                                          ]
-                                                               ]
-                                                    ]
-                                         ] ;
-   <http://www.w3.org/2003/11/swrl#head> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
-                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> ;
-                                                       <http://www.w3.org/2003/11/swrl#propertyPredicate> :respondentArgument ;
-                                                       <http://www.w3.org/2003/11/swrl#argument1> :cj ;
-                                                       <http://www.w3.org/2003/11/swrl#argument2> :a
                                                      ] ;
                                            rdf:rest rdf:nil
                                          ]
