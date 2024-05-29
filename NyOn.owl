@@ -18,6 +18,7 @@
      xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
      xmlns:terms="http://purl.org/dc/terms/">
     <owl:Ontology rdf:about="https://w3id.org/def/nyon#">
+        <owl:imports rdf:resource="http://lmss.sali.org/"/>
         <dc:publisher rdf:resource="https://www.semintelligence.org/projects"/>
         <terms:created>2020-04-04</terms:created>
         <terms:creator>Harde, Pooja</terms:creator>
