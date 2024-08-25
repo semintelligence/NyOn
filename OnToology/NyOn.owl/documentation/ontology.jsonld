@@ -22,6 +22,22 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
+      "@id" : "https://w3id.org/def/nyon#Chief_Meterpolitan_Court"
+    }, {
+      "@id" : "https://w3id.org/def/nyon#Metropolitan_Magistrate_Courts"
+    }, {
+      "@id" : "https://w3id.org/def/nyon#Session_Court"
+    }, {
+      "@id" : "https://w3id.org/def/nyon#Judicial_Magistrate_Court(First_Class)"
+    }, {
+      "@id" : "https://w3id.org/def/nyon#Judicial_Magistrate_Court(Second_Class)"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid106",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
       "@id" : "https://w3id.org/def/nyon#City_Civil_Courts"
     }, {
       "@id" : "https://w3id.org/def/nyon#Courts_of_Smaller_Causes"
@@ -36,7 +52,7 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid107",
+  "@id" : "_:genid113",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -48,7 +64,7 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid111",
+  "@id" : "_:genid117",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -57,22 +73,6 @@
       "@id" : "https://w3id.org/def/nyon#Judge"
     }, {
       "@id" : "https://w3id.org/def/nyon#Solicitor"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid115",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointProperties" ],
-  "http://www.w3.org/2002/07/owl#members" : [ {
-    "@list" : [ {
-      "@id" : "https://w3id.org/def/nyon#appellantArgument"
-    }, {
-      "@id" : "https://w3id.org/def/nyon#defendentArgument"
-    }, {
-      "@id" : "https://w3id.org/def/nyon#petitionerArgument"
-    }, {
-      "@id" : "https://w3id.org/def/nyon#plaintiffArgument"
-    }, {
-      "@id" : "https://w3id.org/def/nyon#respondentArgument"
     } ]
   } ]
 }, {
@@ -89,43 +89,27 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointProperties" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "https://w3id.org/def/nyon#citedBy"
+      "@id" : "https://w3id.org/def/nyon#appellantArgument"
     }, {
-      "@id" : "https://w3id.org/def/nyon#cites"
+      "@id" : "https://w3id.org/def/nyon#defendentArgument"
     }, {
-      "@id" : "https://w3id.org/def/nyon#hasAuthor"
+      "@id" : "https://w3id.org/def/nyon#petitionerArgument"
     }, {
-      "@id" : "https://w3id.org/def/nyon#hasBench"
+      "@id" : "https://w3id.org/def/nyon#plaintiffArgument"
     }, {
-      "@id" : "https://w3id.org/def/nyon#hasCourtOfficial"
+      "@id" : "https://w3id.org/def/nyon#respondentArgument"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid127",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointProperties" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/def/nyon#precedentOverruled"
     }, {
-      "@id" : "https://w3id.org/def/nyon#hasDateOfJudgment"
+      "@id" : "https://w3id.org/def/nyon#precedentReliedUpon"
     }, {
-      "@id" : "https://w3id.org/def/nyon#hasEvidence"
-    }, {
-      "@id" : "https://w3id.org/def/nyon#hasFact"
-    }, {
-      "@id" : "https://w3id.org/def/nyon#hasFinalDecision"
-    }, {
-      "@id" : "https://w3id.org/def/nyon#hasJudgmentType"
-    }, {
-      "@id" : "https://w3id.org/def/nyon#hasObiterDictum"
-    }, {
-      "@id" : "https://w3id.org/def/nyon#hasParty"
-    }, {
-      "@id" : "https://w3id.org/def/nyon#hasPolicePersonnel"
-    }, {
-      "@id" : "https://w3id.org/def/nyon#hasRatioDecidendi"
-    }, {
-      "@id" : "https://w3id.org/def/nyon#hasRulingOf"
-    }, {
-      "@id" : "https://w3id.org/def/nyon#hasStatue"
-    }, {
-      "@id" : "https://w3id.org/def/nyon#hasWitness"
-    }, {
-      "@id" : "https://w3id.org/def/nyon#hasWordPhrase"
-    }, {
-      "@id" : "https://w3id.org/def/nyon#hasWords"
+      "@id" : "https://w3id.org/def/nyon#precendentNotReliedUpon"
     } ]
   } ]
 }, {
@@ -142,29 +126,7 @@
     "@value" : "1"
   } ]
 }, {
-  "@id" : "_:genid14",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
-    "@list" : [ {
-      "@id" : "http://www.w3.org/2002/07/owl#Thing"
-    }, {
-      "@id" : "https://w3id.org/def/nyon#CaseDomain"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid141",
-  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointProperties" ],
-  "http://www.w3.org/2002/07/owl#members" : [ {
-    "@list" : [ {
-      "@id" : "https://w3id.org/def/nyon#precedentOverruled"
-    }, {
-      "@id" : "https://w3id.org/def/nyon#precedentReliedUpon"
-    }, {
-      "@id" : "https://w3id.org/def/nyon#precendentNotReliedUpon"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid145",
+  "@id" : "_:genid131",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointProperties" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -220,17 +182,17 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid17",
+  "@id" : "_:genid14",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
-      "@id" : "_:genid21"
+      "@id" : "http://www.w3.org/2002/07/owl#Thing"
     }, {
-      "@id" : "_:genid19"
+      "@id" : "https://w3id.org/def/nyon#CaseDomain"
     } ]
   } ]
 }, {
-  "@id" : "_:genid171",
+  "@id" : "_:genid157",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointProperties" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -242,7 +204,7 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid175",
+  "@id" : "_:genid161",
   "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
   "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
@@ -256,24 +218,24 @@
   } ],
   "http://www.w3.org/2003/11/swrl#body" : [ {
     "@list" : [ {
-      "@id" : "_:genid185"
+      "@id" : "_:genid171"
     }, {
-      "@id" : "_:genid183"
+      "@id" : "_:genid169"
     }, {
-      "@id" : "_:genid181"
+      "@id" : "_:genid167"
     }, {
-      "@id" : "_:genid179"
+      "@id" : "_:genid165"
     }, {
-      "@id" : "_:genid177"
+      "@id" : "_:genid163"
     } ]
   } ],
   "http://www.w3.org/2003/11/swrl#head" : [ {
     "@list" : [ {
-      "@id" : "_:genid187"
+      "@id" : "_:genid173"
     } ]
   } ]
 }, {
-  "@id" : "_:genid177",
+  "@id" : "_:genid163",
   "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
   "http://www.w3.org/2003/11/swrl#argument1" : [ {
     "@id" : "https://w3id.org/def/NyOn#cj"
@@ -285,7 +247,7 @@
     "@id" : "https://w3id.org/def/nyon#hasParty"
   } ]
 }, {
-  "@id" : "_:genid179",
+  "@id" : "_:genid165",
   "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
   "http://www.w3.org/2003/11/swrl#argument1" : [ {
     "@id" : "https://w3id.org/def/NyOn#a"
@@ -294,7 +256,7 @@
     "@id" : "https://w3id.org/def/nyon#Argument"
   } ]
 }, {
-  "@id" : "_:genid181",
+  "@id" : "_:genid167",
   "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
   "http://www.w3.org/2003/11/swrl#argument1" : [ {
     "@id" : "https://w3id.org/def/NyOn#p"
@@ -306,7 +268,7 @@
     "@id" : "https://w3id.org/def/nyon#makeArgument"
   } ]
 }, {
-  "@id" : "_:genid183",
+  "@id" : "_:genid169",
   "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
   "http://www.w3.org/2003/11/swrl#argument1" : [ {
     "@id" : "https://w3id.org/def/NyOn#p"
@@ -315,7 +277,17 @@
     "@id" : "https://w3id.org/def/nyon#Petitioner"
   } ]
 }, {
-  "@id" : "_:genid185",
+  "@id" : "_:genid17",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "_:genid21"
+    }, {
+      "@id" : "_:genid19"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid171",
   "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
   "http://www.w3.org/2003/11/swrl#argument1" : [ {
     "@id" : "https://w3id.org/def/NyOn#cj"
@@ -324,7 +296,7 @@
     "@id" : "https://w3id.org/def/nyon#CourtCase"
   } ]
 }, {
-  "@id" : "_:genid187",
+  "@id" : "_:genid173",
   "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
   "http://www.w3.org/2003/11/swrl#argument1" : [ {
     "@id" : "https://w3id.org/def/NyOn#cj"
@@ -336,7 +308,7 @@
     "@id" : "https://w3id.org/def/nyon#petitionerArgument"
   } ]
 }, {
-  "@id" : "_:genid188",
+  "@id" : "_:genid174",
   "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
   "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
@@ -350,29 +322,20 @@
   } ],
   "http://www.w3.org/2003/11/swrl#body" : [ {
     "@list" : [ {
-      "@id" : "_:genid194"
+      "@id" : "_:genid180"
     }, {
-      "@id" : "_:genid192"
+      "@id" : "_:genid178"
     }, {
-      "@id" : "_:genid190"
+      "@id" : "_:genid176"
     } ]
   } ],
   "http://www.w3.org/2003/11/swrl#head" : [ {
     "@list" : [ {
-      "@id" : "_:genid196"
+      "@id" : "_:genid182"
     } ]
   } ]
 }, {
-  "@id" : "_:genid19",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://w3id.org/def/nyon#hasWords"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://w3id.org/def/nyon#Issue"
-  } ]
-}, {
-  "@id" : "_:genid190",
+  "@id" : "_:genid176",
   "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
   "http://www.w3.org/2003/11/swrl#argument1" : [ {
     "@id" : "https://w3id.org/def/NyOn#cj"
@@ -384,7 +347,7 @@
     "@id" : "https://w3id.org/def/nyon#hasParty"
   } ]
 }, {
-  "@id" : "_:genid192",
+  "@id" : "_:genid178",
   "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
   "http://www.w3.org/2003/11/swrl#argument1" : [ {
     "@id" : "https://w3id.org/def/NyOn#r"
@@ -393,7 +356,7 @@
     "@id" : "https://w3id.org/def/nyon#Respondent"
   } ]
 }, {
-  "@id" : "_:genid194",
+  "@id" : "_:genid180",
   "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
   "http://www.w3.org/2003/11/swrl#argument1" : [ {
     "@id" : "https://w3id.org/def/NyOn#p"
@@ -405,7 +368,7 @@
     "@id" : "https://w3id.org/def/nyon#makeArgument"
   } ]
 }, {
-  "@id" : "_:genid196",
+  "@id" : "_:genid182",
   "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
   "http://www.w3.org/2003/11/swrl#argument1" : [ {
     "@id" : "https://w3id.org/def/NyOn#r"
@@ -417,7 +380,7 @@
     "@id" : "https://w3id.org/def/nyon#respondentArgument"
   } ]
 }, {
-  "@id" : "_:genid197",
+  "@id" : "_:genid183",
   "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
   "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
@@ -431,20 +394,20 @@
   } ],
   "http://www.w3.org/2003/11/swrl#body" : [ {
     "@list" : [ {
-      "@id" : "_:genid203"
+      "@id" : "_:genid189"
     }, {
-      "@id" : "_:genid201"
+      "@id" : "_:genid187"
     }, {
-      "@id" : "_:genid199"
+      "@id" : "_:genid185"
     } ]
   } ],
   "http://www.w3.org/2003/11/swrl#head" : [ {
     "@list" : [ {
-      "@id" : "_:genid205"
+      "@id" : "_:genid191"
     } ]
   } ]
 }, {
-  "@id" : "_:genid199",
+  "@id" : "_:genid185",
   "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
   "http://www.w3.org/2003/11/swrl#argument1" : [ {
     "@id" : "https://w3id.org/def/NyOn#j"
@@ -456,7 +419,7 @@
     "@id" : "https://w3id.org/def/nyon#withConcurrence"
   } ]
 }, {
-  "@id" : "_:genid201",
+  "@id" : "_:genid187",
   "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
   "http://www.w3.org/2003/11/swrl#argument1" : [ {
     "@id" : "https://w3id.org/def/NyOn#c"
@@ -465,7 +428,7 @@
     "@id" : "https://w3id.org/def/nyon#Concurrence"
   } ]
 }, {
-  "@id" : "_:genid203",
+  "@id" : "_:genid189",
   "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
   "http://www.w3.org/2003/11/swrl#argument1" : [ {
     "@id" : "https://w3id.org/def/NyOn#x"
@@ -477,7 +440,16 @@
     "@id" : "https://w3id.org/def/nyon#hasJudge"
   } ]
 }, {
-  "@id" : "_:genid205",
+  "@id" : "_:genid19",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/def/nyon#hasWords"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://w3id.org/def/nyon#Issue"
+  } ]
+}, {
+  "@id" : "_:genid191",
   "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
   "http://www.w3.org/2003/11/swrl#argument1" : [ {
     "@id" : "https://w3id.org/def/NyOn#j"
@@ -489,7 +461,7 @@
     "@id" : "https://w3id.org/def/nyon#withOpinion"
   } ]
 }, {
-  "@id" : "_:genid206",
+  "@id" : "_:genid192",
   "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
   "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
@@ -503,20 +475,20 @@
   } ],
   "http://www.w3.org/2003/11/swrl#body" : [ {
     "@list" : [ {
-      "@id" : "_:genid212"
+      "@id" : "_:genid198"
     }, {
-      "@id" : "_:genid210"
+      "@id" : "_:genid196"
     }, {
-      "@id" : "_:genid208"
+      "@id" : "_:genid194"
     } ]
   } ],
   "http://www.w3.org/2003/11/swrl#head" : [ {
     "@list" : [ {
-      "@id" : "_:genid214"
+      "@id" : "_:genid200"
     } ]
   } ]
 }, {
-  "@id" : "_:genid208",
+  "@id" : "_:genid194",
   "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
   "http://www.w3.org/2003/11/swrl#argument1" : [ {
     "@id" : "https://w3id.org/def/NyOn#j"
@@ -528,16 +500,7 @@
     "@id" : "https://w3id.org/def/nyon#withDissent"
   } ]
 }, {
-  "@id" : "_:genid21",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://w3id.org/def/nyon#hasWords"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://w3id.org/def/nyon#CaseDomain"
-  } ]
-}, {
-  "@id" : "_:genid210",
+  "@id" : "_:genid196",
   "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
   "http://www.w3.org/2003/11/swrl#argument1" : [ {
     "@id" : "https://w3id.org/def/NyOn#d"
@@ -546,7 +509,7 @@
     "@id" : "https://w3id.org/def/nyon#Dissent"
   } ]
 }, {
-  "@id" : "_:genid212",
+  "@id" : "_:genid198",
   "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
   "http://www.w3.org/2003/11/swrl#argument1" : [ {
     "@id" : "https://w3id.org/def/NyOn#x"
@@ -558,7 +521,7 @@
     "@id" : "https://w3id.org/def/nyon#hasJudge"
   } ]
 }, {
-  "@id" : "_:genid214",
+  "@id" : "_:genid200",
   "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
   "http://www.w3.org/2003/11/swrl#argument1" : [ {
     "@id" : "https://w3id.org/def/NyOn#j"
@@ -570,7 +533,7 @@
     "@id" : "https://w3id.org/def/nyon#withOpinion"
   } ]
 }, {
-  "@id" : "_:genid215",
+  "@id" : "_:genid201",
   "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
   "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
@@ -584,20 +547,20 @@
   } ],
   "http://www.w3.org/2003/11/swrl#body" : [ {
     "@list" : [ {
-      "@id" : "_:genid221"
+      "@id" : "_:genid207"
     }, {
-      "@id" : "_:genid219"
+      "@id" : "_:genid205"
     }, {
-      "@id" : "_:genid217"
+      "@id" : "_:genid203"
     } ]
   } ],
   "http://www.w3.org/2003/11/swrl#head" : [ {
     "@list" : [ {
-      "@id" : "_:genid223"
+      "@id" : "_:genid209"
     } ]
   } ]
 }, {
-  "@id" : "_:genid217",
+  "@id" : "_:genid203",
   "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
   "http://www.w3.org/2003/11/swrl#argument1" : [ {
     "@id" : "https://w3id.org/def/NyOn#j"
@@ -609,7 +572,7 @@
     "@id" : "https://w3id.org/def/nyon#withMajority"
   } ]
 }, {
-  "@id" : "_:genid219",
+  "@id" : "_:genid205",
   "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
   "http://www.w3.org/2003/11/swrl#argument1" : [ {
     "@id" : "https://w3id.org/def/NyOn#m"
@@ -618,16 +581,7 @@
     "@id" : "https://w3id.org/def/nyon#Majority"
   } ]
 }, {
-  "@id" : "_:genid22",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
-    "@id" : "https://w3id.org/def/nyon#Civil"
-  } ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://w3id.org/def/nyon#OfDomian"
-  } ]
-}, {
-  "@id" : "_:genid221",
+  "@id" : "_:genid207",
   "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
   "http://www.w3.org/2003/11/swrl#argument1" : [ {
     "@id" : "https://w3id.org/def/NyOn#x"
@@ -639,7 +593,7 @@
     "@id" : "https://w3id.org/def/nyon#hasJudge"
   } ]
 }, {
-  "@id" : "_:genid223",
+  "@id" : "_:genid209",
   "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
   "http://www.w3.org/2003/11/swrl#argument1" : [ {
     "@id" : "https://w3id.org/def/NyOn#j"
@@ -651,7 +605,16 @@
     "@id" : "https://w3id.org/def/nyon#withOpinion"
   } ]
 }, {
-  "@id" : "_:genid224",
+  "@id" : "_:genid21",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/def/nyon#hasWords"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://w3id.org/def/nyon#CaseDomain"
+  } ]
+}, {
+  "@id" : "_:genid210",
   "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
   "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
@@ -665,20 +628,20 @@
   } ],
   "http://www.w3.org/2003/11/swrl#body" : [ {
     "@list" : [ {
-      "@id" : "_:genid230"
+      "@id" : "_:genid216"
     }, {
-      "@id" : "_:genid228"
+      "@id" : "_:genid214"
     }, {
-      "@id" : "_:genid226"
+      "@id" : "_:genid212"
     } ]
   } ],
   "http://www.w3.org/2003/11/swrl#head" : [ {
     "@list" : [ {
-      "@id" : "_:genid232"
+      "@id" : "_:genid218"
     } ]
   } ]
 }, {
-  "@id" : "_:genid226",
+  "@id" : "_:genid212",
   "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
   "http://www.w3.org/2003/11/swrl#argument1" : [ {
     "@id" : "https://w3id.org/def/NyOn#y"
@@ -690,7 +653,7 @@
     "@id" : "https://w3id.org/def/nyon#hasCourtOfficial"
   } ]
 }, {
-  "@id" : "_:genid228",
+  "@id" : "_:genid214",
   "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
   "http://www.w3.org/2003/11/swrl#argument1" : [ {
     "@id" : "https://w3id.org/def/NyOn#j"
@@ -699,13 +662,7 @@
     "@id" : "https://w3id.org/def/nyon#Judge"
   } ]
 }, {
-  "@id" : "_:genid23",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2002/07/owl#complementOf" : [ {
-    "@id" : "https://w3id.org/def/nyon#Judgement"
-  } ]
-}, {
-  "@id" : "_:genid230",
+  "@id" : "_:genid216",
   "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
   "http://www.w3.org/2003/11/swrl#argument1" : [ {
     "@id" : "https://w3id.org/def/NyOn#x"
@@ -717,7 +674,7 @@
     "@id" : "https://w3id.org/def/nyon#hasFinalDecision"
   } ]
 }, {
-  "@id" : "_:genid232",
+  "@id" : "_:genid218",
   "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
   "http://www.w3.org/2003/11/swrl#argument1" : [ {
     "@id" : "https://w3id.org/def/NyOn#x"
@@ -727,6 +684,21 @@
   } ],
   "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
     "@id" : "https://w3id.org/def/nyon#hasJudge"
+  } ]
+}, {
+  "@id" : "_:genid22",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "https://w3id.org/def/nyon#Civil"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/def/nyon#OfDomian"
+  } ]
+}, {
+  "@id" : "_:genid23",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#complementOf" : [ {
+    "@id" : "https://w3id.org/def/nyon#Judgement"
   } ]
 }, {
   "@id" : "_:genid24",
@@ -999,15 +971,15 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "https://w3id.org/def/nyon#Chief_Meterpolitan_Court"
+      "@id" : "https://w3id.org/def/nyon#AppellantArgument"
     }, {
-      "@id" : "https://w3id.org/def/nyon#Metropolitan_Magistrate_Courts"
+      "@id" : "https://w3id.org/def/nyon#DefendantArgument"
     }, {
-      "@id" : "https://w3id.org/def/nyon#Session_Court"
+      "@id" : "https://w3id.org/def/nyon#PetitionerArgument"
     }, {
-      "@id" : "https://w3id.org/def/nyon#Judicial_Magistrate_Court(First_Class)"
+      "@id" : "https://w3id.org/def/nyon#PlaintiffArgument"
     }, {
-      "@id" : "https://w3id.org/def/nyon#Judicial_Magistrate_Court(Second_Class)"
+      "@id" : "https://w3id.org/def/nyon#RespondentArgument"
     } ]
   } ]
 }, {
@@ -1035,6 +1007,23 @@
   "@id" : "http://purl.org/dc/terms/title",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
+  "@id" : "http://purl.org/spar/cito/Citation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "https://w3id.org/def/nyon#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Citation"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "A document's citations to other documents (e.g., legal authorities, exhibits, other documents)."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#exactMatch" : [ {
+    "@language" : "en",
+    "@value" : "http://lmss.sali.org/RUH9A0VJfKpItj0UkMldZQ"
+  } ]
+}, {
   "@id" : "http://purl.org/vocab/vann/preferredNamespacePrefix",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
@@ -1045,6 +1034,12 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "http://www.w3.org/2002/07/owl#sameAs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#definition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#exactMatch",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "http://xmlns.com/foaf/0.1/Person",
@@ -1058,6 +1053,9 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/def/nyon#Party_Type"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "https://w3id.org/def/nyon#Individual"
@@ -1171,13 +1169,16 @@
   } ],
   "http://purl.org/dc/terms/title" : [ {
     "@language" : "en",
-    "@value" : "NyOn: A Multilingual Legal Ontology for Globalized Judicial System"
+    "@value" : "NyOn:  A knowledge based intelligent model for Globalised Judiciary"
   } ],
   "http://purl.org/vocab/vann/preferredNamespacePrefix" : [ {
     "@value" : "nyon"
   } ],
   "http://purl.org/vocab/vann/preferredNamespaceUri" : [ {
     "@id" : "https://w3id.org/def/nyon#"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionIRI" : [ {
+    "@id" : "https://w3id.org/def/nyon#/2.0"
   } ],
   "http://www.w3.org/2002/07/owl#versionInfo" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
@@ -1247,6 +1248,12 @@
   "http://www.w3.org/2002/07/owl#sameAs" : [ {
     "@language" : "en",
     "@value" : "http://lmss.sali.org/R7uigsz85fFCSPszS6B93dN"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/nyon#AppellantArgument",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/def/nyon#Argument"
   } ]
 }, {
   "@id" : "https://w3id.org/def/nyon#Appellant_Jurisdiction",
@@ -1329,6 +1336,27 @@
   "http://www.w3.org/2002/07/owl#sameAs" : [ {
     "@language" : "en",
     "@value" : "http://lmss.sali.org/R8w3kl1tpEaQ2woPVs9N8Kf"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/nyon#C001",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "https://w3id.org/def/nyon#cited" : [ {
+    "@id" : "https://w3id.org/def/nyon#C002"
+  } ],
+  "https://w3id.org/def/nyon#hasJudge" : [ {
+    "@id" : "https://w3id.org/def/nyon#Judge"
+  } ],
+  "https://w3id.org/def/nyon#hasParty" : [ {
+    "@id" : "https://w3id.org/def/nyon#P001"
+  } ],
+  "https://w3id.org/def/nyon#makeArgument" : [ {
+    "@id" : "https://w3id.org/def/nyon#PArgu"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/nyon#C002",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://purl.org/spar/cito/Citation"
   } ]
 }, {
   "@id" : "https://w3id.org/def/nyon#COFirstName",
@@ -1439,6 +1467,132 @@
     "@id" : "https://w3id.org/def/nyon#Courts_for_Criminal"
   } ]
 }, {
+  "@id" : "https://w3id.org/def/nyon#CitationToCaseLaw",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "https://w3id.org/def/nyon#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "CItation To CaseLaw"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.org/spar/cito/Citation"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "A document's citations to caselaw"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#exactMatch" : [ {
+    "@value" : "http://lmss.sali.org/RCde1yp5z3QI9MoNV8BBZCj"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/nyon#CitationToConstitutions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "https://w3id.org/def/nyon#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Citation To Constitutions"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.org/spar/cito/Citation"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "A document's citations to constitutions"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#exactMatch" : [ {
+    "@value" : "http://lmss.sali.org/RDAecYIGmVPSqr7tHrC82go"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/nyon#CitationToLegislation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "https://w3id.org/def/nyon#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Citation To Legislation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.org/spar/cito/Citation"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "A document's citations to bills and other legislation (e.g., bills before a legislature, bills before congress)."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#exactMatch" : [ {
+    "@value" : "http://lmss.sali.org/RBuHmAe6jQq5gQSLIXZI1oN"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/nyon#CitationToParliamentaryLaw",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "https://w3id.org/def/nyon#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Citation To Parliamentary Law"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.org/spar/cito/Citation"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "A document's citations to laws of a parliament."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#exactMatch" : [ {
+    "@value" : "http://lmss.sali.org/R8bTjBrWJXaWbwpCGXUDnNs"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/nyon#CitationToRegulation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "https://w3id.org/def/nyon#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Citation To Regulation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.org/spar/cito/Citation"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "A document's citations to a regulation (e.g., Code of Federal Regulations)."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#exactMatch" : [ {
+    "@value" : "http://lmss.sali.org/R8Iu1M18STa7Rd7kg55SD1b"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/nyon#CitationToStatues",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "https://w3id.org/def/nyon#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Citation to Statues"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.org/spar/cito/Citation"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "A document's citations to statutes and other enacted laws."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#exactMatch" : [ {
+    "@value" : "http://lmss.sali.org/RBqz2xBMxkFDjWqhXmQ4aHA"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/nyon#CitationToTreaties",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "https://w3id.org/def/nyon#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Citation To Treaties"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.org/spar/cito/Citation"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@value" : "A document's citations to treaties (e.g., international treaties, aboriginal treaties)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#exactMatch" : [ {
+    "@value" : "http://lmss.sali.org/RyW1lu17I5btTBhWZHjQLi"
+  } ]
+}, {
   "@id" : "https://w3id.org/def/nyon#City_Civil_Courts",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
@@ -1497,7 +1651,7 @@
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://w3id.org/def/nyon#Opinion"
   } ],
-  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+  "http://www.w3.org/2004/02/skos/core#exactMatch" : [ {
     "@value" : "http://lmss.sali.org/RTNLwK1SAJaRJJu2kYrJZg"
   } ]
 }, {
@@ -1569,6 +1723,9 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "CourtCase"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "https://w3id.org/def/nyon#Statute"
   } ]
 }, {
   "@id" : "https://w3id.org/def/nyon#CourtDecision",
@@ -1734,6 +1891,12 @@
   "http://www.w3.org/2002/07/owl#sameAs" : [ {
     "@language" : "en",
     "@value" : "http://lmss.sali.org/RijIqw1HEfQF4ctjWUlgnq"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/nyon#DefendantArgument",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/def/nyon#Argument"
   } ]
 }, {
   "@id" : "https://w3id.org/def/nyon#Dissent",
@@ -2344,6 +2507,18 @@
     "@id" : "https://w3id.org/def/nyon#Jurisdiction"
   } ]
 }, {
+  "@id" : "https://w3id.org/def/nyon#P001",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/def/nyon#Petitioner"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/nyon#PArgu",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/def/nyon#Argument"
+  } ]
+}, {
   "@id" : "https://w3id.org/def/nyon#Party",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
@@ -2401,6 +2576,12 @@
     "@id" : "https://w3id.org/def/nyon#Party"
   } ]
 }, {
+  "@id" : "https://w3id.org/def/nyon#PetitionerArgument",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/def/nyon#Argument"
+  } ]
+}, {
   "@id" : "https://w3id.org/def/nyon#Plaintiff",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
@@ -2420,6 +2601,12 @@
   "http://www.w3.org/2002/07/owl#sameAs" : [ {
     "@language" : "en",
     "@value" : "http://lmss.sali.org/R9tyJmIM3Lx7OItGji5zPXN"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/nyon#PlaintiffArgument",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/def/nyon#Argument"
   } ]
 }, {
   "@id" : "https://w3id.org/def/nyon#Precedent",
@@ -2521,6 +2708,12 @@
   "http://www.w3.org/2002/07/owl#sameAs" : [ {
     "@language" : "en",
     "@value" : "http://lmss.sali.org/RDsxHT4FlaoALPmeZmTt8td"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/nyon#RespondentArgument",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/def/nyon#Argument"
   } ]
 }, {
   "@id" : "https://w3id.org/def/nyon#Review_Jurisdiction",
@@ -2640,7 +2833,7 @@
     "@id" : "https://w3id.org/def/nyon#Party_Type"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/nyon#Statue",
+  "@id" : "https://w3id.org/def/nyon#Statute",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -2651,7 +2844,7 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "Statue"
+    "@value" : "Statute"
   } ]
 }, {
   "@id" : "https://w3id.org/def/nyon#Sub_Court",
@@ -2887,13 +3080,29 @@
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
+  "@id" : "https://w3id.org/def/nyon#cited",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#InverseFunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "specifies the nyon:CourtCase is citing another nyon:CourtCase"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "https://w3id.org/def/nyon#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "cited"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/def/nyon#citedBy"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#exactMatch" : [ {
+    "@value" : "http://lmss.sali.org/RdpSPh3bFHYrQ3vYPDwJYB"
+  } ]
+}, {
   "@id" : "https://w3id.org/def/nyon#citedBy",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#ReflexiveProperty" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "specifies the nyon:CourtCase being cited by nyon:CourtCase"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/nyon#CourtCase"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "https://w3id.org/def/nyon#"
@@ -2901,31 +3110,6 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "citedBy"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/def/nyon#CourtCase"
-  } ],
-  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "https://w3id.org/def/nyon#cites"
-  } ]
-}, {
-  "@id" : "https://w3id.org/def/nyon#cites",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty", "http://www.w3.org/2002/07/owl#ReflexiveProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "specifies the nyon:CourtCase is citing another nyon:CourtCase"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/nyon#CourtCase"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "https://w3id.org/def/nyon#"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "cites"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/def/nyon#CourtCase"
   } ]
 }, {
   "@id" : "https://w3id.org/def/nyon#courtName",
@@ -3599,21 +3783,15 @@
   } ]
 }, {
   "@id" : "https://w3id.org/def/nyon#hasPrecedent",
-  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#ReflexiveProperty" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "represents past cases referred by the judge in the judgment"
   }, {
     "@value" : "specifies the previous cases of type nyon:CourtCase"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/nyon#CourtCase"
-  } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "https://w3id.org/def/nyon#"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/def/nyon#CourtCase"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
@@ -3698,7 +3876,7 @@
     "@value" : "hasStatue"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/def/nyon#Statue"
+    "@id" : "https://w3id.org/def/nyon#Statute"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
@@ -3867,18 +4045,12 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "specifies the arguments done in nyon:CourtCase by some party (nyon:Party)"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/nyon#Party"
-  } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "https://w3id.org/def/nyon#"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "makeArgument"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/def/nyon#Argument"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
@@ -4001,18 +4173,12 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "specifies the past cases (nyon:CourtCase) overruled by the judge in the current case"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/nyon#CourtCase"
-  } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "https://w3id.org/def/nyon#"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "precedentOverruled"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/def/nyon#CourtCase"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "https://w3id.org/def/nyon#hasPrecedent"
@@ -4023,18 +4189,12 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "specifies the past cases (nyon:CourtCase) referred by the judge on which the current judgment relies on"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/nyon#CourtCase"
-  } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "https://w3id.org/def/nyon#"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "precedentReliedUpon"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/def/nyon#CourtCase"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "https://w3id.org/def/nyon#hasPrecedent"
@@ -4045,18 +4205,12 @@
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "specifies the previous cases (nyon:CourtCase) referred by the judge on which the case decision does not rely on"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/nyon#CourtCase"
-  } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "https://w3id.org/def/nyon#"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "precedentNotReliedUpon"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/def/nyon#CourtCase"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "https://w3id.org/def/nyon#hasPrecedent"
