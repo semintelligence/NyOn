@@ -1,14 +1,16 @@
 digraph ar2dtool_diagram { 
 rankdir=LR;
 size="1000"
-node [shape = rectangle, color="black"]; "nyon:EducationLaw" "-554c24cc:19189d4e0b1:-7fec" "nyon:Group" "nyon:Writ_Jurisdiction" "nyon:Taluka" "nyon:TransportationLaw" "nyon:Civil" "nyon:CitationToParliamentaryLaw" "nyon:Special_Bench" "nyon:Review_Jurisdiction" "nyon:Sub_Court" "nyon:Solicitor" "nyon:CannabisLaw" "nyon:Order" "nyon:Lawyer" "nyon:Jurisdiction" "nyon:FoodandDrugLaw" "nyon:Appellant_Jurisdiction" "nyon:CorporateLaw" "https://schema.org/Place" "nyon:RealPropertyLaw" "nyon:Opinion" "nyon:MunicipalLaw" "nyon:Judgement" "nyon:CatchWord" "nyon:Plaintiff" "nyon:AgricultureLaw" "-554c24cc:19189d4e0b1:-7fe4" "nyon:Court_Official" "nyon:CommercialandTradeLaw" "nyon:DefendantArgument" "nyon:Country" "nyon:Division_Bench" "http://xmlns.com/foaf/0.1/Person" "nyon:Party_Type" "nyon:IndianCourts" "nyon:Concurrence" "nyon:SupremeCourt" "nyon:District_Court" "nyon:RespondentArgument" "nyon:CitationToStatues" "nyon:State" "nyon:Party" "nyon:Larger_Bench" "nyon:District" "-554c24cc:19189d4e0b1:-7ff5" "nyon:BankruptcyandRestructuringLaw" "nyon:Majority" "nyon:City_Civil_Courts" "nyon:Single_Judge" "nyon:IntellectualPropertyLaw" "nyon:TelecommunicationsLaw" "https://w3id.org/def/nyon#Judicial_Magistrate_Court(Second_Class)" "nyon:PersonalInjuryandTortLaw" "nyon:Munsif_Court" "nyon:LearnedCounsel" "nyon:Principal_Junior_Civil_Court" "nyon:ConstitutionalandCivilRightsLaw" "nyon:CaseDomain" "nyon:LaborandEmploymentLaw" "nyon:Original_Jurisdiction" "nyon:Chief_Meterpolitan_Court" "nyon:ContractLaw" "https://w3id.org/def/nyon#Judicial_Magistrate_Court(First_Class)" "nyon:Defendant" "nyon:Criminal" "nyon:CitationToConstitutions" "nyon:Tribunal" "nyon:Precedent" "nyon:Session_Court" "nyon:CitationToRegulation" "nyon:Metropolitian_Courts" "nyon:InformationSecurityLaw" "nyon:Individual" "nyon:EnergyLaw" "nyon:Court" "-554c24cc:19189d4e0b1:-7fef" "https://schema.org/Organization" "nyon:Advisory_Jurisdiction" "nyon:CitationToCaseLaw" "nyon:Appellant" "nyon:Bench" "nyon:CitationToLegislation" "nyon:Metropolitan_Magistrate_Courts" "nyon:BankingLaw" "nyon:High_Court" "nyon:Judge" "nyon:Petitioner" "nyon:Tribunal_Bench" "nyon:HealthLaw" "nyon:Dissent" "nyon:LawofObligations" "nyon:Argument" "nyon:ReligiousLaw" "nyon:PublicandAdministrativeLaw" "-554c24cc:19189d4e0b1:-7ff9" "nyon:PlaintiffArgument" "nyon:EnvironmentalandNaturalResourceLaw" "nyon:Accussed" "nyon:AppellantArgument" "nyon:Location" "nyon:Courts_for_Civil" "nyon:Courts_of_Smaller_Causes" "nyon:GamingLaw" "nyon:PetitionerArgument" "nyon:PersonalandFamilyLaw" "nyon:Decree" "https://schema.org/GovernmentOrganization" "nyon:CitationToTreaties" "nyon:Courts_for_Criminal" "nyon:CourtDecision" "nyon:Respondent" ":Citation" "nyon:InsuranceLaw" "nyon:TaxandRevenueLaw" "nyon:FinanceandLendingLaw" "nyon:SecuritiesandFinancialInstrumentsLaw" ; /*classes style*/
+node [shape = rectangle, color="black"]; "nyon:Issue" "nyon:EducationLaw" "nyon:Group" "nyon:Writ_Jurisdiction" "nyon:Taluka" "34b9d846:1919035bbe5:-7fec" "nyon:TransportationLaw" "nyon:Civil" "nyon:CitationToParliamentaryLaw" "34b9d846:1919035bbe5:-7ff5" "nyon:Special_Bench" "nyon:Review_Jurisdiction" "nyon:Sub_Court" "nyon:Solicitor" "nyon:ObiterDictum" "nyon:CannabisLaw" "nyon:Order" "nyon:Lawyer" "nyon:Jurisdiction" "nyon:FoodandDrugLaw" "nyon:Appellant_Jurisdiction" "nyon:CorporateLaw" "https://schema.org/Place" "nyon:RealPropertyLaw" "nyon:Opinion" "nyon:MunicipalLaw" "nyon:Judgement" "nyon:CatchWord" "nyon:Plaintiff" "nyon:AgricultureLaw" "nyon:Court_Official" "nyon:CommercialandTradeLaw" "nyon:DefendantArgument" "nyon:Country" "nyon:Division_Bench" "foaf:Person" "nif-core:Paragraph" "nyon:Party_Type" "nyon:IndianCourts" "34b9d846:1919035bbe5:-7ff9" "nyon:Concurrence" "nyon:Fact" "nyon:SupremeCourt" "nyon:District_Court" "nif-core:Structure" "nyon:RespondentArgument" "nyon:CitationToStatues" "nyon:State" "nyon:Party" "nyon:Larger_Bench" "nyon:District" "nyon:BankruptcyandRestructuringLaw" "nyon:Majority" "nyon:City_Civil_Courts" "nyon:Single_Judge" "nyon:IntellectualPropertyLaw" "nyon:TelecommunicationsLaw" "https://w3id.org/def/nyon#Judicial_Magistrate_Court(Second_Class)" "nyon:PersonalInjuryandTortLaw" "nyon:Munsif_Court" "nyon:LearnedCounsel" "nyon:Principal_Junior_Civil_Court" "nyon:ConstitutionalandCivilRightsLaw" "nyon:CaseDomain" "nyon:LaborandEmploymentLaw" "nyon:Original_Jurisdiction" "nyon:Chief_Meterpolitan_Court" "nyon:ContractLaw" "https://w3id.org/def/nyon#Judicial_Magistrate_Court(First_Class)" "nyon:RatioDecidendi" "nyon:Defendant" "nyon:Criminal" "nyon:CitationToConstitutions" "nyon:Precedent" "nyon:Tribunal" "nyon:CitationToRegulation" "nyon:Metropolitian_Courts" "nyon:InformationSecurityLaw" "nyon:Session_Court" "nyon:EnergyLaw" "nyon:Individual" "nyon:Court" "https://schema.org/Organization" "nyon:Advisory_Jurisdiction" "nyon:CitationToCaseLaw" "nyon:Appellant" "34b9d846:1919035bbe5:-7fef" "nyon:Bench" "nyon:CitationToLegislation" "nyon:Metropolitan_Magistrate_Courts" "nyon:BankingLaw" "nyon:High_Court" "nyon:Judge" "nyon:Petitioner" "nyon:Tribunal_Bench" "nyon:HealthLaw" "nyon:Dissent" "nyon:LawofObligations" "nyon:Argument" "nyon:ReligiousLaw" "nyon:PublicandAdministrativeLaw" "34b9d846:1919035bbe5:-7fe4" "nyon:PlaintiffArgument" "nyon:EnvironmentalandNaturalResourceLaw" "nyon:Accussed" "nyon:AppellantArgument" "nyon:Location" "nyon:Courts_for_Civil" "nyon:Courts_of_Smaller_Causes" "nyon:GamingLaw" "nyon:PetitionerArgument" "nyon:PersonalandFamilyLaw" "nyon:Decree" "https://schema.org/GovernmentOrganization" "nyon:CitationToTreaties" "nyon:Courts_for_Criminal" "nyon:CourtDecision" "nyon:Respondent" ":Citation" "nyon:InsuranceLaw" "nyon:TaxandRevenueLaw" "nyon:FinanceandLendingLaw" "nyon:SecuritiesandFinancialInstrumentsLaw" ; /*classes style*/
 	"nyon:Decree" -> "nyon:CourtDecision" [ label = "rdfs:subClassOf" ];
 	"nyon:InsuranceLaw" -> "nyon:Civil" [ label = "rdfs:subClassOf" ];
 	"nyon:Individual" -> "nyon:Party_Type" [ label = "rdfs:subClassOf" ];
 	"https://schema.org/Place" -> "nyon:Location" [ label = "rdfs:subClassOf" ];
 	"nyon:City_Civil_Courts" -> "nyon:Courts_for_Civil" [ label = "rdfs:subClassOf" ];
+	"nyon:RatioDecidendi" -> "nif-core:Paragraph" [ label = "rdfs:subClassOf" ];
 	"nyon:CitationToCaseLaw" -> ":Citation" [ label = "rdfs:subClassOf" ];
 	"nyon:Country" -> "nyon:Location" [ label = "rdfs:subClassOf" ];
+	"nyon:Issue" -> "nif-core:Paragraph" [ label = "rdfs:subClassOf" ];
 	"nyon:Appellant" -> "nyon:Party" [ label = "rdfs:subClassOf" ];
 	"nyon:TaxandRevenueLaw" -> "nyon:Civil" [ label = "rdfs:subClassOf" ];
 	"nyon:PublicandAdministrativeLaw" -> "nyon:Civil" [ label = "rdfs:subClassOf" ];
@@ -17,6 +19,7 @@ node [shape = rectangle, color="black"]; "nyon:EducationLaw" "-554c24cc:19189d4e
 	"nyon:State" -> "nyon:Location" [ label = "rdfs:subClassOf" ];
 	"nyon:ReligiousLaw" -> "nyon:Civil" [ label = "rdfs:subClassOf" ];
 	"nyon:ConstitutionalandCivilRightsLaw" -> "nyon:Civil" [ label = "rdfs:subClassOf" ];
+	"nyon:Opinion" -> "nif-core:Paragraph" [ label = "rdfs:subClassOf" ];
 	"nyon:Petitioner" -> "nyon:Party" [ label = "rdfs:subClassOf" ];
 	"https://schema.org/GovernmentOrganization" -> "nyon:Party_Type" [ label = "rdfs:subClassOf" ];
 	"nyon:MunicipalLaw" -> "nyon:Civil" [ label = "rdfs:subClassOf" ];
@@ -33,19 +36,21 @@ node [shape = rectangle, color="black"]; "nyon:EducationLaw" "-554c24cc:19189d4e
 	"nyon:Civil" -> "nyon:CaseDomain" [ label = "rdfs:subClassOf" ];
 	"https://w3id.org/def/nyon#Judicial_Magistrate_Court(Second_Class)" -> "nyon:Courts_for_Criminal" [ label = "rdfs:subClassOf" ];
 	"nyon:CitationToStatues" -> ":Citation" [ label = "rdfs:subClassOf" ];
+	"nyon:Taluka" -> "nyon:Location" [ label = "rdfs:subClassOf" ];
 	"nyon:Lawyer" -> "nyon:Court_Official" [ label = "rdfs:subClassOf" ];
 	"nyon:Respondent" -> "nyon:Party" [ label = "rdfs:subClassOf" ];
 	"nyon:BankingLaw" -> "nyon:Civil" [ label = "rdfs:subClassOf" ];
-	"nyon:CatchWord" -> "-554c24cc:19189d4e0b1:-7fec" [ label = "rdfs:subClassOf" ];
-	"nyon:CatchWord" -> "-554c24cc:19189d4e0b1:-7fef" [ label = "rdfs:subClassOf" ];
-	"nyon:Review_Jurisdiction" -> "nyon:Jurisdiction" [ label = "rdfs:subClassOf" ];
+	"nyon:CatchWord" -> "34b9d846:1919035bbe5:-7fec" [ label = "rdfs:subClassOf" ];
+	"nyon:CatchWord" -> "34b9d846:1919035bbe5:-7fef" [ label = "rdfs:subClassOf" ];
+	"nyon:ObiterDictum" -> "nif-core:Paragraph" [ label = "rdfs:subClassOf" ];
 	"nyon:CitationToParliamentaryLaw" -> ":Citation" [ label = "rdfs:subClassOf" ];
-	"nyon:Taluka" -> "nyon:Location" [ label = "rdfs:subClassOf" ];
+	"nyon:Review_Jurisdiction" -> "nyon:Jurisdiction" [ label = "rdfs:subClassOf" ];
 	"nyon:Concurrence" -> "nyon:Opinion" [ label = "rdfs:subClassOf" ];
 	"nyon:CitationToTreaties" -> ":Citation" [ label = "rdfs:subClassOf" ];
 	"nyon:Defendant" -> "nyon:Party" [ label = "rdfs:subClassOf" ];
 	"nyon:BankruptcyandRestructuringLaw" -> "nyon:Civil" [ label = "rdfs:subClassOf" ];
 	"nyon:HealthLaw" -> "nyon:Civil" [ label = "rdfs:subClassOf" ];
+	"nif-core:Paragraph" -> "nif-core:Structure" [ label = "rdfs:subClassOf" ];
 	"nyon:Chief_Meterpolitan_Court" -> "nyon:Courts_for_Criminal" [ label = "rdfs:subClassOf" ];
 	"nyon:PlaintiffArgument" -> "nyon:Argument" [ label = "rdfs:subClassOf" ];
 	"nyon:Original_Jurisdiction" -> "nyon:Jurisdiction" [ label = "rdfs:subClassOf" ];
@@ -60,7 +65,7 @@ node [shape = rectangle, color="black"]; "nyon:EducationLaw" "-554c24cc:19189d4e
 	"nyon:PetitionerArgument" -> "nyon:Argument" [ label = "rdfs:subClassOf" ];
 	"nyon:High_Court" -> "nyon:IndianCourts" [ label = "rdfs:subClassOf" ];
 	"https://w3id.org/def/nyon#Judicial_Magistrate_Court(First_Class)" -> "nyon:Courts_for_Criminal" [ label = "rdfs:subClassOf" ];
-	"nyon:Precedent" -> "-554c24cc:19189d4e0b1:-7fe4" [ label = "rdfs:subClassOf" ];
+	"nyon:Precedent" -> "34b9d846:1919035bbe5:-7fe4" [ label = "rdfs:subClassOf" ];
 	"nyon:Writ_Jurisdiction" -> "nyon:Jurisdiction" [ label = "rdfs:subClassOf" ];
 	"nyon:District_Court" -> "nyon:IndianCourts" [ label = "rdfs:subClassOf" ];
 	"nyon:District_Court" -> "nyon:Courts_for_Civil" [ label = "rdfs:subClassOf" ];
@@ -84,7 +89,7 @@ node [shape = rectangle, color="black"]; "nyon:EducationLaw" "-554c24cc:19189d4e
 	"nyon:Munsif_Court" -> "nyon:Courts_for_Civil" [ label = "rdfs:subClassOf" ];
 	"nyon:Tribunal" -> "nyon:IndianCourts" [ label = "rdfs:subClassOf" ];
 	"nyon:Principal_Junior_Civil_Court" -> "nyon:Courts_for_Civil" [ label = "rdfs:subClassOf" ];
-	"http://xmlns.com/foaf/0.1/Person" -> "nyon:Party_Type" [ label = "rdfs:subClassOf" ];
+	"foaf:Person" -> "nyon:Party_Type" [ label = "rdfs:subClassOf" ];
 	"nyon:Judge" -> "nyon:Court_Official" [ label = "rdfs:subClassOf" ];
 	"nyon:RealPropertyLaw" -> "nyon:Civil" [ label = "rdfs:subClassOf" ];
 	"nyon:Courts_for_Criminal" -> "nyon:CaseDomain" [ label = "rdfs:subClassOf" ];
@@ -92,15 +97,17 @@ node [shape = rectangle, color="black"]; "nyon:EducationLaw" "-554c24cc:19189d4e
 	"nyon:Courts_of_Smaller_Causes" -> "nyon:Courts_for_Civil" [ label = "rdfs:subClassOf" ];
 	"nyon:SecuritiesandFinancialInstrumentsLaw" -> "nyon:Civil" [ label = "rdfs:subClassOf" ];
 	"nyon:Metropolitan_Magistrate_Courts" -> "nyon:Courts_for_Criminal" [ label = "rdfs:subClassOf" ];
-	"nyon:Accussed" -> "-554c24cc:19189d4e0b1:-7ff5" [ label = "rdfs:subClassOf" ];
-	"nyon:Accussed" -> "-554c24cc:19189d4e0b1:-7ff9" [ label = "rdfs:subClassOf" ];
+	"nyon:Accussed" -> "34b9d846:1919035bbe5:-7ff5" [ label = "rdfs:subClassOf" ];
+	"nyon:Accussed" -> "34b9d846:1919035bbe5:-7ff9" [ label = "rdfs:subClassOf" ];
 	"nyon:Accussed" -> "nyon:Party" [ label = "rdfs:subClassOf" ];
 	"nyon:GamingLaw" -> "nyon:Civil" [ label = "rdfs:subClassOf" ];
 	"nyon:CitationToRegulation" -> ":Citation" [ label = "rdfs:subClassOf" ];
+	"nyon:Argument" -> "nif-core:Paragraph" [ label = "rdfs:subClassOf" ];
 	"nyon:IntellectualPropertyLaw" -> "nyon:Civil" [ label = "rdfs:subClassOf" ];
-	"nyon:EducationLaw" -> "nyon:Civil" [ label = "rdfs:subClassOf" ];
 	"nyon:AgricultureLaw" -> "nyon:Civil" [ label = "rdfs:subClassOf" ];
+	"nyon:EducationLaw" -> "nyon:Civil" [ label = "rdfs:subClassOf" ];
 	"nyon:Advisory_Jurisdiction" -> "nyon:Jurisdiction" [ label = "rdfs:subClassOf" ];
+	"nyon:Fact" -> "nif-core:Paragraph" [ label = "rdfs:subClassOf" ];
 	"nyon:Metropolitian_Courts" -> "nyon:IndianCourts" [ label = "rdfs:subClassOf" ];
 	"nyon:EnergyLaw" -> "nyon:Civil" [ label = "rdfs:subClassOf" ];
 	"nyon:Dissent" -> "nyon:Opinion" [ label = "rdfs:subClassOf" ];
