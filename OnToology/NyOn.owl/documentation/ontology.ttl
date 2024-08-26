@@ -491,6 +491,14 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 #    Data properties
 #################################################################
 
+###  http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#beginIndex
+<http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#beginIndex> rdf:type owl:DatatypeProperty .
+
+
+###  http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#endIndex
+<http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#endIndex> rdf:type owl:DatatypeProperty .
+
+
 ###  https://w3id.org/def/nyon#COFirstName
 :COFirstName rdf:type owl:DatatypeProperty ;
              rdfs:subPropertyOf :courtOffName ;
@@ -509,22 +517,19 @@ owl:sameAs rdf:type owl:AnnotationProperty .
             rdfs:label "COLastName"@en .
 
 
-###  https://w3id.org/def/nyon#argumentSequenceNum
-:argumentSequenceNum rdf:type owl:DatatypeProperty ;
-                     rdfs:subPropertyOf owl:topDataProperty ;
-                     rdfs:domain :Argument ;
-                     rdfs:range xsd:int ;
-                     rdfs:isDefinedBy "https://w3id.org/def/nyon#" ;
-                     rdfs:label "argumentSequenceNum"@en .
+###  https://w3id.org/def/nyon#IssueText
+:IssueText rdf:type owl:DatatypeProperty ;
+           rdfs:subPropertyOf owl:topDataProperty .
 
 
-###  https://w3id.org/def/nyon#argumentValue
-:argumentValue rdf:type owl:DatatypeProperty ;
-               rdfs:subPropertyOf owl:topDataProperty ;
-               rdfs:domain :Argument ;
-               rdfs:range xsd:string ;
-               rdfs:isDefinedBy "https://w3id.org/def/nyon#" ;
-               rdfs:label "argumentValue"@en .
+###  https://w3id.org/def/nyon#accussedArgumentText
+:accussedArgumentText rdf:type owl:DatatypeProperty ;
+                      rdfs:subPropertyOf :argumentText .
+
+
+###  https://w3id.org/def/nyon#argumentText
+:argumentText rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf owl:topDataProperty .
 
 
 ###  https://w3id.org/def/nyon#catchwordValue
@@ -534,6 +539,11 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                 rdfs:range xsd:string ;
                 rdfs:isDefinedBy "https://w3id.org/def/nyon#" ;
                 rdfs:label "catchwordValue"@en .
+
+
+###  https://w3id.org/def/nyon#concurrenceText
+:concurrenceText rdf:type owl:DatatypeProperty ;
+                 rdfs:subPropertyOf :judgeOpinionText .
 
 
 ###  https://w3id.org/def/nyon#courtName
@@ -565,6 +575,16 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                 rdfs:label "dateOfJudgment"@en .
 
 
+###  https://w3id.org/def/nyon#defendantArgumentText
+:defendantArgumentText rdf:type owl:DatatypeProperty ;
+                       rdfs:subPropertyOf :argumentText .
+
+
+###  https://w3id.org/def/nyon#dissentText
+:dissentText rdf:type owl:DatatypeProperty ;
+             rdfs:subPropertyOf :judgeOpinionText .
+
+
 ###  https://w3id.org/def/nyon#equivalentCitation
 :equivalentCitation rdf:type owl:DatatypeProperty ;
                     rdfs:subPropertyOf owl:topDataProperty ;
@@ -584,31 +604,14 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                   rdfs:label "evidenceLocation"@en .
 
 
-###  https://w3id.org/def/nyon#factSequenceNum
-:factSequenceNum rdf:type owl:DatatypeProperty ;
-                 rdfs:subPropertyOf owl:topDataProperty ;
-                 rdfs:domain :Fact ;
-                 rdfs:range xsd:int ;
-                 rdfs:isDefinedBy "https://w3id.org/def/nyon#" ;
-                 rdfs:label "factSequenceNum"@en .
+###  https://w3id.org/def/nyon#factText
+:factText rdf:type owl:DatatypeProperty ;
+          rdfs:subPropertyOf owl:topDataProperty .
 
 
-###  https://w3id.org/def/nyon#factValue
-:factValue rdf:type owl:DatatypeProperty ;
-           rdfs:subPropertyOf owl:topDataProperty ;
-           rdfs:domain :Fact ;
-           rdfs:range xsd:string ;
-           rdfs:isDefinedBy "https://w3id.org/def/nyon#" ;
-           rdfs:label "factValue"@en .
-
-
-###  https://w3id.org/def/nyon#finalDecisionValue
-:finalDecisionValue rdf:type owl:DatatypeProperty ;
-                    rdfs:subPropertyOf owl:topDataProperty ;
-                    rdfs:domain :CourtDecision ;
-                    rdfs:range xsd:string ;
-                    rdfs:isDefinedBy "https://w3id.org/def/nyon#" ;
-                    rdfs:label "finalDecisionValue"@en .
+###  https://w3id.org/def/nyon#finalVerdictText
+:finalVerdictText rdf:type owl:DatatypeProperty ;
+                  rdfs:subPropertyOf owl:topDataProperty .
 
 
 ###  https://w3id.org/def/nyon#firstName
@@ -684,22 +687,9 @@ owl:sameAs rdf:type owl:AnnotationProperty .
          rdfs:label "hasYear"@en .
 
 
-###  https://w3id.org/def/nyon#issueSequenceNum
-:issueSequenceNum rdf:type owl:DatatypeProperty ;
-                  rdfs:subPropertyOf owl:topDataProperty ;
-                  rdfs:domain :Issue ;
-                  rdfs:range xsd:int ;
-                  rdfs:isDefinedBy "https://w3id.org/def/nyon#" ;
-                  rdfs:label "issueSequenceNum"@en .
-
-
-###  https://w3id.org/def/nyon#issueValue
-:issueValue rdf:type owl:DatatypeProperty ;
-            rdfs:subPropertyOf owl:topDataProperty ;
-            rdfs:domain :Issue ;
-            rdfs:range xsd:string ;
-            rdfs:isDefinedBy "https://w3id.org/def/nyon#" ;
-            rdfs:label "issueValue"@en .
+###  https://w3id.org/def/nyon#judgeOpinionText
+:judgeOpinionText rdf:type owl:DatatypeProperty ;
+                  rdfs:subPropertyOf owl:topDataProperty .
 
 
 ###  https://w3id.org/def/nyon#lastName
@@ -720,6 +710,11 @@ owl:sameAs rdf:type owl:AnnotationProperty .
               rdfs:label "locationName"@en .
 
 
+###  https://w3id.org/def/nyon#majorityText
+:majorityText rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf :judgeOpinionText .
+
+
 ###  https://w3id.org/def/nyon#neutralCitations
 :neutralCitations rdf:type owl:DatatypeProperty ;
                   rdfs:subPropertyOf owl:topDataProperty ;
@@ -729,22 +724,9 @@ owl:sameAs rdf:type owl:AnnotationProperty .
                   rdfs:isDefinedBy "https://w3id.org/def/nyon#" .
 
 
-###  https://w3id.org/def/nyon#obiterDictumSequenceNum
-:obiterDictumSequenceNum rdf:type owl:DatatypeProperty ;
-                         rdfs:subPropertyOf owl:topDataProperty ;
-                         rdfs:domain :ObiterDictum ;
-                         rdfs:range xsd:int ;
-                         rdfs:isDefinedBy "https://w3id.org/def/nyon#" ;
-                         rdfs:label "obiterDictumSequenceNum"@en .
-
-
-###  https://w3id.org/def/nyon#obiterDictumValue
-:obiterDictumValue rdf:type owl:DatatypeProperty ;
-                   rdfs:subPropertyOf owl:topDataProperty ;
-                   rdfs:domain :ObiterDictum ;
-                   rdfs:range xsd:string ;
-                   rdfs:isDefinedBy "https://w3id.org/def/nyon#" ;
-                   rdfs:label "obiterDictumValue"@en .
+###  https://w3id.org/def/nyon#otherText
+:otherText rdf:type owl:DatatypeProperty ;
+           rdfs:subPropertyOf owl:topDataProperty .
 
 
 ###  https://w3id.org/def/nyon#partyName
@@ -754,29 +736,24 @@ owl:sameAs rdf:type owl:AnnotationProperty .
            rdfs:label "partyName"@en .
 
 
-###  https://w3id.org/def/nyon#ratioDecidendiSequenceNum
-:ratioDecidendiSequenceNum rdf:type owl:DatatypeProperty ;
-                           rdfs:subPropertyOf owl:topDataProperty ;
-                           rdfs:domain :RatioDecidendi ;
-                           rdfs:range xsd:int ;
-                           rdfs:isDefinedBy "https://w3id.org/def/nyon#" ;
-                           rdfs:label "ratioDecidendiSequenceNum"@en .
+###  https://w3id.org/def/nyon#petitionerArgumentText
+:petitionerArgumentText rdf:type owl:DatatypeProperty ;
+                        rdfs:subPropertyOf :argumentText .
 
 
-###  https://w3id.org/def/nyon#ratioDecidendiValue
-:ratioDecidendiValue rdf:type owl:DatatypeProperty ;
-                     rdfs:subPropertyOf owl:topDataProperty ;
-                     rdfs:domain :RatioDecidendi ;
-                     rdfs:range xsd:string ;
-                     rdfs:isDefinedBy "https://w3id.org/def/nyon#" ;
-                     rdfs:label "ratioDecidendiValue"@en .
+###  https://w3id.org/def/nyon#plaintiffArgumentText
+:plaintiffArgumentText rdf:type owl:DatatypeProperty ;
+                       rdfs:subPropertyOf :argumentText .
 
 
-###  https://w3id.org/def/nyon#value
-:value rdf:type owl:DatatypeProperty ;
-       rdfs:domain :Opinion ;
-       rdfs:range xsd:string ;
-       rdfs:isDefinedBy "https://w3id.org/def/nyon#" .
+###  https://w3id.org/def/nyon#rationaleText
+:rationaleText rdf:type owl:DatatypeProperty ;
+               rdfs:subPropertyOf owl:topDataProperty .
+
+
+###  https://w3id.org/def/nyon#respondentArgumentText
+:respondentArgumentText rdf:type owl:DatatypeProperty ;
+                        rdfs:subPropertyOf :argumentText .
 
 
 ###  https://w3id.org/def/nyon#wFirstName
@@ -826,6 +803,15 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 #################################################################
 #    Classes
 #################################################################
+
+###  http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Paragraph
+<http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Paragraph> rdf:type owl:Class ;
+                                                                           rdfs:subClassOf <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Structure> .
+
+
+###  http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Structure
+<http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Structure> rdf:type owl:Class .
+
 
 ###  http://purl.org/spar/cito/Citation
 <http://purl.org/spar/cito/Citation> rdf:type owl:Class ;
@@ -932,6 +918,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 
 ###  https://w3id.org/def/nyon#Argument
 :Argument rdf:type owl:Class ;
+          rdfs:subClassOf <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Paragraph> ;
           rdfs:comment "Argument made by any of the party"@en ;
           rdfs:isDefinedBy "https://w3id.org/def/nyon#" ;
           rdfs:label "Argument"@en .
@@ -1294,6 +1281,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 
 ###  https://w3id.org/def/nyon#Fact
 :Fact rdf:type owl:Class ;
+      rdfs:subClassOf <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Paragraph> ;
       rdfs:comment "represents factual statements in the case law"@en ;
       rdfs:isDefinedBy "https://w3id.org/def/nyon#" ;
       rdfs:label "Fact"@en ;
@@ -1375,6 +1363,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 
 ###  https://w3id.org/def/nyon#Issue
 :Issue rdf:type owl:Class ;
+       rdfs:subClassOf <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Paragraph> ;
        rdfs:comment "issues in the case arised by the party"@en ;
        rdfs:isDefinedBy "https://w3id.org/def/nyon#" ;
        rdfs:label "Issue"@en ;
@@ -1484,6 +1473,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 
 ###  https://w3id.org/def/nyon#ObiterDictum
 :ObiterDictum rdf:type owl:Class ;
+              rdfs:subClassOf <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Paragraph> ;
               rdfs:comment "additional obersvations, remarks, and opinions made by the judge that are not the part of the reason for the decision"@en ;
               rdfs:isDefinedBy "https://w3id.org/def/nyon#" ;
               rdfs:label "Obiter Dictum"@en .
@@ -1493,7 +1483,8 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 :Opinion rdf:type owl:Class ;
          owl:equivalentClass [ rdf:type owl:Class ;
                                owl:complementOf :Judgement
-                             ] .
+                             ] ;
+         rdfs:subClassOf <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Paragraph> .
 
 
 ###  https://w3id.org/def/nyon#Order
@@ -1612,6 +1603,7 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 
 ###  https://w3id.org/def/nyon#RatioDecidendi
 :RatioDecidendi rdf:type owl:Class ;
+                rdfs:subClassOf <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Paragraph> ;
                 rdfs:comment "the rationale for the decision"@en ;
                 rdfs:isDefinedBy "https://w3id.org/def/nyon#" ;
                 rdfs:label "RatioDecidendi"@en .
@@ -2018,31 +2010,19 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 
 
 [ rdf:type owl:AllDisjointProperties ;
-  owl:members ( :argumentSequenceNum
-                :argumentValue
-                :catchwordValue
-                :courtName
-                :courtOffName
-                :dateOfJudgment
-                :evidenceLocation
-                :factSequenceNum
-                :factValue
-                :finalDecisionValue
-                :hasCaseID
-                :hasCaseName
-                :hasDesignation
-                :hasPolicePersonnelName
-                :issueSequenceNum
-                :issueValue
-                :locationName
-                :obiterDictumSequenceNum
-                :obiterDictumValue
-                :partyName
-                :ratioDecidendiSequenceNum
-                :ratioDecidendiValue
-                :witnessName
-                :witnessStatement
-                :wordPhraseValue
+  owl:members ( :accussedArgumentText
+                :defendantArgumentText
+                :petitionerArgumentText
+                :plaintiffArgumentText
+                :respondentArgumentText
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointProperties ;
+  owl:members ( :concurrenceText
+                :dissentText
+                :majorityText
               )
 ] .
 

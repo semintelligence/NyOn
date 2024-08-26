@@ -130,55 +130,27 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointProperties" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
-      "@id" : "https://w3id.org/def/nyon#argumentSequenceNum"
+      "@id" : "https://w3id.org/def/nyon#accussedArgumentText"
     }, {
-      "@id" : "https://w3id.org/def/nyon#argumentValue"
+      "@id" : "https://w3id.org/def/nyon#defendantArgumentText"
     }, {
-      "@id" : "https://w3id.org/def/nyon#catchwordValue"
+      "@id" : "https://w3id.org/def/nyon#petitionerArgumentText"
     }, {
-      "@id" : "https://w3id.org/def/nyon#courtName"
+      "@id" : "https://w3id.org/def/nyon#plaintiffArgumentText"
     }, {
-      "@id" : "https://w3id.org/def/nyon#courtOffName"
+      "@id" : "https://w3id.org/def/nyon#respondentArgumentText"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid137",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointProperties" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/def/nyon#concurrenceText"
     }, {
-      "@id" : "https://w3id.org/def/nyon#dateOfJudgment"
+      "@id" : "https://w3id.org/def/nyon#dissentText"
     }, {
-      "@id" : "https://w3id.org/def/nyon#evidenceLocation"
-    }, {
-      "@id" : "https://w3id.org/def/nyon#factSequenceNum"
-    }, {
-      "@id" : "https://w3id.org/def/nyon#factValue"
-    }, {
-      "@id" : "https://w3id.org/def/nyon#finalDecisionValue"
-    }, {
-      "@id" : "https://w3id.org/def/nyon#hasCaseID"
-    }, {
-      "@id" : "https://w3id.org/def/nyon#hasCaseName"
-    }, {
-      "@id" : "https://w3id.org/def/nyon#hasDesignation"
-    }, {
-      "@id" : "https://w3id.org/def/nyon#hasPolicePersonnelName"
-    }, {
-      "@id" : "https://w3id.org/def/nyon#issueSequenceNum"
-    }, {
-      "@id" : "https://w3id.org/def/nyon#issueValue"
-    }, {
-      "@id" : "https://w3id.org/def/nyon#locationName"
-    }, {
-      "@id" : "https://w3id.org/def/nyon#obiterDictumSequenceNum"
-    }, {
-      "@id" : "https://w3id.org/def/nyon#obiterDictumValue"
-    }, {
-      "@id" : "https://w3id.org/def/nyon#partyName"
-    }, {
-      "@id" : "https://w3id.org/def/nyon#ratioDecidendiSequenceNum"
-    }, {
-      "@id" : "https://w3id.org/def/nyon#ratioDecidendiValue"
-    }, {
-      "@id" : "https://w3id.org/def/nyon#witnessName"
-    }, {
-      "@id" : "https://w3id.org/def/nyon#witnessStatement"
-    }, {
-      "@id" : "https://w3id.org/def/nyon#wordPhraseValue"
+      "@id" : "https://w3id.org/def/nyon#majorityText"
     } ]
   } ]
 }, {
@@ -192,7 +164,7 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid157",
+  "@id" : "_:genid141",
   "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointProperties" ],
   "http://www.w3.org/2002/07/owl#members" : [ {
     "@list" : [ {
@@ -204,7 +176,7 @@
     } ]
   } ]
 }, {
-  "@id" : "_:genid161",
+  "@id" : "_:genid145",
   "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
   "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
@@ -218,24 +190,24 @@
   } ],
   "http://www.w3.org/2003/11/swrl#body" : [ {
     "@list" : [ {
-      "@id" : "_:genid171"
+      "@id" : "_:genid155"
     }, {
-      "@id" : "_:genid169"
+      "@id" : "_:genid153"
     }, {
-      "@id" : "_:genid167"
+      "@id" : "_:genid151"
     }, {
-      "@id" : "_:genid165"
+      "@id" : "_:genid149"
     }, {
-      "@id" : "_:genid163"
+      "@id" : "_:genid147"
     } ]
   } ],
   "http://www.w3.org/2003/11/swrl#head" : [ {
     "@list" : [ {
-      "@id" : "_:genid173"
+      "@id" : "_:genid157"
     } ]
   } ]
 }, {
-  "@id" : "_:genid163",
+  "@id" : "_:genid147",
   "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
   "http://www.w3.org/2003/11/swrl#argument1" : [ {
     "@id" : "https://w3id.org/def/NyOn#cj"
@@ -247,7 +219,7 @@
     "@id" : "https://w3id.org/def/nyon#hasParty"
   } ]
 }, {
-  "@id" : "_:genid165",
+  "@id" : "_:genid149",
   "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
   "http://www.w3.org/2003/11/swrl#argument1" : [ {
     "@id" : "https://w3id.org/def/NyOn#a"
@@ -256,7 +228,7 @@
     "@id" : "https://w3id.org/def/nyon#Argument"
   } ]
 }, {
-  "@id" : "_:genid167",
+  "@id" : "_:genid151",
   "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
   "http://www.w3.org/2003/11/swrl#argument1" : [ {
     "@id" : "https://w3id.org/def/NyOn#p"
@@ -268,13 +240,145 @@
     "@id" : "https://w3id.org/def/nyon#makeArgument"
   } ]
 }, {
-  "@id" : "_:genid169",
+  "@id" : "_:genid153",
   "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
   "http://www.w3.org/2003/11/swrl#argument1" : [ {
     "@id" : "https://w3id.org/def/NyOn#p"
   } ],
   "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
     "@id" : "https://w3id.org/def/nyon#Petitioner"
+  } ]
+}, {
+  "@id" : "_:genid155",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "https://w3id.org/def/NyOn#cj"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "https://w3id.org/def/nyon#CourtCase"
+  } ]
+}, {
+  "@id" : "_:genid157",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "https://w3id.org/def/NyOn#cj"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "https://w3id.org/def/NyOn#a"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "https://w3id.org/def/nyon#petitionerArgument"
+  } ]
+}, {
+  "@id" : "_:genid158",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "S6"
+  } ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid164"
+    }, {
+      "@id" : "_:genid162"
+    }, {
+      "@id" : "_:genid160"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid166"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid160",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "https://w3id.org/def/NyOn#cj"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "https://w3id.org/def/NyOn#r"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "https://w3id.org/def/nyon#hasParty"
+  } ]
+}, {
+  "@id" : "_:genid162",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "https://w3id.org/def/NyOn#r"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "https://w3id.org/def/nyon#Respondent"
+  } ]
+}, {
+  "@id" : "_:genid164",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "https://w3id.org/def/NyOn#p"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "https://w3id.org/def/NyOn#a"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "https://w3id.org/def/nyon#makeArgument"
+  } ]
+}, {
+  "@id" : "_:genid166",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "https://w3id.org/def/NyOn#r"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "https://w3id.org/def/NyOn#a"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "https://w3id.org/def/nyon#respondentArgument"
+  } ]
+}, {
+  "@id" : "_:genid167",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "S4"
+  } ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid173"
+    }, {
+      "@id" : "_:genid171"
+    }, {
+      "@id" : "_:genid169"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid175"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid169",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "https://w3id.org/def/NyOn#j"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "https://w3id.org/def/NyOn#c"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "https://w3id.org/def/nyon#withConcurrence"
   } ]
 }, {
   "@id" : "_:genid17",
@@ -290,145 +394,13 @@
   "@id" : "_:genid171",
   "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
   "http://www.w3.org/2003/11/swrl#argument1" : [ {
-    "@id" : "https://w3id.org/def/NyOn#cj"
-  } ],
-  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
-    "@id" : "https://w3id.org/def/nyon#CourtCase"
-  } ]
-}, {
-  "@id" : "_:genid173",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
-  "http://www.w3.org/2003/11/swrl#argument1" : [ {
-    "@id" : "https://w3id.org/def/NyOn#cj"
-  } ],
-  "http://www.w3.org/2003/11/swrl#argument2" : [ {
-    "@id" : "https://w3id.org/def/NyOn#a"
-  } ],
-  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
-    "@id" : "https://w3id.org/def/nyon#petitionerArgument"
-  } ]
-}, {
-  "@id" : "_:genid174",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
-  "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
-    "@value" : "true"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : ""
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "S6"
-  } ],
-  "http://www.w3.org/2003/11/swrl#body" : [ {
-    "@list" : [ {
-      "@id" : "_:genid180"
-    }, {
-      "@id" : "_:genid178"
-    }, {
-      "@id" : "_:genid176"
-    } ]
-  } ],
-  "http://www.w3.org/2003/11/swrl#head" : [ {
-    "@list" : [ {
-      "@id" : "_:genid182"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid176",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
-  "http://www.w3.org/2003/11/swrl#argument1" : [ {
-    "@id" : "https://w3id.org/def/NyOn#cj"
-  } ],
-  "http://www.w3.org/2003/11/swrl#argument2" : [ {
-    "@id" : "https://w3id.org/def/NyOn#r"
-  } ],
-  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
-    "@id" : "https://w3id.org/def/nyon#hasParty"
-  } ]
-}, {
-  "@id" : "_:genid178",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
-  "http://www.w3.org/2003/11/swrl#argument1" : [ {
-    "@id" : "https://w3id.org/def/NyOn#r"
-  } ],
-  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
-    "@id" : "https://w3id.org/def/nyon#Respondent"
-  } ]
-}, {
-  "@id" : "_:genid180",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
-  "http://www.w3.org/2003/11/swrl#argument1" : [ {
-    "@id" : "https://w3id.org/def/NyOn#p"
-  } ],
-  "http://www.w3.org/2003/11/swrl#argument2" : [ {
-    "@id" : "https://w3id.org/def/NyOn#a"
-  } ],
-  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
-    "@id" : "https://w3id.org/def/nyon#makeArgument"
-  } ]
-}, {
-  "@id" : "_:genid182",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
-  "http://www.w3.org/2003/11/swrl#argument1" : [ {
-    "@id" : "https://w3id.org/def/NyOn#r"
-  } ],
-  "http://www.w3.org/2003/11/swrl#argument2" : [ {
-    "@id" : "https://w3id.org/def/NyOn#a"
-  } ],
-  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
-    "@id" : "https://w3id.org/def/nyon#respondentArgument"
-  } ]
-}, {
-  "@id" : "_:genid183",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
-  "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
-    "@value" : "true"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : ""
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "S4"
-  } ],
-  "http://www.w3.org/2003/11/swrl#body" : [ {
-    "@list" : [ {
-      "@id" : "_:genid189"
-    }, {
-      "@id" : "_:genid187"
-    }, {
-      "@id" : "_:genid185"
-    } ]
-  } ],
-  "http://www.w3.org/2003/11/swrl#head" : [ {
-    "@list" : [ {
-      "@id" : "_:genid191"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid185",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
-  "http://www.w3.org/2003/11/swrl#argument1" : [ {
-    "@id" : "https://w3id.org/def/NyOn#j"
-  } ],
-  "http://www.w3.org/2003/11/swrl#argument2" : [ {
-    "@id" : "https://w3id.org/def/NyOn#c"
-  } ],
-  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
-    "@id" : "https://w3id.org/def/nyon#withConcurrence"
-  } ]
-}, {
-  "@id" : "_:genid187",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
-  "http://www.w3.org/2003/11/swrl#argument1" : [ {
     "@id" : "https://w3id.org/def/NyOn#c"
   } ],
   "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
     "@id" : "https://w3id.org/def/nyon#Concurrence"
   } ]
 }, {
-  "@id" : "_:genid189",
+  "@id" : "_:genid173",
   "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
   "http://www.w3.org/2003/11/swrl#argument1" : [ {
     "@id" : "https://w3id.org/def/NyOn#x"
@@ -438,6 +410,138 @@
   } ],
   "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
     "@id" : "https://w3id.org/def/nyon#hasJudge"
+  } ]
+}, {
+  "@id" : "_:genid175",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "https://w3id.org/def/NyOn#j"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "https://w3id.org/def/NyOn#c"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "https://w3id.org/def/nyon#withOpinion"
+  } ]
+}, {
+  "@id" : "_:genid176",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "S3"
+  } ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid182"
+    }, {
+      "@id" : "_:genid180"
+    }, {
+      "@id" : "_:genid178"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid184"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid178",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "https://w3id.org/def/NyOn#j"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "https://w3id.org/def/NyOn#d"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "https://w3id.org/def/nyon#withDissent"
+  } ]
+}, {
+  "@id" : "_:genid180",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "https://w3id.org/def/NyOn#d"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "https://w3id.org/def/nyon#Dissent"
+  } ]
+}, {
+  "@id" : "_:genid182",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "https://w3id.org/def/NyOn#x"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "https://w3id.org/def/NyOn#j"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "https://w3id.org/def/nyon#hasJudge"
+  } ]
+}, {
+  "@id" : "_:genid184",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "https://w3id.org/def/NyOn#j"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "https://w3id.org/def/NyOn#d"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "https://w3id.org/def/nyon#withOpinion"
+  } ]
+}, {
+  "@id" : "_:genid185",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "S2"
+  } ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid191"
+    }, {
+      "@id" : "_:genid189"
+    }, {
+      "@id" : "_:genid187"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid193"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid187",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "https://w3id.org/def/NyOn#j"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "https://w3id.org/def/NyOn#m"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "https://w3id.org/def/nyon#withMajority"
+  } ]
+}, {
+  "@id" : "_:genid189",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "https://w3id.org/def/NyOn#m"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "https://w3id.org/def/nyon#Majority"
   } ]
 }, {
   "@id" : "_:genid19",
@@ -452,169 +556,28 @@
   "@id" : "_:genid191",
   "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
   "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "https://w3id.org/def/NyOn#x"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "https://w3id.org/def/NyOn#j"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "https://w3id.org/def/nyon#hasJudge"
+  } ]
+}, {
+  "@id" : "_:genid193",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
     "@id" : "https://w3id.org/def/NyOn#j"
   } ],
   "http://www.w3.org/2003/11/swrl#argument2" : [ {
-    "@id" : "https://w3id.org/def/NyOn#c"
+    "@id" : "https://w3id.org/def/NyOn#m"
   } ],
   "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
     "@id" : "https://w3id.org/def/nyon#withOpinion"
-  } ]
-}, {
-  "@id" : "_:genid192",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
-  "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
-    "@value" : "true"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : ""
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "S3"
-  } ],
-  "http://www.w3.org/2003/11/swrl#body" : [ {
-    "@list" : [ {
-      "@id" : "_:genid198"
-    }, {
-      "@id" : "_:genid196"
-    }, {
-      "@id" : "_:genid194"
-    } ]
-  } ],
-  "http://www.w3.org/2003/11/swrl#head" : [ {
-    "@list" : [ {
-      "@id" : "_:genid200"
-    } ]
   } ]
 }, {
   "@id" : "_:genid194",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
-  "http://www.w3.org/2003/11/swrl#argument1" : [ {
-    "@id" : "https://w3id.org/def/NyOn#j"
-  } ],
-  "http://www.w3.org/2003/11/swrl#argument2" : [ {
-    "@id" : "https://w3id.org/def/NyOn#d"
-  } ],
-  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
-    "@id" : "https://w3id.org/def/nyon#withDissent"
-  } ]
-}, {
-  "@id" : "_:genid196",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
-  "http://www.w3.org/2003/11/swrl#argument1" : [ {
-    "@id" : "https://w3id.org/def/NyOn#d"
-  } ],
-  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
-    "@id" : "https://w3id.org/def/nyon#Dissent"
-  } ]
-}, {
-  "@id" : "_:genid198",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
-  "http://www.w3.org/2003/11/swrl#argument1" : [ {
-    "@id" : "https://w3id.org/def/NyOn#x"
-  } ],
-  "http://www.w3.org/2003/11/swrl#argument2" : [ {
-    "@id" : "https://w3id.org/def/NyOn#j"
-  } ],
-  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
-    "@id" : "https://w3id.org/def/nyon#hasJudge"
-  } ]
-}, {
-  "@id" : "_:genid200",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
-  "http://www.w3.org/2003/11/swrl#argument1" : [ {
-    "@id" : "https://w3id.org/def/NyOn#j"
-  } ],
-  "http://www.w3.org/2003/11/swrl#argument2" : [ {
-    "@id" : "https://w3id.org/def/NyOn#d"
-  } ],
-  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
-    "@id" : "https://w3id.org/def/nyon#withOpinion"
-  } ]
-}, {
-  "@id" : "_:genid201",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
-  "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
-    "@value" : "true"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : ""
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "S2"
-  } ],
-  "http://www.w3.org/2003/11/swrl#body" : [ {
-    "@list" : [ {
-      "@id" : "_:genid207"
-    }, {
-      "@id" : "_:genid205"
-    }, {
-      "@id" : "_:genid203"
-    } ]
-  } ],
-  "http://www.w3.org/2003/11/swrl#head" : [ {
-    "@list" : [ {
-      "@id" : "_:genid209"
-    } ]
-  } ]
-}, {
-  "@id" : "_:genid203",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
-  "http://www.w3.org/2003/11/swrl#argument1" : [ {
-    "@id" : "https://w3id.org/def/NyOn#j"
-  } ],
-  "http://www.w3.org/2003/11/swrl#argument2" : [ {
-    "@id" : "https://w3id.org/def/NyOn#m"
-  } ],
-  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
-    "@id" : "https://w3id.org/def/nyon#withMajority"
-  } ]
-}, {
-  "@id" : "_:genid205",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
-  "http://www.w3.org/2003/11/swrl#argument1" : [ {
-    "@id" : "https://w3id.org/def/NyOn#m"
-  } ],
-  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
-    "@id" : "https://w3id.org/def/nyon#Majority"
-  } ]
-}, {
-  "@id" : "_:genid207",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
-  "http://www.w3.org/2003/11/swrl#argument1" : [ {
-    "@id" : "https://w3id.org/def/NyOn#x"
-  } ],
-  "http://www.w3.org/2003/11/swrl#argument2" : [ {
-    "@id" : "https://w3id.org/def/NyOn#j"
-  } ],
-  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
-    "@id" : "https://w3id.org/def/nyon#hasJudge"
-  } ]
-}, {
-  "@id" : "_:genid209",
-  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
-  "http://www.w3.org/2003/11/swrl#argument1" : [ {
-    "@id" : "https://w3id.org/def/NyOn#j"
-  } ],
-  "http://www.w3.org/2003/11/swrl#argument2" : [ {
-    "@id" : "https://w3id.org/def/NyOn#m"
-  } ],
-  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
-    "@id" : "https://w3id.org/def/nyon#withOpinion"
-  } ]
-}, {
-  "@id" : "_:genid21",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
-  "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://w3id.org/def/nyon#hasWords"
-  } ],
-  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
-    "@id" : "https://w3id.org/def/nyon#CaseDomain"
-  } ]
-}, {
-  "@id" : "_:genid210",
   "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
   "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
@@ -628,20 +591,20 @@
   } ],
   "http://www.w3.org/2003/11/swrl#body" : [ {
     "@list" : [ {
-      "@id" : "_:genid216"
+      "@id" : "_:genid200"
     }, {
-      "@id" : "_:genid214"
+      "@id" : "_:genid198"
     }, {
-      "@id" : "_:genid212"
+      "@id" : "_:genid196"
     } ]
   } ],
   "http://www.w3.org/2003/11/swrl#head" : [ {
     "@list" : [ {
-      "@id" : "_:genid218"
+      "@id" : "_:genid202"
     } ]
   } ]
 }, {
-  "@id" : "_:genid212",
+  "@id" : "_:genid196",
   "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
   "http://www.w3.org/2003/11/swrl#argument1" : [ {
     "@id" : "https://w3id.org/def/NyOn#y"
@@ -653,7 +616,7 @@
     "@id" : "https://w3id.org/def/nyon#hasCourtOfficial"
   } ]
 }, {
-  "@id" : "_:genid214",
+  "@id" : "_:genid198",
   "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
   "http://www.w3.org/2003/11/swrl#argument1" : [ {
     "@id" : "https://w3id.org/def/NyOn#j"
@@ -662,7 +625,7 @@
     "@id" : "https://w3id.org/def/nyon#Judge"
   } ]
 }, {
-  "@id" : "_:genid216",
+  "@id" : "_:genid200",
   "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
   "http://www.w3.org/2003/11/swrl#argument1" : [ {
     "@id" : "https://w3id.org/def/NyOn#x"
@@ -674,7 +637,7 @@
     "@id" : "https://w3id.org/def/nyon#hasFinalDecision"
   } ]
 }, {
-  "@id" : "_:genid218",
+  "@id" : "_:genid202",
   "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
   "http://www.w3.org/2003/11/swrl#argument1" : [ {
     "@id" : "https://w3id.org/def/NyOn#x"
@@ -684,6 +647,15 @@
   } ],
   "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
     "@id" : "https://w3id.org/def/nyon#hasJudge"
+  } ]
+}, {
+  "@id" : "_:genid21",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/def/nyon#hasWords"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "https://w3id.org/def/nyon#CaseDomain"
   } ]
 }, {
   "@id" : "_:genid22",
@@ -986,6 +958,21 @@
   "@id" : "http://docs.oasis-open.org/legalruleml/ns/v1.0/FactualStatement",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
+  "@id" : "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Paragraph",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Structure"
+  } ]
+}, {
+  "@id" : "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Structure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#beginIndex",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#endIndex",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
   "@id" : "http://purl.org/dc/elements/1.1/publisher",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
@@ -1285,6 +1272,9 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Argument"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Paragraph"
   } ]
 }, {
   "@id" : "https://w3id.org/def/nyon#Author",
@@ -2020,6 +2010,9 @@
     "@language" : "en",
     "@value" : "Fact"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Paragraph"
+  } ],
   "http://www.w3.org/2002/07/owl#sameAs" : [ {
     "@language" : "en",
     "@value" : "http://lmss.sali.org/RnKWv1E6U2Ssc5SRsG14NO"
@@ -2158,8 +2151,17 @@
     "@language" : "en",
     "@value" : "Issue"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Paragraph"
+  } ],
   "http://www.w3.org/2002/07/owl#sameAs" : [ {
     "@value" : "http://lmss.sali.org/RI3QONzSYBIXBgMFfpUDhk"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/nyon#IssueText",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
   "@id" : "https://w3id.org/def/nyon#Judge",
@@ -2422,6 +2424,9 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Obiter Dictum"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Paragraph"
   } ]
 }, {
   "@id" : "https://w3id.org/def/nyon#OfDomian",
@@ -2458,6 +2463,9 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Opinion"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Paragraph"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid23"
@@ -2675,6 +2683,9 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "RatioDecidendi"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Paragraph"
   } ]
 }, {
   "@id" : "https://w3id.org/def/nyon#RealPropertyLaw",
@@ -3002,6 +3013,12 @@
     "@id" : "https://w3id.org/def/nyon#Jurisdiction"
   } ]
 }, {
+  "@id" : "https://w3id.org/def/nyon#accussedArgumentText",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://w3id.org/def/nyon#argumentText"
+  } ]
+}, {
   "@id" : "https://w3id.org/def/nyon#appellantArgument",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
@@ -3023,40 +3040,8 @@
     "@id" : "https://w3id.org/def/nyon#makeArgument"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/nyon#argumentSequenceNum",
+  "@id" : "https://w3id.org/def/nyon#argumentText",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/nyon#Argument"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "https://w3id.org/def/nyon#"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "argumentSequenceNum"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#int"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
-  } ]
-}, {
-  "@id" : "https://w3id.org/def/nyon#argumentValue",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/nyon#Argument"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "https://w3id.org/def/nyon#"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "argumentValue"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#string"
-  } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
@@ -3112,6 +3097,12 @@
     "@value" : "citedBy"
   } ]
 }, {
+  "@id" : "https://w3id.org/def/nyon#concurrenceText",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://w3id.org/def/nyon#judgeOpinionText"
+  } ]
+}, {
   "@id" : "https://w3id.org/def/nyon#courtName",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
@@ -3163,6 +3154,12 @@
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
+  "@id" : "https://w3id.org/def/nyon#defendantArgumentText",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://w3id.org/def/nyon#argumentText"
+  } ]
+}, {
   "@id" : "https://w3id.org/def/nyon#defendentArgument",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
@@ -3182,6 +3179,12 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "https://w3id.org/def/nyon#makeArgument"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/nyon#dissentText",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://w3id.org/def/nyon#judgeOpinionText"
   } ]
 }, {
   "@id" : "https://w3id.org/def/nyon#equivalentCitation",
@@ -3225,59 +3228,14 @@
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/nyon#factSequenceNum",
+  "@id" : "https://w3id.org/def/nyon#factText",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/nyon#Fact"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "https://w3id.org/def/nyon#"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "factSequenceNum"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#int"
-  } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/nyon#factValue",
+  "@id" : "https://w3id.org/def/nyon#finalVerdictText",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/nyon#Fact"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "https://w3id.org/def/nyon#"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "factValue"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#string"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
-  } ]
-}, {
-  "@id" : "https://w3id.org/def/nyon#finalDecisionValue",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/nyon#CourtDecision"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "https://w3id.org/def/nyon#"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "finalDecisionValue"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#string"
-  } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
@@ -3964,40 +3922,8 @@
     "@id" : "https://w3id.org/def/nyon#dateOfJudgment"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/nyon#issueSequenceNum",
+  "@id" : "https://w3id.org/def/nyon#judgeOpinionText",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/nyon#Issue"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "https://w3id.org/def/nyon#"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "issueSequenceNum"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#int"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
-  } ]
-}, {
-  "@id" : "https://w3id.org/def/nyon#issueValue",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/nyon#Issue"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "https://w3id.org/def/nyon#"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "issueValue"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#string"
-  } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
@@ -4040,6 +3966,12 @@
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
+  "@id" : "https://w3id.org/def/nyon#majorityText",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://w3id.org/def/nyon#judgeOpinionText"
+  } ]
+}, {
   "@id" : "https://w3id.org/def/nyon#makeArgument",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
@@ -4075,40 +4007,8 @@
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/nyon#obiterDictumSequenceNum",
+  "@id" : "https://w3id.org/def/nyon#otherText",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/nyon#ObiterDictum"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "https://w3id.org/def/nyon#"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "obiterDictumSequenceNum"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#int"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
-  } ]
-}, {
-  "@id" : "https://w3id.org/def/nyon#obiterDictumValue",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/nyon#ObiterDictum"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "https://w3id.org/def/nyon#"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "obiterDictumValue"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#string"
-  } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
@@ -4147,6 +4047,12 @@
     "@id" : "https://w3id.org/def/nyon#makeArgument"
   } ]
 }, {
+  "@id" : "https://w3id.org/def/nyon#petitionerArgumentText",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://w3id.org/def/nyon#argumentText"
+  } ]
+}, {
   "@id" : "https://w3id.org/def/nyon#plaintiffArgument",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
@@ -4166,6 +4072,12 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "https://w3id.org/def/nyon#makeArgument"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/nyon#plaintiffArgumentText",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://w3id.org/def/nyon#argumentText"
   } ]
 }, {
   "@id" : "https://w3id.org/def/nyon#precedentOverruled",
@@ -4216,40 +4128,8 @@
     "@id" : "https://w3id.org/def/nyon#hasPrecedent"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/nyon#ratioDecidendiSequenceNum",
+  "@id" : "https://w3id.org/def/nyon#rationaleText",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/nyon#RatioDecidendi"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "https://w3id.org/def/nyon#"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "ratioDecidendiSequenceNum"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#int"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
-    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
-  } ]
-}, {
-  "@id" : "https://w3id.org/def/nyon#ratioDecidendiValue",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/nyon#RatioDecidendi"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "https://w3id.org/def/nyon#"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "ratioDecidendiValue"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#string"
-  } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
@@ -4275,16 +4155,10 @@
     "@id" : "https://w3id.org/def/nyon#makeArgument"
   } ]
 }, {
-  "@id" : "https://w3id.org/def/nyon#value",
+  "@id" : "https://w3id.org/def/nyon#respondentArgumentText",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/def/nyon#Opinion"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "https://w3id.org/def/nyon#"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://w3id.org/def/nyon#argumentText"
   } ]
 }, {
   "@id" : "https://w3id.org/def/nyon#wFirstName",
