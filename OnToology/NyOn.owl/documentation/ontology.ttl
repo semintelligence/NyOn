@@ -7,7 +7,7 @@
 @base <https://w3id.org/def/nyon#> .
 
 <https://w3id.org/def/nyon#> rdf:type owl:Ontology ;
-                              owl:versionIRI <https://w3id.org/def/nyon#/1.2.0> ;
+                              owl:versionIRI <https://w3id.org/def/nyon#/2.0.0> ;
                               <http://purl.org/dc/elements/1.1/publisher> <https://www.semintelligence.org/projects> ;
                               <http://purl.org/dc/terms/contributor> "Jain, Sarika" ,
                                                                      "Mihindukulasooriya, Nandana" ;
@@ -19,6 +19,7 @@
                               <http://purl.org/dc/terms/title> "NyOn:  A knowledge based intelligent model for Globalised Judiciary"@en ;
                               <http://purl.org/vocab/vann/preferredNamespacePrefix> "nyon" ;
                               <http://purl.org/vocab/vann/preferredNamespaceUri> "https://w3id.org/def/nyon#"@en ;
+                              owl:priorVersion "https://w3id.org/def/NyOnLegalOntology#" ;
                               owl:versionInfo 2.0 ;
                               <http://xmlns.com/foaf/0.1/homepage> "https://w3id.org/def/nyon#"@en .
 
