@@ -14,7 +14,7 @@
      xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
      xmlns:dcterms="http://purl.org/dc/terms/">
     <owl:Ontology rdf:about="https://w3id.org/def/nyon#">
-        <owl:versionIRI rdf:resource="https://w3id.org/def/nyon#/1.2.0"/>
+        <owl:versionIRI rdf:resource="https://w3id.org/def/nyon#/2.0.0"/>
         <dc:publisher rdf:resource="https://www.semintelligence.org/projects"/>
         <dcterms:contributor>Jain, Sarika</dcterms:contributor>
         <dcterms:contributor>Mihindukulasooriya, Nandana</dcterms:contributor>
@@ -26,6 +26,7 @@
         <dcterms:title xml:lang="en">NyOn:  A knowledge based intelligent model for Globalised Judiciary</dcterms:title>
         <vann:preferredNamespacePrefix>nyon</vann:preferredNamespacePrefix>
         <vann:preferredNamespaceUri xml:lang="en">https://w3id.org/def/nyon#</vann:preferredNamespaceUri>
+        <owl:priorVersion>https://w3id.org/def/NyOnLegalOntology#</owl:priorVersion>
         <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</owl:versionInfo>
         <foaf:homepage xml:lang="en">https://w3id.org/def/nyon#</foaf:homepage>
     </owl:Ontology>
