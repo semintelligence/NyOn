@@ -13,7 +13,6 @@
      xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
      xmlns:terms="http://purl.org/dc/terms/">
     <owl:Ontology rdf:about="https://w3id.org/def/nyon#">
-        <owl:versionIRI rdf:resource="https://w3id.org/def/nyon#/1.2.0"/>
         <dc:publisher rdf:resource="https://www.semintelligence.org/projects"/>
         <terms:contributor>Jain, Sarika</terms:contributor>
         <terms:contributor>Mihindukulasooriya, Nandana</terms:contributor>
@@ -21,10 +20,11 @@
         <terms:creator>Harde, Pooja</terms:creator>
         <terms:description xml:lang="en">An ontology driven knowledge-based model for describing judicial court documents.</terms:description>
         <terms:license rdf:resource="http://purl.org/NET/rdflicense/cc-by4.0"/>
-        <terms:modified>2020-07-16</terms:modified>
+        <terms:modified>2024-09-03</terms:modified>
         <terms:title xml:lang="en">NyOn:  A knowledge based intelligent model for Globalised Judiciary</terms:title>
         <vann:preferredNamespacePrefix>nyon</vann:preferredNamespacePrefix>
         <vann:preferredNamespaceUri xml:lang="en">https://w3id.org/def/nyon#</vann:preferredNamespaceUri>
+        <owl:priorVersion>https://w3id.org/def/NyOnLegalOntology#</owl:priorVersion>
         <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2.0</owl:versionInfo>
         <foaf:homepage xml:lang="en">https://w3id.org/def/nyon#</foaf:homepage>
     </owl:Ontology>
@@ -396,6 +396,19 @@
     
 
 
+    <!-- https://w3id.org/def/nyon#hasOpinion -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/def/nyon#hasOpinion">
+        <rdfs:domain rdf:resource="https://w3id.org/def/nyon#Judge"/>
+        <rdfs:range rdf:resource="https://w3id.org/def/nyon#Opinion"/>
+        <rdfs:comment xml:lang="en">represnts the judge opinion on the case either with majority, dissent or concurrence</rdfs:comment>
+        <rdfs:isDefinedBy>https://w3id.org/def/nyon#</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">hasOpinion</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- https://w3id.org/def/nyon#hasParty -->
 
 
@@ -546,6 +559,17 @@
     
 
 
+    <!-- https://w3id.org/def/nyon#part_of -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/def/nyon#part_of">
+        <rdfs:comment>signifies the relation of &quot;part_of&quot; some resource/activity/content etc.</rdfs:comment>
+        <rdfs:isDefinedBy>https://w3id.org/def/nyon#</rdfs:isDefinedBy>
+        <rdfs:label>part_of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- https://w3id.org/def/nyon#petitionerArgument -->
 
 
@@ -592,7 +616,7 @@
 
 
     <owl:ObjectProperty rdf:about="https://w3id.org/def/nyon#withConcurrence">
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/def/nyon#withOpinion"/>
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/def/nyon#hasOpinion"/>
         <rdfs:domain rdf:resource="https://w3id.org/def/nyon#Judge"/>
         <rdfs:range rdf:resource="https://w3id.org/def/nyon#Concurrence"/>
         <rdfs:comment>specifies the judge (nyon:Judge) gives the opinion in concurrence (nyon:Concurrence) of the court</rdfs:comment>
@@ -606,7 +630,7 @@
 
 
     <owl:ObjectProperty rdf:about="https://w3id.org/def/nyon#withDissent">
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/def/nyon#withOpinion"/>
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/def/nyon#hasOpinion"/>
         <rdfs:domain rdf:resource="https://w3id.org/def/nyon#Judge"/>
         <rdfs:range rdf:resource="https://w3id.org/def/nyon#Dissent"/>
         <rdfs:comment>specifies the judge (nyon:Judge) gives the opinion in dissent (nyon:Dissent) of the court</rdfs:comment>
@@ -620,25 +644,12 @@
 
 
     <owl:ObjectProperty rdf:about="https://w3id.org/def/nyon#withMajority">
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/def/nyon#withOpinion"/>
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/def/nyon#hasOpinion"/>
         <rdfs:domain rdf:resource="https://w3id.org/def/nyon#Judge"/>
         <rdfs:range rdf:resource="https://w3id.org/def/nyon#Majority"/>
         <rdfs:comment>specifies the judge (nyon:Judge) gives the opinion in majority (nyon:Majority) of the court</rdfs:comment>
         <rdfs:isDefinedBy>https://w3id.org/def/nyon#</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">withMajority</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://w3id.org/def/nyon#withOpinion -->
-
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/def/nyon#withOpinion">
-        <rdfs:domain rdf:resource="https://w3id.org/def/nyon#Judge"/>
-        <rdfs:range rdf:resource="https://w3id.org/def/nyon#Opinion"/>
-        <rdfs:comment xml:lang="en">represnts the judge opinion on the case either with majority, dissent or concurrence</rdfs:comment>
-        <rdfs:isDefinedBy>https://w3id.org/def/nyon#</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">withOpinion</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1296,15 +1307,6 @@
     
 
 
-    <!-- https://w3id.org/def/nyon#AgricultureLaw -->
-
-
-    <owl:Class rdf:about="https://w3id.org/def/nyon#AgricultureLaw">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/nyon#Civil"/>
-    </owl:Class>
-    
-
-
     <!-- https://w3id.org/def/nyon#Appellant -->
 
 
@@ -1370,24 +1372,6 @@
     
 
 
-    <!-- https://w3id.org/def/nyon#BankingLaw -->
-
-
-    <owl:Class rdf:about="https://w3id.org/def/nyon#BankingLaw">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/nyon#Civil"/>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/def/nyon#BankruptcyandRestructuringLaw -->
-
-
-    <owl:Class rdf:about="https://w3id.org/def/nyon#BankruptcyandRestructuringLaw">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/nyon#Civil"/>
-    </owl:Class>
-    
-
-
     <!-- https://w3id.org/def/nyon#Bench -->
 
 
@@ -1396,15 +1380,6 @@
         <rdfs:isDefinedBy>https://w3id.org/def/nyon#</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">Bench</rdfs:label>
         <owl:sameAs xml:lang="en">http://lmss.sali.org/R8w3kl1tpEaQ2woPVs9N8Kf</owl:sameAs>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/def/nyon#CannabisLaw -->
-
-
-    <owl:Class rdf:about="https://w3id.org/def/nyon#CannabisLaw">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/nyon#Civil"/>
     </owl:Class>
     
 
@@ -1490,15 +1465,6 @@
     
 
 
-    <!-- https://w3id.org/def/nyon#CommercialandTradeLaw -->
-
-
-    <owl:Class rdf:about="https://w3id.org/def/nyon#CommercialandTradeLaw">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/nyon#Civil"/>
-    </owl:Class>
-    
-
-
     <!-- https://w3id.org/def/nyon#Concurrence -->
 
 
@@ -1508,33 +1474,6 @@
         <rdfs:isDefinedBy>https://w3id.org/def/nyon#</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">Concurrence</rdfs:label>
         <skos:exactMatch>http://lmss.sali.org/RTNLwK1SAJaRJJu2kYrJZg</skos:exactMatch>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/def/nyon#ConstitutionalandCivilRightsLaw -->
-
-
-    <owl:Class rdf:about="https://w3id.org/def/nyon#ConstitutionalandCivilRightsLaw">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/nyon#Civil"/>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/def/nyon#ContractLaw -->
-
-
-    <owl:Class rdf:about="https://w3id.org/def/nyon#ContractLaw">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/nyon#Civil"/>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/def/nyon#CorporateLaw -->
-
-
-    <owl:Class rdf:about="https://w3id.org/def/nyon#CorporateLaw">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/nyon#Civil"/>
     </owl:Class>
     
 
@@ -1745,33 +1684,6 @@
     
 
 
-    <!-- https://w3id.org/def/nyon#EducationLaw -->
-
-
-    <owl:Class rdf:about="https://w3id.org/def/nyon#EducationLaw">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/nyon#Civil"/>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/def/nyon#EnergyLaw -->
-
-
-    <owl:Class rdf:about="https://w3id.org/def/nyon#EnergyLaw">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/nyon#Civil"/>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/def/nyon#EnvironmentalandNaturalResourceLaw -->
-
-
-    <owl:Class rdf:about="https://w3id.org/def/nyon#EnvironmentalandNaturalResourceLaw">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/nyon#Civil"/>
-    </owl:Class>
-    
-
-
     <!-- https://w3id.org/def/nyon#Evidence -->
 
 
@@ -1797,33 +1709,6 @@
     
 
 
-    <!-- https://w3id.org/def/nyon#FinanceandLendingLaw -->
-
-
-    <owl:Class rdf:about="https://w3id.org/def/nyon#FinanceandLendingLaw">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/nyon#Civil"/>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/def/nyon#FoodandDrugLaw -->
-
-
-    <owl:Class rdf:about="https://w3id.org/def/nyon#FoodandDrugLaw">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/nyon#Civil"/>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/def/nyon#GamingLaw -->
-
-
-    <owl:Class rdf:about="https://w3id.org/def/nyon#GamingLaw">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/nyon#Civil"/>
-    </owl:Class>
-    
-
-
     <!-- https://w3id.org/def/nyon#Group -->
 
 
@@ -1832,15 +1717,6 @@
         <rdfs:comment xml:lang="en">party of the case are the group of people on one side against another group of people or individual or state</rdfs:comment>
         <rdfs:isDefinedBy>https://w3id.org/def/nyon#</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">Group</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/def/nyon#HealthLaw -->
-
-
-    <owl:Class rdf:about="https://w3id.org/def/nyon#HealthLaw">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/nyon#Civil"/>
     </owl:Class>
     
 
@@ -1879,33 +1755,6 @@
     
 
 
-    <!-- https://w3id.org/def/nyon#InformationSecurityLaw -->
-
-
-    <owl:Class rdf:about="https://w3id.org/def/nyon#InformationSecurityLaw">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/nyon#Civil"/>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/def/nyon#InsuranceLaw -->
-
-
-    <owl:Class rdf:about="https://w3id.org/def/nyon#InsuranceLaw">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/nyon#Civil"/>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/def/nyon#IntellectualPropertyLaw -->
-
-
-    <owl:Class rdf:about="https://w3id.org/def/nyon#IntellectualPropertyLaw">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/nyon#Civil"/>
-    </owl:Class>
-    
-
-
     <!-- https://w3id.org/def/nyon#Investigator -->
 
 
@@ -1936,6 +1785,22 @@
 
     <owl:Class rdf:about="https://w3id.org/def/nyon#Judge">
         <rdfs:subClassOf rdf:resource="https://w3id.org/def/nyon#Court_Official"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/def/nyon#hasOpinion"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/def/nyon#Opinion"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/def/nyon#worksIn"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/def/nyon#Court"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>A judge is a public official appointed to decide cases in a court of law.</rdfs:comment>
+        <rdfs:isDefinedBy>https://w3id.org/def/nyon#</rdfs:isDefinedBy>
+        <rdfs:label>Judge</rdfs:label>
+        <skos:exactMatch>http://lmss.sali.org/RDnLOdTNWmEc4EhZ0SZXDm7</skos:exactMatch>
     </owl:Class>
     
 
@@ -1964,15 +1829,6 @@
     
 
 
-    <!-- https://w3id.org/def/nyon#LaborandEmploymentLaw -->
-
-
-    <owl:Class rdf:about="https://w3id.org/def/nyon#LaborandEmploymentLaw">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/nyon#Civil"/>
-    </owl:Class>
-    
-
-
     <!-- https://w3id.org/def/nyon#Larger_Bench -->
 
 
@@ -1981,15 +1837,6 @@
         <rdfs:comment xml:lang="en">a term in judicial system in India in which a case is heard and judged by three or five judges</rdfs:comment>
         <rdfs:isDefinedBy>https://w3id.org/def/nyon#</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">Larger Bench</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/def/nyon#LawofObligations -->
-
-
-    <owl:Class rdf:about="https://w3id.org/def/nyon#LawofObligations">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/nyon#Civil"/>
     </owl:Class>
     
 
@@ -2063,15 +1910,6 @@
         <rdfs:comment xml:lang="en">court for population more than 10 lakh city </rdfs:comment>
         <rdfs:isDefinedBy>https://w3id.org/def/nyon#</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">Metropolitan Court</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/def/nyon#MunicipalLaw -->
-
-
-    <owl:Class rdf:about="https://w3id.org/def/nyon#MunicipalLaw">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/nyon#Civil"/>
     </owl:Class>
     
 
@@ -2161,24 +1999,6 @@
     
 
 
-    <!-- https://w3id.org/def/nyon#PersonalInjuryandTortLaw -->
-
-
-    <owl:Class rdf:about="https://w3id.org/def/nyon#PersonalInjuryandTortLaw">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/nyon#Civil"/>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/def/nyon#PersonalandFamilyLaw -->
-
-
-    <owl:Class rdf:about="https://w3id.org/def/nyon#PersonalandFamilyLaw">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/nyon#Civil"/>
-    </owl:Class>
-    
-
-
     <!-- https://w3id.org/def/nyon#Petitioner -->
 
 
@@ -2249,18 +2069,15 @@
 
 
     <owl:Class rdf:about="https://w3id.org/def/nyon#Provision">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/def/nyon#part_of"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/def/nyon#Statute"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">clause or section number or article number applied/used in the case law</rdfs:comment>
         <rdfs:isDefinedBy>https://w3id.org/def/nyon#</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">Provision</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/def/nyon#PublicandAdministrativeLaw -->
-
-
-    <owl:Class rdf:about="https://w3id.org/def/nyon#PublicandAdministrativeLaw">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/nyon#Civil"/>
     </owl:Class>
     
 
@@ -2273,24 +2090,6 @@
         <rdfs:comment xml:lang="en">the rationale for the decision</rdfs:comment>
         <rdfs:isDefinedBy>https://w3id.org/def/nyon#</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">RatioDecidendi</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/def/nyon#RealPropertyLaw -->
-
-
-    <owl:Class rdf:about="https://w3id.org/def/nyon#RealPropertyLaw">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/nyon#Civil"/>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/def/nyon#ReligiousLaw -->
-
-
-    <owl:Class rdf:about="https://w3id.org/def/nyon#ReligiousLaw">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/nyon#Civil"/>
     </owl:Class>
     
 
@@ -2325,15 +2124,6 @@
         <rdfs:comment xml:lang="en">jurisdiction type is a review jurisdiction</rdfs:comment>
         <rdfs:isDefinedBy>https://w3id.org/def/nyon#</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">Review Jurisdiction</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/def/nyon#SecuritiesandFinancialInstrumentsLaw -->
-
-
-    <owl:Class rdf:about="https://w3id.org/def/nyon#SecuritiesandFinancialInstrumentsLaw">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/nyon#Civil"/>
     </owl:Class>
     
 
@@ -2489,38 +2279,14 @@
     
 
 
-    <!-- https://w3id.org/def/nyon#TaxandRevenueLaw -->
-
-
-    <owl:Class rdf:about="https://w3id.org/def/nyon#TaxandRevenueLaw">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/nyon#Civil"/>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/def/nyon#TelecommunicationsLaw -->
-
-
-    <owl:Class rdf:about="https://w3id.org/def/nyon#TelecommunicationsLaw">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/nyon#Civil"/>
-    </owl:Class>
-    
-
-
-    <!-- https://w3id.org/def/nyon#TransportationLaw -->
-
-
-    <owl:Class rdf:about="https://w3id.org/def/nyon#TransportationLaw">
-        <rdfs:subClassOf rdf:resource="https://w3id.org/def/nyon#Civil"/>
-    </owl:Class>
-    
-
-
     <!-- https://w3id.org/def/nyon#Tribunal -->
 
 
     <owl:Class rdf:about="https://w3id.org/def/nyon#Tribunal">
         <rdfs:subClassOf rdf:resource="https://w3id.org/def/nyon#IndianCourts"/>
+        <rdfs:comment>represents the special courts for special issues or disputes</rdfs:comment>
+        <rdfs:isDefinedBy>https://w3id.org/def/nyon#</rdfs:isDefinedBy>
+        <rdfs:label>Tribunal</rdfs:label>
     </owl:Class>
     
 
@@ -2653,41 +2419,6 @@
             <rdf:Description rdf:about="https://w3id.org/def/nyon#Appellant_Jurisdiction"/>
             <rdf:Description rdf:about="https://w3id.org/def/nyon#Original_Jurisdiction"/>
             <rdf:Description rdf:about="https://w3id.org/def/nyon#Review_Jurisdiction"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="https://w3id.org/def/nyon#AgricultureLaw"/>
-            <rdf:Description rdf:about="https://w3id.org/def/nyon#BankingLaw"/>
-            <rdf:Description rdf:about="https://w3id.org/def/nyon#BankruptcyandRestructuringLaw"/>
-            <rdf:Description rdf:about="https://w3id.org/def/nyon#CannabisLaw"/>
-            <rdf:Description rdf:about="https://w3id.org/def/nyon#CommercialandTradeLaw"/>
-            <rdf:Description rdf:about="https://w3id.org/def/nyon#ConstitutionalandCivilRightsLaw"/>
-            <rdf:Description rdf:about="https://w3id.org/def/nyon#ContractLaw"/>
-            <rdf:Description rdf:about="https://w3id.org/def/nyon#CorporateLaw"/>
-            <rdf:Description rdf:about="https://w3id.org/def/nyon#EducationLaw"/>
-            <rdf:Description rdf:about="https://w3id.org/def/nyon#EnergyLaw"/>
-            <rdf:Description rdf:about="https://w3id.org/def/nyon#EnvironmentalandNaturalResourceLaw"/>
-            <rdf:Description rdf:about="https://w3id.org/def/nyon#FinanceandLendingLaw"/>
-            <rdf:Description rdf:about="https://w3id.org/def/nyon#FoodandDrugLaw"/>
-            <rdf:Description rdf:about="https://w3id.org/def/nyon#GamingLaw"/>
-            <rdf:Description rdf:about="https://w3id.org/def/nyon#HealthLaw"/>
-            <rdf:Description rdf:about="https://w3id.org/def/nyon#InformationSecurityLaw"/>
-            <rdf:Description rdf:about="https://w3id.org/def/nyon#InsuranceLaw"/>
-            <rdf:Description rdf:about="https://w3id.org/def/nyon#IntellectualPropertyLaw"/>
-            <rdf:Description rdf:about="https://w3id.org/def/nyon#LaborandEmploymentLaw"/>
-            <rdf:Description rdf:about="https://w3id.org/def/nyon#LawofObligations"/>
-            <rdf:Description rdf:about="https://w3id.org/def/nyon#MunicipalLaw"/>
-            <rdf:Description rdf:about="https://w3id.org/def/nyon#PersonalInjuryandTortLaw"/>
-            <rdf:Description rdf:about="https://w3id.org/def/nyon#PersonalandFamilyLaw"/>
-            <rdf:Description rdf:about="https://w3id.org/def/nyon#PublicandAdministrativeLaw"/>
-            <rdf:Description rdf:about="https://w3id.org/def/nyon#RealPropertyLaw"/>
-            <rdf:Description rdf:about="https://w3id.org/def/nyon#ReligiousLaw"/>
-            <rdf:Description rdf:about="https://w3id.org/def/nyon#SecuritiesandFinancialInstrumentsLaw"/>
-            <rdf:Description rdf:about="https://w3id.org/def/nyon#TaxandRevenueLaw"/>
-            <rdf:Description rdf:about="https://w3id.org/def/nyon#TelecommunicationsLaw"/>
-            <rdf:Description rdf:about="https://w3id.org/def/nyon#TransportationLaw"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
