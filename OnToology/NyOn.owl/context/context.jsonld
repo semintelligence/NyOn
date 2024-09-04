@@ -1,7 +1,7 @@
 {
   "@context" : {
     "" : {
-      "@id" : "https://w3id.org/def/nyon#Judicial_Magistrate_Court(Second_Class)"
+      "@id" : "https://w3id.org/def/nyon#Judicial_Magistrate_Court(First_Class)"
     },
     "finalVerdictText" : {
       "@id" : "https://w3id.org/def/nyon#finalVerdictText"
@@ -11,12 +11,6 @@
     },
     "Fact" : {
       "@id" : "https://w3id.org/def/nyon#Fact"
-    },
-    "FoodandDrugLaw" : {
-      "@id" : "https://w3id.org/def/nyon#FoodandDrugLaw"
-    },
-    "TaxandRevenueLaw" : {
-      "@id" : "https://w3id.org/def/nyon#TaxandRevenueLaw"
     },
     "dissentText" : {
       "@id" : "https://w3id.org/def/nyon#dissentText"
@@ -60,9 +54,6 @@
     },
     "IndianCourts" : {
       "@id" : "https://w3id.org/def/nyon#IndianCourts"
-    },
-    "BankruptcyandRestructuringLaw" : {
-      "@id" : "https://w3id.org/def/nyon#BankruptcyandRestructuringLaw"
     },
     "license" : {
       "@id" : "http://purl.org/dc/terms/license"
@@ -114,9 +105,6 @@
     "Thing" : {
       "@id" : "http://www.w3.org/2002/07/owl#Thing"
     },
-    "BankingLaw" : {
-      "@id" : "https://w3id.org/def/nyon#BankingLaw"
-    },
     "topDataProperty" : {
       "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
     },
@@ -133,11 +121,15 @@
     "Judgement" : {
       "@id" : "https://w3id.org/def/nyon#Judgement"
     },
-    "InformationSecurityLaw" : {
-      "@id" : "https://w3id.org/def/nyon#InformationSecurityLaw"
-    },
     "Munsif_Court" : {
       "@id" : "https://w3id.org/def/nyon#Munsif_Court"
+    },
+    "priorVersion" : {
+      "@id" : "http://www.w3.org/2002/07/owl#priorVersion"
+    },
+    "part_of" : {
+      "@id" : "https://w3id.org/def/nyon#part_of",
+      "@type" : "@id"
     },
     "Metropolitian_Courts" : {
       "@id" : "https://w3id.org/def/nyon#Metropolitian_Courts"
@@ -174,9 +166,6 @@
     "defendantArgumentText" : {
       "@id" : "https://w3id.org/def/nyon#defendantArgumentText"
     },
-    "TransportationLaw" : {
-      "@id" : "https://w3id.org/def/nyon#TransportationLaw"
-    },
     "label" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
@@ -187,9 +176,6 @@
       "@id" : "https://w3id.org/def/nyon#equivalentCitation",
       "@type" : "http://www.w3.org/2001/XMLSchema#string"
     },
-    "InsuranceLaw" : {
-      "@id" : "https://w3id.org/def/nyon#InsuranceLaw"
-    },
     "hasEvidenceLoc" : {
       "@id" : "https://w3id.org/def/nyon#hasEvidenceLoc",
       "@type" : "@id"
@@ -197,23 +183,8 @@
     "Decree" : {
       "@id" : "https://w3id.org/def/nyon#Decree"
     },
-    "AgricultureLaw" : {
-      "@id" : "https://w3id.org/def/nyon#AgricultureLaw"
-    },
-    "LawofObligations" : {
-      "@id" : "https://w3id.org/def/nyon#LawofObligations"
-    },
-    "CannabisLaw" : {
-      "@id" : "https://w3id.org/def/nyon#CannabisLaw"
-    },
-    "EnvironmentalandNaturalResourceLaw" : {
-      "@id" : "https://w3id.org/def/nyon#EnvironmentalandNaturalResourceLaw"
-    },
     "Location" : {
       "@id" : "https://w3id.org/def/nyon#Location"
-    },
-    "IntellectualPropertyLaw" : {
-      "@id" : "https://w3id.org/def/nyon#IntellectualPropertyLaw"
     },
     "hasBench" : {
       "@id" : "https://w3id.org/def/nyon#hasBench",
@@ -235,6 +206,10 @@
     "lastName" : {
       "@id" : "https://w3id.org/def/nyon#lastName",
       "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasOpinion" : {
+      "@id" : "https://w3id.org/def/nyon#hasOpinion",
+      "@type" : "@id"
     },
     "WordAndPhrase" : {
       "@id" : "https://w3id.org/def/nyon#WordAndPhrase"
@@ -261,12 +236,6 @@
     "Division_Bench" : {
       "@id" : "https://w3id.org/def/nyon#Division_Bench"
     },
-    "PublicandAdministrativeLaw" : {
-      "@id" : "https://w3id.org/def/nyon#PublicandAdministrativeLaw"
-    },
-    "LaborandEmploymentLaw" : {
-      "@id" : "https://w3id.org/def/nyon#LaborandEmploymentLaw"
-    },
     "witnessStatement" : {
       "@id" : "https://w3id.org/def/nyon#witnessStatement",
       "@type" : "http://www.w3.org/2001/XMLSchema#string"
@@ -282,21 +251,12 @@
       "@id" : "https://w3id.org/def/nyon#hasDate",
       "@type" : "http://www.w3.org/2001/XMLSchema#int"
     },
-    "MunicipalLaw" : {
-      "@id" : "https://w3id.org/def/nyon#MunicipalLaw"
-    },
     "Investigator" : {
       "@id" : "https://w3id.org/def/nyon#Investigator"
     },
     "hasWitness" : {
       "@id" : "https://w3id.org/def/nyon#hasWitness",
       "@type" : "@id"
-    },
-    "CorporateLaw" : {
-      "@id" : "https://w3id.org/def/nyon#CorporateLaw"
-    },
-    "HealthLaw" : {
-      "@id" : "https://w3id.org/def/nyon#HealthLaw"
     },
     "GovernmentOrganization" : {
       "@id" : "https://schema.org/GovernmentOrganization"
@@ -313,9 +273,6 @@
     },
     "creator" : {
       "@id" : "http://purl.org/dc/terms/creator"
-    },
-    "ReligiousLaw" : {
-      "@id" : "https://w3id.org/def/nyon#ReligiousLaw"
     },
     "Special_Bench" : {
       "@id" : "https://w3id.org/def/nyon#Special_Bench"
@@ -336,20 +293,11 @@
     "Lawyer" : {
       "@id" : "https://w3id.org/def/nyon#Lawyer"
     },
-    "RealPropertyLaw" : {
-      "@id" : "https://w3id.org/def/nyon#RealPropertyLaw"
-    },
     "petitionerArgumentText" : {
       "@id" : "https://w3id.org/def/nyon#petitionerArgumentText"
     },
-    "SecuritiesandFinancialInstrumentsLaw" : {
-      "@id" : "https://w3id.org/def/nyon#SecuritiesandFinancialInstrumentsLaw"
-    },
     "DateOfJudgment" : {
       "@id" : "https://w3id.org/def/nyon#DateOfJudgment"
-    },
-    "ContractLaw" : {
-      "@id" : "https://w3id.org/def/nyon#ContractLaw"
     },
     "Single_Judge" : {
       "@id" : "https://w3id.org/def/nyon#Single_Judge"
@@ -377,9 +325,6 @@
     },
     "Courts_for_Criminal" : {
       "@id" : "https://w3id.org/def/nyon#Courts_for_Criminal"
-    },
-    "ConstitutionalandCivilRightsLaw" : {
-      "@id" : "https://w3id.org/def/nyon#ConstitutionalandCivilRightsLaw"
     },
     "firstName" : {
       "@id" : "https://w3id.org/def/nyon#firstName",
@@ -435,10 +380,6 @@
     "rationaleText" : {
       "@id" : "https://w3id.org/def/nyon#rationaleText"
     },
-    "withOpinion" : {
-      "@id" : "https://w3id.org/def/nyon#withOpinion",
-      "@type" : "@id"
-    },
     "isDefinedBy" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
     },
@@ -452,14 +393,8 @@
     "Solicitor" : {
       "@id" : "https://w3id.org/def/nyon#Solicitor"
     },
-    "PersonalandFamilyLaw" : {
-      "@id" : "https://w3id.org/def/nyon#PersonalandFamilyLaw"
-    },
     "factText" : {
       "@id" : "https://w3id.org/def/nyon#factText"
-    },
-    "GamingLaw" : {
-      "@id" : "https://w3id.org/def/nyon#GamingLaw"
     },
     "Tribunal" : {
       "@id" : "https://w3id.org/def/nyon#Tribunal"
@@ -509,18 +444,12 @@
     "modified" : {
       "@id" : "http://purl.org/dc/terms/modified"
     },
-    "EducationLaw" : {
-      "@id" : "https://w3id.org/def/nyon#EducationLaw"
-    },
     "makeArgument" : {
       "@id" : "https://w3id.org/def/nyon#makeArgument",
       "@type" : "@id"
     },
     "Criminal" : {
       "@id" : "https://w3id.org/def/nyon#Criminal"
-    },
-    "TelecommunicationsLaw" : {
-      "@id" : "https://w3id.org/def/nyon#TelecommunicationsLaw"
     },
     "Author" : {
       "@id" : "https://w3id.org/def/nyon#Author"
@@ -631,9 +560,6 @@
     "PetitionerArgument" : {
       "@id" : "https://w3id.org/def/nyon#PetitionerArgument"
     },
-    "EnergyLaw" : {
-      "@id" : "https://w3id.org/def/nyon#EnergyLaw"
-    },
     "hasIssue" : {
       "@id" : "https://w3id.org/def/nyon#hasIssue",
       "@type" : "@id"
@@ -698,17 +624,8 @@
     "Larger_Bench" : {
       "@id" : "https://w3id.org/def/nyon#Larger_Bench"
     },
-    "PersonalInjuryandTortLaw" : {
-      "@id" : "https://w3id.org/def/nyon#PersonalInjuryandTortLaw"
-    },
-    "FinanceandLendingLaw" : {
-      "@id" : "https://w3id.org/def/nyon#FinanceandLendingLaw"
-    },
     "Statute" : {
       "@id" : "https://w3id.org/def/nyon#Statute"
-    },
-    "CommercialandTradeLaw" : {
-      "@id" : "https://w3id.org/def/nyon#CommercialandTradeLaw"
     },
     "hasRulingOf" : {
       "@id" : "https://w3id.org/def/nyon#hasRulingOf",
