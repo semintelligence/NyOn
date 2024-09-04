@@ -1,5 +1,5 @@
 <https://w3id.org/def/nyon#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<https://w3id.org/def/nyon#> <http://www.w3.org/2002/07/owl#versionIRI> <https://w3id.org/def/nyon#/1.2.0> .
+<https://w3id.org/def/nyon#> <http://www.w3.org/2002/07/owl#versionIRI> <https://w3id.org/def/nyon#/2.0.0> .
 <https://w3id.org/def/nyon#> <http://purl.org/dc/elements/1.1/publisher> <https://www.semintelligence.org/projects> .
 <https://w3id.org/def/nyon#> <http://purl.org/dc/terms/contributor> "Jain, Sarika" .
 <https://w3id.org/def/nyon#> <http://purl.org/dc/terms/contributor> "Mihindukulasooriya, Nandana" .
@@ -11,6 +11,7 @@
 <https://w3id.org/def/nyon#> <http://purl.org/dc/terms/title> "NyOn:  A knowledge based intelligent model for Globalised Judiciary"@en .
 <https://w3id.org/def/nyon#> <http://purl.org/vocab/vann/preferredNamespacePrefix> "nyon" .
 <https://w3id.org/def/nyon#> <http://purl.org/vocab/vann/preferredNamespaceUri> "https://w3id.org/def/nyon#"@en .
+<https://w3id.org/def/nyon#> <http://www.w3.org/2002/07/owl#priorVersion> "https://w3id.org/def/NyOnLegalOntology#" .
 <https://w3id.org/def/nyon#> <http://www.w3.org/2002/07/owl#versionInfo> "2.0"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <https://w3id.org/def/nyon#> <http://xmlns.com/foaf/0.1/homepage> "https://w3id.org/def/nyon#"@en .
 # 
