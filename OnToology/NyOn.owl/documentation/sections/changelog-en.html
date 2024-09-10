@@ -1,0 +1,1149 @@
+<div id="changelog">
+<h2 id="changes" class="list">Changes from last version</h2>
+<h3 id="changeClass" class="list">Classes</h3>
+<details><summary><u>Added classes</u></summary>
+<ul><li><a href="#http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Paragraph">http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Paragraph</a>
+<ul>
+<li>Added: SubClass of http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Structure</li>
+</ul>
+</li>
+<li><a href="#http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Structure">http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Structure</a>
+</li>
+<li><a href="#http://purl.org/vocommons/voaf#Vocabulary">http://purl.org/vocommons/voaf#Vocabulary</a>
+</li>
+<li><a href="#http://www.w3.org/2002/07/owl#Thing">http://www.w3.org/2002/07/owl#Thing</a>
+</li>
+<li><a href="#http://xmlns.com/foaf/0.1/Person">http://xmlns.com/foaf/0.1/Person</a>
+<ul>
+<li>Added: EquivalentClasses EquivalentClasses(&lt;http://xmlns.com/foaf/0.1/Person&gt; &lt;https://w3id.org/def/nyon#Individual&gt;)</li>
+<li>Added: SubClass of https://w3id.org/def/nyon#Party_Type</li>
+</ul>
+</li>
+<li><a href="#https://schema.org/GovernmentOrganization">https://schema.org/GovernmentOrganization</a>
+<ul>
+<li>Added: SubClass of https://w3id.org/def/nyon#Party_Type</li>
+<li>Added: DisjointClasses DisjointClasses(&lt;https://schema.org/GovernmentOrganization&gt; &lt;https://schema.org/Organization&gt; &lt;https://w3id.org/def/nyon#Group&gt; &lt;https://w3id.org/def/nyon#Individual&gt; &lt;https://w3id.org/def/nyon#State&gt;)</li>
+</ul>
+</li>
+<li><a href="#https://schema.org/Organization">https://schema.org/Organization</a>
+<ul>
+<li>Added: DisjointClasses DisjointClasses(&lt;https://schema.org/GovernmentOrganization&gt; &lt;https://schema.org/Organization&gt; &lt;https://w3id.org/def/nyon#Group&gt; &lt;https://w3id.org/def/nyon#Individual&gt; &lt;https://w3id.org/def/nyon#State&gt;)</li>
+<li>Added: SubClass of https://w3id.org/def/nyon#Party_Type</li>
+</ul>
+</li>
+<li><a href="#https://schema.org/Place">https://schema.org/Place</a>
+<ul>
+<li>Added: SubClass of https://w3id.org/def/nyon#Location</li>
+<li>Added: DisjointClasses DisjointClasses(&lt;https://schema.org/Place&gt; &lt;https://w3id.org/def/nyon#Country&gt; &lt;https://w3id.org/def/nyon#District&gt; &lt;https://w3id.org/def/nyon#State&gt; &lt;https://w3id.org/def/nyon#Taluka&gt;)</li>
+</ul>
+</li>
+<li><a href="#Accussed">https://w3id.org/def/nyon#Accussed</a>
+<ul>
+<li>Added: SubClass of https://w3id.org/def/nyon#Party</li>
+</ul>
+</li>
+<li><a href="#Advisory_Jurisdiction">https://w3id.org/def/nyon#Advisory_Jurisdiction</a>
+<ul>
+<li>Added: DisjointClasses DisjointClasses(&lt;https://w3id.org/def/nyon#Advisory_Jurisdiction&gt; &lt;https://w3id.org/def/nyon#Appellant_Jurisdiction&gt; &lt;https://w3id.org/def/nyon#Original_Jurisdiction&gt; &lt;https://w3id.org/def/nyon#Review_Jurisdiction&gt;)</li>
+<li>Added: SubClass of https://w3id.org/def/nyon#Jurisdiction</li>
+</ul>
+</li>
+<li><a href="#Appellant">https://w3id.org/def/nyon#Appellant</a>
+<ul>
+<li>Added: SubClass of https://w3id.org/def/nyon#Party</li>
+</ul>
+</li>
+<li><a href="#Appellant_Jurisdiction">https://w3id.org/def/nyon#Appellant_Jurisdiction</a>
+<ul>
+<li>Added: DisjointClasses DisjointClasses(&lt;https://w3id.org/def/nyon#Advisory_Jurisdiction&gt; &lt;https://w3id.org/def/nyon#Appellant_Jurisdiction&gt; &lt;https://w3id.org/def/nyon#Original_Jurisdiction&gt; &lt;https://w3id.org/def/nyon#Review_Jurisdiction&gt;)</li>
+<li>Added: SubClass of https://w3id.org/def/nyon#Jurisdiction</li>
+</ul>
+</li>
+<li><a href="#Argument">https://w3id.org/def/nyon#Argument</a>
+<ul>
+<li>Added: SubClass of http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Paragraph</li>
+</ul>
+</li>
+<li><a href="#Author">https://w3id.org/def/nyon#Author</a>
+<ul>
+<li>Added: EquivalentClasses EquivalentClasses(&lt;https://w3id.org/def/nyon#Author&gt; ObjectExactCardinality(1 &lt;https://w3id.org/def/nyon#hasAuthor&gt; &lt;https://w3id.org/def/nyon#Judge&gt;))</li>
+</ul>
+</li>
+<li><a href="#Bench">https://w3id.org/def/nyon#Bench</a>
+</li>
+<li><a href="#CaseDomain">https://w3id.org/def/nyon#CaseDomain</a>
+</li>
+<li><a href="#CatchWord">https://w3id.org/def/nyon#CatchWord</a>
+<ul>
+<li><li></ul>
+</li>
+<li><a href="#Chief_Meterpolitan_Court">https://w3id.org/def/nyon#Chief_Meterpolitan_Court</a>
+<ul>
+<li>Added: SubClass of https://w3id.org/def/nyon#Courts_for_Criminal</li>
+<li>Added: DisjointClasses DisjointClasses(&lt;https://w3id.org/def/nyon#Chief_Meterpolitan_Court&gt; &lt;https://w3id.org/def/nyon#Metropolitan_Magistrate_Courts&gt; &lt;https://w3id.org/def/nyon#Session_Court&gt; &lt;https://w3id.org/def/nyon#Judicial_Magistrate_Court(First_Class)&gt; &lt;https://w3id.org/def/nyon#Judicial_Magistrate_Court(Second_Class)&gt;)</li>
+</ul>
+</li>
+<li><a href="#City_Civil_Courts">https://w3id.org/def/nyon#City_Civil_Courts</a>
+<ul>
+<li>Added: DisjointClasses DisjointClasses(&lt;https://w3id.org/def/nyon#City_Civil_Courts&gt; &lt;https://w3id.org/def/nyon#Courts_of_Smaller_Causes&gt; &lt;https://w3id.org/def/nyon#District_Court&gt; &lt;https://w3id.org/def/nyon#Munsif_Court&gt; &lt;https://w3id.org/def/nyon#Principal_Junior_Civil_Court&gt; &lt;https://w3id.org/def/nyon#Sub_Court&gt;)</li>
+<li>Added: SubClass of https://w3id.org/def/nyon#Courts_for_Civil</li>
+</ul>
+</li>
+<li><a href="#Civil">https://w3id.org/def/nyon#Civil</a>
+<ul>
+<li>Added: SubClass of https://w3id.org/def/nyon#CaseDomain</li>
+<li>Added: DisjointClasses DisjointClasses(&lt;https://w3id.org/def/nyon#Civil&gt; &lt;https://w3id.org/def/nyon#Criminal&gt;)</li>
+</ul>
+</li>
+<li><a href="#Concurrence">https://w3id.org/def/nyon#Concurrence</a>
+<ul>
+<li>Added: DisjointClasses DisjointClasses(&lt;https://w3id.org/def/nyon#Concurrence&gt; &lt;https://w3id.org/def/nyon#Dissent&gt; &lt;https://w3id.org/def/nyon#Majority&gt;)</li>
+<li>Added: SubClass of https://w3id.org/def/nyon#Opinion</li>
+</ul>
+</li>
+<li><a href="#Country">https://w3id.org/def/nyon#Country</a>
+<ul>
+<li>Added: DisjointClasses DisjointClasses(&lt;https://schema.org/Place&gt; &lt;https://w3id.org/def/nyon#Country&gt; &lt;https://w3id.org/def/nyon#District&gt; &lt;https://w3id.org/def/nyon#State&gt; &lt;https://w3id.org/def/nyon#Taluka&gt;)</li>
+<li>Added: SubClass of https://w3id.org/def/nyon#Location</li>
+</ul>
+</li>
+<li><a href="#Court">https://w3id.org/def/nyon#Court</a>
+</li>
+<li><a href="#CourtCase">https://w3id.org/def/nyon#CourtCase</a>
+<ul>
+<li>Added: DisjointClasses DisjointClasses(&lt;https://w3id.org/def/nyon#CourtCase&gt; &lt;https://w3id.org/def/nyon#Statute&gt;)</li>
+</ul>
+</li>
+<li><a href="#CourtDecision">https://w3id.org/def/nyon#CourtDecision</a>
+</li>
+<li><a href="#Court_Official">https://w3id.org/def/nyon#Court_Official</a>
+</li>
+<li><a href="#Courts_for_Civil">https://w3id.org/def/nyon#Courts_for_Civil</a>
+<ul>
+<li>Added: SubClass of https://w3id.org/def/nyon#CaseDomain</li>
+</ul>
+</li>
+<li><a href="#Courts_for_Criminal">https://w3id.org/def/nyon#Courts_for_Criminal</a>
+<ul>
+<li>Added: SubClass of https://w3id.org/def/nyon#CaseDomain</li>
+</ul>
+</li>
+<li><a href="#Courts_of_Smaller_Causes">https://w3id.org/def/nyon#Courts_of_Smaller_Causes</a>
+<ul>
+<li>Added: DisjointClasses DisjointClasses(&lt;https://w3id.org/def/nyon#City_Civil_Courts&gt; &lt;https://w3id.org/def/nyon#Courts_of_Smaller_Causes&gt; &lt;https://w3id.org/def/nyon#District_Court&gt; &lt;https://w3id.org/def/nyon#Munsif_Court&gt; &lt;https://w3id.org/def/nyon#Principal_Junior_Civil_Court&gt; &lt;https://w3id.org/def/nyon#Sub_Court&gt;)</li>
+<li>Added: SubClass of https://w3id.org/def/nyon#Courts_for_Civil</li>
+</ul>
+</li>
+<li><a href="#Criminal">https://w3id.org/def/nyon#Criminal</a>
+<ul>
+<li>Added: DisjointClasses DisjointClasses(&lt;https://w3id.org/def/nyon#Civil&gt; &lt;https://w3id.org/def/nyon#Criminal&gt;)</li>
+<li>Added: SubClass of https://w3id.org/def/nyon#CaseDomain</li>
+</ul>
+</li>
+<li><a href="#DateOfJudgment">https://w3id.org/def/nyon#DateOfJudgment</a>
+</li>
+<li><a href="#Decree">https://w3id.org/def/nyon#Decree</a>
+<ul>
+<li>Added: SubClass of https://w3id.org/def/nyon#CourtDecision</li>
+</ul>
+</li>
+<li><a href="#Defendant">https://w3id.org/def/nyon#Defendant</a>
+<ul>
+<li>Added: SubClass of https://w3id.org/def/nyon#Party</li>
+</ul>
+</li>
+<li><a href="#Dissent">https://w3id.org/def/nyon#Dissent</a>
+<ul>
+<li>Added: DisjointClasses DisjointClasses(&lt;https://w3id.org/def/nyon#Concurrence&gt; &lt;https://w3id.org/def/nyon#Dissent&gt; &lt;https://w3id.org/def/nyon#Majority&gt;)</li>
+<li>Added: SubClass of https://w3id.org/def/nyon#Opinion</li>
+</ul>
+</li>
+<li><a href="#District">https://w3id.org/def/nyon#District</a>
+<ul>
+<li>Added: SubClass of https://w3id.org/def/nyon#Location</li>
+<li>Added: DisjointClasses DisjointClasses(&lt;https://schema.org/Place&gt; &lt;https://w3id.org/def/nyon#Country&gt; &lt;https://w3id.org/def/nyon#District&gt; &lt;https://w3id.org/def/nyon#State&gt; &lt;https://w3id.org/def/nyon#Taluka&gt;)</li>
+</ul>
+</li>
+<li><a href="#District_Court">https://w3id.org/def/nyon#District_Court</a>
+<ul>
+<li>Added: DisjointClasses DisjointClasses(&lt;https://w3id.org/def/nyon#City_Civil_Courts&gt; &lt;https://w3id.org/def/nyon#Courts_of_Smaller_Causes&gt; &lt;https://w3id.org/def/nyon#District_Court&gt; &lt;https://w3id.org/def/nyon#Munsif_Court&gt; &lt;https://w3id.org/def/nyon#Principal_Junior_Civil_Court&gt; &lt;https://w3id.org/def/nyon#Sub_Court&gt;)</li>
+<li>Added: SubClass of https://w3id.org/def/nyon#Courts_for_Civil</li>
+<li>Added: SubClass of https://w3id.org/def/nyon#IndianCourts</li>
+</ul>
+</li>
+<li><a href="#Division_Bench">https://w3id.org/def/nyon#Division_Bench</a>
+<ul>
+<li>Added: SubClass of https://w3id.org/def/nyon#Bench</li>
+</ul>
+</li>
+<li><a href="#Evidence">https://w3id.org/def/nyon#Evidence</a>
+</li>
+<li><a href="#Fact">https://w3id.org/def/nyon#Fact</a>
+<ul>
+<li>Added: SubClass of http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Paragraph</li>
+</ul>
+</li>
+<li><a href="#Group">https://w3id.org/def/nyon#Group</a>
+<ul>
+<li>Added: DisjointClasses DisjointClasses(&lt;https://schema.org/GovernmentOrganization&gt; &lt;https://schema.org/Organization&gt; &lt;https://w3id.org/def/nyon#Group&gt; &lt;https://w3id.org/def/nyon#Individual&gt; &lt;https://w3id.org/def/nyon#State&gt;)</li>
+<li>Added: SubClass of https://w3id.org/def/nyon#Party_Type</li>
+</ul>
+</li>
+<li><a href="#High_Court">https://w3id.org/def/nyon#High_Court</a>
+<ul>
+<li>Added: SubClass of https://w3id.org/def/nyon#IndianCourts</li>
+</ul>
+</li>
+<li><a href="#IndianCourts">https://w3id.org/def/nyon#IndianCourts</a>
+<ul>
+<li>Added: SubClass of https://w3id.org/def/nyon#Court</li>
+</ul>
+</li>
+<li><a href="#Individual">https://w3id.org/def/nyon#Individual</a>
+<ul>
+<li>Added: EquivalentClasses EquivalentClasses(&lt;http://xmlns.com/foaf/0.1/Person&gt; &lt;https://w3id.org/def/nyon#Individual&gt;)</li>
+<li>Added: DisjointClasses DisjointClasses(&lt;https://schema.org/GovernmentOrganization&gt; &lt;https://schema.org/Organization&gt; &lt;https://w3id.org/def/nyon#Group&gt; &lt;https://w3id.org/def/nyon#Individual&gt; &lt;https://w3id.org/def/nyon#State&gt;)</li>
+<li>Added: SubClass of https://w3id.org/def/nyon#Party_Type</li>
+</ul>
+</li>
+<li><a href="#Investigator">https://w3id.org/def/nyon#Investigator</a>
+<ul>
+<li>Added: DisjointClasses DisjointClasses(&lt;https://w3id.org/def/nyon#Investigator&gt; &lt;https://w3id.org/def/nyon#Judge&gt; &lt;https://w3id.org/def/nyon#Solicitor&gt;)</li>
+</ul>
+</li>
+<li><a href="#Issue">https://w3id.org/def/nyon#Issue</a>
+<ul>
+<li>Added: SubClass of http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Paragraph</li>
+</ul>
+</li>
+<li><a href="#Judge">https://w3id.org/def/nyon#Judge</a>
+<ul>
+<li>Added: SubClass of https://w3id.org/def/nyon#Court_Official</li>
+<li><li><li>Added: DisjointClasses DisjointClasses(&lt;https://w3id.org/def/nyon#Investigator&gt; &lt;https://w3id.org/def/nyon#Judge&gt; &lt;https://w3id.org/def/nyon#Solicitor&gt;)</li>
+</ul>
+</li>
+<li><a href="#Judgement">https://w3id.org/def/nyon#Judgement</a>
+<ul>
+<li>Added: SubClass of https://w3id.org/def/nyon#CourtDecision</li>
+</ul>
+</li>
+<li><a href="#Jurisdiction">https://w3id.org/def/nyon#Jurisdiction</a>
+</li>
+<li><a href="#Larger_Bench">https://w3id.org/def/nyon#Larger_Bench</a>
+<ul>
+<li>Added: SubClass of https://w3id.org/def/nyon#Bench</li>
+</ul>
+</li>
+<li><a href="#Lawyer">https://w3id.org/def/nyon#Lawyer</a>
+<ul>
+<li>Added: SubClass of https://w3id.org/def/nyon#Court_Official</li>
+</ul>
+</li>
+<li><a href="#LearnedCounsel">https://w3id.org/def/nyon#LearnedCounsel</a>
+<ul>
+<li>Added: SubClass of https://w3id.org/def/nyon#Court_Official</li>
+</ul>
+</li>
+<li><a href="#Location">https://w3id.org/def/nyon#Location</a>
+</li>
+<li><a href="#Majority">https://w3id.org/def/nyon#Majority</a>
+<ul>
+<li>Added: DisjointClasses DisjointClasses(&lt;https://w3id.org/def/nyon#Concurrence&gt; &lt;https://w3id.org/def/nyon#Dissent&gt; &lt;https://w3id.org/def/nyon#Majority&gt;)</li>
+<li>Added: SubClass of https://w3id.org/def/nyon#Opinion</li>
+</ul>
+</li>
+<li><a href="#Metropolitan_Magistrate_Courts">https://w3id.org/def/nyon#Metropolitan_Magistrate_Courts</a>
+<ul>
+<li>Added: DisjointClasses DisjointClasses(&lt;https://w3id.org/def/nyon#Chief_Meterpolitan_Court&gt; &lt;https://w3id.org/def/nyon#Metropolitan_Magistrate_Courts&gt; &lt;https://w3id.org/def/nyon#Session_Court&gt; &lt;https://w3id.org/def/nyon#Judicial_Magistrate_Court(First_Class)&gt; &lt;https://w3id.org/def/nyon#Judicial_Magistrate_Court(Second_Class)&gt;)</li>
+<li>Added: SubClass of https://w3id.org/def/nyon#Courts_for_Criminal</li>
+</ul>
+</li>
+<li><a href="#Metropolitian_Courts">https://w3id.org/def/nyon#Metropolitian_Courts</a>
+<ul>
+<li>Added: SubClass of https://w3id.org/def/nyon#IndianCourts</li>
+</ul>
+</li>
+<li><a href="#Munsif_Court">https://w3id.org/def/nyon#Munsif_Court</a>
+<ul>
+<li>Added: SubClass of https://w3id.org/def/nyon#Courts_for_Civil</li>
+<li>Added: DisjointClasses DisjointClasses(&lt;https://w3id.org/def/nyon#City_Civil_Courts&gt; &lt;https://w3id.org/def/nyon#Courts_of_Smaller_Causes&gt; &lt;https://w3id.org/def/nyon#District_Court&gt; &lt;https://w3id.org/def/nyon#Munsif_Court&gt; &lt;https://w3id.org/def/nyon#Principal_Junior_Civil_Court&gt; &lt;https://w3id.org/def/nyon#Sub_Court&gt;)</li>
+</ul>
+</li>
+<li><a href="#ObiterDictum">https://w3id.org/def/nyon#ObiterDictum</a>
+<ul>
+<li>Added: SubClass of http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Paragraph</li>
+</ul>
+</li>
+<li><a href="#Opinion">https://w3id.org/def/nyon#Opinion</a>
+<ul>
+<li>Added: SubClass of http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Paragraph</li>
+<li>Added: EquivalentClasses EquivalentClasses(&lt;https://w3id.org/def/nyon#Opinion&gt; ObjectComplementOf(&lt;https://w3id.org/def/nyon#Judgement&gt;))</li>
+</ul>
+</li>
+<li><a href="#Order">https://w3id.org/def/nyon#Order</a>
+<ul>
+<li>Added: SubClass of https://w3id.org/def/nyon#CourtDecision</li>
+</ul>
+</li>
+<li><a href="#Original_Jurisdiction">https://w3id.org/def/nyon#Original_Jurisdiction</a>
+<ul>
+<li>Added: SubClass of https://w3id.org/def/nyon#Jurisdiction</li>
+<li>Added: DisjointClasses DisjointClasses(&lt;https://w3id.org/def/nyon#Advisory_Jurisdiction&gt; &lt;https://w3id.org/def/nyon#Appellant_Jurisdiction&gt; &lt;https://w3id.org/def/nyon#Original_Jurisdiction&gt; &lt;https://w3id.org/def/nyon#Review_Jurisdiction&gt;)</li>
+</ul>
+</li>
+<li><a href="#Party">https://w3id.org/def/nyon#Party</a>
+</li>
+<li><a href="#Party_Type">https://w3id.org/def/nyon#Party_Type</a>
+</li>
+<li><a href="#Petitioner">https://w3id.org/def/nyon#Petitioner</a>
+<ul>
+<li>Added: SubClass of https://w3id.org/def/nyon#Party</li>
+</ul>
+</li>
+<li><a href="#Plaintiff">https://w3id.org/def/nyon#Plaintiff</a>
+<ul>
+<li>Added: SubClass of https://w3id.org/def/nyon#Party</li>
+</ul>
+</li>
+<li><a href="#Precedent">https://w3id.org/def/nyon#Precedent</a>
+</li>
+<li><a href="#Principal_Junior_Civil_Court">https://w3id.org/def/nyon#Principal_Junior_Civil_Court</a>
+<ul>
+<li>Added: DisjointClasses DisjointClasses(&lt;https://w3id.org/def/nyon#City_Civil_Courts&gt; &lt;https://w3id.org/def/nyon#Courts_of_Smaller_Causes&gt; &lt;https://w3id.org/def/nyon#District_Court&gt; &lt;https://w3id.org/def/nyon#Munsif_Court&gt; &lt;https://w3id.org/def/nyon#Principal_Junior_Civil_Court&gt; &lt;https://w3id.org/def/nyon#Sub_Court&gt;)</li>
+<li>Added: SubClass of https://w3id.org/def/nyon#Courts_for_Civil</li>
+</ul>
+</li>
+<li><a href="#Provision">https://w3id.org/def/nyon#Provision</a>
+<ul>
+<li></ul>
+</li>
+<li><a href="#RatioDecidendi">https://w3id.org/def/nyon#RatioDecidendi</a>
+<ul>
+<li>Added: SubClass of http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Paragraph</li>
+</ul>
+</li>
+<li><a href="#Respondent">https://w3id.org/def/nyon#Respondent</a>
+<ul>
+<li>Added: SubClass of https://w3id.org/def/nyon#Party</li>
+</ul>
+</li>
+<li><a href="#Review_Jurisdiction">https://w3id.org/def/nyon#Review_Jurisdiction</a>
+<ul>
+<li>Added: DisjointClasses DisjointClasses(&lt;https://w3id.org/def/nyon#Advisory_Jurisdiction&gt; &lt;https://w3id.org/def/nyon#Appellant_Jurisdiction&gt; &lt;https://w3id.org/def/nyon#Original_Jurisdiction&gt; &lt;https://w3id.org/def/nyon#Review_Jurisdiction&gt;)</li>
+<li>Added: SubClass of https://w3id.org/def/nyon#Jurisdiction</li>
+</ul>
+</li>
+<li><a href="#Session_Court">https://w3id.org/def/nyon#Session_Court</a>
+<ul>
+<li>Added: DisjointClasses DisjointClasses(&lt;https://w3id.org/def/nyon#Chief_Meterpolitan_Court&gt; &lt;https://w3id.org/def/nyon#Metropolitan_Magistrate_Courts&gt; &lt;https://w3id.org/def/nyon#Session_Court&gt; &lt;https://w3id.org/def/nyon#Judicial_Magistrate_Court(First_Class)&gt; &lt;https://w3id.org/def/nyon#Judicial_Magistrate_Court(Second_Class)&gt;)</li>
+<li>Added: SubClass of https://w3id.org/def/nyon#Courts_for_Criminal</li>
+</ul>
+</li>
+<li><a href="#Single_Judge">https://w3id.org/def/nyon#Single_Judge</a>
+<ul>
+<li>Added: EquivalentClasses EquivalentClasses(&lt;https://w3id.org/def/nyon#Single_Judge&gt; ObjectIntersectionOf(ObjectSomeValuesFrom(&lt;https://w3id.org/def/nyon#hasBench&gt; &lt;https://w3id.org/def/nyon#Judge&gt;) ObjectMaxCardinality(1 &lt;https://w3id.org/def/nyon#hasJudge&gt; &lt;https://w3id.org/def/nyon#Judge&gt;)))</li>
+<li>Added: SubClass of https://w3id.org/def/nyon#Bench</li>
+<li>Added: EquivalentClasses EquivalentClasses(&lt;https://w3id.org/def/nyon#Single_Judge&gt; ObjectComplementOf(ObjectIntersectionOf(ObjectSomeValuesFrom(&lt;https://w3id.org/def/nyon#hasCourtOfficial&gt; &lt;https://w3id.org/def/nyon#Judge&gt;) ObjectSomeValuesFrom(&lt;https://w3id.org/def/nyon#hasJudge&gt; &lt;https://w3id.org/def/nyon#Judge&gt;))))</li>
+<li>Added: EquivalentClasses EquivalentClasses(&lt;https://w3id.org/def/nyon#Single_Judge&gt; ObjectComplementOf(&lt;https://w3id.org/def/nyon#Judge&gt;))</li>
+</ul>
+</li>
+<li><a href="#Solicitor">https://w3id.org/def/nyon#Solicitor</a>
+<ul>
+<li>Added: SubClass of https://w3id.org/def/nyon#Court_Official</li>
+<li>Added: DisjointClasses DisjointClasses(&lt;https://w3id.org/def/nyon#Investigator&gt; &lt;https://w3id.org/def/nyon#Judge&gt; &lt;https://w3id.org/def/nyon#Solicitor&gt;)</li>
+</ul>
+</li>
+<li><a href="#Special_Bench">https://w3id.org/def/nyon#Special_Bench</a>
+<ul>
+<li>Added: SubClass of https://w3id.org/def/nyon#Bench</li>
+</ul>
+</li>
+<li><a href="#State">https://w3id.org/def/nyon#State</a>
+<ul>
+<li>Added: SubClass of https://w3id.org/def/nyon#Party_Type</li>
+<li>Added: DisjointClasses DisjointClasses(&lt;https://schema.org/GovernmentOrganization&gt; &lt;https://schema.org/Organization&gt; &lt;https://w3id.org/def/nyon#Group&gt; &lt;https://w3id.org/def/nyon#Individual&gt; &lt;https://w3id.org/def/nyon#State&gt;)</li>
+<li>Added: SubClass of https://w3id.org/def/nyon#Location</li>
+<li>Added: DisjointClasses DisjointClasses(&lt;https://schema.org/Place&gt; &lt;https://w3id.org/def/nyon#Country&gt; &lt;https://w3id.org/def/nyon#District&gt; &lt;https://w3id.org/def/nyon#State&gt; &lt;https://w3id.org/def/nyon#Taluka&gt;)</li>
+</ul>
+</li>
+<li><a href="#Statute">https://w3id.org/def/nyon#Statute</a>
+<ul>
+<li>Added: DisjointClasses DisjointClasses(&lt;https://w3id.org/def/nyon#CourtCase&gt; &lt;https://w3id.org/def/nyon#Statute&gt;)</li>
+</ul>
+</li>
+<li><a href="#Sub_Court">https://w3id.org/def/nyon#Sub_Court</a>
+<ul>
+<li>Added: SubClass of https://w3id.org/def/nyon#Courts_for_Civil</li>
+<li>Added: DisjointClasses DisjointClasses(&lt;https://w3id.org/def/nyon#City_Civil_Courts&gt; &lt;https://w3id.org/def/nyon#Courts_of_Smaller_Causes&gt; &lt;https://w3id.org/def/nyon#District_Court&gt; &lt;https://w3id.org/def/nyon#Munsif_Court&gt; &lt;https://w3id.org/def/nyon#Principal_Junior_Civil_Court&gt; &lt;https://w3id.org/def/nyon#Sub_Court&gt;)</li>
+<li>Added: EquivalentClasses EquivalentClasses(&lt;https://w3id.org/def/nyon#Sub_Court&gt; ObjectComplementOf(&lt;https://w3id.org/def/nyon#Tribunal&gt;))</li>
+</ul>
+</li>
+<li><a href="#SupremeCourt">https://w3id.org/def/nyon#SupremeCourt</a>
+<ul>
+<li>Added: SubClass of https://w3id.org/def/nyon#IndianCourts</li>
+</ul>
+</li>
+<li><a href="#Taluka">https://w3id.org/def/nyon#Taluka</a>
+<ul>
+<li>Added: SubClass of https://w3id.org/def/nyon#Location</li>
+<li>Added: DisjointClasses DisjointClasses(&lt;https://schema.org/Place&gt; &lt;https://w3id.org/def/nyon#Country&gt; &lt;https://w3id.org/def/nyon#District&gt; &lt;https://w3id.org/def/nyon#State&gt; &lt;https://w3id.org/def/nyon#Taluka&gt;)</li>
+</ul>
+</li>
+<li><a href="#Tribunal">https://w3id.org/def/nyon#Tribunal</a>
+<ul>
+<li>Added: SubClass of https://w3id.org/def/nyon#IndianCourts</li>
+</ul>
+</li>
+<li><a href="#Tribunal_Bench">https://w3id.org/def/nyon#Tribunal_Bench</a>
+<ul>
+<li>Added: SubClass of https://w3id.org/def/nyon#Bench</li>
+</ul>
+</li>
+<li><a href="#Witness">https://w3id.org/def/nyon#Witness</a>
+</li>
+<li><a href="#WordAndPhrase">https://w3id.org/def/nyon#WordAndPhrase</a>
+</li>
+<li><a href="#Writ_Jurisdiction">https://w3id.org/def/nyon#Writ_Jurisdiction</a>
+<ul>
+<li>Added: SubClass of https://w3id.org/def/nyon#Jurisdiction</li>
+</ul>
+</li>
+<li><a href="#Judicial_Magistrate_Court(First_Class)">https://w3id.org/def/nyon#Judicial_Magistrate_Court(First_Class)</a>
+<ul>
+<li>Added: DisjointClasses DisjointClasses(&lt;https://w3id.org/def/nyon#Chief_Meterpolitan_Court&gt; &lt;https://w3id.org/def/nyon#Metropolitan_Magistrate_Courts&gt; &lt;https://w3id.org/def/nyon#Session_Court&gt; &lt;https://w3id.org/def/nyon#Judicial_Magistrate_Court(First_Class)&gt; &lt;https://w3id.org/def/nyon#Judicial_Magistrate_Court(Second_Class)&gt;)</li>
+<li>Added: SubClass of https://w3id.org/def/nyon#Courts_for_Criminal</li>
+</ul>
+</li>
+<li><a href="#Judicial_Magistrate_Court(Second_Class)">https://w3id.org/def/nyon#Judicial_Magistrate_Court(Second_Class)</a>
+<ul>
+<li>Added: SubClass of https://w3id.org/def/nyon#Courts_for_Criminal</li>
+<li>Added: DisjointClasses DisjointClasses(&lt;https://w3id.org/def/nyon#Chief_Meterpolitan_Court&gt; &lt;https://w3id.org/def/nyon#Metropolitan_Magistrate_Courts&gt; &lt;https://w3id.org/def/nyon#Session_Court&gt; &lt;https://w3id.org/def/nyon#Judicial_Magistrate_Court(First_Class)&gt; &lt;https://w3id.org/def/nyon#Judicial_Magistrate_Court(Second_Class)&gt;)</li>
+</ul>
+</li>
+</ul></details><details><summary><u>Deleted classes</u></summary>
+<ul><li><a href="#https://w3id.org/def/NyOnLegalOntology#Accussed">https://w3id.org/def/NyOnLegalOntology#Accussed</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#Acts">https://w3id.org/def/NyOnLegalOntology#Acts</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#Advisory_Jurisdiction">https://w3id.org/def/NyOnLegalOntology#Advisory_Jurisdiction</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#Apex_Court">https://w3id.org/def/NyOnLegalOntology#Apex_Court</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#Appeal">https://w3id.org/def/NyOnLegalOntology#Appeal</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#Appellant">https://w3id.org/def/NyOnLegalOntology#Appellant</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#Appellant_Jurisdiction">https://w3id.org/def/NyOnLegalOntology#Appellant_Jurisdiction</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#Author">https://w3id.org/def/NyOnLegalOntology#Author</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#Bench">https://w3id.org/def/NyOnLegalOntology#Bench</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#Case">https://w3id.org/def/NyOnLegalOntology#Case</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#Case_Type">https://w3id.org/def/NyOnLegalOntology#Case_Type</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#Chief_Meterpolitan_Court">https://w3id.org/def/NyOnLegalOntology#Chief_Meterpolitan_Court</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#City_Civil_Courts">https://w3id.org/def/NyOnLegalOntology#City_Civil_Courts</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#Civil">https://w3id.org/def/NyOnLegalOntology#Civil</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#Country">https://w3id.org/def/NyOnLegalOntology#Country</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#Court_Decision">https://w3id.org/def/NyOnLegalOntology#Court_Decision</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#Court_Judgements">https://w3id.org/def/NyOnLegalOntology#Court_Judgements</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#Courts">https://w3id.org/def/NyOnLegalOntology#Courts</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#Courts_for_Civil">https://w3id.org/def/NyOnLegalOntology#Courts_for_Civil</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#Courts_for_Criminal">https://w3id.org/def/NyOnLegalOntology#Courts_for_Criminal</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#Courts_of_Smaller_Causes">https://w3id.org/def/NyOnLegalOntology#Courts_of_Smaller_Causes</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#Criminal">https://w3id.org/def/NyOnLegalOntology#Criminal</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#District">https://w3id.org/def/NyOnLegalOntology#District</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#District_Court">https://w3id.org/def/NyOnLegalOntology#District_Court</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#District_Courts">https://w3id.org/def/NyOnLegalOntology#District_Courts</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#Division_Bench">https://w3id.org/def/NyOnLegalOntology#Division_Bench</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#Documents">https://w3id.org/def/NyOnLegalOntology#Documents</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#Evidence">https://w3id.org/def/NyOnLegalOntology#Evidence</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#FIR">https://w3id.org/def/NyOnLegalOntology#FIR</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#Government">https://w3id.org/def/NyOnLegalOntology#Government</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#Group">https://w3id.org/def/NyOnLegalOntology#Group</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#High_Court">https://w3id.org/def/NyOnLegalOntology#High_Court</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#Individual">https://w3id.org/def/NyOnLegalOntology#Individual</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#Investigator">https://w3id.org/def/NyOnLegalOntology#Investigator</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#Judge">https://w3id.org/def/NyOnLegalOntology#Judge</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#Judgement">https://w3id.org/def/NyOnLegalOntology#Judgement</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#Jurisdiction">https://w3id.org/def/NyOnLegalOntology#Jurisdiction</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#Larger_Bench">https://w3id.org/def/NyOnLegalOntology#Larger_Bench</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#Legal_Participants">https://w3id.org/def/NyOnLegalOntology#Legal_Participants</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#Location">https://w3id.org/def/NyOnLegalOntology#Location</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#Metropolitan_Magistrate_Courts">https://w3id.org/def/NyOnLegalOntology#Metropolitan_Magistrate_Courts</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#Metropolitian_Courts">https://w3id.org/def/NyOnLegalOntology#Metropolitian_Courts</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#Munsif_Court">https://w3id.org/def/NyOnLegalOntology#Munsif_Court</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#NonLegal_Participants">https://w3id.org/def/NyOnLegalOntology#NonLegal_Participants</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#Order">https://w3id.org/def/NyOnLegalOntology#Order</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#Organization">https://w3id.org/def/NyOnLegalOntology#Organization</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#Original_Jurisdiction">https://w3id.org/def/NyOnLegalOntology#Original_Jurisdiction</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#Others">https://w3id.org/def/NyOnLegalOntology#Others</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#Participants">https://w3id.org/def/NyOnLegalOntology#Participants</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#Petition">https://w3id.org/def/NyOnLegalOntology#Petition</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#Petitioner">https://w3id.org/def/NyOnLegalOntology#Petitioner</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#Place">https://w3id.org/def/NyOnLegalOntology#Place</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#Plaintiff">https://w3id.org/def/NyOnLegalOntology#Plaintiff</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#Precedent_Case">https://w3id.org/def/NyOnLegalOntology#Precedent_Case</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#Principal_Junior_Civil_Court">https://w3id.org/def/NyOnLegalOntology#Principal_Junior_Civil_Court</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#Respondent">https://w3id.org/def/NyOnLegalOntology#Respondent</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#Review_Jurisdiction">https://w3id.org/def/NyOnLegalOntology#Review_Jurisdiction</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#Session_Court">https://w3id.org/def/NyOnLegalOntology#Session_Court</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#Single_Judge">https://w3id.org/def/NyOnLegalOntology#Single_Judge</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#Solicitor">https://w3id.org/def/NyOnLegalOntology#Solicitor</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#Special_Bench">https://w3id.org/def/NyOnLegalOntology#Special_Bench</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#State">https://w3id.org/def/NyOnLegalOntology#State</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#Sub_Court">https://w3id.org/def/NyOnLegalOntology#Sub_Court</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#Taluka">https://w3id.org/def/NyOnLegalOntology#Taluka</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#Tribunal_Bench">https://w3id.org/def/NyOnLegalOntology#Tribunal_Bench</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#Tribunals">https://w3id.org/def/NyOnLegalOntology#Tribunals</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#Witness">https://w3id.org/def/NyOnLegalOntology#Witness</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#Writ_Jurisdiction">https://w3id.org/def/NyOnLegalOntology#Writ_Jurisdiction</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#Judicial_Magistrate_Court(First_Class)">https://w3id.org/def/NyOnLegalOntology#Judicial_Magistrate_Court(First_Class)</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#Judicial_Magistrate_Court(Second_Class)">https://w3id.org/def/NyOnLegalOntology#Judicial_Magistrate_Court(Second_Class)</a>
+</li>
+</ul></details><h3 id="changeProp" class="list">Object Properties</h3>
+<details><summary><u>Added object properties</u></summary>
+<ul><li><a href="#appellantArgument">https://w3id.org/def/nyon#appellantArgument</a>
+<ul>
+<li>Added: Range https://w3id.org/def/nyon#Appellant</li>
+<li>Added: DisjointObjectProperties DisjointObjectProperties(&lt;https://w3id.org/def/nyon#appellantArgument&gt; &lt;https://w3id.org/def/nyon#defendentArgument&gt; &lt;https://w3id.org/def/nyon#petitionerArgument&gt; &lt;https://w3id.org/def/nyon#plaintiffArgument&gt; &lt;https://w3id.org/def/nyon#respondentArgument&gt;)</li>
+<li>Added: domain https://w3id.org/def/nyon#Argument</li>
+<li>Added: SubProperty of https://w3id.org/def/nyon#makeArgument</li>
+</ul>
+</li>
+<li><a href="#cited">https://w3id.org/def/nyon#cited</a>
+<ul>
+<li>Added: domain https://w3id.org/def/nyon#CourtCase</li>
+<li>Added: Range https://w3id.org/def/nyon#CourtCase</li>
+<li>Added: InverseFunctionalObjectProperty InverseFunctionalObjectProperty(&lt;https://w3id.org/def/nyon#cited&gt;)</li>
+</ul>
+</li>
+<li><a href="#defendentArgument">https://w3id.org/def/nyon#defendentArgument</a>
+<ul>
+<li>Added: Range https://w3id.org/def/nyon#Defendant</li>
+<li>Added: domain https://w3id.org/def/nyon#Argument</li>
+<li>Added: DisjointObjectProperties DisjointObjectProperties(&lt;https://w3id.org/def/nyon#appellantArgument&gt; &lt;https://w3id.org/def/nyon#defendentArgument&gt; &lt;https://w3id.org/def/nyon#petitionerArgument&gt; &lt;https://w3id.org/def/nyon#plaintiffArgument&gt; &lt;https://w3id.org/def/nyon#respondentArgument&gt;)</li>
+<li>Added: SubProperty of https://w3id.org/def/nyon#makeArgument</li>
+</ul>
+</li>
+<li><a href="#hasAuthor">https://w3id.org/def/nyon#hasAuthor</a>
+<ul>
+<li>Added: Range https://w3id.org/def/nyon#Author</li>
+<li>Added: domain https://w3id.org/def/nyon#CourtCase</li>
+</ul>
+</li>
+<li><a href="#hasBench">https://w3id.org/def/nyon#hasBench</a>
+<ul>
+<li>Added: domain https://w3id.org/def/nyon#CourtCase</li>
+<li>Added: Range https://w3id.org/def/nyon#Bench</li>
+<li>Added: SubProperty of http://www.w3.org/2002/07/owl#topObjectProperty</li>
+</ul>
+</li>
+<li><a href="#hasCourtLoc">https://w3id.org/def/nyon#hasCourtLoc</a>
+<ul>
+<li>Added: SubProperty of http://www.w3.org/2002/07/owl#topObjectProperty</li>
+<li>Added: domain https://w3id.org/def/nyon#Court</li>
+<li>Added: Range https://w3id.org/def/nyon#Location</li>
+</ul>
+</li>
+<li><a href="#hasCourtOfficial">https://w3id.org/def/nyon#hasCourtOfficial</a>
+<ul>
+<li>Added: Range https://w3id.org/def/nyon#Court_Official</li>
+<li>Added: domain https://w3id.org/def/nyon#CourtCase</li>
+<li>Added: SubProperty of http://www.w3.org/2002/07/owl#topObjectProperty</li>
+</ul>
+</li>
+<li><a href="#hasDateOfJudgment">https://w3id.org/def/nyon#hasDateOfJudgment</a>
+<ul>
+<li>Added: Range https://w3id.org/def/nyon#DateOfJudgment</li>
+<li>Added: domain https://w3id.org/def/nyon#Court</li>
+<li>Added: SubProperty of http://www.w3.org/2002/07/owl#topObjectProperty</li>
+</ul>
+</li>
+<li><a href="#hasEvidence">https://w3id.org/def/nyon#hasEvidence</a>
+<ul>
+<li>Added: SubProperty of http://www.w3.org/2002/07/owl#topObjectProperty</li>
+<li>Added: Range https://w3id.org/def/nyon#Evidence</li>
+<li>Added: domain https://w3id.org/def/nyon#CourtCase</li>
+</ul>
+</li>
+<li><a href="#hasEvidenceLoc">https://w3id.org/def/nyon#hasEvidenceLoc</a>
+<ul>
+<li>Added: SubProperty of http://www.w3.org/2002/07/owl#topObjectProperty</li>
+<li>Added: domain https://w3id.org/def/nyon#Evidence</li>
+<li>Added: Range https://w3id.org/def/nyon#Location</li>
+</ul>
+</li>
+<li><a href="#hasFact">https://w3id.org/def/nyon#hasFact</a>
+<ul>
+<li>Added: Range https://w3id.org/def/nyon#Fact</li>
+<li>Added: SubProperty of http://www.w3.org/2002/07/owl#topObjectProperty</li>
+<li>Added: domain https://w3id.org/def/nyon#CourtCase</li>
+</ul>
+</li>
+<li><a href="#hasFinalDecision">https://w3id.org/def/nyon#hasFinalDecision</a>
+<ul>
+<li>Added: SubProperty of http://www.w3.org/2002/07/owl#topObjectProperty</li>
+<li>Added: domain https://w3id.org/def/nyon#CourtCase</li>
+<li>Added: Range https://w3id.org/def/nyon#CourtDecision</li>
+</ul>
+</li>
+<li><a href="#hasIssue">https://w3id.org/def/nyon#hasIssue</a>
+<ul>
+<li>Added: FunctionalObjectProperty FunctionalObjectProperty(&lt;https://w3id.org/def/nyon#hasIssue&gt;)</li>
+<li>Added: domain https://w3id.org/def/nyon#CourtCase</li>
+<li>Added: Range https://w3id.org/def/nyon#Issue</li>
+</ul>
+</li>
+<li><a href="#hasJudge">https://w3id.org/def/nyon#hasJudge</a>
+<ul>
+<li>Added: domain https://w3id.org/def/nyon#CourtCase</li>
+<li>Added: Range https://w3id.org/def/nyon#Judge</li>
+</ul>
+</li>
+<li><a href="#hasJudgmentType">https://w3id.org/def/nyon#hasJudgmentType</a>
+<ul>
+<li>Added: SubProperty of http://www.w3.org/2002/07/owl#topObjectProperty</li>
+<li>Added: domain https://w3id.org/def/nyon#CourtCase</li>
+</ul>
+</li>
+<li><a href="#hasJurisdiction">https://w3id.org/def/nyon#hasJurisdiction</a>
+<ul>
+<li>Added: domain https://w3id.org/def/nyon#Court</li>
+<li>Added: Range https://w3id.org/def/nyon#Jurisdiction</li>
+<li>Added: SubProperty of http://www.w3.org/2002/07/owl#topObjectProperty</li>
+</ul>
+</li>
+<li><a href="#hasObiterDictum">https://w3id.org/def/nyon#hasObiterDictum</a>
+<ul>
+<li>Added: domain https://w3id.org/def/nyon#CourtCase</li>
+<li>Added: Range https://w3id.org/def/nyon#ObiterDictum</li>
+<li>Added: SubProperty of http://www.w3.org/2002/07/owl#topObjectProperty</li>
+</ul>
+</li>
+<li><a href="#hasOpinion">https://w3id.org/def/nyon#hasOpinion</a>
+<ul>
+<li>Added: Range https://w3id.org/def/nyon#Opinion</li>
+<li>Added: domain https://w3id.org/def/nyon#Judge</li>
+</ul>
+</li>
+<li><a href="#hasParty">https://w3id.org/def/nyon#hasParty</a>
+<ul>
+<li>Added: domain https://w3id.org/def/nyon#CourtCase</li>
+<li>Added: SubProperty of http://www.w3.org/2002/07/owl#topObjectProperty</li>
+<li>Added: Range https://w3id.org/def/nyon#Party</li>
+</ul>
+</li>
+<li><a href="#hasPartyType">https://w3id.org/def/nyon#hasPartyType</a>
+<ul>
+<li>Added: domain https://w3id.org/def/nyon#Party</li>
+<li>Added: Range https://w3id.org/def/nyon#Party_Type</li>
+<li>Added: SubProperty of http://www.w3.org/2002/07/owl#topObjectProperty</li>
+</ul>
+</li>
+<li><a href="#hasPolicePersonnel">https://w3id.org/def/nyon#hasPolicePersonnel</a>
+<ul>
+<li>Added: domain https://w3id.org/def/nyon#CourtCase</li>
+<li>Added: Range https://w3id.org/def/nyon#Investigator</li>
+</ul>
+</li>
+<li><a href="#hasProvision">https://w3id.org/def/nyon#hasProvision</a>
+<ul>
+<li>Added: domain https://w3id.org/def/nyon#CourtCase</li>
+<li>Added: Range https://w3id.org/def/nyon#Provision</li>
+</ul>
+</li>
+<li><a href="#hasRatioDecidendi">https://w3id.org/def/nyon#hasRatioDecidendi</a>
+<ul>
+<li>Added: domain https://w3id.org/def/nyon#CourtCase</li>
+<li>Added: SubProperty of http://www.w3.org/2002/07/owl#topObjectProperty</li>
+<li>Added: Range https://w3id.org/def/nyon#RatioDecidendi</li>
+</ul>
+</li>
+<li><a href="#hasRulingOf">https://w3id.org/def/nyon#hasRulingOf</a>
+<ul>
+<li>Added: SubProperty of http://www.w3.org/2002/07/owl#topObjectProperty</li>
+<li>Added: Range https://w3id.org/def/nyon#Court</li>
+<li>Added: FunctionalObjectProperty FunctionalObjectProperty(&lt;https://w3id.org/def/nyon#hasRulingOf&gt;)</li>
+<li>Added: domain https://w3id.org/def/nyon#CourtCase</li>
+</ul>
+</li>
+<li><a href="#hasStatue">https://w3id.org/def/nyon#hasStatue</a>
+<ul>
+<li>Added: SubProperty of http://www.w3.org/2002/07/owl#topObjectProperty</li>
+<li>Added: domain https://w3id.org/def/nyon#CourtCase</li>
+<li>Added: Range https://w3id.org/def/nyon#Statute</li>
+</ul>
+</li>
+<li><a href="#hasWitness">https://w3id.org/def/nyon#hasWitness</a>
+<ul>
+<li>Added: SubProperty of http://www.w3.org/2002/07/owl#topObjectProperty</li>
+<li>Added: Range https://w3id.org/def/nyon#Witness</li>
+<li>Added: domain https://w3id.org/def/nyon#CourtCase</li>
+</ul>
+</li>
+<li><a href="#hasWordPhrase">https://w3id.org/def/nyon#hasWordPhrase</a>
+<ul>
+<li>Added: SubProperty of http://www.w3.org/2002/07/owl#topObjectProperty</li>
+<li>Added: domain https://w3id.org/def/nyon#CourtCase</li>
+<li>Added: Range https://w3id.org/def/nyon#WordAndPhrase</li>
+</ul>
+</li>
+<li><a href="#hasWords">https://w3id.org/def/nyon#hasWords</a>
+<ul>
+<li>Added: Range https://w3id.org/def/nyon#CatchWord</li>
+<li>Added: domain https://w3id.org/def/nyon#CourtCase</li>
+</ul>
+</li>
+<li><a href="#makeArgument">https://w3id.org/def/nyon#makeArgument</a>
+<ul>
+<li>Added: SubProperty of http://www.w3.org/2002/07/owl#topObjectProperty</li>
+</ul>
+</li>
+<li><a href="#part_of">https://w3id.org/def/nyon#part_of</a>
+</li>
+<li><a href="#petitionerArgument">https://w3id.org/def/nyon#petitionerArgument</a>
+<ul>
+<li>Added: domain https://w3id.org/def/nyon#Argument</li>
+<li>Added: DisjointObjectProperties DisjointObjectProperties(&lt;https://w3id.org/def/nyon#appellantArgument&gt; &lt;https://w3id.org/def/nyon#defendentArgument&gt; &lt;https://w3id.org/def/nyon#petitionerArgument&gt; &lt;https://w3id.org/def/nyon#plaintiffArgument&gt; &lt;https://w3id.org/def/nyon#respondentArgument&gt;)</li>
+<li>Added: SubProperty of https://w3id.org/def/nyon#makeArgument</li>
+<li>Added: Range https://w3id.org/def/nyon#Petitioner</li>
+</ul>
+</li>
+<li><a href="#plaintiffArgument">https://w3id.org/def/nyon#plaintiffArgument</a>
+<ul>
+<li>Added: DisjointObjectProperties DisjointObjectProperties(&lt;https://w3id.org/def/nyon#appellantArgument&gt; &lt;https://w3id.org/def/nyon#defendentArgument&gt; &lt;https://w3id.org/def/nyon#petitionerArgument&gt; &lt;https://w3id.org/def/nyon#plaintiffArgument&gt; &lt;https://w3id.org/def/nyon#respondentArgument&gt;)</li>
+<li>Added: domain https://w3id.org/def/nyon#Argument</li>
+<li>Added: SubProperty of https://w3id.org/def/nyon#makeArgument</li>
+<li>Added: Range https://w3id.org/def/nyon#Plaintiff</li>
+</ul>
+</li>
+<li><a href="#respondentArgument">https://w3id.org/def/nyon#respondentArgument</a>
+<ul>
+<li>Added: Range https://w3id.org/def/nyon#Respondent</li>
+<li>Added: domain https://w3id.org/def/nyon#Argument</li>
+<li>Added: DisjointObjectProperties DisjointObjectProperties(&lt;https://w3id.org/def/nyon#appellantArgument&gt; &lt;https://w3id.org/def/nyon#defendentArgument&gt; &lt;https://w3id.org/def/nyon#petitionerArgument&gt; &lt;https://w3id.org/def/nyon#plaintiffArgument&gt; &lt;https://w3id.org/def/nyon#respondentArgument&gt;)</li>
+<li>Added: SubProperty of https://w3id.org/def/nyon#makeArgument</li>
+</ul>
+</li>
+<li><a href="#withConcurrence">https://w3id.org/def/nyon#withConcurrence</a>
+<ul>
+<li>Added: domain https://w3id.org/def/nyon#Judge</li>
+<li>Added: SubProperty of https://w3id.org/def/nyon#hasOpinion</li>
+<li>Added: Range https://w3id.org/def/nyon#Concurrence</li>
+</ul>
+</li>
+<li><a href="#withDissent">https://w3id.org/def/nyon#withDissent</a>
+<ul>
+<li>Added: SubProperty of https://w3id.org/def/nyon#hasOpinion</li>
+<li>Added: domain https://w3id.org/def/nyon#Judge</li>
+<li>Added: Range https://w3id.org/def/nyon#Dissent</li>
+</ul>
+</li>
+<li><a href="#withMajority">https://w3id.org/def/nyon#withMajority</a>
+<ul>
+<li>Added: domain https://w3id.org/def/nyon#Judge</li>
+<li>Added: SubProperty of https://w3id.org/def/nyon#hasOpinion</li>
+<li>Added: Range https://w3id.org/def/nyon#Majority</li>
+</ul>
+</li>
+<li><a href="#worksIn">https://w3id.org/def/nyon#worksIn</a>
+<ul>
+<li>Added: SubProperty of http://www.w3.org/2002/07/owl#topObjectProperty</li>
+<li>Added: Range https://w3id.org/def/nyon#Court</li>
+<li>Added: domain https://w3id.org/def/nyon#Court_Official</li>
+</ul>
+</li>
+</ul></details><details><summary><u>Deleted object properties</u></summary>
+<ul><li><a href="#https://w3id.org/def/NyOnLegalOntology#caseBelongsToType">https://w3id.org/def/NyOnLegalOntology#caseBelongsToType</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#documentType">https://w3id.org/def/NyOnLegalOntology#documentType</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#hasActs">https://w3id.org/def/NyOnLegalOntology#hasActs</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#hasAdvisoryJurisdiction">https://w3id.org/def/NyOnLegalOntology#hasAdvisoryJurisdiction</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#hasAppellantJurisdiction">https://w3id.org/def/NyOnLegalOntology#hasAppellantJurisdiction</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#hasAuthor">https://w3id.org/def/NyOnLegalOntology#hasAuthor</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#hasBench">https://w3id.org/def/NyOnLegalOntology#hasBench</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#hasCourtDecision">https://w3id.org/def/NyOnLegalOntology#hasCourtDecision</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#hasCourts">https://w3id.org/def/NyOnLegalOntology#hasCourts</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#hasEvidenceLocation">https://w3id.org/def/NyOnLegalOntology#hasEvidenceLocation</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#hasEvidences">https://w3id.org/def/NyOnLegalOntology#hasEvidences</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#hasIndividual">https://w3id.org/def/NyOnLegalOntology#hasIndividual</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#hasLegalParticipants">https://w3id.org/def/NyOnLegalOntology#hasLegalParticipants</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#hasLocation">https://w3id.org/def/NyOnLegalOntology#hasLocation</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#hasNonLegalParticipants">https://w3id.org/def/NyOnLegalOntology#hasNonLegalParticipants</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#hasOriginalJurisdiction">https://w3id.org/def/NyOnLegalOntology#hasOriginalJurisdiction</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#hasParticipantType">https://w3id.org/def/NyOnLegalOntology#hasParticipantType</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#hasPrecedentCase">https://w3id.org/def/NyOnLegalOntology#hasPrecedentCase</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#hasReviewJurisdiction">https://w3id.org/def/NyOnLegalOntology#hasReviewJurisdiction</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#hasWritJurisdiction">https://w3id.org/def/NyOnLegalOntology#hasWritJurisdiction</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#isA">https://w3id.org/def/NyOnLegalOntology#isA</a>
+</li>
+</ul></details><h3 id="changeDataProp" class="list">Data Properties</h3>
+<details><summary><u>Added data properties</u></summary>
+<ul><li><a href="#http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#beginIndex">http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#beginIndex</a>
+<ul>
+<li>Added: FunctionalDataProperty FunctionalDataProperty(&lt;http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#beginIndex&gt;)</li>
+<li>Added: Range http://www.w3.org/2001/XMLSchema#nonNegativeInteger</li>
+</ul>
+</li>
+<li><a href="#http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#endIndex">http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#endIndex</a>
+</li>
+<li><a href="#COFirstName">https://w3id.org/def/nyon#COFirstName</a>
+<ul>
+<li>Added: Range http://www.w3.org/2001/XMLSchema#string</li>
+<li>Added: SubProperty of https://w3id.org/def/nyon#courtOffName</li>
+<li>Added: Domain https://w3id.org/def/nyon#Court_Official</li>
+</ul>
+</li>
+<li><a href="#COLastName">https://w3id.org/def/nyon#COLastName</a>
+<ul>
+<li>Added: Domain https://w3id.org/def/nyon#Court_Official</li>
+<li>Added: SubProperty of https://w3id.org/def/nyon#courtOffName</li>
+<li>Added: Range http://www.w3.org/2001/XMLSchema#string</li>
+</ul>
+</li>
+<li><a href="#IssueText">https://w3id.org/def/nyon#IssueText</a>
+<ul>
+<li>Added: SubProperty of http://www.w3.org/2002/07/owl#topDataProperty</li>
+</ul>
+</li>
+<li><a href="#accussedArgumentText">https://w3id.org/def/nyon#accussedArgumentText</a>
+<ul>
+<li>Added: DisjointDataProperties DisjointDataProperties(&lt;https://w3id.org/def/nyon#accussedArgumentText&gt; &lt;https://w3id.org/def/nyon#defendantArgumentText&gt; &lt;https://w3id.org/def/nyon#petitionerArgumentText&gt; &lt;https://w3id.org/def/nyon#plaintiffArgumentText&gt; &lt;https://w3id.org/def/nyon#respondentArgumentText&gt;)</li>
+<li>Added: SubProperty of https://w3id.org/def/nyon#argumentText</li>
+</ul>
+</li>
+<li><a href="#argumentText">https://w3id.org/def/nyon#argumentText</a>
+<ul>
+<li>Added: SubProperty of http://www.w3.org/2002/07/owl#topDataProperty</li>
+</ul>
+</li>
+<li><a href="#catchwordValue">https://w3id.org/def/nyon#catchwordValue</a>
+<ul>
+<li>Added: Domain https://w3id.org/def/nyon#CatchWord</li>
+<li>Added: SubProperty of http://www.w3.org/2002/07/owl#topDataProperty</li>
+<li>Added: Range http://www.w3.org/2001/XMLSchema#string</li>
+</ul>
+</li>
+<li><a href="#concurrenceText">https://w3id.org/def/nyon#concurrenceText</a>
+<ul>
+<li>Added: SubProperty of https://w3id.org/def/nyon#judgeOpinionText</li>
+<li>Added: DisjointDataProperties DisjointDataProperties(&lt;https://w3id.org/def/nyon#concurrenceText&gt; &lt;https://w3id.org/def/nyon#dissentText&gt; &lt;https://w3id.org/def/nyon#majorityText&gt;)</li>
+</ul>
+</li>
+<li><a href="#courtName">https://w3id.org/def/nyon#courtName</a>
+<ul>
+<li>Added: SubProperty of http://www.w3.org/2002/07/owl#topDataProperty</li>
+<li>Added: Range http://www.w3.org/2001/XMLSchema#string</li>
+<li>Added: Domain https://w3id.org/def/nyon#Court</li>
+</ul>
+</li>
+<li><a href="#courtOffName">https://w3id.org/def/nyon#courtOffName</a>
+<ul>
+<li>Added: SubProperty of http://www.w3.org/2002/07/owl#topDataProperty</li>
+</ul>
+</li>
+<li><a href="#dateOfJudgment">https://w3id.org/def/nyon#dateOfJudgment</a>
+<ul>
+<li>Added: SubProperty of http://www.w3.org/2002/07/owl#topDataProperty</li>
+<li>Added: Domain https://w3id.org/def/nyon#DateOfJudgment</li>
+<li>Added: Range http://www.w3.org/2001/XMLSchema#dateTime</li>
+</ul>
+</li>
+<li><a href="#defendantArgumentText">https://w3id.org/def/nyon#defendantArgumentText</a>
+<ul>
+<li>Added: DisjointDataProperties DisjointDataProperties(&lt;https://w3id.org/def/nyon#accussedArgumentText&gt; &lt;https://w3id.org/def/nyon#defendantArgumentText&gt; &lt;https://w3id.org/def/nyon#petitionerArgumentText&gt; &lt;https://w3id.org/def/nyon#plaintiffArgumentText&gt; &lt;https://w3id.org/def/nyon#respondentArgumentText&gt;)</li>
+<li>Added: SubProperty of https://w3id.org/def/nyon#argumentText</li>
+</ul>
+</li>
+<li><a href="#dissentText">https://w3id.org/def/nyon#dissentText</a>
+<ul>
+<li>Added: DisjointDataProperties DisjointDataProperties(&lt;https://w3id.org/def/nyon#concurrenceText&gt; &lt;https://w3id.org/def/nyon#dissentText&gt; &lt;https://w3id.org/def/nyon#majorityText&gt;)</li>
+<li>Added: SubProperty of https://w3id.org/def/nyon#judgeOpinionText</li>
+</ul>
+</li>
+<li><a href="#equivalentCitation">https://w3id.org/def/nyon#equivalentCitation</a>
+<ul>
+<li>Added: Domain https://w3id.org/def/nyon#CourtCase</li>
+<li>Added: Range http://www.w3.org/2001/XMLSchema#string</li>
+<li>Added: SubProperty of http://www.w3.org/2002/07/owl#topDataProperty</li>
+<li>Added: DisjointDataProperties DisjointDataProperties(&lt;https://w3id.org/def/nyon#equivalentCitation&gt; &lt;https://w3id.org/def/nyon#neutralCitations&gt;)</li>
+</ul>
+</li>
+<li><a href="#evidenceLocation">https://w3id.org/def/nyon#evidenceLocation</a>
+<ul>
+<li>Added: Domain https://w3id.org/def/nyon#Evidence</li>
+<li>Added: SubProperty of http://www.w3.org/2002/07/owl#topDataProperty</li>
+<li>Added: Range http://www.w3.org/2001/XMLSchema#string</li>
+</ul>
+</li>
+<li><a href="#factText">https://w3id.org/def/nyon#factText</a>
+<ul>
+<li>Added: SubProperty of http://www.w3.org/2002/07/owl#topDataProperty</li>
+</ul>
+</li>
+<li><a href="#finalVerdictText">https://w3id.org/def/nyon#finalVerdictText</a>
+<ul>
+<li>Added: SubProperty of http://www.w3.org/2002/07/owl#topDataProperty</li>
+</ul>
+</li>
+<li><a href="#firstName">https://w3id.org/def/nyon#firstName</a>
+<ul>
+<li>Added: DisjointDataProperties DisjointDataProperties(&lt;https://w3id.org/def/nyon#firstName&gt; &lt;https://w3id.org/def/nyon#lastName&gt;)</li>
+<li>Added: SubProperty of https://w3id.org/def/nyon#partyName</li>
+<li>Added: Range http://www.w3.org/2001/XMLSchema#string</li>
+<li>Added: Domain https://w3id.org/def/nyon#Party</li>
+</ul>
+</li>
+<li><a href="#hasCaseID">https://w3id.org/def/nyon#hasCaseID</a>
+<ul>
+<li>Added: Domain https://w3id.org/def/nyon#CourtCase</li>
+<li>Added: Range http://www.w3.org/2001/XMLSchema#string</li>
+</ul>
+</li>
+<li><a href="#hasCaseName">https://w3id.org/def/nyon#hasCaseName</a>
+<ul>
+<li>Added: Domain https://w3id.org/def/nyon#CourtCase</li>
+<li>Added: Range http://www.w3.org/2001/XMLSchema#string</li>
+</ul>
+</li>
+<li><a href="#hasDate">https://w3id.org/def/nyon#hasDate</a>
+<ul>
+<li>Added: SubProperty of https://w3id.org/def/nyon#dateOfJudgment</li>
+<li>Added: Range http://www.w3.org/2001/XMLSchema#int</li>
+<li>Added: DisjointDataProperties DisjointDataProperties(&lt;https://w3id.org/def/nyon#hasDate&gt; &lt;https://w3id.org/def/nyon#hasMonth&gt; &lt;https://w3id.org/def/nyon#hasYear&gt;)</li>
+<li>Added: Domain https://w3id.org/def/nyon#DateOfJudgment</li>
+</ul>
+</li>
+<li><a href="#hasDesignation">https://w3id.org/def/nyon#hasDesignation</a>
+<ul>
+<li>Added: Range http://www.w3.org/2001/XMLSchema#string</li>
+<li>Added: SubProperty of https://w3id.org/def/nyon#hasPolicePersonnelName</li>
+<li>Added: Domain https://w3id.org/def/nyon#Investigator</li>
+</ul>
+</li>
+<li><a href="#hasMonth">https://w3id.org/def/nyon#hasMonth</a>
+<ul>
+<li>Added: Domain https://w3id.org/def/nyon#DateOfJudgment</li>
+<li>Added: SubProperty of https://w3id.org/def/nyon#dateOfJudgment</li>
+<li>Added: Range http://www.w3.org/2001/XMLSchema#string</li>
+<li>Added: DisjointDataProperties DisjointDataProperties(&lt;https://w3id.org/def/nyon#hasDate&gt; &lt;https://w3id.org/def/nyon#hasMonth&gt; &lt;https://w3id.org/def/nyon#hasYear&gt;)</li>
+</ul>
+</li>
+<li><a href="#hasPolicePersonnelName">https://w3id.org/def/nyon#hasPolicePersonnelName</a>
+<ul>
+<li>Added: Domain https://w3id.org/def/nyon#Investigator</li>
+<li>Added: Range http://www.w3.org/2001/XMLSchema#string</li>
+</ul>
+</li>
+<li><a href="#hasYear">https://w3id.org/def/nyon#hasYear</a>
+<ul>
+<li>Added: Domain https://w3id.org/def/nyon#DateOfJudgment</li>
+<li>Added: Range http://www.w3.org/2001/XMLSchema#int</li>
+<li>Added: DisjointDataProperties DisjointDataProperties(&lt;https://w3id.org/def/nyon#hasDate&gt; &lt;https://w3id.org/def/nyon#hasMonth&gt; &lt;https://w3id.org/def/nyon#hasYear&gt;)</li>
+<li>Added: SubProperty of https://w3id.org/def/nyon#dateOfJudgment</li>
+</ul>
+</li>
+<li><a href="#judgeOpinionText">https://w3id.org/def/nyon#judgeOpinionText</a>
+<ul>
+<li>Added: SubProperty of http://www.w3.org/2002/07/owl#topDataProperty</li>
+</ul>
+</li>
+<li><a href="#lastName">https://w3id.org/def/nyon#lastName</a>
+<ul>
+<li>Added: SubProperty of https://w3id.org/def/nyon#partyName</li>
+<li>Added: DisjointDataProperties DisjointDataProperties(&lt;https://w3id.org/def/nyon#firstName&gt; &lt;https://w3id.org/def/nyon#lastName&gt;)</li>
+<li>Added: Domain https://w3id.org/def/nyon#Party</li>
+<li>Added: Range http://www.w3.org/2001/XMLSchema#string</li>
+</ul>
+</li>
+<li><a href="#locationName">https://w3id.org/def/nyon#locationName</a>
+<ul>
+<li>Added: Domain https://w3id.org/def/nyon#Location</li>
+<li>Added: SubProperty of http://www.w3.org/2002/07/owl#topDataProperty</li>
+<li>Added: Range http://www.w3.org/2001/XMLSchema#string</li>
+</ul>
+</li>
+<li><a href="#majorityText">https://w3id.org/def/nyon#majorityText</a>
+<ul>
+<li>Added: SubProperty of https://w3id.org/def/nyon#judgeOpinionText</li>
+<li>Added: DisjointDataProperties DisjointDataProperties(&lt;https://w3id.org/def/nyon#concurrenceText&gt; &lt;https://w3id.org/def/nyon#dissentText&gt; &lt;https://w3id.org/def/nyon#majorityText&gt;)</li>
+</ul>
+</li>
+<li><a href="#neutralCitations">https://w3id.org/def/nyon#neutralCitations</a>
+<ul>
+<li>Added: SubProperty of http://www.w3.org/2002/07/owl#topDataProperty</li>
+<li>Added: Domain https://w3id.org/def/nyon#CourtCase</li>
+<li>Added: Range http://www.w3.org/2001/XMLSchema#string</li>
+<li>Added: DisjointDataProperties DisjointDataProperties(&lt;https://w3id.org/def/nyon#equivalentCitation&gt; &lt;https://w3id.org/def/nyon#neutralCitations&gt;)</li>
+</ul>
+</li>
+<li><a href="#otherText">https://w3id.org/def/nyon#otherText</a>
+<ul>
+<li>Added: SubProperty of http://www.w3.org/2002/07/owl#topDataProperty</li>
+</ul>
+</li>
+<li><a href="#partyName">https://w3id.org/def/nyon#partyName</a>
+<ul>
+<li>Added: SubProperty of http://www.w3.org/2002/07/owl#topDataProperty</li>
+</ul>
+</li>
+<li><a href="#petitionerArgumentText">https://w3id.org/def/nyon#petitionerArgumentText</a>
+<ul>
+<li>Added: DisjointDataProperties DisjointDataProperties(&lt;https://w3id.org/def/nyon#accussedArgumentText&gt; &lt;https://w3id.org/def/nyon#defendantArgumentText&gt; &lt;https://w3id.org/def/nyon#petitionerArgumentText&gt; &lt;https://w3id.org/def/nyon#plaintiffArgumentText&gt; &lt;https://w3id.org/def/nyon#respondentArgumentText&gt;)</li>
+<li>Added: SubProperty of https://w3id.org/def/nyon#argumentText</li>
+</ul>
+</li>
+<li><a href="#plaintiffArgumentText">https://w3id.org/def/nyon#plaintiffArgumentText</a>
+<ul>
+<li>Added: DisjointDataProperties DisjointDataProperties(&lt;https://w3id.org/def/nyon#accussedArgumentText&gt; &lt;https://w3id.org/def/nyon#defendantArgumentText&gt; &lt;https://w3id.org/def/nyon#petitionerArgumentText&gt; &lt;https://w3id.org/def/nyon#plaintiffArgumentText&gt; &lt;https://w3id.org/def/nyon#respondentArgumentText&gt;)</li>
+<li>Added: SubProperty of https://w3id.org/def/nyon#argumentText</li>
+</ul>
+</li>
+<li><a href="#rationaleText">https://w3id.org/def/nyon#rationaleText</a>
+<ul>
+<li>Added: SubProperty of http://www.w3.org/2002/07/owl#topDataProperty</li>
+</ul>
+</li>
+<li><a href="#respondentArgumentText">https://w3id.org/def/nyon#respondentArgumentText</a>
+<ul>
+<li>Added: SubProperty of https://w3id.org/def/nyon#argumentText</li>
+<li>Added: DisjointDataProperties DisjointDataProperties(&lt;https://w3id.org/def/nyon#accussedArgumentText&gt; &lt;https://w3id.org/def/nyon#defendantArgumentText&gt; &lt;https://w3id.org/def/nyon#petitionerArgumentText&gt; &lt;https://w3id.org/def/nyon#plaintiffArgumentText&gt; &lt;https://w3id.org/def/nyon#respondentArgumentText&gt;)</li>
+</ul>
+</li>
+<li><a href="#wFirstName">https://w3id.org/def/nyon#wFirstName</a>
+<ul>
+<li>Added: Range http://www.w3.org/2001/XMLSchema#string</li>
+<li>Added: DisjointDataProperties DisjointDataProperties(&lt;https://w3id.org/def/nyon#wFirstName&gt; &lt;https://w3id.org/def/nyon#wLastName&gt;)</li>
+<li>Added: Domain https://w3id.org/def/nyon#Witness</li>
+<li>Added: SubProperty of https://w3id.org/def/nyon#witnessName</li>
+</ul>
+</li>
+<li><a href="#wLastName">https://w3id.org/def/nyon#wLastName</a>
+<ul>
+<li>Added: Range http://www.w3.org/2001/XMLSchema#string</li>
+<li>Added: SubProperty of https://w3id.org/def/nyon#witnessName</li>
+<li>Added: Domain https://w3id.org/def/nyon#Witness</li>
+<li>Added: DisjointDataProperties DisjointDataProperties(&lt;https://w3id.org/def/nyon#wFirstName&gt; &lt;https://w3id.org/def/nyon#wLastName&gt;)</li>
+</ul>
+</li>
+<li><a href="#witnessName">https://w3id.org/def/nyon#witnessName</a>
+<ul>
+<li>Added: SubProperty of http://www.w3.org/2002/07/owl#topDataProperty</li>
+</ul>
+</li>
+<li><a href="#witnessStatement">https://w3id.org/def/nyon#witnessStatement</a>
+<ul>
+<li>Added: Range http://www.w3.org/2001/XMLSchema#string</li>
+<li>Added: SubProperty of http://www.w3.org/2002/07/owl#topDataProperty</li>
+<li>Added: Domain https://w3id.org/def/nyon#Witness</li>
+</ul>
+</li>
+<li><a href="#wordPhraseValue">https://w3id.org/def/nyon#wordPhraseValue</a>
+<ul>
+<li>Added: SubProperty of http://www.w3.org/2002/07/owl#topDataProperty</li>
+<li>Added: Range http://www.w3.org/2001/XMLSchema#string</li>
+<li>Added: Domain https://w3id.org/def/nyon#WordAndPhrase</li>
+</ul>
+</li>
+</ul></details><details><summary><u>Deleted data properties</u></summary>
+<ul><li><a href="#https://w3id.org/def/NyOnLegalOntology#GovernmentName">https://w3id.org/def/NyOnLegalOntology#GovernmentName</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#hasCaseName">https://w3id.org/def/NyOnLegalOntology#hasCaseName</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#hasCaseNumber">https://w3id.org/def/NyOnLegalOntology#hasCaseNumber</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#hasCourtDecisionDate">https://w3id.org/def/NyOnLegalOntology#hasCourtDecisionDate</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#hasJudgement">https://w3id.org/def/NyOnLegalOntology#hasJudgement</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#hasOrder">https://w3id.org/def/NyOnLegalOntology#hasOrder</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#individualName">https://w3id.org/def/NyOnLegalOntology#individualName</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#locatedAt">https://w3id.org/def/NyOnLegalOntology#locatedAt</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#organizationName">https://w3id.org/def/NyOnLegalOntology#organizationName</a>
+</li>
+<li><a href="#https://w3id.org/def/NyOnLegalOntology#stateName">https://w3id.org/def/NyOnLegalOntology#stateName</a>
+</li>
+</ul></details></div>

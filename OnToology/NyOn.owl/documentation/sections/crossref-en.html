@@ -15,11 +15,6 @@ This section provides details for each class and property defined by NyOn:  A kn
          <a href="#Appellant" title="https://w3id.org/def/nyon#Appellant">Appellant</a>
       </li>
       <li>
-         <a href="#AppellantArgument" title="https://w3id.org/def/nyon#AppellantArgument">
-            <span>appellant argument</span>
-         </a>
-      </li>
-      <li>
          <a href="#Appellant_Jurisdiction"
             title="https://w3id.org/def/nyon#Appellant_Jurisdiction">Appellant Jurisdiction</a>
       </li>
@@ -87,11 +82,6 @@ This section provides details for each class and property defined by NyOn:  A kn
       </li>
       <li>
          <a href="#Defendant" title="https://w3id.org/def/nyon#Defendant">Defendant</a>
-      </li>
-      <li>
-         <a href="#DefendantArgument" title="https://w3id.org/def/nyon#DefendantArgument">
-            <span>defendant argument</span>
-         </a>
       </li>
       <li>
          <a href="#Dissent" title="https://w3id.org/def/nyon#Dissent">Dissent</a>
@@ -209,20 +199,10 @@ This section provides details for each class and property defined by NyOn:  A kn
          <a href="#Petitioner" title="https://w3id.org/def/nyon#Petitioner">Petitioner</a>
       </li>
       <li>
-         <a href="#PetitionerArgument" title="https://w3id.org/def/nyon#PetitionerArgument">
-            <span>petitioner argument</span>
-         </a>
-      </li>
-      <li>
          <a href="#https://schema.org/Place" title="https://schema.org/Place">Place</a>
       </li>
       <li>
          <a href="#Plaintiff" title="https://w3id.org/def/nyon#Plaintiff">Plaintiff</a>
-      </li>
-      <li>
-         <a href="#PlaintiffArgument" title="https://w3id.org/def/nyon#PlaintiffArgument">
-            <span>plaintiff argument</span>
-         </a>
       </li>
       <li>
          <a href="#Investigator" title="https://w3id.org/def/nyon#Investigator">PolicePersonnel</a>
@@ -242,11 +222,6 @@ This section provides details for each class and property defined by NyOn:  A kn
       </li>
       <li>
          <a href="#Respondent" title="https://w3id.org/def/nyon#Respondent">Respondent</a>
-      </li>
-      <li>
-         <a href="#RespondentArgument" title="https://w3id.org/def/nyon#RespondentArgument">
-            <span>respondent argument</span>
-         </a>
       </li>
       <li>
          <a href="#Review_Jurisdiction" title="https://w3id.org/def/nyon#Review_Jurisdiction">Review Jurisdiction</a>
@@ -373,29 +348,6 @@ This section provides details for each class and property defined by NyOn:  A kn
          </dd>
       </dl>
    </div>
-   <div class="entity" id="AppellantArgument">
-      <h3>appellant argument<sup class="type-c" title="class">c</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> https://w3id.org/def/nyon#AppellantArgument</p>
-      <dl class="description">
-         <dt>has super-classes</dt>
-         <dd>
-            <a href="#Argument" title="https://w3id.org/def/nyon#Argument">Argument</a>
-            <sup class="type-c" title="class">c</sup>
-         </dd>
-         <dt>is disjoint with</dt>
-         <dd>
-            <a href="#DefendantArgument" title="https://w3id.org/def/nyon#DefendantArgument">defendant argument</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#PetitionerArgument" title="https://w3id.org/def/nyon#PetitionerArgument">petitioner argument</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#PlaintiffArgument" title="https://w3id.org/def/nyon#PlaintiffArgument">plaintiff argument</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#RespondentArgument" title="https://w3id.org/def/nyon#RespondentArgument">respondent argument</a>
-            <sup class="type-c" title="class">c</sup>
-         </dd>
-      </dl>
-   </div>
    <div class="entity" id="Appellant_Jurisdiction">
       <h3>Appellant Jurisdiction<sup class="type-c" title="class">c</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
@@ -444,15 +396,6 @@ This section provides details for each class and property defined by NyOn:  A kn
          <dd>
             <a href="#http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Paragraph"
                title="http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Paragraph">paragraph</a>
-            <sup class="type-c" title="class">c</sup>
-         </dd>
-         <dt>has sub-classes</dt>
-         <dd>
-            <a href="#AppellantArgument" title="https://w3id.org/def/nyon#AppellantArgument">appellant argument</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#DefendantArgument" title="https://w3id.org/def/nyon#DefendantArgument">defendant argument</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#PetitionerArgument" title="https://w3id.org/def/nyon#PetitionerArgument">petitioner argument</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#PlaintiffArgument" title="https://w3id.org/def/nyon#PlaintiffArgument">plaintiff argument</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#RespondentArgument" title="https://w3id.org/def/nyon#RespondentArgument">respondent argument</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
          <dt>is in domain of</dt>
@@ -1038,7 +981,8 @@ This section provides details for each class and property defined by NyOn:  A kn
       <dl class="description">
          <dt>is in domain of</dt>
          <dd>
-            <a href="#hasDate" title="https://w3id.org/def/nyon#hasDate">hasDate</a>
+            <a href="#dateOfJudgment" title="https://w3id.org/def/nyon#dateOfJudgment">dateOfJudgment</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#hasDate" title="https://w3id.org/def/nyon#hasDate">hasDate</a>
             <sup class="type-dp" title="data property">dp</sup>, <a href="#hasMonth" title="https://w3id.org/def/nyon#hasMonth">hasMonth</a>
             <sup class="type-dp" title="data property">dp</sup>, <a href="#hasYear" title="https://w3id.org/def/nyon#hasYear">hasYear</a>
             <sup class="type-dp" title="data property">dp</sup>
@@ -1096,29 +1040,6 @@ This section provides details for each class and property defined by NyOn:  A kn
          <dd>
             <a href="#defendentArgument" title="https://w3id.org/def/nyon#defendentArgument">defendantArgument</a>
             <sup class="type-op" title="object property">op</sup>
-         </dd>
-      </dl>
-   </div>
-   <div class="entity" id="DefendantArgument">
-      <h3>defendant argument<sup class="type-c" title="class">c</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> https://w3id.org/def/nyon#DefendantArgument</p>
-      <dl class="description">
-         <dt>has super-classes</dt>
-         <dd>
-            <a href="#Argument" title="https://w3id.org/def/nyon#Argument">Argument</a>
-            <sup class="type-c" title="class">c</sup>
-         </dd>
-         <dt>is disjoint with</dt>
-         <dd>
-            <a href="#AppellantArgument" title="https://w3id.org/def/nyon#AppellantArgument">appellant argument</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#PetitionerArgument" title="https://w3id.org/def/nyon#PetitionerArgument">petitioner argument</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#PlaintiffArgument" title="https://w3id.org/def/nyon#PlaintiffArgument">plaintiff argument</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#RespondentArgument" title="https://w3id.org/def/nyon#RespondentArgument">respondent argument</a>
-            <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
    </div>
@@ -2140,29 +2061,6 @@ This section provides details for each class and property defined by NyOn:  A kn
          </dd>
       </dl>
    </div>
-   <div class="entity" id="PetitionerArgument">
-      <h3>petitioner argument<sup class="type-c" title="class">c</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> https://w3id.org/def/nyon#PetitionerArgument</p>
-      <dl class="description">
-         <dt>has super-classes</dt>
-         <dd>
-            <a href="#Argument" title="https://w3id.org/def/nyon#Argument">Argument</a>
-            <sup class="type-c" title="class">c</sup>
-         </dd>
-         <dt>is disjoint with</dt>
-         <dd>
-            <a href="#AppellantArgument" title="https://w3id.org/def/nyon#AppellantArgument">appellant argument</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#DefendantArgument" title="https://w3id.org/def/nyon#DefendantArgument">defendant argument</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#PlaintiffArgument" title="https://w3id.org/def/nyon#PlaintiffArgument">plaintiff argument</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#RespondentArgument" title="https://w3id.org/def/nyon#RespondentArgument">respondent argument</a>
-            <sup class="type-c" title="class">c</sup>
-         </dd>
-      </dl>
-   </div>
    <div class="entity" id="https://schema.org/Place">
       <h3>Place<sup class="type-c" title="class">c</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
@@ -2217,29 +2115,6 @@ This section provides details for each class and property defined by NyOn:  A kn
          <dd>
             <a href="#plaintiffArgument" title="https://w3id.org/def/nyon#plaintiffArgument">plaintiffArgument</a>
             <sup class="type-op" title="object property">op</sup>
-         </dd>
-      </dl>
-   </div>
-   <div class="entity" id="PlaintiffArgument">
-      <h3>plaintiff argument<sup class="type-c" title="class">c</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> https://w3id.org/def/nyon#PlaintiffArgument</p>
-      <dl class="description">
-         <dt>has super-classes</dt>
-         <dd>
-            <a href="#Argument" title="https://w3id.org/def/nyon#Argument">Argument</a>
-            <sup class="type-c" title="class">c</sup>
-         </dd>
-         <dt>is disjoint with</dt>
-         <dd>
-            <a href="#AppellantArgument" title="https://w3id.org/def/nyon#AppellantArgument">appellant argument</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#DefendantArgument" title="https://w3id.org/def/nyon#DefendantArgument">defendant argument</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#PetitionerArgument" title="https://w3id.org/def/nyon#PetitionerArgument">petitioner argument</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#RespondentArgument" title="https://w3id.org/def/nyon#RespondentArgument">respondent argument</a>
-            <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
    </div>
@@ -2401,29 +2276,6 @@ This section provides details for each class and property defined by NyOn:  A kn
          <dd>
             <a href="#respondentArgument" title="https://w3id.org/def/nyon#respondentArgument">respondentArgument</a>
             <sup class="type-op" title="object property">op</sup>
-         </dd>
-      </dl>
-   </div>
-   <div class="entity" id="RespondentArgument">
-      <h3>respondent argument<sup class="type-c" title="class">c</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> https://w3id.org/def/nyon#RespondentArgument</p>
-      <dl class="description">
-         <dt>has super-classes</dt>
-         <dd>
-            <a href="#Argument" title="https://w3id.org/def/nyon#Argument">Argument</a>
-            <sup class="type-c" title="class">c</sup>
-         </dd>
-         <dt>is disjoint with</dt>
-         <dd>
-            <a href="#AppellantArgument" title="https://w3id.org/def/nyon#AppellantArgument">appellant argument</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#DefendantArgument" title="https://w3id.org/def/nyon#DefendantArgument">defendant argument</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#PetitionerArgument" title="https://w3id.org/def/nyon#PetitionerArgument">petitioner argument</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#PlaintiffArgument" title="https://w3id.org/def/nyon#PlaintiffArgument">plaintiff argument</a>
-            <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
    </div>
@@ -4666,17 +4518,14 @@ This section provides details for each class and property defined by NyOn:  A kn
             </dd>
             <dt>has domain</dt>
             <dd>
-               <a href="#Argument" title="https://w3id.org/def/nyon#Argument">Argument</a>
-               <sup class="type-c" title="class">c</sup> 
-               <span class="logic">or</span> 
                <a href="#DateOfJudgment" title="https://w3id.org/def/nyon#DateOfJudgment">DateofJudgment</a>
                <sup class="type-c" title="class">c</sup>
             </dd>
             <dt>has range</dt>
             <dd>
-               <a href="http://www.w3.org/2001/XMLSchema#string"
+               <a href="http://www.w3.org/2001/XMLSchema#dateTime"
                   target="_blank"
-                  title="http://www.w3.org/2001/XMLSchema#string">string</a>
+                  title="http://www.w3.org/2001/XMLSchema#dateTime">date time</a>
             </dd>
          </dl>
       </div>

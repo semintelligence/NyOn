@@ -77,9 +77,6 @@
     "Courts_for_Civil" : {
       "@id" : "https://w3id.org/def/nyon#Courts_for_Civil"
     },
-    "AppellantArgument" : {
-      "@id" : "https://w3id.org/def/nyon#AppellantArgument"
-    },
     "hasJudge" : {
       "@id" : "https://w3id.org/def/nyon#hasJudge",
       "@type" : "@id"
@@ -258,6 +255,9 @@
       "@id" : "https://w3id.org/def/nyon#hasWitness",
       "@type" : "@id"
     },
+    "atLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#atLabel"
+    },
     "GovernmentOrganization" : {
       "@id" : "https://schema.org/GovernmentOrganization"
     },
@@ -286,9 +286,6 @@
     },
     "SupremeCourt" : {
       "@id" : "https://w3id.org/def/nyon#SupremeCourt"
-    },
-    "RespondentArgument" : {
-      "@id" : "https://w3id.org/def/nyon#RespondentArgument"
     },
     "Lawyer" : {
       "@id" : "https://w3id.org/def/nyon#Lawyer"
@@ -355,7 +352,7 @@
     },
     "dateOfJudgment" : {
       "@id" : "https://w3id.org/def/nyon#dateOfJudgment",
-      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime"
     },
     "preferredNamespacePrefix" : {
       "@id" : "http://purl.org/vocab/vann/preferredNamespacePrefix"
@@ -505,9 +502,6 @@
       "@id" : "https://w3id.org/def/nyon#appellantArgument",
       "@type" : "@id"
     },
-    "PlaintiffArgument" : {
-      "@id" : "https://w3id.org/def/nyon#PlaintiffArgument"
-    },
     "Paragraph" : {
       "@id" : "http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#Paragraph"
     },
@@ -557,18 +551,12 @@
     "judgeOpinionText" : {
       "@id" : "https://w3id.org/def/nyon#judgeOpinionText"
     },
-    "PetitionerArgument" : {
-      "@id" : "https://w3id.org/def/nyon#PetitionerArgument"
-    },
     "hasIssue" : {
       "@id" : "https://w3id.org/def/nyon#hasIssue",
       "@type" : "@id"
     },
     "courtOffName" : {
       "@id" : "https://w3id.org/def/nyon#courtOffName"
-    },
-    "DefendantArgument" : {
-      "@id" : "https://w3id.org/def/nyon#DefendantArgument"
     },
     "COLastName" : {
       "@id" : "https://w3id.org/def/nyon#COLastName",
