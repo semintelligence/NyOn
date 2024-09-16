@@ -911,7 +911,7 @@ rdf:resource rdf:type rdfs:Datatype .
         rdfs:comment "Author (Judge) who is responsible for a creation of case document"@en ;
         rdfs:isDefinedBy "https://w3id.org/def/nyon#" ;
         rdfs:label "Author"@en ;
-        owl:sameAs <http://lmss.sali.org/Ra6EHlbqrpUT9rxM2PtwIP> .
+        owl:sameAs "(http://lmss.sali.org/Ra6EHlbqrpUT9rxM2PtwIP)"@en .
 
 
 ###  https://w3id.org/def/nyon#Bench

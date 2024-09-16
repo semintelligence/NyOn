@@ -645,8 +645,8 @@
     "@id" : "_:genid1"
   } ],
   "http://www.w3.org/2002/07/owl#sameAs" : [ {
-    "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#resource",
-    "@value" : "http://lmss.sali.org/Ra6EHlbqrpUT9rxM2PtwIP"
+    "@language" : "en",
+    "@value" : "(http://lmss.sali.org/Ra6EHlbqrpUT9rxM2PtwIP)"
   } ]
 }, {
   "@id" : "https://w3id.org/def/nyon#Bench",
