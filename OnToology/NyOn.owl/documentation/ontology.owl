@@ -1377,7 +1377,7 @@
         <rdfs:comment xml:lang="en">Author (Judge) who is responsible for a creation of case document</rdfs:comment>
         <rdfs:isDefinedBy>https://w3id.org/def/nyon#</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">Author</rdfs:label>
-        <owl:sameAs rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#resource">http://lmss.sali.org/Ra6EHlbqrpUT9rxM2PtwIP</owl:sameAs>
+        <owl:sameAs xml:lang="en">(http://lmss.sali.org/Ra6EHlbqrpUT9rxM2PtwIP)</owl:sameAs>
     </owl:Class>
     
 
